@@ -50,6 +50,24 @@ round(achieved,3)
 # sample sizes by condition
 table(modelData$condition)
 
+# difference in time spent between visual and text
+time_on_page <- read_csv('data/raw_data.csv') %>% 
+  select(time_on_page, condition) %>% 
+  filter(condition != 'control')
+
+time_on_page %>% 
+  group_by(condition) %>% 
+  summarise(mean = mean(time_on_page))
+
+tapply(time_on_page$time_on_page, time_on_page$condition, mean)
+
+time_m <- lm(time_on_page ~ condition,
+             data = time_on_page)
+summary(time_m)
+
+# on average 111.616 seconds more on video condition
+# on average 56.079 seconds more on vis condition
+
 # gender by condition
 modelData %>% 
   group_by(condition, gender) %>% 
