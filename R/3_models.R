@@ -1,7 +1,21 @@
 set.seed(1)
+
 library(tidyverse)
 library(sandwich)
 library(lmtest)
+library(texreg)
+library(stats)
+library(multcomp)
+library(ggthemes)
+library(data.table)
+library(pscl)
+library(broom)
+library(pracma)
+library(RColorBrewer)
+library(mirt)
+library(car)
+library(gvlma)
+library(ggpubr)
 
 modelData <- read_csv('data/preprocessed_data.csv')
 modelData
@@ -50,7 +64,6 @@ modelData %>%
   spread(condition, n)
 
 # fit 'Too Many Immigrants' model
-library(stats)
 m <- glm(too_many_imm ~
            condition +
            eu_vote +
@@ -81,16 +94,12 @@ m0_vcov <- vcovHC(m0, type="HC1")
 (m0_coefci <- coefci(m0, vcov = m0_vcov))
 
 # multiple comparisons for 'Too Many Immigrants' model
-library(multcomp)
+
 m_mult <- glht(m, mcp(condition="Tukey"), vcov = sandwich) # robust SEs
 summary(m_mult,test = adjusted("holm"))
 par(mar=c(4,8,4,2)) 
 plot(confint(m_mult))
-
-library(ggplot2)
-library(ggthemes)
 cf_toomany <- data.frame(confint(m_mult)$confint)
-library(data.table)
 setDT(cf_toomany, keep.rownames = TRUE)[]
 colnames(cf_toomany)[colnames(cf_toomany)=="rn"] <- "Comparison"
 cf_toomany$Comparison <- factor(cf_toomany$Comparison, levels = c("vis - video",
@@ -133,7 +142,6 @@ too_many_imm_graph_comp
 # Calculate pseudo R2
 # McFadden of 0.2-0.4 represents excellent fit: https://stats.stackexchange.com/questions/82105/
 # mcfaddens-pseudo-r2-interpretation/99615#99615
-library(pscl)
 pR2(m)
 
 # Assess colinearity. The smallest possible value of VIF is one (absence of multicollinearity). 
@@ -144,8 +152,6 @@ car::vif(m)
 # Influential values (look for Cook's > 1)
 # Code from http://www.sthda.com/english/articles/36-classification-methods-essentials/148-
 #logistic-regression-assumptions-and-diagnostics-in-r/#influential-values
-library(dplyr)
-library(broom)
 par(mfrow=c(1,1))
 plot(m, which = 4, id.n = 3)
 model.data <- augment(m) %>% 
@@ -153,7 +159,6 @@ model.data <- augment(m) %>%
 model.data %>% top_n(3, .cooksd) # Shows top 3 observations in terms of Cook's.
 # Data points with an absolute standardized residuals above 3 represent possible outliers 
 # and may deserve closer attention.
-library(ggplot2)
 ggplot(model.data, aes(index, .std.resid)) + 
   geom_point(aes(color = too_many_imm), alpha = .5) +
   theme_bw()
@@ -163,8 +168,6 @@ model.data %>%
 # No such observations
 
 # Check for linearity with age, the only numeric predictor
-library(tidyverse)
-library(broom)
 mydata <- model.data[6]
 predictors <- colnames(mydata)
 # Bind the logit and tidying the data for plot
@@ -223,7 +226,6 @@ too_many_imm_glht
 
 # 'Too Many Immigrants' - predicted probabilities
 # Find typical Leave, Remain, and No_vote
-library(dplyr)
 temp_df <- modelData
 temp_df %>% 
   ggplot() +
@@ -256,7 +258,6 @@ temp_df_novote <- temp_df[temp_df$eu_vote=="No_vote",]
 x <- data.frame(table(temp_df_novote[c(2,3,4,5,13,14,15,17)]))
 x[which.max(x$Freq), ]
 
-library(pracma)
 # From here: https://fromthebottomoftheheap.net/2018/12/10/confidence-intervals-for-glms/
 fam <- family(m_segment)
 fam
@@ -335,8 +336,6 @@ ndata3$Participant <- "Typical Non-voter"
 
 combined_df <- rbind(ndata1,ndata2,ndata3)
 
-library(ggplot2)
-library(RColorBrewer)
 too_many_imm_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit_resp, group=Participant,color=Participant)) +
   geom_line(aes(color=Participant)) +
   geom_point(aes(color=Participant)) +
@@ -356,7 +355,6 @@ too_many_imm_graph_segm
 # Calculate pseudo R2. 
 # McFadden of 0.2-0.4 represents excellent fit: https://stats.stackexchange.com/questions/82105/
 # mcfaddens-pseudo-r2-interpretation/99615#99615
-library(pscl)
 pR2(m_segment)
 
 # Assess colinearity. The smallest possible value of VIF is one (absence of multicollinearity). 
@@ -367,8 +365,6 @@ car::vif(m_segment)
 # Influential values (look for Cook's > 1)
 # Code from http://www.sthda.com/english/articles/36-classification-methods-essentials/148-
 #logistic-regression-assumptions-and-diagnostics-in-r/#influential-values
-library(dplyr)
-library(broom)
 par(mfrow=c(1,1))
 plot(m_segment, which = 4, id.n = 3)
 model.data <- augment(m_segment) %>% 
@@ -376,7 +372,6 @@ model.data <- augment(m_segment) %>%
 model.data %>% top_n(3, .cooksd)
 # Data points with an absolute standardized residuals above 3 represent possible outliers 
 # and may deserve closer attention.
-library(ggplot2)
 ggplot(model.data, aes(index, .std.resid)) + 
   geom_point(aes(color = too_many_imm), alpha = .5) +
   theme_bw()
@@ -385,8 +380,6 @@ model.data %>%
   filter(abs(.std.resid) > 3)
 
 # Check for linearity with age, the only numeric predictor
-library(tidyverse)
-library(broom)
 mydata <- model.data[6]
 predictors <- colnames(mydata)
 # Bind the logit and tidying the data for plot
@@ -406,7 +399,6 @@ econ_items <- data.frame(modelData$take_jobs,
 psych::alpha(econ_items)
 # Good internal consistency
 
-library(mirt)
 IRT_econ_items <- mirt(data=econ_items,
                        model=1,
                        itemtype = "gpcm",
@@ -473,18 +465,13 @@ m_econ0_vcov <- vcovHC(m_econ0, type="HC1")
 (m_econ0_coefci <- coefci(m_econ0, vcov = m_econ0_vcov))
 
 ## 7.3. Multiple Comparisons for Economic Perceptions Model
-library(car)
 Anova(m_econ, type = "III")
-library(multcomp)
 m_econ_mult <- glht(m_econ, mcp(condition="Tukey"), vcov = sandwich)
 summary(m_econ_mult,test = adjusted("holm"))
 par(mar=c(4,8,4,2)) 
 plot(confint(m_econ_mult))
 
-library(ggplot2)
-library(ggthemes)
 cf_econ <- data.frame(confint(m_econ_mult)$confint)
-library(data.table)
 setDT(cf_econ, keep.rownames = TRUE)[]
 colnames(cf_econ)[colnames(cf_econ)=="rn"] <- "Comparison"
 cf_econ$Comparison <- factor(cf_econ$Comparison, levels = c("vis - video",
@@ -545,7 +532,6 @@ car::vif(m_econ)
 
 # Let's also validate the outcome of that visual inspection by fitting a GVLMA 
 # (Global Validation of Linear Models Assumptions) model:
-library(gvlma)
 gvmodel_econ <- gvlma(m_econ) 
 summary(gvmodel_econ)
 
@@ -608,12 +594,10 @@ plot(m_econ_segm, 5)
 # multicolinearity
 car::vif(m_econ_segm)
 
-library(gvlma)
 gvmodel_econ_segm <- gvlma(m_econ_segm) 
 summary(gvmodel_econ_segm)
 
 # Predicted Location of Typical Respondents on Economic Perceptions Scale
-library(pracma)
 newdata1 <- with(m_econ_segm, data.frame(condition = c("control","text","vis","video"),
                                          eu_vote = "Remain",
                                          gender = "Male",
@@ -665,8 +649,6 @@ newdata3$Participant <- "Typical Non-voter"
 
 combined_df <- rbind(newdata1,newdata2,newdata3)
 
-library(ggplot2)
-library(RColorBrewer)
 econ_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit, group=Participant,color=Participant)) +
   geom_line(aes(color=Participant)) +
   geom_point(aes(color=Participant)) +
@@ -688,7 +670,6 @@ policy_items <- data.frame(modelData$brexit_to_cut,
                            modelData$sm_or_control)
 psych::alpha(policy_items)
 
-library(mirt)
 IRT_policy_items <- mirt(data=policy_items,
                          model=1,
                          itemtype = "gpcm",
@@ -730,7 +711,6 @@ policy_items <- data.frame(modelData$brexit_to_cut,
                            modelData$sm_or_control)
 psych::alpha(policy_items)
 
-library(mirt)
 IRT_policy_items <- mirt(data=policy_items,
                          model=1,
                          itemtype = "gpcm",
@@ -792,18 +772,13 @@ m_policy0_vcov <- vcovHC(m_policy0, type="HC1")
 (m_policy0_coefci <- coefci(m_policy0, vcov = m_policy0_vcov))
 
 # Multiple Comparisons for Policy Preferences Model
-library(car)
 Anova(m_policy, type = "III")
-library(multcomp)
 policy_mult <- glht(m_policy, linfct = mcp(condition = "Tukey"), vcov = sandwich)
 summary(policy_mult, test = adjusted("holm"))
 par(mar=c(4,8,4,2)) 
 plot(confint(policy_mult))
 
-library(ggplot2)
-library(ggthemes)
 cf_policy <- data.frame(confint(policy_mult)$confint)
-library(data.table)
 setDT(cf_policy, keep.rownames = TRUE)[]
 colnames(cf_policy)[colnames(cf_policy)=="rn"] <- "Comparison"
 cf_policy$Comparison <- factor(cf_policy$Comparison, levels = c("vis - video",
@@ -858,7 +833,6 @@ plot(m_policy, 5)
 # multicolinearity
 car::vif(m_policy)
 
-library(gvlma)
 gvmodel_policy <- gvlma(m_policy) 
 summary(gvmodel_policy)
 # global stat and skewness not satisfied
@@ -907,7 +881,6 @@ policy_glht <- data.frame("Condition" = c(rep("Visualisation",3), rep("Video",3)
 policy_glht
 
 # Predicted Location of Typical Respondents on Policy Preferences Scale
-library(pracma)
 newdata1 <- with(m_policy_segm, data.frame(condition = c("control","text","vis","video"),
                                            eu_vote = "Remain",
                                            gender = "Male",
@@ -959,8 +932,6 @@ newdata3$Participant <- "Typical Non-voter"
 
 combined_df <- rbind(newdata1,newdata2,newdata3)
 
-library(ggplot2)
-library(RColorBrewer)
 policy_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit, group=Participant,color=Participant)) +
   geom_line(aes(color=Participant)) +
   geom_point(aes(color=Participant)) +
@@ -992,7 +963,6 @@ plot(m_policy_segm, 5)
 # multicolinearity
 car::vif(m_policy_segm)
 
-library(gvlma)
 gvmodel_policy_segm <- gvlma(m_policy_segm) 
 summary(gvmodel_policy_segm)
 # skewness not satisfied
@@ -1055,7 +1025,6 @@ policy_perceptions_control <- modelData %>%
   theme(text = element_text(size=14))
 policy_perceptions_control
 
-library(ggpubr)
 jpeg(file="plots/control_plot.jpeg", width=1350, height=500)
 figure_control <- ggarrange(too_many_imm_control, econ_perceptions_control, policy_perceptions_control,
                             ncol = 3, nrow = 1,
@@ -1090,7 +1059,6 @@ names(all_glht) <- c("Condition","Referendum vote","tmi_est","tmi_p","econ_est",
 write_csv(all_glht,"tables/all_glht.csv")
 
 # Printing models
-library(texreg)
 htmlreg(list(m,m_segment), 
         file = "tables/logistic_models.doc",
         single.row = TRUE, 

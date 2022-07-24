@@ -1,5 +1,9 @@
 set.seed(1)
+
 library(tidyverse)
+library(Hmisc)
+library(naniar)
+library(sjmisc)
 
 allData <- read_csv('data/raw_data.csv') %>% 
   select(-c(1:13, 19, 24:27, 31))
@@ -95,7 +99,6 @@ allData$income <- factor(allData$income, levels=c("Under10K",
                          ordered=TRUE)
 
 # missing data
-library(naniar)
 vis_miss(allData)
 # 2.4% missing
 allData %>% 
@@ -104,7 +107,6 @@ allData %>%
 # 74% complete cases
 
 # see if proportion of missing roughly equal by condition
-library(sjmisc)
 missing_df <- allData %>%
   select(condition, education, income, eu_vote, employment, student, too_many_imm, brexit_to_cut, increase_imm, sm_or_control) %>% 
   group_by(condition) %>%       
@@ -116,7 +118,6 @@ missing_df <- allData %>%
 write_csv(missing_df, 'tables/missing_values_by_cond.csv')
  
 # impute missing data
-library(Hmisc)
 names(allData)
 impute_arg <- aregImpute(~ age +
                            gender +
