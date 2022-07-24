@@ -104,10 +104,16 @@ allData %>%
 # 74% complete cases
 
 # see if proportion of missing roughly equal by condition
+library(sjmisc)
 missing_df <- allData %>%
+  select(condition, education, income, eu_vote, employment, student, too_many_imm, brexit_to_cut, increase_imm, sm_or_control) %>% 
   group_by(condition) %>%       
-  summarise_all(funs(sum(is.na(.))/n()))
+  summarise_all(funs(sum(is.na(.))/n()*100)) %>% 
+  mutate(across(2:10, round, 2)) %>% 
+  rotate_df()
 
+write_csv(missing_df, 'tables_and_plots/missing_values_by_cond.csv')
+ 
 # impute missing data
 library(Hmisc)
 names(allData)
