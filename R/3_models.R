@@ -1,5 +1,7 @@
 set.seed(1)
 library(tidyverse)
+library(sandwich)
+library(lmtest)
 
 modelData <- read_csv('data/preprocessed_data.csv')
 modelData
@@ -62,14 +64,25 @@ m <- glm(too_many_imm ~
          modelData, family = "binomial")
 summary(m)
 
+# robust SEs
+m_vcov <- vcovHC(m, type="HC1")
+(m_coeftest <- coeftest(m, vcov = m_vcov))
+(m_coefci <- coefci(m, vcov = m_vcov))
+
+# intercept only model
 m0 <- glm(too_many_imm ~
             condition,
           modelData, family = "binomial")
 summary(m0)
 
+# robust SEs
+m0_vcov <- vcovHC(m0, type="HC1")
+(m0_coeftest <- coeftest(m0, vcov = m0_vcov))
+(m0_coefci <- coefci(m0, vcov = m0_vcov))
+
 # multiple comparisons for 'Too Many Immigrants' model
 library(multcomp)
-m_mult <- glht(m, mcp(condition="Tukey"))
+m_mult <- glht(m, mcp(condition="Tukey"), vcov = sandwich) # robust SEs
 summary(m_mult,test = adjusted("holm"))
 par(mar=c(4,8,4,2)) 
 plot(confint(m_mult))
@@ -98,6 +111,7 @@ too_many_imm_graph <- ggplot(cf_toomany1, aes(x=Comparison, y=Estimate)) +
   ggtitle("Too Many Immigrants") +
   labs(subtitle = "Estimated Differences Compared to Control") +
   theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14)) +
   coord_flip()
 too_many_imm_graph
 
@@ -112,6 +126,7 @@ too_many_imm_graph_comp <- ggplot(cf_toomany2, aes(x=Comparison, y=Estimate)) +
   ggtitle("Too Many Immigrants") +
   labs(subtitle = "Estimated Differences Between Treatments") +
   theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14)) +
   coord_flip()
 too_many_imm_graph_comp
 
@@ -178,26 +193,31 @@ m_segment <- glm(too_many_imm ~
                  modelData, family = "binomial")
 summary(m_segment)
 
+# robust SEs
+m_segment_vcov <- vcovHC(m_segment, type="HC1")
+(m_segment_coeftest <- coeftest(m_segment, vcov = m_segment_vcov))
+(m_segment_coefci <- coefci(m_segment, vcov = m_segment_vcov))
+
 too_many_imm_glht <- data.frame("Condition" = c(rep("Visualisation",3), rep("Video",3), rep("Text",3)),
                                 "Referendum vote" = rep(c("Voted leave","Voted remain","Did not vote"),3),
                                 "Est." = c(m_segment$coefficients[[4]],
-                                           summary(glht(m_segment, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                           summary(glht(m_segment, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0")))$test$coefficients[[1]],
+                                           summary(glht(m_segment, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                           summary(glht(m_segment, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]],
                                            m_segment$coefficients[[3]],
-                                           summary(glht(m_segment, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                           summary(glht(m_segment, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0")))$test$coefficients[[1]],
+                                           summary(glht(m_segment, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                           summary(glht(m_segment, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]],
                                            m_segment$coefficients[[2]],
-                                           summary(glht(m_segment, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                           summary(glht(m_segment, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0")))$test$coefficients[[1]]),
+                                           summary(glht(m_segment, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                           summary(glht(m_segment, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]]),
                                 "p-value" = c(coef(summary(m_segment))[4,4],
-                                              summary(glht(m_segment, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                              summary(glht(m_segment, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0")))$test$pvalues[[1]],
+                                              summary(glht(m_segment, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                              summary(glht(m_segment, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]],
                                               coef(summary(m_segment))[3,4],
-                                              summary(glht(m_segment, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                              summary(glht(m_segment, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0")))$test$pvalues[[1]],
+                                              summary(glht(m_segment, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                              summary(glht(m_segment, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]],
                                               coef(summary(m_segment))[2,4],
-                                              summary(glht(m_segment, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                              summary(glht(m_segment, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0")))$test$pvalues[[1]]))
+                                              summary(glht(m_segment, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                              summary(glht(m_segment, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]]))
 
 too_many_imm_glht
 
@@ -205,6 +225,11 @@ too_many_imm_glht
 # Find typical Leave, Remain, and No_vote
 library(dplyr)
 temp_df <- modelData
+temp_df %>% 
+  ggplot() +
+  aes(x = age) +
+  geom_histogram(binwidth = 1, fill = 'salmon', color = 'white')
+
 barplot(table(temp_df$age))
 min(temp_df$age)
 max(temp_df$age)
@@ -324,6 +349,7 @@ too_many_imm_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit_resp, grou
   labs(subtitle = "Estimated probability by respondent type (95% CI)") +
   theme(plot.title = element_text(face = "bold")) +
   scale_y_continuous(breaks=c(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)) +
+  theme(text = element_text(size=14)) +
   theme(legend.title=element_blank())
 too_many_imm_graph_segm
 
@@ -413,7 +439,9 @@ plot(modelData$econ ~ modelData$condition, ylab="Economic Perceptions",xlab="Con
 
 c(min = min(modelData$econ),
   mean = mean(modelData$econ),
+  sd = sd(modelData$econ),
   max = max(modelData$econ))
+# mean of 0 and SD of 1
 
 # Economic Perceptions Model
 m_econ <- lm(econ ~
@@ -429,16 +457,26 @@ m_econ <- lm(econ ~
              modelData)
 summary(m_econ)
 
+# robust SEs
+m_econ_vcov <- vcovHC(m_econ, type="HC1")
+(m_econ_coeftest <- coeftest(m_econ, vcov = m_econ_vcov))
+(m_econ_coefci <- coefci(m_econ, vcov = m_econ_vcov))
+
 m_econ0 <- lm(econ ~
                 condition,
               modelData)
 summary(m_econ0)
 
+# robust SEs
+m_econ0_vcov <- vcovHC(m_econ0, type="HC1")
+(m_econ0_coeftest <- coeftest(m_econ0, vcov = m_econ0_vcov))
+(m_econ0_coefci <- coefci(m_econ0, vcov = m_econ0_vcov))
+
 ## 7.3. Multiple Comparisons for Economic Perceptions Model
 library(car)
 Anova(m_econ, type = "III")
 library(multcomp)
-m_econ_mult <- glht(m_econ, mcp(condition="Tukey"))
+m_econ_mult <- glht(m_econ, mcp(condition="Tukey"), vcov = sandwich)
 summary(m_econ_mult,test = adjusted("holm"))
 par(mar=c(4,8,4,2)) 
 plot(confint(m_econ_mult))
@@ -467,6 +505,7 @@ econ_graph <- ggplot(cf_econ1, aes(x=Comparison, y=Estimate)) +
   ggtitle("Economic Perceptions") +
   labs(subtitle = "Estimated Differences Compared to Control") +
   theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14)) +
   coord_flip()
 econ_graph
 
@@ -481,6 +520,7 @@ econ_graph_comp <- ggplot(cf_econ2, aes(x=Comparison, y=Estimate)) +
   ggtitle("Economic Perceptions") +
   labs(subtitle = "Estimated Differences Between Treatments") +
   theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14)) +
   coord_flip()
 econ_graph_comp
 
@@ -524,26 +564,31 @@ m_econ_segm <- lm(econ ~
                   modelData)
 summary(m_econ_segm)
 
+# robust SEs
+m_econ_segm_vcov <- vcovHC(m_econ_segm, type="HC1")
+(m_econ_segm_coeftest <- coeftest(m_econ_segm, vcov = m_econ_segm_vcov))
+(m_econ_segm_coefci <- coefci(m_econ_segm, vcov = m_econ_segm_vcov))
+
 econ_glht <- data.frame("Condition" = c(rep("Visualisation",3), rep("Video",3), rep("Text",3)),
                         "Referendum vote" = rep(c("Voted leave","Voted remain","Did not vote"),3),
                         "Est." = c(m_econ_segm$coefficients[[4]],
-                                   summary(glht(m_econ_segm, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                   summary(glht(m_econ_segm, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0")))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]],
                                    m_econ_segm$coefficients[[3]],
-                                   summary(glht(m_econ_segm, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                   summary(glht(m_econ_segm, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0")))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]],
                                    m_econ_segm$coefficients[[2]],
-                                   summary(glht(m_econ_segm, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                   summary(glht(m_econ_segm, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0")))$test$coefficients[[1]]),
+                                   summary(glht(m_econ_segm, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]]),
                         "p-value" = c(coef(summary(m_econ_segm))[4,4],
-                                      summary(glht(m_econ_segm, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                      summary(glht(m_econ_segm, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0")))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]],
                                       coef(summary(m_econ_segm))[3,4],
-                                      summary(glht(m_econ_segm, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                      summary(glht(m_econ_segm, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0")))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]],
                                       coef(summary(m_econ_segm))[2,4],
-                                      summary(glht(m_econ_segm, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                      summary(glht(m_econ_segm, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0")))$test$pvalues[[1]]))
+                                      summary(glht(m_econ_segm, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]]))
 
 econ_glht
 
@@ -633,6 +678,7 @@ econ_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit, group=Participant
   ggtitle("Economic Perceptions") +
   labs(subtitle = "Estimated location on scale by respondent type (95% CI)") +
   theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14)) +
   theme(legend.title=element_blank())
 econ_graph_segm
 
@@ -643,7 +689,7 @@ policy_items <- data.frame(modelData$brexit_to_cut,
 psych::alpha(policy_items)
 
 library(mirt)
-IRT_policy_items <- mirt(data=na.omit(policy_items), # To remove empty response patterns
+IRT_policy_items <- mirt(data=policy_items,
                          model=1,
                          itemtype = "gpcm",
                          verbose = FALSE)
@@ -710,7 +756,9 @@ itemfit(IRT_policy_items, empirical.plot = 3)
 
 c(min = min(modelData$policy),
   mean = mean(modelData$policy),
+  sd = sd(modelData$policy),
   max = max(modelData$policy))
+# mean of 0 and SD of 1
 
 par(mfrow=c(1,1))
 plot(modelData$policy ~ modelData$condition,ylab="Condition",xlab="Policy Preferences")
@@ -728,16 +776,26 @@ m_policy <- lm(policy ~
                modelData)
 summary(m_policy)
 
+# robust SEs
+m_policy_vcov <- vcovHC(m_policy, type="HC1")
+(m_policy_coeftest <- coeftest(m_policy, vcov = m_policy_vcov))
+(m_policy_coefci <- coefci(m_policy, vcov = m_policy_vcov))
+
 m_policy0 <- lm(policy ~
                   condition,
                 modelData)
 summary(m_policy0)
 
+# robust SEs
+m_policy0_vcov <- vcovHC(m_policy0, type="HC1")
+(m_policy0_coeftest <- coeftest(m_policy0, vcov = m_policy0_vcov))
+(m_policy0_coefci <- coefci(m_policy0, vcov = m_policy0_vcov))
+
 # Multiple Comparisons for Policy Preferences Model
 library(car)
 Anova(m_policy, type = "III")
 library(multcomp)
-policy_mult <- glht(m_policy, linfct = mcp(condition = "Tukey"))
+policy_mult <- glht(m_policy, linfct = mcp(condition = "Tukey"), vcov = sandwich)
 summary(policy_mult, test = adjusted("holm"))
 par(mar=c(4,8,4,2)) 
 plot(confint(policy_mult))
@@ -765,6 +823,7 @@ policy_graph <- ggplot(cf_policy1, aes(x=Comparison, y=Estimate)) +
   ggtitle("Policy Preferences") +
   labs(subtitle = "Estimated Differences Compared to Control") +
   theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14)) +
   coord_flip()
 policy_graph
 
@@ -779,6 +838,7 @@ policy_graph_comp <- ggplot(cf_policy2, aes(x=Comparison, y=Estimate)) +
   ggtitle("Policy Preferences") +
   labs(subtitle = "Estimated Differences Between Treatments") +
   theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14)) +
   coord_flip()
 policy_graph_comp
 
@@ -818,26 +878,31 @@ m_policy_segm <- lm(policy ~
                     data = modelData)
 summary(m_policy_segm)
 
+# robust SEs
+m_policy_segm_vcov <- vcovHC(m_policy_segm, type="HC1")
+(m_policy_segm_coeftest <- coeftest(m_policy_segm, vcov = m_policy_segm_vcov))
+(m_policy_segm_coefci <- coefci(m_policy_segm, vcov = m_policy_segm_vcov))
+
 policy_glht <- data.frame("Condition" = c(rep("Visualisation",3), rep("Video",3), rep("Text",3)),
                           "Referendum vote" = rep(c("Voted leave","Voted remain","Did not vote"),3),
                           "Est." = c(m_policy_segm$coefficients[[4]],
-                                     summary(glht(m_policy_segm, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                     summary(glht(m_policy_segm, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0")))$test$coefficients[[1]],
+                                     summary(glht(m_policy_segm, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                     summary(glht(m_policy_segm, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]],
                                      m_policy_segm$coefficients[[3]],
-                                     summary(glht(m_policy_segm, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                     summary(glht(m_policy_segm, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0")))$test$coefficients[[1]],
+                                     summary(glht(m_policy_segm, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                     summary(glht(m_policy_segm, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]],
                                      m_policy_segm$coefficients[[2]],
-                                     summary(glht(m_policy_segm, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0")))$test$coefficients[[1]],
-                                     summary(glht(m_policy_segm, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0")))$test$coefficients[[1]]),
+                                     summary(glht(m_policy_segm, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                     summary(glht(m_policy_segm, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0"), vcov = sandwich))$test$coefficients[[1]]),
                           "p-value" = c(coef(summary(m_policy_segm))[4,4],
-                                        summary(glht(m_policy_segm, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                        summary(glht(m_policy_segm, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0")))$test$pvalues[[1]],
+                                        summary(glht(m_policy_segm, linfct = c("conditionvis + conditionvis:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                        summary(glht(m_policy_segm, linfct = c("conditionvis + conditionvis:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]],
                                         coef(summary(m_policy_segm))[3,4],
-                                        summary(glht(m_policy_segm, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                        summary(glht(m_policy_segm, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0")))$test$pvalues[[1]],
+                                        summary(glht(m_policy_segm, linfct = c("conditionvideo + conditionvideo:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                        summary(glht(m_policy_segm, linfct = c("conditionvideo + conditionvideo:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]],
                                         coef(summary(m_policy_segm))[2,4],
-                                        summary(glht(m_policy_segm, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0")))$test$pvalues[[1]],
-                                        summary(glht(m_policy_segm, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0")))$test$pvalues[[1]]))
+                                        summary(glht(m_policy_segm, linfct = c("conditiontext + conditiontext:eu_voteRemain = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                        summary(glht(m_policy_segm, linfct = c("conditiontext + conditiontext:eu_voteNo_vote = 0"), vcov = sandwich))$test$pvalues[[1]]))
 
 policy_glht
 
@@ -907,6 +972,7 @@ policy_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit, group=Participa
   ggtitle("Policy Preferences") +
   labs(subtitle = "Estimated location on scale by respondent type (95% CI)") +
   theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14)) +
   theme(legend.title=element_blank())
 policy_graph_segm
 
@@ -940,7 +1006,7 @@ prop.table(table(modelData$too_many_imm[modelData$condition=='control'],
                  modelData$eu_vote[modelData$condition=='control']), margin=2)
 
 too_many_imm_control <- modelData %>%
-  mutate(eu_vote = dplyr::recode(eu_vote, 'No_vote'='No vote')) %>% 
+  mutate(eu_vote = dplyr::recode(eu_vote, 'No_vote'='Did not vote')) %>% 
   mutate(too_many_imm = dplyr::recode(too_many_imm, `1`='Yes', `0`='No')) %>% 
   filter(condition == 'control') %>% 
   group_by(eu_vote, too_many_imm) %>% 
@@ -954,86 +1020,122 @@ too_many_imm_control <- modelData %>%
   ggtitle("Too Many Immigrants") +
   labs(subtitle = "Proportions by referendum vote in control condition") +
   guides(fill=guide_legend(title='Response')) +
-  ggtitle("Too Many Immigrants") +
-  labs(subtitle = "Proportions by referendum vote in control condition")
+  labs(subtitle = "Proportions by referendum vote in control condition") +
+  theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=14))
 too_many_imm_control
 
-econ_perceptions_control <- ggplot(data=subset(modelData, !is.na(eu_vote) & condition == "control"), aes(x=eu_vote, y=econ, fill=eu_vote)) + 
+econ_perceptions_control <- modelData %>%
+  mutate(eu_vote = dplyr::recode(eu_vote, 'No_vote' = 'Did not vote')) %>% 
+  filter(condition == 'control') %>% 
+  ggplot() +
+  aes(x=eu_vote, y=econ, fill=eu_vote) + 
   xlab("EU Referendum Vote") +
   ylab("Economic Perceptions Scale") +
   ggtitle("Economic Perceptions") +
   labs(subtitle = "Perceptions by referendum vote in control condition") +
   theme(plot.title = element_text(face = "bold")) +
   geom_boxplot() +
-  theme(legend.position="none")
+  theme(legend.position="none") +
+  theme(text = element_text(size=14))
 econ_perceptions_control
 
-policy_perceptions_control <- ggplot(data=subset(modelData, !is.na(eu_vote) & condition == "control"), aes(x=eu_vote, y=policy, fill=eu_vote)) + 
+policy_perceptions_control <- modelData %>% 
+  mutate(eu_vote = dplyr::recode(eu_vote, 'No_vote' = 'Did not vote')) %>% 
+  filter(condition == 'control') %>% 
+  ggplot() +
+  aes(x=eu_vote, y=policy, fill=eu_vote) + 
   xlab("EU Referendum Vote") +
   ylab("Policy Preferences Scale") +
   ggtitle("Policy Preferences") +
   labs(subtitle = "Preferences by referendum vote in control condition") +
   theme(plot.title = element_text(face = "bold")) +
   geom_boxplot() +
-  theme(legend.position="none")
+  theme(legend.position="none") +
+  theme(text = element_text(size=14))
 policy_perceptions_control
 
 library(ggpubr)
+jpeg(file="plots/control_plot.jpeg", width=1350, height=500)
 figure_control <- ggarrange(too_many_imm_control, econ_perceptions_control, policy_perceptions_control,
                             ncol = 3, nrow = 1,
                             common.legend = FALSE, legend = NULL)
 figure_control
+dev.off()
 
+jpeg(file="plots/treatment_plot.jpeg", width=1350, height=500)
 treatment_effects <- ggarrange(too_many_imm_graph, econ_graph, policy_graph,
                                ncol = 3, nrow = 1,
                                common.legend = FALSE, legend = NULL)
 treatment_effects
+dev.off()
 
+jpeg(file="plots/treatment_multcomp.jpeg", width=1350, height=500)
 treatment_effects_comp <- ggarrange(too_many_imm_graph_comp, econ_graph_comp, policy_graph_comp,
                                     ncol = 3, nrow = 1,
                                     common.legend = FALSE, legend = NULL)
 treatment_effects_comp
+dev.off()
 
+jpeg(file="plots/pred_probs.jpeg", width=1350, height=500)
 treatment_effects_interact <- ggarrange(too_many_imm_graph_segm, econ_graph_segm, policy_graph_segm,
                                         ncol = 3, nrow = 1,
                                         common.legend = TRUE, legend = "right")
 treatment_effects_interact
+dev.off()
 
 # Printing linear combinations table
 all_glht <- cbind(too_many_imm_glht,econ_glht[,3:4],policy_glht[,3:4])
 names(all_glht) <- c("Condition","Referendum vote","tmi_est","tmi_p","econ_est","econ_p","policy_est","policy_p")
-write_csv(all_glht,"tables_and_plots/all_glht.csv")
-write.csv(all_glht,"all_glht.csv")
+write_csv(all_glht,"tables/all_glht.csv")
 
 # Printing models
 library(texreg)
 htmlreg(list(m,m_segment), 
-        file = "tables_and_plots/logistic_models.doc",
+        file = "tables/logistic_models.doc",
         single.row = TRUE, 
-        caption = "Too Many Immigrants (logistic models)",
+        caption = "Too Many Immigrants (logistic models with robut standard errors)",
         digits=4,
         custom.model.names=c("Main effects model",
                              "Interacted model"),
+        override.se = list(m_coeftest[,2],
+                           m_segment_coeftest[,2]),
+        override.pvalues = list(m_coeftest[,4],
+                                m_segment_coeftest[,4]),
         results = "asis")
 
 htmlreg(list(m_econ, m_policy, m_econ_segm, m_policy_segm), 
-        file = "tables_and_plots/linear_models.doc",
+        file = "tables/linear_models.doc",
         single.row = TRUE, 
-        caption = "Economic Perceptions and Policy Preferences (OLS)",
+        caption = "Economic Perceptions and Policy Preferences (OLS with robust standard errors)",
         digits=4,
         custom.model.names=c("Economic Perceptions (main effect)",
                              "Policy Preferences (main effect)",
                              "Economic Perceptions (interaction)",
                              "Policy Preferences (interaction)"),
+        override.se = list(m_econ_coeftest[,2],
+                           m_policy_coeftest[,2],
+                           m_econ_segm_coeftest[,2],
+                           m_policy_segm_coeftest[,2]),
+        override.pvalues = list(m_econ_coeftest[,4],
+                                m_policy_coeftest[,4],
+                                m_econ_segm_coeftest[,4],
+                                m_policy_segm_coeftest[,4]),
         results = "asis")
 
 htmlreg(list(m0, m_policy0, m_econ0), 
-        file = "tables_and_plots/simple_models.doc",
+        file = "tables/simple_models.doc",
         single.row = TRUE, 
-        caption = "Models without covariates",
+        caption = "Models without covariates (robust standard errors)",
         digits=4,
         custom.model.names=c("Too Many Immigrants",
                              "Economic Perceptions",
                              "Policy Preferences"),
+        override.se = list(m0_coeftest[,2],
+                           m_policy0_coeftest[,2],
+                           m_econ0_coeftest[,2]),
+        override.pvalues = list(m0_coeftest[,4],
+                                m_policy0_coeftest[,4],
+                                m_econ0_coeftest[,4]),
         results = "asis")
 
