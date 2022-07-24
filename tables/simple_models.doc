@@ -1,5 +1,5 @@
 <table class="texreg" style="margin: 10px auto;border-collapse: collapse;border-spacing: 0px;caption-side: bottom;color: #000000;border-top: 2px solid #000000;">
-<caption>Models without covariates</caption>
+<caption>Models without covariates (robust standard errors)</caption>
 <thead>
 <tr>
 <th style="padding-left: 5px;padding-right: 5px;">&nbsp;</th>
@@ -11,27 +11,27 @@
 <tbody>
 <tr style="border-top: 1px solid #000000;">
 <td style="padding-left: 5px;padding-right: 5px;">(Intercept)</td>
-<td style="padding-left: 5px;padding-right: 5px;">0.1545 (0.0656)<sup>*</sup></td>
-<td style="padding-left: 5px;padding-right: 5px;">-0.1411 (0.0305)<sup>***</sup></td>
-<td style="padding-left: 5px;padding-right: 5px;">-0.2273 (0.0298)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.1545 (0.0657)<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.1411 (0.0317)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.2273 (0.0318)<sup>***</sup></td>
 </tr>
 <tr>
 <td style="padding-left: 5px;padding-right: 5px;">conditiontext</td>
 <td style="padding-left: 5px;padding-right: 5px;">-0.3634 (0.0912)<sup>***</sup></td>
-<td style="padding-left: 5px;padding-right: 5px;">0.1923 (0.0423)<sup>***</sup></td>
-<td style="padding-left: 5px;padding-right: 5px;">0.3040 (0.0414)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.1923 (0.0430)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.3040 (0.0426)<sup>***</sup></td>
 </tr>
 <tr>
 <td style="padding-left: 5px;padding-right: 5px;">conditionvideo</td>
-<td style="padding-left: 5px;padding-right: 5px;">-0.4439 (0.0920)<sup>***</sup></td>
-<td style="padding-left: 5px;padding-right: 5px;">0.1490 (0.0426)<sup>***</sup></td>
-<td style="padding-left: 5px;padding-right: 5px;">0.2791 (0.0417)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.4439 (0.0921)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.1490 (0.0431)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.2791 (0.0423)<sup>***</sup></td>
 </tr>
 <tr>
 <td style="padding-left: 5px;padding-right: 5px;">conditionvis</td>
-<td style="padding-left: 5px;padding-right: 5px;">-0.4404 (0.0924)<sup>***</sup></td>
-<td style="padding-left: 5px;padding-right: 5px;">0.2209 (0.0428)<sup>***</sup></td>
-<td style="padding-left: 5px;padding-right: 5px;">0.3150 (0.0418)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.4404 (0.0925)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.2209 (0.0434)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.3150 (0.0429)<sup>***</sup></td>
 </tr>
 <tr style="border-top: 1px solid #000000;">
 <td style="padding-left: 5px;padding-right: 5px;">AIC</td>

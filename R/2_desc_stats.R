@@ -183,5 +183,5 @@ row.names(summary_df) <- c("Age (mean)","Female","Male",
                            "Party: None",
                            "Party: Rather not say",
                            "N")
-write_csv(summary_df, "tables_and_plots/sample_summary_table.csv")
+write_csv(summary_df, "tables/sample_summary_table.csv")
 summary_df

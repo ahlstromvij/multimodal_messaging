@@ -113,7 +113,7 @@ missing_df <- allData %>%
   rotate_df() %>% 
   rownames_to_column()
 
-write_csv(missing_df, 'tables_and_plots/missing_values_by_cond.csv')
+write_csv(missing_df, 'tables/missing_values_by_cond.csv')
  
 # impute missing data
 library(Hmisc)
