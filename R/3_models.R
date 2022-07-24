@@ -951,15 +951,11 @@ too_many_imm_control <- modelData %>%
   geom_bar(position='fill', stat='identity') +
   ylab('Proportion') +
   xlab('EU Referendum Vote') +
-<<<<<<< HEAD
   ggtitle("Too Many Immigrants") +
   labs(subtitle = "Proportions by referendum vote in control condition") +
-  guides(fill=guide_legend(title='Response'))
-=======
   guides(fill=guide_legend(title='Response')) +
   ggtitle("Too Many Immigrants") +
   labs(subtitle = "Proportions by referendum vote in control condition")
->>>>>>> 5d8a51ed822102b0f400c8fc8865195a8d26a566
 too_many_imm_control
 
 econ_perceptions_control <- ggplot(data=subset(modelData, !is.na(eu_vote) & condition == "control"), aes(x=eu_vote, y=econ, fill=eu_vote)) + 
@@ -1013,7 +1009,6 @@ write.csv(all_glht,"all_glht.csv")
 library(texreg)
 htmlreg(list(m,m_segment), 
         file = "tables_and_plots/logistic_models.doc",
-        file = "/Users/ahlstromvij/Dropbox/Academic/Work/Birkbeck/Research/NIESR/AHRC pilot - private/Multimodal piece/logistic_models.doc",
         single.row = TRUE, 
         caption = "Too Many Immigrants (logistic models)",
         digits=4,
@@ -1023,7 +1018,6 @@ htmlreg(list(m,m_segment),
 
 htmlreg(list(m_econ, m_policy, m_econ_segm, m_policy_segm), 
         file = "tables_and_plots/linear_models.doc",
-        file = "/Users/ahlstromvij/Dropbox/Academic/Work/Birkbeck/Research/NIESR/AHRC pilot - private/Multimodal piece/linear_models.doc",
         single.row = TRUE, 
         caption = "Economic Perceptions and Policy Preferences (OLS)",
         digits=4,
@@ -1035,7 +1029,6 @@ htmlreg(list(m_econ, m_policy, m_econ_segm, m_policy_segm),
 
 htmlreg(list(m0, m_policy0, m_econ0), 
         file = "tables_and_plots/simple_models.doc",
-        file = "/Users/ahlstromvij/Dropbox/Academic/Work/Birkbeck/Research/NIESR/AHRC pilot - private/Multimodal piece/simple_models.doc",
         single.row = TRUE, 
         caption = "Economic Perceptions and Policy Preferences (OLS)",
         digits=4,
