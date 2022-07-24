@@ -1006,20 +1006,14 @@ treatment_effects_interact
 # Printing linear combinations table
 all_glht <- cbind(too_many_imm_glht,econ_glht[,3:4],policy_glht[,3:4])
 names(all_glht) <- c("Condition","Referendum vote","tmi_est","tmi_p","econ_est","econ_p","policy_est","policy_p")
-<<<<<<< HEAD
 write_csv(all_glht,"tables_and_plots/all_glht.csv")
-=======
 write.csv(all_glht,"all_glht.csv")
->>>>>>> 5d8a51ed822102b0f400c8fc8865195a8d26a566
 
 # Printing models
 library(texreg)
 htmlreg(list(m,m_segment), 
-<<<<<<< HEAD
         file = "tables_and_plots/logistic_models.doc",
-=======
         file = "/Users/ahlstromvij/Dropbox/Academic/Work/Birkbeck/Research/NIESR/AHRC pilot - private/Multimodal piece/logistic_models.doc",
->>>>>>> 5d8a51ed822102b0f400c8fc8865195a8d26a566
         single.row = TRUE, 
         caption = "Too Many Immigrants (logistic models)",
         digits=4,
@@ -1028,11 +1022,8 @@ htmlreg(list(m,m_segment),
         results = "asis")
 
 htmlreg(list(m_econ, m_policy, m_econ_segm, m_policy_segm), 
-<<<<<<< HEAD
         file = "tables_and_plots/linear_models.doc",
-=======
         file = "/Users/ahlstromvij/Dropbox/Academic/Work/Birkbeck/Research/NIESR/AHRC pilot - private/Multimodal piece/linear_models.doc",
->>>>>>> 5d8a51ed822102b0f400c8fc8865195a8d26a566
         single.row = TRUE, 
         caption = "Economic Perceptions and Policy Preferences (OLS)",
         digits=4,
@@ -1043,11 +1034,8 @@ htmlreg(list(m_econ, m_policy, m_econ_segm, m_policy_segm),
         results = "asis")
 
 htmlreg(list(m0, m_policy0, m_econ0), 
-<<<<<<< HEAD
         file = "tables_and_plots/simple_models.doc",
-=======
         file = "/Users/ahlstromvij/Dropbox/Academic/Work/Birkbeck/Research/NIESR/AHRC pilot - private/Multimodal piece/simple_models.doc",
->>>>>>> 5d8a51ed822102b0f400c8fc8865195a8d26a566
         single.row = TRUE, 
         caption = "Economic Perceptions and Policy Preferences (OLS)",
         digits=4,
