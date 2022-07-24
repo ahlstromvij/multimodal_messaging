@@ -17,6 +17,11 @@ library(car)
 library(gvlma)
 library(ggpubr)
 
+# global plotting values
+global_font_size = 14
+axis_font_size = 13
+
+# read in data
 modelData <- read_csv('data/preprocessed_data.csv')
 modelData
 
@@ -120,7 +125,9 @@ too_many_imm_graph <- ggplot(cf_toomany1, aes(x=Comparison, y=Estimate)) +
   ggtitle("Too Many Immigrants") +
   labs(subtitle = "Estimated Differences Compared to Control") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
   coord_flip()
 too_many_imm_graph
 
@@ -135,7 +142,9 @@ too_many_imm_graph_comp <- ggplot(cf_toomany2, aes(x=Comparison, y=Estimate)) +
   ggtitle("Too Many Immigrants") +
   labs(subtitle = "Estimated Differences Between Treatments") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
   coord_flip()
 too_many_imm_graph_comp
 
@@ -336,9 +345,16 @@ ndata3$Participant <- "Typical Non-voter"
 
 combined_df <- rbind(ndata1,ndata2,ndata3)
 
-too_many_imm_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit_resp, group=Participant,color=Participant)) +
+too_many_imm_graph_segm <- combined_df %>% 
+  mutate(condition = dplyr::recode(condition,
+                                   'control' = 'Control',
+                                   'vis' = 'Visual',
+                                   'video' = 'Video',
+                                   'text' = 'Text')) %>% 
+  ggplot() +
+  aes(x=condition, y=fit_resp, group=Participant, color=Participant) +
   geom_line(aes(color=Participant)) +
-  geom_point(aes(color=Participant)) +
+  geom_point(aes(color=Participant, shape=Participant), size = 3) +
   geom_errorbar(aes(ymin=lwr, ymax=upr), width=.2,
                 position=position_dodge(0.05)) +
   scale_color_manual(values = brewer.pal(n = 3, name = "Set1")) +
@@ -348,7 +364,10 @@ too_many_imm_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit_resp, grou
   labs(subtitle = "Estimated probability by respondent type (95% CI)") +
   theme(plot.title = element_text(face = "bold")) +
   scale_y_continuous(breaks=c(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0)) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
+  scale_color_brewer(palette="Dark2") +
   theme(legend.title=element_blank())
 too_many_imm_graph_segm
 
@@ -492,7 +511,9 @@ econ_graph <- ggplot(cf_econ1, aes(x=Comparison, y=Estimate)) +
   ggtitle("Economic Perceptions") +
   labs(subtitle = "Estimated Differences Compared to Control") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
   coord_flip()
 econ_graph
 
@@ -507,7 +528,9 @@ econ_graph_comp <- ggplot(cf_econ2, aes(x=Comparison, y=Estimate)) +
   ggtitle("Economic Perceptions") +
   labs(subtitle = "Estimated Differences Between Treatments") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
   coord_flip()
 econ_graph_comp
 
@@ -649,9 +672,16 @@ newdata3$Participant <- "Typical Non-voter"
 
 combined_df <- rbind(newdata1,newdata2,newdata3)
 
-econ_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit, group=Participant,color=Participant)) +
+econ_graph_segm <- combined_df %>% 
+  mutate(condition = dplyr::recode(condition,
+                                   'control' = 'Control',
+                                   'vis' = 'Visual',
+                                   'video' = 'Video',
+                                   'text' = 'Text')) %>% 
+  ggplot() +
+  aes(x=condition, y=fit, group=Participant,color=Participant) +
   geom_line(aes(color=Participant)) +
-  geom_point(aes(color=Participant)) +
+  geom_point(aes(color=Participant, shape=Participant), size = 3) +
   geom_errorbar(aes(ymin=lwr, ymax=upr), width=.2,
                 position=position_dodge(0.05)) +
   scale_color_manual(values = brewer.pal(n = 3, name = "Set1")) +
@@ -660,7 +690,10 @@ econ_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit, group=Participant
   ggtitle("Economic Perceptions") +
   labs(subtitle = "Estimated location on scale by respondent type (95% CI)") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
+  scale_color_brewer(palette="Dark2") +
   theme(legend.title=element_blank())
 econ_graph_segm
 
@@ -798,7 +831,9 @@ policy_graph <- ggplot(cf_policy1, aes(x=Comparison, y=Estimate)) +
   ggtitle("Policy Preferences") +
   labs(subtitle = "Estimated Differences Compared to Control") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
   coord_flip()
 policy_graph
 
@@ -813,7 +848,9 @@ policy_graph_comp <- ggplot(cf_policy2, aes(x=Comparison, y=Estimate)) +
   ggtitle("Policy Preferences") +
   labs(subtitle = "Estimated Differences Between Treatments") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
   coord_flip()
 policy_graph_comp
 
@@ -932,9 +969,16 @@ newdata3$Participant <- "Typical Non-voter"
 
 combined_df <- rbind(newdata1,newdata2,newdata3)
 
-policy_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit, group=Participant,color=Participant)) +
+policy_graph_segm <- combined_df %>% 
+  mutate(condition = dplyr::recode(condition,
+                                   'control' = 'Control',
+                                   'vis' = 'Visual',
+                                   'video' = 'Video',
+                                   'text' = 'Text')) %>% 
+  ggplot() +
+  aes(x=condition, y=fit, group=Participant,color=Participant) +
   geom_line(aes(color=Participant)) +
-  geom_point(aes(color=Participant)) +
+  geom_point(aes(color=Participant, shape=Participant), size = 3) +
   geom_errorbar(aes(ymin=lwr, ymax=upr), width=.2,
                 position=position_dodge(0.05)) +
   scale_color_manual(values = brewer.pal(n = 3, name = "Set1")) +
@@ -943,7 +987,10 @@ policy_graph_segm <- ggplot(combined_df, aes(x=condition, y=fit, group=Participa
   ggtitle("Policy Preferences") +
   labs(subtitle = "Estimated location on scale by respondent type (95% CI)") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14)) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
+  scale_color_brewer(palette="Dark2") +
   theme(legend.title=element_blank())
 policy_graph_segm
 
@@ -975,6 +1022,9 @@ barplot(prop.table(table(modelData$too_many_imm[modelData$condition=='control'],
 prop.table(table(modelData$too_many_imm[modelData$condition=='control'],
                  modelData$eu_vote[modelData$condition=='control']), margin=2)
 
+# color blind friendly palette for plots
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
 too_many_imm_control <- modelData %>%
   mutate(eu_vote = dplyr::recode(eu_vote, 'No_vote'='Did not vote')) %>% 
   mutate(too_many_imm = dplyr::recode(too_many_imm, `1`='Yes', `0`='No')) %>% 
@@ -992,7 +1042,10 @@ too_many_imm_control <- modelData %>%
   guides(fill=guide_legend(title='Response')) +
   labs(subtitle = "Proportions by referendum vote in control condition") +
   theme(plot.title = element_text(face = "bold")) +
-  theme(text = element_text(size=14))
+  scale_fill_manual(values=cbPalette) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size))
 too_many_imm_control
 
 econ_perceptions_control <- modelData %>%
@@ -1007,7 +1060,10 @@ econ_perceptions_control <- modelData %>%
   theme(plot.title = element_text(face = "bold")) +
   geom_boxplot() +
   theme(legend.position="none") +
-  theme(text = element_text(size=14))
+  scale_fill_manual(values=cbPalette) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size))
 econ_perceptions_control
 
 policy_perceptions_control <- modelData %>% 
@@ -1022,7 +1078,10 @@ policy_perceptions_control <- modelData %>%
   theme(plot.title = element_text(face = "bold")) +
   geom_boxplot() +
   theme(legend.position="none") +
-  theme(text = element_text(size=14))
+  scale_fill_manual(values=cbPalette) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size))
 policy_perceptions_control
 
 jpeg(file="plots/control_plot.jpeg", width=1350, height=500)
