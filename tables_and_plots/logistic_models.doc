@@ -1,0 +1,247 @@
+<table class="texreg" style="margin: 10px auto;border-collapse: collapse;border-spacing: 0px;caption-side: bottom;color: #000000;border-top: 2px solid #000000;">
+<caption>Too Many Immigrants (logistic models)</caption>
+<thead>
+<tr>
+<th style="padding-left: 5px;padding-right: 5px;">&nbsp;</th>
+<th style="padding-left: 5px;padding-right: 5px;">Main effects model</th>
+<th style="padding-left: 5px;padding-right: 5px;">Interacted model</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-top: 1px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">(Intercept)</td>
+<td style="padding-left: 5px;padding-right: 5px;">1.5449 (0.2150)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">1.5685 (0.2377)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditiontext</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.3356 (0.1121)<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.3800 (0.1864)<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditionvideo</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.5438 (0.1138)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.5319 (0.1854)<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditionvis</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.4864 (0.1130)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.5784 (0.1822)<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">eu_voteNo_vote</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.2984 (0.1037)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.2174 (0.1951)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">eu_voteRemain</td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.1762 (0.1047)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-2.4189 (0.2148)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">employmentNot in paid work</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.0850 (0.1221)</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.0930 (0.1223)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">employmentOther</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.5134 (0.1822)<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.5171 (0.1823)<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">employmentPart-Time</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.2415 (0.1089)<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.2451 (0.1090)<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">employmentUnemployed</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.3833 (0.1655)<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.3799 (0.1658)<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">studentYes</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.7118 (0.1223)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.7127 (0.1225)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">age</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.0060 (0.0037)</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.0061 (0.0037)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">genderMale</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0680 (0.0833)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0686 (0.0835)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">educationBA</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.3348 (0.1082)<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.3289 (0.1083)<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">educationGCSEorLess</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.3086 (0.1227)<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.3098 (0.1231)<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">educationPG</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.4917 (0.1483)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.4930 (0.1484)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">educationPost2</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0749 (0.1378)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0772 (0.1382)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">partyGrn</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.7660 (0.2316)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.7648 (0.2321)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">partyLab</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.7861 (0.1157)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.7811 (0.1159)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">partyLib</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.4615 (0.2140)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.4682 (0.2141)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">partyNone</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0899 (0.1188)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0878 (0.1191)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">partyPlaid</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.2904 (0.5316)<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-1.2992 (0.5318)<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">partyRather_not_say</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.1131 (0.2217)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0956 (0.2224)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">partySNP</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.9795 (0.2574)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.9837 (0.2579)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">partyUKIP</td>
+<td style="padding-left: 5px;padding-right: 5px;">1.6377 (0.3357)<sup>***</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">1.6526 (0.3367)<sup>***</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income.L</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.6560 (0.2187)<sup>**</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.6459 (0.2191)<sup>**</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income.Q</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0822 (0.1815)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0885 (0.1819)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income.C</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.3686 (0.1845)<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.3677 (0.1846)<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income^4</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.4831 (0.2031)<sup>*</sup></td>
+<td style="padding-left: 5px;padding-right: 5px;">0.4947 (0.2036)<sup>*</sup></td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income^5</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.2736 (0.2080)</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.2770 (0.2089)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income^6</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0417 (0.2085)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0484 (0.2092)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income^7</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0358 (0.2030)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0463 (0.2033)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income^8</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.1098 (0.1860)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.1144 (0.1860)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income^9</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.2117 (0.1630)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.2155 (0.1632)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">income^10</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.2125 (0.1435)</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.2121 (0.1439)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditiontext:eu_voteNo_vote</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.0474 (0.2639)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditionvideo:eu_voteNo_vote</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.1821 (0.2651)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditionvis:eu_voteNo_vote</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">-0.1069 (0.2627)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditiontext:eu_voteRemain</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.2419 (0.2887)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditionvideo:eu_voteRemain</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.1956 (0.2951)</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">conditionvis:eu_voteRemain</td>
+<td style="padding-left: 5px;padding-right: 5px;">&nbsp;</td>
+<td style="padding-left: 5px;padding-right: 5px;">0.5335 (0.2898)</td>
+</tr>
+<tr style="border-top: 1px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">AIC</td>
+<td style="padding-left: 5px;padding-right: 5px;">3968.8368</td>
+<td style="padding-left: 5px;padding-right: 5px;">3975.2161</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">BIC</td>
+<td style="padding-left: 5px;padding-right: 5px;">4188.1436</td>
+<td style="padding-left: 5px;padding-right: 5px;">4232.1183</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">Log Likelihood</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1949.4184</td>
+<td style="padding-left: 5px;padding-right: 5px;">-1946.6080</td>
+</tr>
+<tr>
+<td style="padding-left: 5px;padding-right: 5px;">Deviance</td>
+<td style="padding-left: 5px;padding-right: 5px;">3898.8368</td>
+<td style="padding-left: 5px;padding-right: 5px;">3893.2161</td>
+</tr>
+<tr style="border-bottom: 2px solid #000000;">
+<td style="padding-left: 5px;padding-right: 5px;">Num. obs.</td>
+<td style="padding-left: 5px;padding-right: 5px;">3889</td>
+<td style="padding-left: 5px;padding-right: 5px;">3889</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="font-size: 0.8em;" colspan="3"><sup>***</sup>p &lt; 0.001; <sup>**</sup>p &lt; 0.01; <sup>*</sup>p &lt; 0.05</td>
+</tr>
+</tfoot>
+</table>
