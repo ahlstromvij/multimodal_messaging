@@ -45,14 +45,24 @@ ipsos
 achieved <- prop.table(table(modelData$gender,modelData$eu_vote))
 achieved <- rbind(achieved,c(sum(achieved[1:2]),sum(achieved[3:4]),sum(achieved[5:6])))
 row.names(achieved) <- c('Female','Male','Total')
-round(achieved,3)
+(achieved <- round(achieved,3))
+
+sample_df <- data.frame('Leave_Achieved' = achieved[,1],
+                        'Leave_Ipsos' = ipsos[,1],
+                        'Remain_Achieved' = achieved[,3],
+                        'Remain_Ipsos' = ipsos[,3],
+                        'Did_not_vote_Achieved' = achieved[,2],
+                        'Did_not_vote_Ipsos' = ipsos[,2])
+sample_df %>% 
+  rownames_to_column() %>% 
+  write_csv('tables/samples_vs_ipsos.csv')
 
 # sample sizes by condition
 table(modelData$condition)
 
 # difference in time spent between visual and text
 time_on_page <- read_csv('data/raw_data.csv') %>% 
-  select(time_on_page, condition) %>% 
+  dplyr::select(time_on_page, condition) %>% 
   filter(condition != 'control')
 
 time_on_page %>% 
@@ -183,5 +193,8 @@ row.names(summary_df) <- c("Age (mean)","Female","Male",
                            "Party: None",
                            "Party: Rather not say",
                            "N")
+summary_df <- summary_df %>% 
+  rownames_to_column()
+
 write_csv(summary_df, "tables/sample_summary_table.csv")
-summary_df
+
