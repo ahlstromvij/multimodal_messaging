@@ -1112,9 +1112,11 @@ econ_items_plot <- modelData %>%
                                    'video' = 'Video',
                                    'text' = 'Text',
                                    'control' = 'Control')) %>% 
+  mutate_if(is.numeric, round, 2) %>% 
   ggplot() +
-  aes(x = condition, y = mean, fill = item) +
+  aes(x = condition, y = mean, fill = item, label = mean) +
   geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
+  geom_text(vjust = -1.5) +
   xlab("Condition") +
   ylab("Mean response (on a scale of 0-5)") +
   ggtitle("Mean Untransformed Values for Economic Perceptions Items") +
@@ -1156,9 +1158,11 @@ policy_pref_plot <- modelData %>%
                                    'video' = 'Video',
                                    'text' = 'Text',
                                    'control' = 'Control')) %>% 
+  mutate_if(is.numeric, round, 2) %>% 
   ggplot() +
-  aes(x = condition, y = mean, fill = item) +
+  aes(x = condition, y = mean, fill = item, label = mean) +
   geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
+  geom_text(vjust = -1.5) +
   xlab("Condition") +
   ylab("Mean response (on a scale of 0-10)") +
   ggtitle("Mean Untransformed Values for Policy Preferences Items") +
