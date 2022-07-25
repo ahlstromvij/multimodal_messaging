@@ -65,8 +65,8 @@ time_m <- lm(time_on_page ~ condition,
              data = time_on_page)
 summary(time_m)
 
-# on average 111.616 seconds more on video condition
-# on average 56.079 seconds more on vis condition
+# on average 111.616 seconds more on video condition compared to text
+# on average 56.079 seconds more on vis condition compared to text
 
 # gender by condition
 modelData %>% 
