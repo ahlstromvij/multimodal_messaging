@@ -413,6 +413,53 @@ ggplot(mydata, aes(logit, predictor.value))+
   geom_smooth(method = "loess") + 
   theme_bw()
 
+# Mean untransformed responses on the economic perceptions items that will go into IRT
+econ_items_plot <- modelData %>% 
+  group_by(condition) %>% 
+  summarise(take_jobs_mean = mean(take_jobs),
+            take_jobs_sd = sd(take_jobs),
+            take_jobs_n = length(take_jobs),
+            drive_down_wages_mean = mean(drive_down_wages),
+            drive_down_wages_sd = sd(drive_down_wages),
+            drive_down_wages_n = length(drive_down_wages),
+            create_jobs_mean = mean(create_jobs),
+            create_jobs_sd = sd(create_jobs),
+            create_jobs_n = length(create_jobs)) %>% 
+  pivot_longer(cols = -condition,
+               names_to = c('item','type'),
+               names_pattern = '(take_jobs|drive_down_wages|create_jobs)_(mean|sd|n)',
+               values_to = 'value') %>% 
+  pivot_wider(names_from = type,
+              values_from = value) %>% 
+  mutate(upr = mean + qt(0.975, df=n-1)*sd/sqrt(n),
+         lwr = mean - qt(0.975, df=n-1)*sd/sqrt(n)) %>% 
+  mutate(item = dplyr::recode(item,
+                              'create_jobs' = 'Create jobs',
+                              'drive_down_wages' = 'Drive down wages',
+                              'take_jobs' = 'Take jobs'),
+         condition = dplyr::recode(condition,
+                                   'vis' = 'Visual',
+                                   'video' = 'Video',
+                                   'text' = 'Text',
+                                   'control' = 'Control')) %>% 
+  mutate_if(is.numeric, round, 2) %>% 
+  ggplot() +
+  aes(x = condition, y = mean, fill = item, label = mean) +
+  geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
+  geom_text(vjust = -1.5) +
+  xlab("Condition") +
+  ylab("Mean response (on a scale of 0-5)") +
+  ggtitle("Mean Untransformed Values for Economic Perceptions Items") +
+  theme(plot.title = element_text(face = "bold")) +
+  labs(subtitle = "Higher values correspond to more positive attitudes (95% CIs)") +
+  coord_flip() +
+  theme(legend.position="none") +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
+  facet_wrap(~item)
+econ_items_plot
+
 # Economic Perceptions: IRT Model
 econ_items <- data.frame(modelData$take_jobs,
                          modelData$drive_down_wages,
@@ -698,6 +745,53 @@ econ_graph_segm <- combined_df %>%
   scale_color_brewer(palette="Dark2") +
   theme(legend.title=element_blank())
 econ_graph_segm
+
+# Mean untransformed responses on the policy preferences items that will go into IRT
+policy_pref_plot <- modelData %>% 
+  group_by(condition) %>% 
+  summarise(brexit_to_cut_mean = mean(brexit_to_cut),
+            brexit_to_cut_sd = sd(brexit_to_cut),
+            brexit_to_cut_n = length(brexit_to_cut),
+            increase_imm_mean = mean(increase_imm),
+            increase_imm_sd = sd(increase_imm),
+            increase_imm_n = length(increase_imm),
+            sm_or_control_mean = mean(sm_or_control),
+            sm_or_control_sd = sd(sm_or_control),
+            sm_or_control_n = length(sm_or_control)) %>% 
+  pivot_longer(cols = -condition,
+               names_to = c('item','type'),
+               names_pattern = '(brexit_to_cut|increase_imm|sm_or_control)_(mean|sd|n)',
+               values_to = 'value') %>% 
+  pivot_wider(names_from = type,
+              values_from = value) %>% 
+  mutate(upr = mean + qt(0.975, df=n-1)*sd/sqrt(n),
+         lwr = mean - qt(0.975, df=n-1)*sd/sqrt(n)) %>% 
+  mutate(item = dplyr::recode(item,
+                              'brexit_to_cut' = 'Brexit an opportunity to cut immigration',
+                              'increase_imm' = 'Increase immigration',
+                              'sm_or_control' = 'Prioritise single market over control'),
+         condition = dplyr::recode(condition,
+                                   'vis' = 'Visual',
+                                   'video' = 'Video',
+                                   'text' = 'Text',
+                                   'control' = 'Control')) %>% 
+  mutate_if(is.numeric, round, 2) %>% 
+  ggplot() +
+  aes(x = condition, y = mean, fill = item, label = mean) +
+  geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
+  geom_text(vjust = -1.5) +
+  xlab("Condition") +
+  ylab("Mean response (on a scale of 0-10)") +
+  ggtitle("Mean Untransformed Values for Policy Preferences Items") +
+  theme(plot.title = element_text(face = "bold")) +
+  labs(subtitle = "Higher values correspond to more positive attitudes (95% CIs)") +
+  coord_flip() +
+  theme(legend.position="none") +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
+  facet_wrap(~item)
+policy_pref_plot
 
 # Policy Preferences: IRT Model
 policy_items <- data.frame(modelData$brexit_to_cut,
@@ -1082,99 +1176,6 @@ policy_perceptions_control <- modelData %>%
   theme(axis.text.x=element_text(size=axis_font_size)) +
   theme(axis.text.y=element_text(size=axis_font_size))
 policy_perceptions_control
-
-# mean untransformed responses on the items that went into IRT
-econ_items_plot <- modelData %>% 
-  group_by(condition) %>% 
-  summarise(take_jobs_mean = mean(take_jobs),
-            take_jobs_sd = sd(take_jobs),
-            take_jobs_n = length(take_jobs),
-            drive_down_wages_mean = mean(drive_down_wages),
-            drive_down_wages_sd = sd(drive_down_wages),
-            drive_down_wages_n = length(drive_down_wages),
-            create_jobs_mean = mean(create_jobs),
-            create_jobs_sd = sd(create_jobs),
-            create_jobs_n = length(create_jobs)) %>% 
-  pivot_longer(cols = -condition,
-               names_to = c('item','type'),
-               names_pattern = '(take_jobs|drive_down_wages|create_jobs)_(mean|sd|n)',
-               values_to = 'value') %>% 
-  pivot_wider(names_from = type,
-              values_from = value) %>% 
-  mutate(upr = mean + qt(0.975, df=n-1)*sd/sqrt(n),
-         lwr = mean - qt(0.975, df=n-1)*sd/sqrt(n)) %>% 
-  mutate(item = dplyr::recode(item,
-                              'create_jobs' = 'Create jobs',
-                              'drive_down_wages' = 'Drive down wages',
-                              'take_jobs' = 'Take jobs'),
-         condition = dplyr::recode(condition,
-                                   'vis' = 'Visual',
-                                   'video' = 'Video',
-                                   'text' = 'Text',
-                                   'control' = 'Control')) %>% 
-  mutate_if(is.numeric, round, 2) %>% 
-  ggplot() +
-  aes(x = condition, y = mean, fill = item, label = mean) +
-  geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
-  geom_text(vjust = -1.5) +
-  xlab("Condition") +
-  ylab("Mean response (on a scale of 0-5)") +
-  ggtitle("Mean Untransformed Values for Economic Perceptions Items") +
-  theme(plot.title = element_text(face = "bold")) +
-  labs(subtitle = "Items reversed where appropriate so that higher values correspond to more positive attitudes") +
-  coord_flip() +
-  theme(legend.position="none") +
-  theme(text = element_text(size=global_font_size)) +
-  theme(axis.text.x=element_text(size=axis_font_size)) +
-  theme(axis.text.y=element_text(size=axis_font_size)) +
-  facet_wrap(~item)
-econ_items_plot
-
-policy_pref_plot <- modelData %>% 
-  group_by(condition) %>% 
-  summarise(brexit_to_cut_mean = mean(brexit_to_cut),
-            brexit_to_cut_sd = sd(brexit_to_cut),
-            brexit_to_cut_n = length(brexit_to_cut),
-            increase_imm_mean = mean(increase_imm),
-            increase_imm_sd = sd(increase_imm),
-            increase_imm_n = length(increase_imm),
-            sm_or_control_mean = mean(sm_or_control),
-            sm_or_control_sd = sd(sm_or_control),
-            sm_or_control_n = length(sm_or_control)) %>% 
-  pivot_longer(cols = -condition,
-               names_to = c('item','type'),
-               names_pattern = '(brexit_to_cut|increase_imm|sm_or_control)_(mean|sd|n)',
-               values_to = 'value') %>% 
-  pivot_wider(names_from = type,
-              values_from = value) %>% 
-  mutate(upr = mean + qt(0.975, df=n-1)*sd/sqrt(n),
-         lwr = mean - qt(0.975, df=n-1)*sd/sqrt(n)) %>% 
-  mutate(item = dplyr::recode(item,
-                              'brexit_to_cut' = 'Brexit an opportunity to cut immigration',
-                              'increase_imm' = 'Increase immigration',
-                              'sm_or_control' = 'Prioritise single market over control'),
-         condition = dplyr::recode(condition,
-                                   'vis' = 'Visual',
-                                   'video' = 'Video',
-                                   'text' = 'Text',
-                                   'control' = 'Control')) %>% 
-  mutate_if(is.numeric, round, 2) %>% 
-  ggplot() +
-  aes(x = condition, y = mean, fill = item, label = mean) +
-  geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
-  geom_text(vjust = -1.5) +
-  xlab("Condition") +
-  ylab("Mean response (on a scale of 0-10)") +
-  ggtitle("Mean Untransformed Values for Policy Preferences Items") +
-  theme(plot.title = element_text(face = "bold")) +
-  labs(subtitle = "Items reversed where appropriate so that higher values correspond to more positive attitudes") +
-  coord_flip() +
-  theme(legend.position="none") +
-  theme(text = element_text(size=global_font_size)) +
-  theme(axis.text.x=element_text(size=axis_font_size)) +
-  theme(axis.text.y=element_text(size=axis_font_size)) +
-  facet_wrap(~item)
-policy_pref_plot
 
 jpeg(file="plots/control_plot.jpeg", width=1350, height=500)
 figure_control <- ggarrange(too_many_imm_control, econ_perceptions_control, policy_perceptions_control,
