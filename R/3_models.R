@@ -532,7 +532,7 @@ m_econ0_vcov <- vcovHC(m_econ0, type="HC1")
 (m_econ0_coeftest <- coeftest(m_econ0, vcov = m_econ0_vcov))
 (m_econ0_coefci <- coefci(m_econ0, vcov = m_econ0_vcov))
 
-## 7.3. Multiple Comparisons for Economic Perceptions Model
+# Multiple Comparisons for Economic Perceptions Model
 Anova(m_econ, type = "III")
 m_econ_mult <- glht(m_econ, mcp(condition="Tukey"), vcov = sandwich)
 summary(m_econ_mult,test = adjusted("holm"))
