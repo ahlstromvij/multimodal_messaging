@@ -115,7 +115,13 @@ missing_df <- allData %>%
   rotate_df() %>% 
   rownames_to_column()
 
+# export missing by condition table
 write_csv(missing_df, 'tables/missing_values_by_cond.csv')
+
+# export data with only complete cases
+complData <- allData[complete.cases(allData), ]
+vis_miss(complData)
+write_csv(complData, 'data/preprocessed_data_complete_cases.csv')
  
 # impute missing data
 names(allData)

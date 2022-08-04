@@ -1,0 +1,2870 @@
+age,gender,education,party,income,too_many_imm,take_jobs,drive_down_wages,create_jobs,brexit_to_cut,increase_imm,sm_or_control,condition,eu_vote,employment,student
+28,Male,A-lev,Plaid,20-30K,1,2,4,1,1,7,5,control,Remain,Full-Time,No
+26,Female,A-lev,Con,40-50K,0,4,5,4,10,5,8,control,Remain,Not in paid work,No
+51,Female,BA,Grn,20-30K,0,4,5,3,10,5,10,control,Remain,Part-Time,No
+31,Female,A-lev,Lab,30-40K,0,5,5,3,10,5,10,control,Remain,Full-Time,No
+47,Female,PG,Grn,Over100K,1,2,2,2,2,2,9,control,Remain,Full-Time,No
+52,Male,A-lev,Lab,Under10K,0,4,3,4,9,5,10,control,Remain,Not in paid work,No
+21,Female,BA,Lib,Under10K,0,5,5,3,9,5,7,control,Remain,Unemployed,Yes
+22,Male,GCSEorLess,Lab,20-30K,0,3,5,4,10,4,10,control,Remain,Not in paid work,No
+40,Female,BA,None,Over100K,0,4,4,4,8,5,9,control,Remain,Part-Time,No
+40,Female,BA,Lab,20-30K,0,4,4,3,9,5,9,control,Remain,Full-Time,No
+32,Female,PG,Lib,30-40K,0,4,3,2,8,5,9,control,Remain,Full-Time,No
+54,Male,GCSEorLess,Lab,10-20K,0,5,5,5,10,5,10,control,Remain,Not in paid work,No
+34,Female,BA,Lib,60-70K,0,5,5,4,10,4,10,control,Remain,Full-Time,No
+22,Male,BA,None,20-30K,0,5,5,4,10,5,9,control,Remain,Unemployed,Yes
+47,Female,BA,Lab,50-60K,0,4,2,4,9,4,7,control,Remain,Part-Time,No
+27,Female,PG,Con,60-70K,0,4,4,3,7,5,7,control,Remain,Part-Time,No
+34,Female,BA,Lib,50-60K,0,4,3,2,3,3,2,control,Remain,Part-Time,No
+21,Female,PG,Grn,30-40K,0,5,5,4,9,7,8,control,Remain,Part-Time,Yes
+30,Male,PG,Lib,20-30K,0,4,5,3,10,5,10,control,Remain,Part-Time,No
+35,Male,A-lev,Lab,50-60K,0,4,4,4,10,5,10,control,Remain,Full-Time,No
+47,Female,BA,None,60-70K,1,1,1,1,1,1,3,control,Remain,Full-Time,No
+28,Female,A-lev,Lab,20-30K,0,5,5,3,9,4,8,control,Remain,Not in paid work,Yes
+25,Female,BA,None,60-70K,0,5,5,5,10,6,10,control,Remain,Full-Time,No
+43,Male,Post2,Lab,Under10K,0,5,5,4,10,10,10,control,Remain,Unemployed,No
+45,Female,BA,Lab,10-20K,0,5,5,3,10,5,5,control,Remain,Not in paid work,No
+30,Female,PG,Lab,Under10K,0,5,4,5,10,6,10,control,Remain,Not in paid work,No
+25,Male,BA,Lab,50-60K,0,5,4,4,9,7,9,control,Remain,Full-Time,No
+35,Female,BA,Lab,50-60K,0,4,4,3,9,5,9,control,Remain,Part-Time,No
+32,Male,PG,None,30-40K,0,5,5,4,10,5,10,control,Remain,Full-Time,No
+32,Male,BA,None,20-30K,0,5,5,4,10,5,9,control,Remain,Full-Time,No
+65,Female,BA,None,10-20K,0,4,3,4,9,5,6,control,Remain,Part-Time,No
+40,Male,GCSEorLess,Con,50-60K,1,2,3,2,1,1,3,control,Remain,Full-Time,No
+34,Female,BA,Lab,30-40K,0,4,2,4,9,5,9,control,Remain,Full-Time,No
+35,Male,BA,Lab,30-40K,0,5,4,5,8,5,10,control,Remain,Full-Time,No
+33,Female,BA,Lab,70-80K,0,4,4,4,5,5,5,control,Remain,Part-Time,No
+73,Female,A-lev,None,10-20K,0,4,4,3,8,6,9,control,Remain,Not in paid work,No
+26,Male,BA,Con,30-40K,0,4,2,4,8,5,9,control,Remain,Full-Time,No
+29,Male,PG,Lab,50-60K,0,5,4,4,3,4,3,control,Remain,Full-Time,No
+44,Female,BA,Lab,70-80K,0,4,3,3,9,5,10,control,Remain,Full-Time,No
+21,Female,BA,Lab,Under10K,0,5,4,4,10,5,10,control,Remain,Unemployed,Yes
+34,Female,Post2,Lab,10-20K,1,2,2,3,1,4,3,control,Remain,Not in paid work,No
+38,Male,BA,Lab,30-40K,0,5,5,4,10,5,10,control,Remain,Unemployed,No
+38,Female,BA,Lab,40-50K,1,4,4,4,7,5,9,control,Remain,Part-Time,No
+38,Male,BA,SNP,40-50K,0,5,5,5,10,6,10,control,Remain,Full-Time,No
+34,Male,Post2,Lab,60-70K,0,5,5,5,10,5,10,control,Remain,Part-Time,No
+37,Male,BA,Grn,20-30K,0,4,4,4,10,5,10,control,Remain,Part-Time,No
+36,Female,BA,Grn,30-40K,0,4,3,2,10,5,10,control,Remain,Part-Time,Yes
+41,Female,PG,Lib,30-40K,0,4,4,4,10,5,10,control,Remain,Part-Time,No
+21,Male,BA,Lab,10-20K,0,4,5,5,10,5,10,control,Remain,Part-Time,Yes
+39,Female,PG,Grn,60-70K,0,5,5,4,10,5,10,control,Remain,Not in paid work,No
+46,Female,BA,Con,30-40K,0,4,5,3,9,5,5,control,Remain,Full-Time,No
+45,Female,GCSEorLess,None,20-30K,0,4,3,3,5,3,5,control,Remain,Not in paid work,No
+34,Male,A-lev,Lab,20-30K,0,5,5,4,10,5,5,control,Remain,Full-Time,No
+32,Female,BA,None,40-50K,0,5,5,4,10,5,10,control,Remain,Full-Time,No
+34,Female,A-lev,Lab,10-20K,0,4,4,3,9,5,10,control,Remain,Not in paid work,Yes
+22,Male,PG,Con,60-70K,0,2,3,3,7,5,10,control,Remain,Other,Yes
+24,Male,BA,Lab,30-40K,0,4,4,4,9,6,6,control,Remain,Full-Time,No
+35,Female,BA,Lab,70-80K,1,3,2,5,3,3,5,control,Remain,Full-Time,No
+26,Female,PG,Grn,10-20K,0,2,2,4,9,4,7,control,Remain,Full-Time,Yes
+36,Female,Post2,Lab,40-50K,0,4,4,4,8,5,9,control,Remain,Full-Time,No
+37,Female,Post2,Lib,50-60K,0,5,5,4,5,5,10,control,Remain,Full-Time,No
+67,Female,BA,Lib,30-40K,0,5,5,3,9,5,8,control,Remain,Full-Time,No
+36,Female,PG,Grn,20-30K,0,4,5,3,10,5,10,control,Remain,Full-Time,Yes
+47,Female,BA,SNP,20-30K,0,5,5,4,10,5,10,control,Remain,Other,No
+62,Female,Post2,Lib,10-20K,1,4,4,4,10,4,9,control,Remain,Part-Time,No
+25,Female,PG,Grn,Over100K,0,5,4,5,10,5,10,control,Remain,Full-Time,No
+33,Female,BA,Grn,40-50K,0,3,3,3,10,6,10,control,Remain,Part-Time,No
+40,Male,BA,None,50-60K,1,4,2,4,10,5,5,control,Remain,Full-Time,No
+22,Male,BA,Lab,60-70K,0,5,5,5,8,5,9,control,Remain,Other,Yes
+41,Male,BA,None,70-80K,0,5,5,5,10,7,10,control,Remain,Full-Time,No
+45,Male,Post2,Lab,90-100K,1,3,2,3,8,3,8,control,Remain,Full-Time,No
+24,Male,BA,Grn,40-50K,0,4,3,3,5,5,6,control,Remain,Full-Time,No
+75,Female,GCSEorLess,Lab,30-40K,0,4,4,4,8,5,10,control,Remain,Not in paid work,No
+35,Female,BA,Lab,40-50K,1,2,2,3,1,2,1,control,Remain,Part-Time,No
+50,Female,BA,Lab,50-60K,0,4,3,3,9,5,10,control,Remain,Part-Time,No
+33,Male,Post2,SNP,10-20K,0,4,4,4,10,7,9,control,Remain,Not in paid work,No
+22,Female,BA,Grn,40-50K,0,5,5,5,9,8,9,control,Remain,Full-Time,No
+33,Female,BA,Lab,30-40K,0,5,4,3,9,5,9,control,Remain,Full-Time,No
+31,Female,A-lev,Con,80-90K,1,4,4,2,3,2,9,control,Remain,Full-Time,No
+58,Male,PG,Lib,Over100K,0,5,5,3,10,5,5,control,Remain,Not in paid work,No
+43,Male,PG,Grn,50-60K,0,3,2,4,8,5,10,control,Remain,Full-Time,No
+27,Female,A-lev,Lab,30-40K,0,4,5,3,9,5,5,control,Remain,Unemployed,No
+20,Female,A-lev,Lab,20-30K,0,4,4,2,9,5,8,control,Remain,Part-Time,Yes
+32,Female,Post2,Lab,30-40K,1,4,4,4,5,5,5,control,Remain,Part-Time,Yes
+40,Female,BA,Lab,10-20K,1,2,2,2,2,3,9,control,Remain,Part-Time,No
+66,Female,PG,SNP,30-40K,0,4,4,4,10,5,10,control,Remain,Not in paid work,No
+23,Female,BA,Lab,30-40K,0,4,4,4,10,5,10,control,Remain,Other,Yes
+21,Male,PG,Lab,10-20K,0,5,5,5,9,6,9,control,Remain,Full-Time,Yes
+35,Female,BA,Rather_not_say,20-30K,0,5,2,3,4,3,5,control,Remain,Part-Time,No
+54,Female,A-lev,Lab,10-20K,0,4,4,3,9,5,10,control,Remain,Part-Time,No
+73,Male,PG,Lab,60-70K,0,5,3,5,10,9,10,control,Remain,Not in paid work,No
+32,Female,BA,None,20-30K,0,5,5,4,9,5,10,control,Remain,Other,Yes
+53,Male,BA,Grn,40-50K,0,5,1,5,10,5,9,control,Remain,Full-Time,No
+37,Female,BA,Lab,30-40K,0,5,5,1,5,5,7,control,Remain,Not in paid work,No
+18,Male,A-lev,Con,90-100K,1,2,1,1,0,0,0,control,Remain,Part-Time,Yes
+38,Female,BA,Lab,30-40K,0,4,4,3,6,5,8,control,Remain,Not in paid work,No
+22,Female,A-lev,Con,10-20K,0,4,4,4,2,5,10,control,Remain,Part-Time,Yes
+30,Female,BA,Con,Over100K,1,5,4,4,3,2,5,control,Remain,Full-Time,No
+29,Female,BA,None,10-20K,0,4,4,4,7,6,6,control,Remain,Part-Time,No
+37,Male,A-lev,Lab,20-30K,0,4,3,4,9,5,9,control,Remain,Full-Time,No
+32,Female,BA,Lib,30-40K,0,4,3,3,3,5,8,control,Remain,Full-Time,No
+52,Male,A-lev,Con,80-90K,0,3,4,3,7,5,9,control,Remain,Full-Time,No
+37,Male,A-lev,Lab,10-20K,0,4,3,2,5,3,5,control,Remain,Full-Time,No
+60,Female,A-lev,Lab,70-80K,1,2,3,3,2,3,7,control,Remain,Full-Time,No
+36,Female,BA,None,10-20K,1,2,3,2,3,2,3,control,Remain,Part-Time,No
+46,Male,BA,None,30-40K,0,5,5,5,10,6,10,control,Remain,Full-Time,No
+56,Male,Post2,Lab,30-40K,1,3,2,3,4,2,6,control,Remain,Not in paid work,No
+32,Female,BA,Rather_not_say,30-40K,0,4,4,4,10,5,5,control,Remain,Full-Time,No
+31,Female,PG,Lib,30-40K,0,5,4,4,9,5,9,control,Remain,Full-Time,No
+28,Female,BA,Lab,70-80K,0,4,4,4,5,5,9,control,Remain,Not in paid work,No
+46,Female,BA,Lab,60-70K,1,2,2,2,4,4,5,control,Remain,Full-Time,No
+46,Female,PG,Con,60-70K,1,2,2,2,0,1,0,control,Remain,Full-Time,No
+33,Female,Post2,SNP,50-60K,0,4,4,4,10,6,10,control,Remain,Full-Time,No
+41,Female,A-lev,Grn,10-20K,0,5,5,4,10,5,10,control,Remain,Part-Time,No
+63,Female,PG,SNP,10-20K,0,4,4,4,8,5,10,control,Remain,Part-Time,No
+31,Male,BA,Rather_not_say,30-40K,0,4,4,3,6,4,9,control,Remain,Other,No
+32,Female,BA,None,50-60K,1,5,5,3,5,3,9,control,Remain,Part-Time,Yes
+44,Female,PG,Lib,70-80K,0,4,4,3,8,5,10,control,Remain,Full-Time,Yes
+38,Female,BA,Lab,50-60K,0,5,5,4,9,5,9,control,Remain,Part-Time,No
+35,Female,BA,None,40-50K,0,4,4,4,9,5,9,control,Remain,Part-Time,No
+43,Female,BA,None,70-80K,0,3,3,4,10,7,10,control,Remain,Part-Time,No
+27,Male,BA,Lab,30-40K,0,4,4,3,9,5,9,control,Remain,Full-Time,No
+35,Female,BA,Lab,20-30K,1,4,2,4,7,3,5,control,Remain,Part-Time,No
+29,Female,BA,Lab,20-30K,0,3,4,3,10,5,10,control,Remain,Full-Time,Yes
+53,Female,PG,Grn,Over100K,0,5,5,5,10,10,10,control,Remain,Not in paid work,No
+30,Male,A-lev,Lab,40-50K,0,5,5,4,10,5,10,control,Remain,Full-Time,No
+64,Male,PG,Lab,60-70K,0,5,5,4,9,5,9,control,Remain,Full-Time,No
+36,Female,PG,None,10-20K,0,5,5,4,8,5,10,control,Remain,Part-Time,No
+24,Female,A-lev,None,40-50K,0,4,4,3,6,4,5,control,Remain,Full-Time,No
+38,Female,PG,Grn,40-50K,0,5,3,5,10,6,10,control,Remain,Part-Time,Yes
+41,Female,BA,Grn,20-30K,0,4,4,4,10,7,10,control,Remain,Part-Time,No
+33,Female,A-lev,None,20-30K,0,4,4,3,9,5,5,control,Remain,Not in paid work,No
+32,Female,Post2,None,50-60K,1,2,2,3,1,0,5,control,Remain,Not in paid work,No
+30,Male,PG,None,40-50K,0,4,3,3,9,5,10,control,Remain,Full-Time,No
+22,Male,A-lev,Grn,10-20K,0,4,3,2,9,2,9,control,Remain,Unemployed,Yes
+22,Male,BA,Lab,10-20K,0,4,4,3,8,3,6,control,Remain,Part-Time,Yes
+62,Female,PG,Lab,40-50K,0,5,5,3,10,5,10,control,Remain,Not in paid work,No
+30,Female,PG,Lab,30-40K,0,4,4,4,8,5,5,control,Remain,Full-Time,No
+26,Female,BA,Lab,20-30K,0,5,4,4,8,5,8,control,Remain,Not in paid work,No
+32,Female,BA,None,60-70K,0,5,5,3,10,5,10,control,Remain,Full-Time,No
+74,Female,BA,Grn,Under10K,0,4,4,3,10,6,10,control,Remain,Not in paid work,No
+22,Female,BA,Lab,Under10K,0,5,5,4,10,6,8,control,Remain,Other,Yes
+36,Female,PG,None,Under10K,0,4,3,4,9,4,10,control,Remain,Full-Time,No
+31,Female,BA,Con,80-90K,1,4,2,2,4,4,5,control,Remain,Part-Time,No
+62,Male,Post2,Lab,30-40K,0,5,5,5,10,0,10,control,Remain,Full-Time,No
+29,Male,PG,None,10-20K,0,4,5,4,9,5,10,control,Remain,Full-Time,No
+33,Male,PG,SNP,40-50K,0,5,5,4,9,6,9,control,Remain,Full-Time,No
+42,Female,BA,None,30-40K,0,5,5,5,10,5,10,control,Remain,Full-Time,No
+48,Female,GCSEorLess,Lab,50-60K,1,2,2,1,5,0,2,control,Remain,Part-Time,No
+32,Female,BA,Lab,10-20K,0,5,5,4,10,5,8,control,Remain,Not in paid work,No
+29,Male,PG,Lib,80-90K,0,4,4,4,9,7,10,control,Remain,Full-Time,No
+31,Female,BA,Rather_not_say,10-20K,0,3,3,3,8,5,5,control,Remain,Full-Time,No
+48,Female,A-lev,Grn,30-40K,0,5,4,3,10,10,10,control,Remain,Not in paid work,No
+28,Female,GCSEorLess,Rather_not_say,10-20K,1,2,3,2,3,2,5,control,Remain,Part-Time,No
+35,Male,A-lev,Lab,10-20K,0,4,4,4,8,4,8,control,Remain,Part-Time,No
+28,Female,BA,Lab,60-70K,0,5,5,3,9,5,5,control,Remain,Part-Time,No
+26,Male,BA,None,20-30K,0,5,5,4,10,7,10,control,Remain,Full-Time,No
+41,Male,BA,Lib,30-40K,0,5,4,4,10,5,10,control,Remain,Full-Time,No
+28,Male,BA,Lab,70-80K,0,5,5,4,9,5,5,control,Remain,Full-Time,No
+39,Female,BA,Lab,60-70K,0,4,4,3,9,5,7,control,Remain,Part-Time,No
+27,Male,PG,SNP,20-30K,0,4,5,3,10,5,10,control,Remain,Unemployed,No
+29,Female,PG,Lab,20-30K,0,4,4,3,9,6,9,control,Remain,Part-Time,Yes
+21,Female,A-lev,Lab,20-30K,0,5,5,4,10,7,5,control,Remain,Full-Time,No
+27,Female,BA,Lab,20-30K,0,5,4,3,8,5,5,control,Remain,Full-Time,No
+48,Female,GCSEorLess,Lab,40-50K,1,4,3,3,4,3,5,control,Remain,Not in paid work,No
+26,Male,BA,Con,30-40K,0,5,5,5,9,5,10,control,Remain,Full-Time,No
+63,Female,PG,Lib,40-50K,0,4,3,2,9,5,10,control,Remain,Not in paid work,No
+29,Female,A-lev,Grn,30-40K,1,4,4,2,2,1,3,control,Remain,Full-Time,No
+31,Male,BA,None,30-40K,0,4,4,5,10,10,10,control,Remain,Full-Time,Yes
+38,Male,A-lev,Con,50-60K,0,4,4,4,9,5,10,control,Remain,Full-Time,No
+23,Male,PG,Lab,40-50K,0,4,4,4,9,4,8,control,Remain,Part-Time,Yes
+44,Female,PG,None,80-90K,0,5,5,5,10,5,10,control,Remain,Full-Time,No
+64,Female,A-lev,Lib,10-20K,0,4,4,5,6,4,5,control,Remain,Not in paid work,No
+33,Female,BA,Lab,90-100K,0,4,4,4,9,5,10,control,Remain,Part-Time,No
+26,Female,Post2,Lab,Under10K,1,3,1,4,3,4,8,control,Remain,Other,Yes
+28,Female,PG,None,70-80K,0,4,3,4,10,5,10,control,Remain,Full-Time,No
+64,Female,Post2,Rather_not_say,40-50K,1,2,5,3,5,3,5,control,Remain,Not in paid work,No
+25,Male,A-lev,Lab,40-50K,1,5,5,5,9,7,9,control,Remain,Full-Time,No
+59,Female,BA,Lab,50-60K,0,5,4,4,10,6,10,control,Remain,Not in paid work,No
+40,Female,BA,Lab,40-50K,0,4,4,4,10,6,5,control,Remain,Not in paid work,No
+24,Female,BA,Lab,20-30K,0,4,4,5,10,5,10,control,Remain,Part-Time,Yes
+40,Female,BA,Con,70-80K,1,3,2,2,3,3,7,control,Remain,Full-Time,No
+54,Male,GCSEorLess,Lab,20-30K,1,4,2,2,4,6,3,control,Remain,Part-Time,No
+40,Female,PG,SNP,90-100K,0,5,5,5,10,6,10,control,Remain,Full-Time,No
+45,Female,BA,Lab,10-20K,0,5,5,5,10,10,10,control,Remain,Part-Time,No
+59,Female,PG,Lib,50-60K,0,5,4,3,9,5,10,control,Remain,Part-Time,No
+62,Male,BA,Con,Over100K,0,4,4,3,4,5,4,control,Remain,Full-Time,No
+34,Female,BA,None,50-60K,0,4,3,4,7,5,9,control,Remain,Part-Time,No
+39,Female,PG,None,90-100K,1,4,2,2,8,8,10,control,Remain,Full-Time,No
+44,Female,GCSEorLess,Con,20-30K,1,4,2,4,3,3,5,control,Remain,Full-Time,No
+35,Female,BA,Con,40-50K,0,4,4,4,5,5,8,control,Remain,Full-Time,No
+47,Female,BA,None,Under10K,0,5,5,4,10,5,8,control,Remain,Full-Time,No
+34,Female,BA,Grn,70-80K,0,4,5,4,10,10,9,control,Remain,Full-Time,No
+36,Female,BA,Lab,50-60K,0,4,4,3,6,5,10,control,Remain,Full-Time,No
+25,Male,BA,Lab,40-50K,0,5,5,5,10,1,10,control,Remain,Full-Time,No
+49,Female,BA,Lab,50-60K,0,5,5,5,8,9,9,control,Remain,Not in paid work,No
+43,Male,A-lev,Con,20-30K,1,1,1,3,0,0,0,control,Remain,Full-Time,No
+34,Male,BA,None,50-60K,0,4,4,4,7,5,10,control,Remain,Full-Time,No
+21,Male,BA,Lab,Under10K,0,5,5,5,10,6,10,control,Remain,Unemployed,Yes
+33,Male,BA,Lib,50-60K,0,3,3,4,8,5,9,control,Remain,Full-Time,No
+24,Female,BA,Lab,20-30K,0,4,4,3,7,4,10,control,Remain,Full-Time,No
+37,Female,A-lev,None,50-60K,1,2,2,2,4,3,7,control,Remain,Not in paid work,No
+25,Female,A-lev,Lab,40-50K,1,4,2,2,3,4,6,control,Remain,Not in paid work,No
+31,Female,BA,Grn,60-70K,0,4,4,4,9,5,9,control,Remain,Part-Time,No
+32,Female,PG,Lab,50-60K,0,5,5,5,9,1,9,control,Remain,Full-Time,Yes
+28,Female,BA,Grn,30-40K,0,5,5,3,10,6,10,control,Remain,Part-Time,No
+37,Male,GCSEorLess,Rather_not_say,10-20K,1,2,2,2,3,2,5,control,No vote,Full-Time,No
+19,Male,BA,Lab,40-50K,1,4,4,5,8,5,5,control,Leave,Not in paid work,Yes
+39,Male,GCSEorLess,Con,10-20K,1,2,1,3,2,2,1,control,Leave,Part-Time,No
+18,Female,GCSEorLess,None,20-30K,0,3,3,3,5,3,5,control,No vote,Part-Time,No
+19,Male,PG,Lab,90-100K,0,5,5,4,9,1,9,control,No vote,Part-Time,Yes
+36,Female,BA,Con,50-60K,1,2,4,4,2,2,0,control,Leave,Full-Time,No
+27,Male,A-lev,Lab,10-20K,1,4,3,3,4,3,4,control,Leave,Full-Time,No
+41,Male,BA,Lab,10-20K,1,3,2,2,0,2,3,control,No vote,Part-Time,No
+40,Female,Post2,Con,10-20K,0,4,4,3,8,4,5,control,Leave,Full-Time,No
+25,Female,BA,Grn,40-50K,1,5,4,3,3,3,0,control,Leave,Full-Time,No
+43,Male,PG,None,Over100K,1,2,2,2,0,0,0,control,Leave,Full-Time,No
+47,Male,GCSEorLess,Lab,10-20K,1,1,1,1,0,0,3,control,Leave,Not in paid work,No
+34,Female,BA,None,30-40K,1,4,3,3,3,3,2,control,Leave,Not in paid work,No
+47,Male,GCSEorLess,Lab,10-20K,1,3,4,2,0,2,5,control,Leave,Not in paid work,No
+46,Female,Post2,Lab,10-20K,1,2,4,4,1,9,1,control,Leave,Part-Time,No
+63,Male,BA,Con,90-100K,1,2,2,3,2,8,3,control,Leave,Full-Time,No
+52,Female,GCSEorLess,UKIP,30-40K,1,2,3,2,3,2,1,control,Leave,Part-Time,No
+18,Male,A-lev,Lib,90-100K,0,4,4,4,10,5,8,control,No vote,Part-Time,Yes
+49,Male,A-lev,Con,20-30K,1,4,2,3,4,2,3,control,Leave,Part-Time,No
+44,Male,BA,Con,40-50K,1,3,1,4,6,3,8,control,Leave,Full-Time,No
+57,Male,A-lev,None,30-40K,0,3,2,3,6,5,3,control,Leave,Full-Time,No
+38,Male,PG,None,50-60K,1,4,4,3,2,3,5,control,Leave,Full-Time,Yes
+34,Female,BA,Lab,40-50K,0,4,4,3,5,5,5,control,No vote,Full-Time,No
+40,Male,Post2,None,20-30K,1,4,3,3,2,4,1,control,Leave,Part-Time,No
+30,Female,GCSEorLess,None,40-50K,1,2,4,2,5,3,4,control,No vote,Full-Time,No
+28,Female,GCSEorLess,Lab,20-30K,1,3,3,3,3,2,5,control,Leave,Not in paid work,No
+30,Male,BA,None,40-50K,1,1,1,1,0,0,0,control,Leave,Full-Time,No
+53,Male,GCSEorLess,Lab,30-40K,1,2,2,2,3,3,3,control,Leave,Not in paid work,No
+30,Female,BA,None,70-80K,1,1,1,1,0,1,0,control,Leave,Full-Time,No
+35,Male,BA,Lab,40-50K,1,2,1,4,2,3,4,control,Leave,Full-Time,No
+22,Male,BA,Con,40-50K,1,1,2,2,1,0,1,control,Leave,Full-Time,No
+23,Female,BA,None,60-70K,1,3,3,3,3,2,3,control,Leave,Unemployed,No
+73,Female,BA,Lab,20-30K,1,2,3,4,2,3,10,control,Leave,Not in paid work,No
+37,Female,BA,None,70-80K,1,4,3,3,2,3,3,control,Leave,Full-Time,No
+25,Male,Post2,Con,Under10K,1,4,4,3,5,6,7,control,Leave,Full-Time,Yes
+70,Male,BA,Con,30-40K,1,4,2,2,4,3,5,control,Leave,Not in paid work,No
+29,Male,A-lev,Lab,40-50K,1,4,4,3,4,4,4,control,Leave,Full-Time,No
+52,Male,Post2,Con,30-40K,1,1,3,2,1,2,5,control,Leave,Full-Time,No
+24,Male,BA,Lab,Under10K,1,3,2,4,1,1,2,control,Leave,Full-Time,No
+24,Male,GCSEorLess,Lib,20-30K,0,4,4,3,5,3,9,control,No vote,Full-Time,No
+32,Male,GCSEorLess,Lab,10-20K,1,3,2,2,2,2,2,control,Leave,Full-Time,No
+35,Female,Post2,None,Under10K,1,2,2,4,3,4,4,control,No vote,Part-Time,No
+62,Male,GCSEorLess,Con,30-40K,1,1,1,2,0,0,5,control,Leave,Not in paid work,No
+33,Male,BA,Grn,60-70K,0,3,3,3,5,4,5,control,Leave,Full-Time,No
+40,Female,Post2,Lab,60-70K,0,5,5,4,10,6,7,control,No vote,Not in paid work,No
+42,Male,BA,Con,30-40K,1,2,2,3,3,3,2,control,Leave,Full-Time,No
+53,Male,GCSEorLess,Lab,40-50K,1,1,1,4,1,1,9,control,Leave,Other,No
+31,Male,BA,Lab,20-30K,1,3,2,2,4,3,9,control,Leave,Full-Time,No
+36,Female,GCSEorLess,UKIP,30-40K,1,1,2,1,0,0,5,control,Leave,Part-Time,No
+35,Female,A-lev,None,50-60K,1,3,4,3,2,3,0,control,Leave,Full-Time,No
+28,Male,BA,UKIP,20-30K,1,2,1,2,2,8,3,control,Leave,Full-Time,No
+30,Female,BA,None,30-40K,1,1,1,1,0,0,0,control,No vote,Full-Time,No
+50,Male,Post2,Con,50-60K,1,3,3,2,2,2,2,control,No vote,Full-Time,No
+37,Female,BA,Lab,10-20K,0,5,4,5,10,7,10,control,No vote,Unemployed,No
+48,Female,GCSEorLess,Lab,Under10K,0,4,4,3,5,4,6,control,No vote,Not in paid work,No
+18,Female,GCSEorLess,None,90-100K,0,5,5,4,9,5,4,control,No vote,Other,Yes
+27,Male,A-lev,Lib,10-20K,0,5,3,2,6,4,10,control,Leave,Part-Time,No
+45,Male,PG,Con,90-100K,1,2,2,3,0,1,0,control,Leave,Full-Time,No
+55,Male,A-lev,Con,30-40K,0,3,4,5,6,5,5,control,Leave,Full-Time,No
+19,Female,A-lev,None,10-20K,1,3,1,3,5,0,4,control,No vote,Other,Yes
+47,Male,BA,UKIP,10-20K,1,2,2,3,0,0,1,control,Leave,Part-Time,No
+54,Male,BA,None,30-40K,1,1,1,1,0,0,0,control,Leave,Full-Time,No
+24,Male,BA,Con,20-30K,1,2,1,3,2,1,2,control,Leave,Unemployed,No
+49,Female,BA,Con,40-50K,1,2,2,2,0,0,6,control,Leave,Part-Time,No
+35,Male,Post2,Con,40-50K,1,4,2,4,0,2,0,control,Leave,Full-Time,No
+37,Female,PG,Lab,40-50K,0,4,3,4,9,5,10,control,No vote,Part-Time,No
+29,Female,BA,Lab,40-50K,1,4,4,2,5,5,5,control,Leave,Not in paid work,No
+32,Female,GCSEorLess,None,20-30K,1,3,2,2,2,1,3,control,Leave,Part-Time,No
+53,Female,A-lev,Con,30-40K,1,2,2,4,2,3,5,control,Leave,Not in paid work,No
+44,Male,Post2,Lab,30-40K,1,1,1,3,0,0,0,control,Leave,Not in paid work,No
+25,Male,BA,Rather_not_say,50-60K,1,2,2,3,5,7,7,control,No vote,Unemployed,No
+40,Male,Post2,None,40-50K,0,4,3,4,5,4,8,control,Leave,Full-Time,No
+28,Female,BA,Con,50-60K,1,2,2,2,0,1,3,control,Leave,Full-Time,No
+33,Female,PG,Lab,Under10K,1,5,4,4,3,2,1,control,Leave,Part-Time,No
+35,Male,Post2,Lab,60-70K,1,2,3,2,3,1,5,control,Leave,Full-Time,No
+39,Male,GCSEorLess,Con,80-90K,1,4,3,3,0,0,2,control,Leave,Full-Time,No
+32,Male,GCSEorLess,UKIP,30-40K,1,4,3,2,1,1,2,control,Leave,Full-Time,No
+24,Male,A-lev,None,20-30K,1,2,3,3,2,1,5,control,Leave,Full-Time,No
+25,Female,Post2,Con,30-40K,0,4,4,3,4,4,4,control,Leave,Unemployed,No
+40,Male,GCSEorLess,Lab,40-50K,0,4,3,4,9,5,9,control,Leave,Full-Time,No
+22,Female,Post2,Lab,10-20K,0,5,5,5,5,6,5,control,No vote,Full-Time,No
+24,Female,BA,Rather_not_say,10-20K,0,4,4,5,10,6,10,control,No vote,Full-Time,No
+46,Male,GCSEorLess,None,10-20K,1,2,4,2,2,4,1,control,No vote,Part-Time,No
+19,Male,Post2,Con,70-80K,0,4,4,2,6,5,5,control,No vote,Other,Yes
+44,Male,BA,Con,30-40K,1,1,1,1,0,0,4,control,Leave,Full-Time,No
+43,Male,A-lev,Con,30-40K,1,4,2,4,3,4,4,control,Leave,Full-Time,No
+58,Male,Post2,None,Under10K,1,2,3,2,0,0,1,control,Leave,Part-Time,No
+47,Female,BA,Lib,10-20K,1,3,2,2,4,4,6,control,Leave,Part-Time,No
+19,Male,A-lev,Lab,20-30K,0,4,4,4,8,5,10,control,No vote,Other,Yes
+40,Male,BA,Rather_not_say,20-30K,1,4,2,4,2,3,0,control,Leave,Full-Time,No
+33,Female,BA,Con,30-40K,1,2,3,3,2,9,1,control,Leave,Part-Time,No
+30,Male,GCSEorLess,UKIP,20-30K,1,1,1,1,0,0,0,control,Leave,Part-Time,No
+38,Male,GCSEorLess,None,20-30K,1,2,1,2,2,2,1,control,No vote,Full-Time,No
+26,Female,GCSEorLess,Lab,10-20K,1,2,2,2,2,8,2,control,Leave,Not in paid work,No
+47,Female,GCSEorLess,Con,30-40K,1,3,3,3,1,4,5,control,No vote,Part-Time,No
+27,Male,Post2,Lib,20-30K,0,3,4,4,8,6,7,control,Leave,Full-Time,No
+45,Female,GCSEorLess,Con,80-90K,1,2,2,2,2,1,5,control,Leave,Not in paid work,No
+37,Female,BA,Con,50-60K,0,5,4,3,4,4,5,control,Leave,Full-Time,No
+49,Female,BA,None,20-30K,1,3,2,3,3,3,4,control,Leave,Not in paid work,No
+28,Male,A-lev,None,10-20K,1,4,2,2,3,2,5,control,Leave,Part-Time,Yes
+33,Female,Post2,Con,40-50K,1,3,2,4,0,1,5,control,No vote,Part-Time,No
+21,Male,A-lev,Lab,20-30K,0,4,4,4,10,5,10,control,No vote,Unemployed,No
+47,Female,A-lev,Con,40-50K,1,3,1,2,2,0,5,control,Leave,Unemployed,No
+34,Male,BA,Con,20-30K,1,2,2,3,1,1,2,control,Leave,Full-Time,No
+34,Female,BA,SNP,20-30K,1,2,3,2,1,1,1,control,Leave,Full-Time,No
+31,Female,PG,None,20-30K,1,4,3,4,2,4,5,control,No vote,Full-Time,Yes
+20,Male,A-lev,Con,Under10K,0,5,5,3,9,4,9,control,No vote,Part-Time,Yes
+18,Male,A-lev,None,30-40K,1,4,4,4,6,2,9,control,No vote,Unemployed,Yes
+38,Male,BA,Con,30-40K,1,2,2,2,2,2,5,control,Leave,Full-Time,No
+47,Male,Post2,Con,30-40K,1,2,2,3,3,3,5,control,Leave,Full-Time,No
+24,Male,GCSEorLess,UKIP,30-40K,1,1,1,1,0,0,0,control,Leave,Full-Time,No
+31,Female,A-lev,Con,80-90K,1,4,3,2,1,0,3,control,No vote,Not in paid work,No
+33,Male,PG,UKIP,30-40K,1,2,2,3,5,3,0,control,Leave,Full-Time,No
+29,Female,A-lev,None,10-20K,1,2,4,2,0,2,5,control,Leave,Part-Time,No
+45,Female,BA,Lab,10-20K,1,2,4,2,3,3,5,control,Leave,Full-Time,No
+53,Female,BA,None,10-20K,1,3,1,1,0,2,0,control,Leave,Full-Time,No
+25,Male,Post2,Lab,10-20K,1,1,3,2,1,0,5,control,No vote,Full-Time,No
+48,Male,GCSEorLess,UKIP,30-40K,1,1,1,1,0,2,0,control,Leave,Full-Time,No
+51,Female,GCSEorLess,UKIP,10-20K,1,3,1,1,0,0,1,control,Leave,Not in paid work,No
+23,Female,A-lev,Lab,10-20K,1,2,2,2,3,0,5,control,No vote,Part-Time,No
+41,Male,Post2,Con,80-90K,0,4,4,4,4,5,0,control,Leave,Full-Time,Yes
+25,Male,BA,Con,30-40K,1,3,3,1,0,10,0,control,Leave,Full-Time,No
+35,Female,A-lev,Con,30-40K,0,3,3,3,5,4,5,control,Leave,Part-Time,No
+53,Female,GCSEorLess,None,Under10K,1,2,2,2,1,5,5,control,No vote,Not in paid work,No
+20,Male,A-lev,Lab,Under10K,0,4,5,4,8,5,10,control,No vote,Full-Time,No
+43,Male,GCSEorLess,Lab,10-20K,1,1,1,2,0,0,1,control,Leave,Not in paid work,No
+32,Female,PG,Con,50-60K,0,3,2,3,4,5,5,control,Leave,Full-Time,No
+36,Male,BA,Con,40-50K,0,4,4,4,3,5,7,control,Leave,Full-Time,No
+43,Female,PG,UKIP,50-60K,1,2,1,2,1,1,1,control,Leave,Not in paid work,No
+23,Male,A-lev,None,Under10K,1,2,1,2,0,0,0,control,No vote,Unemployed,No
+18,Male,A-lev,Lab,20-30K,0,5,5,5,8,6,10,control,No vote,Other,Yes
+30,Male,A-lev,None,Under10K,0,4,4,4,6,5,7,control,No vote,Not in paid work,No
+41,Female,GCSEorLess,None,40-50K,1,2,2,1,0,0,0,control,Leave,Not in paid work,No
+53,Female,GCSEorLess,Lab,Under10K,1,3,4,2,0,3,0,control,Leave,Not in paid work,No
+59,Male,Post2,Con,40-50K,1,1,3,1,0,0,0,control,Leave,Not in paid work,No
+43,Female,GCSEorLess,UKIP,10-20K,1,2,2,2,1,8,1,control,Leave,Full-Time,No
+31,Male,GCSEorLess,Lab,20-30K,1,1,1,1,0,0,0,control,No vote,Not in paid work,No
+41,Male,Post2,Rather_not_say,10-20K,1,2,2,3,0,10,2,control,Leave,Full-Time,No
+42,Female,GCSEorLess,UKIP,40-50K,1,1,1,3,0,10,0,control,Leave,Full-Time,No
+38,Male,A-lev,UKIP,40-50K,1,1,1,3,1,1,5,control,Leave,Full-Time,Yes
+38,Female,Post2,SNP,40-50K,1,4,2,4,3,2,9,control,Leave,Full-Time,No
+22,Male,Post2,Lab,10-20K,0,5,5,4,10,6,10,control,No vote,Part-Time,Yes
+36,Male,Post2,None,40-50K,0,5,5,3,9,5,9,control,No vote,Full-Time,No
+20,Female,Post2,Lab,10-20K,0,5,5,5,10,8,10,control,No vote,Unemployed,Yes
+44,Female,Post2,UKIP,50-60K,1,1,1,1,0,0,0,control,Leave,Not in paid work,No
+31,Male,PG,Lab,20-30K,1,3,2,1,0,1,5,control,Leave,Full-Time,No
+42,Male,GCSEorLess,Con,40-50K,1,1,1,1,0,0,0,control,Leave,Full-Time,No
+26,Female,GCSEorLess,None,40-50K,1,4,2,1,2,2,2,control,Leave,Full-Time,No
+40,Female,GCSEorLess,None,Under10K,1,1,1,1,1,1,2,control,No vote,Unemployed,No
+31,Female,A-lev,None,20-30K,1,2,4,2,1,2,5,control,Leave,Not in paid work,No
+19,Male,A-lev,Con,70-80K,1,2,2,4,1,1,4,control,No vote,Not in paid work,Yes
+53,Male,BA,Lab,20-30K,0,4,3,4,6,5,9,control,Leave,Full-Time,No
+62,Female,GCSEorLess,Lab,40-50K,1,1,1,2,2,0,2,control,Leave,Not in paid work,No
+62,Female,PG,Con,20-30K,1,2,2,2,0,3,3,control,Leave,Not in paid work,No
+18,Female,A-lev,UKIP,40-50K,1,2,3,2,0,1,1,control,Leave,Part-Time,No
+71,Female,GCSEorLess,None,10-20K,1,1,1,2,0,8,1,control,Leave,Not in paid work,No
+58,Male,PG,Lab,40-50K,0,3,2,3,4,6,2,control,Leave,Not in paid work,No
+56,Female,GCSEorLess,Con,Under10K,1,2,1,1,0,0,0,control,No vote,Unemployed,No
+29,Female,GCSEorLess,None,10-20K,1,3,3,3,5,3,5,control,Leave,Unemployed,No
+32,Female,BA,None,30-40K,0,4,4,3,9,5,9,control,No vote,Part-Time,No
+34,Female,BA,Con,70-80K,1,2,4,4,3,2,0,control,Leave,Part-Time,No
+53,Female,GCSEorLess,Lab,20-30K,1,2,1,3,5,3,9,control,Leave,Full-Time,No
+54,Male,GCSEorLess,None,Under10K,1,2,3,3,2,1,3,control,No vote,Other,No
+34,Male,BA,Lab,20-30K,1,3,4,2,4,3,4,control,Leave,Full-Time,No
+57,Male,GCSEorLess,None,Under10K,1,3,3,2,2,2,1,control,No vote,Other,No
+18,Male,A-lev,Con,20-30K,1,2,2,2,0,0,4,control,No vote,Part-Time,Yes
+21,Male,A-lev,Rather_not_say,60-70K,0,2,2,3,4,3,5,control,No vote,Part-Time,Yes
+31,Male,A-lev,Con,60-70K,1,1,1,2,0,0,5,control,Leave,Full-Time,No
+36,Male,BA,Lab,40-50K,1,2,1,2,2,4,10,control,No vote,Part-Time,No
+32,Female,GCSEorLess,None,Under10K,1,2,2,2,2,1,2,control,No vote,Not in paid work,No
+57,Female,GCSEorLess,Con,20-30K,1,1,3,1,0,0,3,control,Leave,Not in paid work,No
+32,Female,PG,Grn,Over100K,0,4,2,2,4,5,5,control,Leave,Full-Time,No
+18,Male,A-lev,Plaid,30-40K,0,4,4,3,6,5,7,control,No vote,Not in paid work,Yes
+57,Female,BA,Con,40-50K,0,4,4,3,10,5,5,control,No vote,Full-Time,No
+18,Male,A-lev,Con,40-50K,1,1,1,2,2,0,9,control,No vote,Unemployed,Yes
+20,Female,A-lev,Lab,10-20K,1,2,2,2,1,1,1,control,Leave,Part-Time,No
+51,Female,BA,Con,10-20K,0,5,5,4,9,5,5,control,Leave,Unemployed,No
+34,Male,A-lev,Grn,Under10K,1,4,4,3,3,3,5,control,No vote,Part-Time,No
+49,Female,GCSEorLess,None,10-20K,1,1,1,1,0,0,0,control,No vote,Not in paid work,No
+21,Male,Post2,Con,Under10K,0,4,3,4,3,5,5,control,Leave,Unemployed,Yes
+63,Female,GCSEorLess,Con,30-40K,0,3,2,4,5,5,8,control,Leave,Full-Time,No
+24,Male,BA,Lab,80-90K,0,2,4,2,3,4,5,control,Leave,Full-Time,No
+29,Male,GCSEorLess,None,40-50K,1,2,2,4,3,3,4,control,Leave,Full-Time,No
+35,Female,GCSEorLess,UKIP,20-30K,1,1,1,2,1,0,0,control,Leave,Full-Time,No
+53,Female,Post2,None,Under10K,1,1,1,2,0,0,0,control,Leave,Part-Time,No
+46,Male,Post2,Con,30-40K,1,3,2,4,3,3,3,control,Leave,Full-Time,No
+45,Male,GCSEorLess,UKIP,40-50K,0,3,2,2,2,3,2,control,Leave,Part-Time,No
+53,Female,A-lev,Grn,40-50K,1,2,3,2,0,1,2,control,Leave,Part-Time,No
+35,Male,PG,Con,30-40K,1,3,3,4,7,3,5,control,Leave,Full-Time,No
+20,Male,PG,Con,40-50K,0,4,4,4,8,5,8,control,No vote,Full-Time,Yes
+58,Female,PG,Con,50-60K,1,2,2,2,0,0,0,control,Leave,Not in paid work,No
+59,Male,BA,None,30-40K,1,1,1,1,0,10,0,control,Leave,Full-Time,No
+62,Male,A-lev,Lab,10-20K,0,4,3,3,5,4,5,control,No vote,Not in paid work,No
+48,Male,GCSEorLess,None,30-40K,1,1,1,1,0,0,0,control,Leave,Full-Time,No
+28,Female,GCSEorLess,Con,70-80K,0,4,4,4,3,5,5,control,Leave,Full-Time,No
+37,Male,BA,Lab,30-40K,0,5,5,5,7,5,5,control,Leave,Full-Time,No
+22,Female,BA,None,Under10K,0,5,5,3,9,9,10,control,No vote,Other,Yes
+33,Male,BA,Con,60-70K,0,4,4,4,4,2,7,control,Leave,Part-Time,No
+40,Female,GCSEorLess,UKIP,10-20K,1,1,1,1,0,0,0,control,Leave,Part-Time,No
+32,Male,Post2,UKIP,10-20K,1,1,1,2,0,0,1,control,Leave,Unemployed,No
+27,Male,A-lev,None,30-40K,1,2,2,3,2,3,6,control,No vote,Full-Time,No
+39,Male,BA,Lab,50-60K,1,2,3,2,1,1,1,control,Leave,Full-Time,No
+31,Female,A-lev,Lab,50-60K,1,2,2,2,0,0,4,control,Leave,Full-Time,No
+65,Female,GCSEorLess,Lab,10-20K,0,4,4,3,9,5,10,control,Leave,Part-Time,No
+53,Female,GCSEorLess,Lab,10-20K,1,2,2,2,2,1,3,control,Leave,Not in paid work,No
+44,Female,BA,Lab,50-60K,1,3,2,2,2,3,0,control,Leave,Part-Time,No
+31,Male,Post2,None,30-40K,1,4,2,2,1,8,1,control,Leave,Full-Time,No
+34,Female,A-lev,None,30-40K,1,2,3,2,0,0,2,control,No vote,Not in paid work,No
+25,Male,BA,Con,50-60K,1,4,2,1,2,1,9,control,Leave,Unemployed,No
+27,Female,BA,Lab,50-60K,1,3,2,2,1,4,6,control,Leave,Full-Time,No
+50,Female,BA,None,Under10K,0,5,5,4,10,5,10,control,No vote,Part-Time,No
+18,Female,A-lev,Lab,20-30K,0,4,4,4,8,6,9,control,No vote,Other,Yes
+48,Female,GCSEorLess,Lab,10-20K,1,2,2,2,0,2,1,control,Leave,Not in paid work,No
+57,Female,A-lev,Con,40-50K,1,3,4,3,3,3,5,control,Leave,Part-Time,No
+37,Male,A-lev,Lab,30-40K,0,5,5,5,5,5,10,control,Leave,Full-Time,No
+19,Male,GCSEorLess,None,Under10K,1,2,2,2,1,0,0,control,No vote,Unemployed,No
+42,Female,A-lev,Con,50-60K,0,3,4,3,4,5,4,control,Leave,Full-Time,No
+35,Female,Post2,None,Under10K,1,4,3,2,3,3,3,control,Leave,Not in paid work,No
+41,Female,BA,Lab,20-30K,1,2,2,2,0,0,5,control,No vote,Not in paid work,No
+41,Male,A-lev,Lab,10-20K,1,1,1,1,0,0,9,control,No vote,Unemployed,No
+33,Female,BA,Lab,40-50K,0,4,3,2,3,4,5,control,Leave,Full-Time,No
+61,Female,GCSEorLess,Lab,10-20K,1,2,2,3,1,1,0,control,Leave,Full-Time,No
+65,Male,PG,Con,40-50K,1,2,2,2,2,1,5,control,Leave,Full-Time,No
+40,Male,BA,UKIP,50-60K,1,4,4,3,2,8,1,control,Leave,Full-Time,No
+50,Male,GCSEorLess,Lab,30-40K,1,1,3,2,0,0,5,control,Leave,Full-Time,No
+18,Male,A-lev,Grn,20-30K,1,5,3,4,7,5,5,control,No vote,Not in paid work,Yes
+68,Female,BA,Lab,30-40K,1,4,1,2,0,0,5,control,Leave,Not in paid work,No
+52,Male,BA,UKIP,30-40K,1,2,1,3,1,1,0,control,Leave,Part-Time,No
+39,Male,Post2,None,20-30K,1,2,1,2,1,1,5,control,Leave,Full-Time,No
+52,Male,A-lev,Con,Under10K,1,3,1,4,3,3,3,control,Leave,Unemployed,No
+57,Male,A-lev,None,70-80K,0,4,3,3,6,4,5,control,No vote,Full-Time,No
+36,Male,PG,Con,70-80K,1,4,4,3,2,2,2,control,Leave,Full-Time,No
+46,Female,BA,Lab,90-100K,1,4,2,2,2,3,5,control,Leave,Full-Time,No
+31,Male,GCSEorLess,Plaid,10-20K,0,4,3,2,2,3,5,control,No vote,Other,No
+46,Female,GCSEorLess,None,30-40K,1,2,2,2,3,1,5,control,Leave,Not in paid work,No
+19,Female,A-lev,Lab,10-20K,1,3,1,3,3,2,5,control,No vote,Full-Time,No
+36,Female,GCSEorLess,None,40-50K,1,2,3,2,0,0,2,control,Leave,Part-Time,No
+28,Female,A-lev,UKIP,70-80K,1,3,2,3,0,0,10,control,Leave,Full-Time,No
+45,Male,A-lev,Lab,30-40K,1,3,3,2,3,7,4,control,Leave,Full-Time,No
+31,Male,GCSEorLess,Con,10-20K,1,3,4,2,3,3,3,control,Leave,Full-Time,No
+46,Male,GCSEorLess,Con,20-30K,1,1,2,2,0,0,0,control,Leave,Full-Time,No
+50,Female,GCSEorLess,Lab,30-40K,0,4,4,3,8,5,8,control,Leave,Part-Time,No
+19,Female,A-lev,Lab,60-70K,0,5,5,5,10,7,9,control,No vote,Full-Time,Yes
+31,Male,PG,Lab,Over100K,1,1,2,3,1,10,6,control,Leave,Full-Time,No
+51,Female,Post2,None,Under10K,0,5,3,4,10,8,10,control,Leave,Not in paid work,No
+66,Female,Post2,Con,20-30K,1,2,2,2,3,2,5,control,Leave,Part-Time,No
+29,Male,BA,None,10-20K,1,2,2,2,2,2,5,control,No vote,Part-Time,No
+60,Female,GCSEorLess,SNP,20-30K,1,4,4,2,1,2,0,control,Leave,Part-Time,No
+20,Female,BA,Lab,10-20K,0,5,5,4,7,5,8,control,No vote,Part-Time,Yes
+49,Male,A-lev,Grn,10-20K,1,2,2,2,5,0,0,control,Leave,Full-Time,No
+22,Female,A-lev,None,10-20K,1,3,3,3,4,6,2,control,No vote,Full-Time,No
+57,Female,A-lev,Lab,10-20K,1,2,1,1,0,0,4,control,No vote,Not in paid work,No
+29,Female,GCSEorLess,None,40-50K,1,2,3,3,2,0,6,control,No vote,Full-Time,No
+53,Female,BA,Lib,20-30K,1,2,2,3,2,3,5,control,Leave,Part-Time,No
+63,Male,GCSEorLess,Con,10-20K,1,1,1,1,0,0,3,control,Leave,Part-Time,No
+21,Male,BA,Lab,30-40K,1,4,4,4,3,9,2,control,Leave,Full-Time,Yes
+37,Female,BA,Grn,40-50K,0,4,2,4,9,5,9,control,No vote,Full-Time,No
+42,Female,A-lev,None,40-50K,1,2,2,2,2,1,2,control,Leave,Full-Time,No
+47,Male,PG,UKIP,30-40K,1,2,1,2,0,0,0,control,Leave,Full-Time,No
+51,Female,A-lev,None,10-20K,1,2,2,2,4,2,2,control,Leave,Full-Time,No
+42,Male,GCSEorLess,Lab,20-30K,1,2,3,2,1,1,0,control,Leave,Full-Time,No
+33,Female,A-lev,Con,50-60K,1,2,2,2,1,2,5,control,Leave,Part-Time,No
+50,Female,BA,Con,Over100K,1,2,2,2,0,0,0,control,Leave,Full-Time,No
+72,Male,Post2,None,40-50K,0,4,2,2,5,5,10,control,No vote,Not in paid work,No
+72,Female,A-lev,Lab,Under10K,1,2,2,1,3,8,0,control,Leave,Not in paid work,No
+26,Female,PG,Lib,60-70K,0,5,5,4,6,3,8,control,No vote,Part-Time,Yes
+39,Female,GCSEorLess,Lib,Under10K,1,4,4,4,4,3,8,control,No vote,Part-Time,No
+51,Female,BA,None,30-40K,1,4,4,4,4,4,5,control,No vote,Full-Time,No
+40,Female,A-lev,None,40-50K,1,4,3,3,4,4,9,control,Leave,Full-Time,No
+39,Female,Post2,None,40-50K,0,4,2,3,6,5,2,control,Leave,Part-Time,Yes
+48,Male,A-lev,Con,50-60K,1,3,2,2,1,1,1,control,Leave,Full-Time,No
+27,Female,A-lev,None,50-60K,1,2,2,2,1,2,4,control,No vote,Full-Time,No
+34,Female,GCSEorLess,Con,40-50K,1,2,3,3,5,1,9,control,No vote,Not in paid work,No
+34,Female,BA,None,20-30K,1,1,2,1,0,0,0,control,No vote,Part-Time,No
+27,Male,A-lev,Rather_not_say,30-40K,1,4,1,3,3,4,5,control,No vote,Full-Time,No
+52,Male,PG,Lib,50-60K,1,2,2,4,2,2,2,control,Leave,Full-Time,No
+30,Male,BA,UKIP,10-20K,1,1,1,1,0,0,2,control,Leave,Full-Time,No
+47,Female,BA,Lab,Under10K,1,3,2,3,4,3,7,control,No vote,Part-Time,No
+52,Female,A-lev,UKIP,20-30K,1,2,2,2,1,0,1,control,Leave,Part-Time,No
+36,Female,BA,Lab,Under10K,1,2,2,3,0,0,3,control,Leave,Not in paid work,No
+34,Female,BA,Lab,Under10K,1,4,4,3,6,3,3,control,Leave,Full-Time,No
+20,Male,A-lev,Con,Under10K,0,4,5,4,9,5,10,control,No vote,Not in paid work,Yes
+33,Female,BA,Con,60-70K,1,2,2,2,1,1,3,control,Leave,Full-Time,No
+56,Male,GCSEorLess,None,20-30K,1,1,1,1,0,0,0,control,No vote,Full-Time,No
+21,Male,A-lev,Con,70-80K,1,3,1,2,2,0,5,control,Leave,Part-Time,No
+20,Male,A-lev,Lab,Under10K,0,4,4,4,10,7,10,control,No vote,Not in paid work,Yes
+41,Male,PG,None,60-70K,1,2,2,2,2,2,4,control,No vote,Full-Time,No
+30,Male,PG,None,Over100K,1,2,2,4,3,3,5,control,No vote,Full-Time,No
+30,Male,A-lev,None,40-50K,1,3,1,3,1,4,2,control,Leave,Full-Time,No
+44,Male,BA,UKIP,20-30K,1,2,1,1,0,0,0,control,Leave,Full-Time,No
+74,Female,A-lev,Con,10-20K,1,1,2,2,2,2,5,control,Leave,Not in paid work,No
+37,Female,BA,None,50-60K,0,3,4,4,4,4,6,control,Leave,Part-Time,No
+34,Female,PG,Lab,20-30K,1,2,2,3,1,0,2,control,Leave,Part-Time,Yes
+39,Female,BA,Con,30-40K,1,2,2,4,2,2,2,control,Leave,Part-Time,No
+52,Male,GCSEorLess,UKIP,60-70K,1,2,2,2,0,0,6,control,Leave,Full-Time,No
+31,Female,BA,None,40-50K,0,3,4,3,5,4,7,control,Leave,Full-Time,No
+33,Female,GCSEorLess,Rather_not_say,50-60K,1,3,3,3,4,4,5,control,No vote,Other,No
+33,Female,PG,SNP,20-30K,0,5,5,4,10,5,10,control,Leave,Full-Time,Yes
+19,Male,A-lev,Con,Under10K,0,4,5,5,9,5,10,control,No vote,Unemployed,Yes
+63,Male,PG,Con,50-60K,1,2,2,3,2,4,5,control,Leave,Part-Time,No
+37,Female,A-lev,Grn,20-30K,1,2,1,1,1,2,1,control,Leave,Full-Time,No
+29,Female,A-lev,Grn,Under10K,0,4,4,2,8,3,7,control,Leave,Part-Time,No
+47,Female,A-lev,None,10-20K,1,1,1,1,0,0,0,control,Leave,Not in paid work,No
+37,Male,Post2,Lab,30-40K,1,2,2,2,4,7,5,control,Leave,Full-Time,No
+39,Female,PG,Lab,70-80K,0,4,4,4,8,5,5,control,Leave,Full-Time,No
+24,Female,A-lev,Lab,60-70K,1,5,5,1,1,2,4,control,Leave,Full-Time,No
+65,Male,BA,Con,50-60K,0,4,3,4,8,7,2,control,Leave,Not in paid work,No
+41,Female,A-lev,None,40-50K,1,2,4,4,2,3,2,control,Leave,Part-Time,No
+33,Female,A-lev,Lab,10-20K,1,4,3,2,4,4,5,control,Leave,Full-Time,No
+33,Male,PG,Lab,10-20K,1,2,2,4,1,1,3,control,Leave,Full-Time,No
+25,Female,BA,Lab,80-90K,0,4,2,3,8,5,5,control,No vote,Full-Time,No
+28,Female,A-lev,None,20-30K,1,4,4,3,0,0,0,control,Leave,Not in paid work,No
+48,Female,PG,None,20-30K,1,4,2,3,3,3,5,control,Leave,Full-Time,No
+55,Male,BA,Con,50-60K,0,4,4,3,7,5,7,control,Leave,Full-Time,No
+34,Female,BA,Con,20-30K,1,4,4,4,2,3,0,control,Leave,Full-Time,No
+23,Female,GCSEorLess,UKIP,30-40K,1,1,1,1,0,0,1,control,Leave,Full-Time,No
+48,Female,GCSEorLess,None,20-30K,1,2,5,4,0,5,5,control,Leave,Unemployed,No
+64,Female,GCSEorLess,Con,20-30K,1,2,2,3,4,4,9,control,Leave,Part-Time,No
+65,Female,Post2,Con,10-20K,1,2,1,3,2,2,6,control,Leave,Not in paid work,No
+31,Male,PG,Con,30-40K,1,3,2,3,3,3,0,control,Leave,Full-Time,No
+20,Female,BA,Grn,30-40K,0,5,4,2,7,4,7,control,Leave,Other,Yes
+51,Female,GCSEorLess,UKIP,10-20K,1,4,3,3,0,0,0,control,Leave,Not in paid work,No
+62,Male,GCSEorLess,Con,20-30K,1,2,2,2,2,3,2,control,Leave,Full-Time,No
+28,Female,BA,None,30-40K,1,4,3,3,1,3,2,control,Leave,Not in paid work,No
+36,Female,GCSEorLess,Lab,30-40K,1,4,4,4,1,3,0,control,No vote,Full-Time,No
+28,Female,Post2,UKIP,10-20K,1,1,2,1,0,0,2,control,No vote,Part-Time,No
+54,Male,GCSEorLess,UKIP,40-50K,1,2,1,1,0,0,0,control,Leave,Full-Time,No
+49,Male,Post2,Con,10-20K,1,1,1,1,0,10,0,control,Leave,Other,No
+52,Male,BA,Lab,70-80K,1,2,2,2,1,1,1,control,Leave,Full-Time,Yes
+19,Female,Post2,Lab,60-70K,0,5,4,4,10,7,10,control,No vote,Part-Time,Yes
+19,Female,Post2,None,Under10K,0,5,5,5,9,6,9,control,No vote,Not in paid work,Yes
+37,Female,Post2,Lab,Under10K,1,2,2,3,0,0,5,control,Leave,Not in paid work,No
+28,Male,BA,UKIP,20-30K,1,3,3,2,0,0,0,control,No vote,Full-Time,No
+60,Male,A-lev,Lab,40-50K,1,4,1,2,0,2,0,control,Leave,Not in paid work,No
+31,Female,A-lev,None,50-60K,1,2,1,1,0,0,0,control,Leave,Part-Time,No
+29,Female,BA,Con,Under10K,1,3,2,2,1,0,2,control,No vote,Full-Time,No
+59,Female,GCSEorLess,Lab,20-30K,1,1,1,2,0,0,0,control,Leave,Not in paid work,No
+30,Male,GCSEorLess,UKIP,30-40K,1,2,2,1,1,1,2,control,Leave,Part-Time,No
+57,Female,GCSEorLess,Con,10-20K,1,2,2,2,2,0,1,control,Leave,Not in paid work,No
+62,Female,GCSEorLess,Lab,20-30K,1,3,2,3,2,2,5,control,Leave,Not in paid work,No
+30,Female,BA,Lab,50-60K,1,4,4,4,5,4,5,control,Leave,Full-Time,No
+60,Male,BA,Con,30-40K,1,3,2,2,2,3,0,control,Leave,Full-Time,No
+43,Female,BA,Lab,70-80K,1,2,1,2,1,1,1,control,Leave,Part-Time,No
+27,Female,BA,None,50-60K,1,2,3,2,1,1,5,control,Leave,Not in paid work,No
+55,Male,GCSEorLess,Lab,30-40K,1,1,1,1,0,0,10,control,Leave,Not in paid work,No
+47,Female,A-lev,Con,40-50K,1,2,1,2,0,2,3,control,Leave,Part-Time,No
+27,Female,PG,None,50-60K,1,4,4,2,0,0,0,control,Leave,Full-Time,No
+48,Female,Post2,Con,70-80K,1,2,1,3,0,0,0,control,Leave,Full-Time,No
+24,Female,A-lev,Con,40-50K,1,2,2,2,3,2,3,control,No vote,Full-Time,No
+35,Male,A-lev,Con,30-40K,1,2,3,3,1,2,6,control,Leave,Full-Time,No
+28,Male,BA,Con,20-30K,0,4,3,3,6,6,4,control,No vote,Full-Time,No
+32,Male,Post2,Lab,30-40K,0,4,4,4,4,5,5,control,Leave,Full-Time,No
+21,Female,BA,Rather_not_say,60-70K,0,4,4,3,3,4,5,control,Leave,Part-Time,No
+53,Female,BA,None,20-30K,1,1,1,1,0,0,0,control,Leave,Part-Time,No
+47,Female,GCSEorLess,Lab,10-20K,1,3,3,2,4,4,8,control,Leave,Not in paid work,No
+32,Female,Post2,Con,30-40K,1,2,1,2,0,1,3,control,Leave,Not in paid work,No
+58,Female,BA,None,20-30K,1,4,1,2,1,2,2,control,Leave,Not in paid work,No
+35,Male,PG,None,30-40K,1,2,2,4,5,4,6,control,Leave,Full-Time,No
+21,Male,BA,Lib,30-40K,0,4,4,4,8,5,9,control,No vote,Full-Time,Yes
+38,Female,BA,None,Under10K,1,4,2,3,2,1,5,control,Leave,Full-Time,No
+29,Female,Post2,Con,10-20K,1,4,3,4,2,9,2,control,Leave,Full-Time,No
+24,Female,GCSEorLess,Rather_not_say,10-20K,0,5,4,3,10,5,5,control,No vote,Other,Yes
+20,Male,A-lev,Con,Over100K,0,5,5,5,8,7,7,control,No vote,Not in paid work,Yes
+33,Female,BA,Lab,30-40K,1,3,3,3,2,2,5,control,Leave,Full-Time,No
+47,Female,GCSEorLess,Lab,10-20K,1,3,4,3,3,3,2,control,Leave,Not in paid work,No
+54,Male,A-lev,SNP,Under10K,0,4,5,5,10,8,5,control,Leave,Unemployed,No
+30,Female,A-lev,Lab,10-20K,1,3,4,2,2,3,5,control,Leave,Full-Time,No
+54,Female,GCSEorLess,Con,10-20K,1,2,2,3,2,2,0,control,Leave,Full-Time,No
+20,Male,A-lev,Lab,Over100K,0,4,4,4,7,4,8,control,No vote,Other,Yes
+20,Male,A-lev,Con,Over100K,0,5,5,4,7,5,8,control,No vote,Part-Time,No
+50,Male,GCSEorLess,None,Under10K,1,2,1,2,1,1,1,control,Leave,Unemployed,No
+28,Female,A-lev,Con,40-50K,1,4,3,3,2,2,5,control,Leave,Full-Time,No
+26,Female,Post2,Con,10-20K,1,2,2,1,3,1,5,control,No vote,Not in paid work,No
+26,Female,A-lev,Lab,20-30K,1,2,2,3,0,0,3,control,Leave,Part-Time,No
+39,Female,BA,SNP,30-40K,0,5,4,2,8,5,9,control,Leave,Not in paid work,No
+42,Female,BA,Con,40-50K,1,2,2,2,1,9,3,control,Leave,Full-Time,No
+31,Male,GCSEorLess,None,10-20K,1,3,3,3,5,8,3,control,No vote,Full-Time,No
+26,Male,A-lev,None,20-30K,1,4,4,4,0,8,0,control,No vote,Full-Time,No
+29,Female,GCSEorLess,Lab,10-20K,1,5,4,1,1,3,0,control,No vote,Not in paid work,No
+22,Male,Post2,None,10-20K,0,4,2,3,10,6,10,control,No vote,Not in paid work,Yes
+38,Female,GCSEorLess,Lab,10-20K,0,4,4,4,8,5,5,control,No vote,Not in paid work,No
+30,Female,BA,None,30-40K,0,4,4,3,5,5,1,control,No vote,Full-Time,No
+54,Male,BA,Con,50-60K,1,2,1,2,0,0,0,control,Leave,Part-Time,No
+53,Male,GCSEorLess,UKIP,30-40K,1,1,1,2,0,0,2,control,Leave,Full-Time,No
+48,Female,GCSEorLess,None,10-20K,1,2,3,2,1,1,2,control,No vote,Full-Time,No
+29,Female,GCSEorLess,None,30-40K,1,4,2,2,4,2,4,control,Leave,Part-Time,No
+29,Female,A-lev,Con,40-50K,1,5,5,3,0,2,0,control,Leave,Full-Time,No
+37,Female,PG,Con,30-40K,1,3,3,3,3,3,2,control,Leave,Not in paid work,No
+26,Female,PG,None,20-30K,0,5,4,3,7,4,9,control,No vote,Full-Time,No
+51,Male,GCSEorLess,Lab,20-30K,1,3,4,3,3,3,5,control,Leave,Full-Time,No
+40,Female,BA,Con,70-80K,0,4,4,4,6,4,6,control,Leave,Full-Time,No
+29,Female,A-lev,None,40-50K,0,5,4,3,2,3,2,control,No vote,Full-Time,No
+33,Female,A-lev,Lab,20-30K,1,3,4,3,4,3,5,control,Leave,Full-Time,No
+33,Male,Post2,None,30-40K,1,2,1,4,2,1,0,control,Leave,Part-Time,No
+20,Male,A-lev,Lab,30-40K,1,1,2,3,4,8,2,control,No vote,Unemployed,Yes
+50,Male,GCSEorLess,Lib,10-20K,0,3,3,4,8,7,9,control,No vote,Not in paid work,No
+27,Female,GCSEorLess,None,10-20K,1,3,3,2,4,4,6,control,No vote,Full-Time,No
+19,Male,A-lev,SNP,40-50K,0,4,5,5,10,5,10,control,No vote,Other,Yes
+61,Female,A-lev,None,30-40K,1,2,1,2,0,1,5,control,No vote,Full-Time,No
+20,Female,BA,Con,10-20K,0,4,4,4,1,1,9,control,No vote,Part-Time,Yes
+24,Female,Post2,Lab,70-80K,0,5,5,4,8,5,10,control,No vote,Full-Time,Yes
+21,Male,A-lev,Lab,20-30K,0,3,4,3,4,4,5,control,Leave,Full-Time,Yes
+34,Male,GCSEorLess,None,80-90K,0,5,5,3,10,9,2,control,Leave,Full-Time,No
+30,Male,GCSEorLess,None,10-20K,0,3,2,3,6,4,8,control,No vote,Unemployed,No
+27,Male,Post2,Con,10-20K,1,2,3,3,2,2,5,control,Leave,Full-Time,No
+51,Male,A-lev,Lab,30-40K,1,3,1,2,1,10,8,control,Leave,Full-Time,No
+20,Female,A-lev,Lab,30-40K,0,4,4,4,7,5,7,control,No vote,Part-Time,Yes
+21,Female,A-lev,None,Under10K,1,4,2,4,4,4,5,control,No vote,Part-Time,Yes
+20,Male,A-lev,Rather_not_say,60-70K,0,4,3,2,8,3,10,control,No vote,Other,Yes
+20,Female,A-lev,Con,Under10K,1,2,2,2,3,7,4,control,No vote,Part-Time,Yes
+66,Male,BA,Con,70-80K,1,3,2,3,3,3,3,control,Leave,Not in paid work,No
+36,Female,A-lev,None,20-30K,0,4,4,4,3,5,7,control,Leave,Full-Time,No
+34,Female,GCSEorLess,None,20-30K,1,3,1,3,3,3,1,control,No vote,Not in paid work,No
+23,Male,A-lev,None,20-30K,0,4,3,4,8,5,9,control,No vote,Not in paid work,No
+51,Male,PG,Lab,60-70K,1,3,4,3,4,2,9,control,Leave,Full-Time,No
+65,Male,BA,None,10-20K,1,2,2,4,5,3,3,control,Leave,Not in paid work,No
+30,Male,GCSEorLess,UKIP,Under10K,1,1,1,3,0,0,2,control,Leave,Full-Time,No
+33,Female,Post2,None,20-30K,0,4,5,4,10,6,10,control,No vote,Full-Time,No
+40,Female,BA,Rather_not_say,10-20K,1,3,2,2,3,4,5,control,Leave,Part-Time,No
+51,Male,GCSEorLess,None,20-30K,1,2,2,2,3,2,2,control,Leave,Full-Time,No
+41,Male,A-lev,Con,80-90K,1,3,4,4,3,2,5,control,Leave,Full-Time,No
+57,Male,A-lev,Grn,20-30K,0,5,4,3,10,5,6,control,No vote,Full-Time,No
+26,Female,Post2,Lab,40-50K,0,4,5,2,9,5,7,control,No vote,Part-Time,Yes
+40,Male,GCSEorLess,Con,40-50K,1,2,1,4,1,0,1,control,Leave,Full-Time,No
+38,Male,A-lev,Con,50-60K,1,2,1,4,1,3,0,control,Leave,Full-Time,No
+39,Male,A-lev,None,30-40K,1,3,3,3,3,3,1,control,No vote,Full-Time,No
+33,Male,GCSEorLess,None,30-40K,0,4,4,4,8,4,9,control,No vote,Full-Time,No
+19,Female,A-lev,Lab,10-20K,0,4,4,4,7,5,10,control,No vote,Part-Time,Yes
+43,Female,GCSEorLess,Lab,20-30K,1,2,4,2,1,1,9,control,No vote,Full-Time,No
+20,Male,BA,Lib,30-40K,0,5,5,4,8,4,10,control,No vote,Part-Time,Yes
+33,Male,GCSEorLess,UKIP,10-20K,1,2,1,3,0,0,0,control,No vote,Not in paid work,No
+55,Male,A-lev,None,30-40K,1,3,2,3,4,5,8,control,Leave,Full-Time,No
+55,Male,GCSEorLess,Lab,Under10K,1,1,2,2,0,0,0,control,Leave,Unemployed,No
+43,Male,A-lev,Lab,30-40K,0,4,4,4,9,5,5,control,Leave,Full-Time,No
+40,Female,Post2,None,10-20K,1,2,2,3,2,1,3,control,No vote,Full-Time,No
+54,Male,BA,Con,20-30K,1,2,1,2,0,0,5,control,No vote,Unemployed,No
+20,Male,A-lev,Lib,20-30K,0,4,5,3,10,4,10,control,No vote,Part-Time,Yes
+38,Male,BA,None,60-70K,0,4,4,3,5,4,5,control,Leave,Full-Time,Yes
+23,Female,PG,None,20-30K,0,5,5,5,10,8,10,control,No vote,Full-Time,No
+44,Male,BA,Grn,40-50K,0,4,4,2,4,5,7,control,Leave,Full-Time,No
+29,Female,Post2,Con,40-50K,1,5,3,4,8,4,5,control,No vote,Full-Time,No
+39,Male,A-lev,UKIP,20-30K,1,2,2,2,2,2,0,control,Leave,Not in paid work,No
+18,Female,A-lev,Lab,90-100K,0,5,4,4,10,5,10,control,No vote,Part-Time,Yes
+45,Male,A-lev,Lab,Under10K,1,1,1,1,0,0,10,control,Leave,Full-Time,No
+40,Male,BA,None,60-70K,1,1,1,1,0,1,0,control,Leave,Full-Time,No
+30,Female,GCSEorLess,Con,30-40K,1,2,2,3,2,3,4,control,No vote,Unemployed,No
+20,Female,A-lev,Lab,Under10K,0,3,2,4,3,4,5,control,No vote,Other,Yes
+40,Male,A-lev,None,10-20K,1,2,2,2,2,3,4,control,Leave,Full-Time,No
+30,Female,BA,Lab,20-30K,1,3,4,2,2,2,5,control,No vote,Full-Time,No
+19,Female,BA,Lab,20-30K,0,4,4,4,6,4,9,control,No vote,Unemployed,Yes
+25,Male,BA,Lab,30-40K,0,5,4,5,9,3,9,control,No vote,Full-Time,No
+33,Male,BA,None,60-70K,0,4,4,3,7,5,9,control,Leave,Other,No
+34,Male,BA,Lab,60-70K,1,2,1,1,0,0,1,control,Leave,Full-Time,No
+29,Male,GCSEorLess,Lab,40-50K,0,3,2,4,10,5,10,control,Leave,Full-Time,Yes
+46,Male,GCSEorLess,Lab,10-20K,1,1,1,2,0,1,1,control,Leave,Not in paid work,No
+46,Male,GCSEorLess,Con,20-30K,1,4,4,3,5,6,4,control,Leave,Full-Time,No
+49,Male,GCSEorLess,Lab,70-80K,1,2,2,2,1,1,1,control,Leave,Full-Time,No
+19,Male,A-lev,Con,10-20K,0,4,2,4,5,5,6,control,No vote,Unemployed,Yes
+34,Male,BA,Con,60-70K,1,3,4,2,3,3,5,control,Leave,Full-Time,No
+49,Male,Post2,Con,Under10K,1,1,1,3,0,0,0,control,Leave,Not in paid work,No
+36,Male,BA,Lib,30-40K,1,4,3,4,4,0,5,control,No vote,Full-Time,Yes
+44,Male,A-lev,Lib,Under10K,1,5,5,5,5,3,10,control,Leave,Full-Time,No
+41,Male,Post2,Con,Over100K,1,2,3,4,7,3,8,control,No vote,Full-Time,No
+56,Female,BA,Con,40-50K,1,2,2,2,1,1,5,control,No vote,Full-Time,No
+20,Female,Post2,None,20-30K,1,4,3,3,0,0,5,control,No vote,Part-Time,No
+28,Female,GCSEorLess,Lab,Under10K,1,1,1,2,0,9,1,control,No vote,Unemployed,No
+53,Male,A-lev,UKIP,60-70K,1,1,1,1,10,0,0,control,Leave,Full-Time,No
+18,Male,A-lev,Lab,Under10K,0,5,5,4,9,5,5,control,No vote,Unemployed,Yes
+30,Male,BA,Plaid,30-40K,1,2,2,3,7,2,9,control,Leave,Full-Time,No
+54,Male,BA,None,10-20K,0,4,4,3,9,5,9,control,No vote,Full-Time,No
+47,Male,GCSEorLess,Lab,20-30K,1,1,1,1,0,1,9,control,Leave,Full-Time,No
+22,Male,Post2,UKIP,20-30K,1,2,1,2,0,0,2,control,Leave,Part-Time,No
+20,Male,A-lev,Lib,20-30K,0,5,5,4,9,6,5,control,No vote,Unemployed,Yes
+22,Male,Post2,Con,Under10K,0,4,4,5,7,2,5,control,Leave,Part-Time,Yes
+34,Male,GCSEorLess,None,40-50K,1,2,2,2,2,4,3,control,No vote,Full-Time,No
+29,Male,BA,Lib,Under10K,0,4,2,2,6,4,7,control,No vote,Unemployed,No
+28,Male,BA,None,40-50K,1,4,3,3,3,3,2,control,Leave,Full-Time,No
+43,Male,A-lev,UKIP,20-30K,0,4,1,3,7,3,5,control,Leave,Full-Time,No
+47,Male,GCSEorLess,Con,30-40K,0,5,4,4,4,2,5,control,Leave,Full-Time,No
+50,Male,A-lev,Con,30-40K,0,4,4,3,7,4,6,control,Leave,Part-Time,No
+52,Male,GCSEorLess,UKIP,20-30K,1,1,1,1,0,0,0,control,Leave,Not in paid work,No
+50,Male,GCSEorLess,Con,50-60K,1,1,1,3,0,0,0,control,Leave,Full-Time,No
+58,Male,GCSEorLess,Con,10-20K,1,3,2,2,0,2,0,control,Leave,Not in paid work,No
+65,Male,A-lev,UKIP,20-30K,1,2,2,2,1,0,2,control,Leave,Not in paid work,No
+18,Male,A-lev,Lab,70-80K,0,5,5,5,10,8,10,control,No vote,Other,Yes
+30,Male,PG,Con,40-50K,1,4,2,3,2,1,0,control,Leave,Full-Time,No
+19,Male,A-lev,Lib,40-50K,0,4,3,5,9,5,8,control,No vote,Other,Yes
+19,Male,A-lev,Lab,Under10K,0,4,3,3,6,4,9,control,No vote,Unemployed,Yes
+47,Male,A-lev,UKIP,40-50K,1,2,3,2,0,1,7,control,Leave,Full-Time,No
+31,Male,BA,Con,30-40K,0,5,5,4,10,1,10,control,Leave,Full-Time,No
+32,Male,GCSEorLess,Con,50-60K,1,4,4,2,3,3,10,control,No vote,Full-Time,No
+63,Male,Post2,Con,20-30K,1,2,2,3,1,1,2,control,Leave,Full-Time,No
+34,Male,GCSEorLess,None,Under10K,1,2,4,3,2,2,2,control,No vote,Other,No
+22,Male,BA,Lab,30-40K,0,3,4,3,4,5,9,control,No vote,Part-Time,No
+30,Male,A-lev,None,40-50K,1,2,2,3,0,2,4,control,No vote,Full-Time,No
+19,Male,A-lev,Lab,Under10K,1,3,2,3,3,4,1,control,No vote,Other,Yes
+20,Male,A-lev,Con,Over100K,0,5,4,3,8,5,10,control,No vote,Other,Yes
+28,Male,GCSEorLess,Lab,10-20K,1,1,2,4,1,9,2,control,No vote,Part-Time,No
+18,Male,A-lev,Lab,20-30K,1,1,1,2,3,6,6,control,No vote,Part-Time,Yes
+60,Male,PG,Con,20-30K,0,4,4,4,9,5,8,control,No vote,Part-Time,No
+19,Male,A-lev,Lab,40-50K,0,5,3,4,7,5,9,control,No vote,Unemployed,Yes
+20,Male,A-lev,Lib,Over100K,0,4,4,4,8,4,10,control,No vote,Not in paid work,Yes
+18,Male,A-lev,None,40-50K,0,3,4,1,5,5,7,control,No vote,Part-Time,Yes
+40,Male,BA,None,40-50K,1,4,2,4,2,1,0,control,No vote,Full-Time,No
+43,Male,PG,SNP,20-30K,0,3,2,4,4,4,3,control,No vote,Full-Time,No
+50,Male,Post2,Con,20-30K,1,3,3,2,7,3,3,control,No vote,Unemployed,No
+23,Female,PG,Lab,70-80K,0,5,5,5,10,5,10,text,Remain,Full-Time,No
+25,Male,PG,Lib,30-40K,0,5,5,5,10,10,10,text,Remain,Full-Time,No
+40,Male,GCSEorLess,Lab,Under10K,0,5,5,5,10,5,10,text,Remain,Unemployed,No
+25,Female,PG,Grn,20-30K,0,5,5,5,9,5,9,text,Remain,Unemployed,No
+24,Female,BA,Lab,40-50K,0,4,4,3,8,4,7,text,Remain,Part-Time,No
+33,Female,PG,SNP,20-30K,0,5,5,1,9,2,8,text,Remain,Full-Time,No
+36,Male,A-lev,Lab,60-70K,0,5,5,5,10,7,10,text,Remain,Full-Time,No
+43,Female,BA,Con,90-100K,0,5,4,4,4,5,10,text,Remain,Other,No
+51,Male,Post2,Grn,70-80K,0,4,3,4,9,5,10,text,Remain,Full-Time,No
+41,Male,BA,Grn,80-90K,0,4,4,4,10,6,10,text,Remain,Full-Time,No
+30,Female,Post2,Grn,80-90K,0,5,5,4,10,10,10,text,Remain,Full-Time,No
+27,Male,BA,None,30-40K,0,5,5,5,10,5,10,text,Remain,Full-Time,No
+32,Female,Post2,SNP,20-30K,0,4,5,4,5,5,7,text,Remain,Not in paid work,No
+33,Male,BA,Lab,80-90K,0,5,5,5,9,5,8,text,Remain,Full-Time,No
+52,Female,PG,Con,10-20K,0,5,4,5,7,5,9,text,Remain,Part-Time,No
+30,Male,BA,Lab,20-30K,0,5,5,4,10,5,10,text,Remain,Full-Time,No
+21,Male,A-lev,Con,60-70K,0,5,5,5,9,5,10,text,Remain,Part-Time,Yes
+56,Male,BA,Lib,20-30K,0,5,4,4,10,5,10,text,Remain,Part-Time,Yes
+38,Male,GCSEorLess,Lib,20-30K,0,5,5,5,10,5,10,text,Remain,Full-Time,No
+56,Male,Post2,Lib,40-50K,0,5,4,4,10,6,10,text,Remain,Other,No
+35,Female,BA,Lab,50-60K,0,4,3,3,9,5,10,text,Remain,Full-Time,Yes
+29,Male,A-lev,SNP,50-60K,0,5,3,4,10,8,10,text,Remain,Full-Time,No
+32,Male,BA,Lib,20-30K,0,3,2,3,7,5,10,text,Remain,Full-Time,No
+27,Female,A-lev,Lab,60-70K,0,4,4,4,8,5,10,text,Remain,Full-Time,No
+21,Female,BA,Lab,30-40K,0,4,4,4,8,4,9,text,Remain,Part-Time,No
+30,Female,Post2,Rather_not_say,60-70K,1,3,3,4,1,3,1,text,Remain,Part-Time,No
+36,Female,PG,Grn,30-40K,0,5,5,3,10,5,10,text,Remain,Part-Time,No
+25,Female,PG,Lab,20-30K,0,5,5,4,9,5,10,text,Remain,Not in paid work,No
+50,Male,BA,SNP,90-100K,0,5,4,5,10,6,10,text,Remain,Full-Time,No
+31,Female,PG,SNP,60-70K,0,5,5,4,10,7,10,text,Remain,Full-Time,No
+46,Male,PG,None,90-100K,1,2,2,4,3,4,9,text,Remain,Full-Time,No
+29,Male,BA,Lib,50-60K,0,4,4,4,6,5,7,text,Remain,Full-Time,No
+23,Male,BA,None,90-100K,0,5,5,4,10,5,10,text,Remain,Part-Time,No
+36,Male,A-lev,None,30-40K,0,5,5,4,10,6,10,text,Remain,Full-Time,No
+41,Male,PG,Lab,30-40K,0,4,3,4,9,5,10,text,Remain,Full-Time,No
+39,Female,PG,Grn,30-40K,0,5,5,4,10,9,10,text,Remain,Not in paid work,No
+75,Male,Post2,None,30-40K,0,5,4,4,10,5,10,text,Remain,Not in paid work,No
+23,Male,BA,Lab,10-20K,0,3,3,3,5,4,6,text,Remain,Full-Time,No
+34,Male,A-lev,SNP,60-70K,0,5,5,5,10,6,10,text,Remain,Full-Time,No
+23,Male,PG,Lib,40-50K,0,5,5,5,9,6,9,text,Remain,Unemployed,No
+25,Male,BA,Con,30-40K,0,4,4,2,6,5,9,text,Remain,Full-Time,No
+21,Male,BA,Lab,40-50K,0,4,2,4,6,5,10,text,Remain,Part-Time,No
+26,Male,GCSEorLess,Plaid,70-80K,0,5,5,5,10,5,10,text,Remain,Full-Time,No
+21,Male,A-lev,Grn,10-20K,0,4,4,3,4,4,7,text,Remain,Unemployed,No
+50,Male,A-lev,Lab,20-30K,0,4,4,3,10,5,10,text,Remain,Unemployed,No
+33,Female,BA,Con,50-60K,1,2,3,1,3,2,5,text,Remain,Not in paid work,No
+31,Male,A-lev,Lab,60-70K,1,4,5,4,5,3,5,text,Remain,Full-Time,No
+39,Female,A-lev,Lab,30-40K,0,5,5,4,9,4,5,text,Remain,Part-Time,No
+33,Female,A-lev,None,Under10K,1,4,4,2,3,4,8,text,Remain,Unemployed,No
+47,Male,BA,Lab,30-40K,0,5,5,4,10,5,10,text,Remain,Full-Time,Yes
+40,Female,A-lev,Con,80-90K,1,4,4,2,2,1,1,text,Remain,Part-Time,No
+25,Female,BA,Grn,30-40K,0,4,4,4,5,4,5,text,Remain,Full-Time,Yes
+46,Male,BA,Lab,10-20K,0,5,4,4,10,5,10,text,Remain,Part-Time,No
+26,Male,PG,Rather_not_say,60-70K,1,3,2,3,3,3,8,text,Remain,Full-Time,Yes
+47,Male,A-lev,Lab,60-70K,0,5,4,4,8,5,10,text,Remain,Full-Time,No
+21,Male,A-lev,None,Under10K,0,4,4,2,10,5,10,text,Remain,Part-Time,Yes
+54,Male,BA,Lab,20-30K,1,2,2,3,2,3,5,text,Remain,Part-Time,No
+34,Male,PG,None,90-100K,0,5,5,1,10,7,10,text,Remain,Full-Time,No
+46,Male,BA,Grn,10-20K,0,4,4,4,8,5,8,text,Remain,Other,No
+19,Male,A-lev,None,Under10K,1,5,4,3,1,7,3,text,Remain,Part-Time,Yes
+36,Male,A-lev,Lab,30-40K,0,5,5,5,10,6,10,text,Remain,Full-Time,No
+42,Male,BA,None,20-30K,0,4,5,4,9,5,9,text,Remain,Part-Time,Yes
+40,Male,A-lev,None,40-50K,1,4,4,4,7,5,10,text,Remain,Full-Time,No
+32,Female,BA,Rather_not_say,40-50K,0,4,4,4,8,4,5,text,Remain,Not in paid work,No
+39,Female,BA,Plaid,60-70K,1,4,4,4,4,3,9,text,Remain,Full-Time,No
+34,Female,A-lev,Lab,50-60K,0,4,4,3,7,2,9,text,Remain,Full-Time,No
+46,Male,BA,Lab,70-80K,0,3,2,3,4,5,9,text,Remain,Part-Time,No
+21,Male,BA,Lab,60-70K,0,5,5,5,10,6,10,text,Remain,Part-Time,Yes
+33,Male,PG,Lib,20-30K,0,4,3,4,8,7,8,text,Remain,Full-Time,No
+22,Female,BA,Grn,10-20K,0,5,5,4,10,7,10,text,Remain,Part-Time,Yes
+30,Male,PG,Con,70-80K,1,4,4,4,8,3,9,text,Remain,Full-Time,No
+53,Male,BA,Lab,50-60K,0,5,5,5,10,5,10,text,Remain,Full-Time,No
+23,Male,BA,Lab,20-30K,0,4,4,4,10,7,9,text,Remain,Part-Time,Yes
+62,Female,BA,Lib,30-40K,0,5,5,4,10,5,10,text,Remain,Full-Time,No
+61,Male,BA,Lab,20-30K,0,5,4,1,10,4,10,text,Remain,Not in paid work,No
+69,Female,PG,Lib,20-30K,0,4,4,4,9,6,10,text,Remain,Not in paid work,No
+59,Female,GCSEorLess,Con,10-20K,1,3,3,4,5,5,5,text,Remain,Not in paid work,No
+23,Female,PG,None,90-100K,0,5,4,4,9,6,8,text,Remain,Part-Time,Yes
+44,Female,GCSEorLess,Lab,40-50K,0,5,5,4,10,5,10,text,Remain,Part-Time,Yes
+41,Male,PG,Lab,30-40K,0,4,4,4,9,5,8,text,Remain,Full-Time,Yes
+44,Female,A-lev,Con,20-30K,0,4,4,3,9,5,5,text,Remain,Not in paid work,No
+24,Male,BA,Lab,20-30K,0,5,4,4,8,5,8,text,Remain,Part-Time,No
+49,Female,Post2,Con,50-60K,0,3,3,3,5,3,5,text,Remain,Full-Time,No
+37,Female,Post2,Con,40-50K,0,5,5,3,10,5,10,text,Remain,Part-Time,No
+40,Male,BA,SNP,40-50K,0,4,4,4,9,7,9,text,Remain,Full-Time,No
+53,Female,BA,Grn,20-30K,0,5,5,3,10,5,10,text,Remain,Other,No
+23,Male,PG,None,30-40K,0,4,4,3,9,6,10,text,Remain,Full-Time,No
+24,Female,BA,Lab,10-20K,0,5,5,4,10,5,5,text,Remain,Unemployed,No
+27,Female,GCSEorLess,Lab,40-50K,0,5,5,3,9,5,8,text,Remain,Full-Time,No
+32,Female,A-lev,SNP,30-40K,0,5,5,1,10,5,10,text,Remain,Unemployed,No
+22,Female,BA,Lab,Under10K,0,4,3,4,7,4,5,text,Remain,Part-Time,Yes
+21,Female,PG,Lab,50-60K,1,5,4,4,0,4,0,text,Remain,Unemployed,Yes
+41,Male,PG,Grn,50-60K,0,5,5,4,10,5,10,text,Remain,Not in paid work,No
+54,Female,PG,Lib,50-60K,1,4,4,3,2,4,5,text,Remain,Not in paid work,No
+44,Male,PG,SNP,20-30K,0,5,4,4,10,8,10,text,Remain,Full-Time,No
+28,Female,A-lev,Lab,40-50K,0,5,5,3,10,5,10,text,Remain,Full-Time,No
+61,Male,BA,Lab,40-50K,0,5,5,4,10,5,10,text,Remain,Part-Time,No
+28,Female,BA,None,30-40K,0,5,4,4,10,5,9,text,Remain,Not in paid work,Yes
+22,Male,A-lev,Lab,20-30K,0,5,5,5,10,7,10,text,Remain,Full-Time,No
+34,Male,GCSEorLess,None,80-90K,0,5,5,5,10,5,8,text,Remain,Full-Time,No
+37,Male,BA,Lib,20-30K,0,5,5,4,10,5,10,text,Remain,Full-Time,No
+35,Female,PG,Lab,40-50K,0,5,5,4,8,5,7,text,Remain,Full-Time,No
+40,Female,BA,Con,80-90K,0,5,5,5,9,5,9,text,Remain,Part-Time,No
+58,Male,BA,Lab,30-40K,0,5,5,4,9,5,10,text,Remain,Not in paid work,No
+26,Female,PG,Lab,10-20K,0,4,4,5,10,5,10,text,Remain,Other,No
+55,Male,BA,Con,70-80K,1,5,3,3,5,3,10,text,Remain,Other,No
+56,Male,GCSEorLess,Con,50-60K,0,5,5,5,10,8,10,text,Remain,Not in paid work,No
+37,Male,BA,Grn,80-90K,0,5,5,5,10,10,10,text,Remain,Full-Time,No
+33,Male,BA,Lab,30-40K,0,4,4,4,10,5,10,text,Remain,Full-Time,No
+33,Female,BA,Grn,40-50K,0,4,4,2,9,5,9,text,Remain,Full-Time,No
+53,Female,BA,Lab,40-50K,0,4,5,4,10,5,10,text,Remain,Not in paid work,No
+24,Female,PG,Lab,20-30K,0,4,3,3,6,3,4,text,Remain,Full-Time,No
+40,Female,BA,Lab,70-80K,0,4,5,4,9,6,6,text,Remain,Full-Time,No
+47,Male,BA,Con,40-50K,0,4,4,4,7,5,5,text,Remain,Full-Time,No
+25,Female,PG,Lib,40-50K,0,4,4,4,8,5,9,text,Remain,Full-Time,No
+39,Female,BA,Lib,10-20K,0,3,4,3,9,5,7,text,Remain,Full-Time,No
+28,Female,BA,Grn,60-70K,0,4,4,3,8,5,9,text,Remain,Full-Time,No
+56,Male,PG,None,30-40K,0,4,4,4,10,5,9,text,Remain,Not in paid work,No
+34,Male,A-lev,SNP,10-20K,0,5,5,3,8,5,3,text,Remain,Full-Time,No
+29,Female,BA,None,30-40K,0,5,2,5,6,6,7,text,Remain,Full-Time,No
+49,Female,BA,Lib,40-50K,1,2,2,4,3,2,8,text,Remain,Part-Time,No
+58,Female,A-lev,Lib,10-20K,0,5,5,4,10,5,10,text,Remain,Not in paid work,No
+22,Male,BA,None,10-20K,0,5,5,4,5,5,5,text,Remain,Full-Time,Yes
+45,Female,A-lev,Lab,30-40K,1,4,4,3,9,5,1,text,Remain,Part-Time,No
+25,Male,PG,Lab,30-40K,0,4,4,4,8,5,10,text,Remain,Unemployed,No
+40,Female,BA,Con,Over100K,0,4,4,2,3,4,9,text,Remain,Not in paid work,No
+32,Male,BA,UKIP,60-70K,0,4,3,3,5,3,6,text,Remain,Full-Time,No
+52,Female,Post2,SNP,90-100K,1,4,4,3,8,0,3,text,Remain,Full-Time,No
+30,Male,BA,Lab,20-30K,0,4,3,4,10,6,10,text,Remain,Full-Time,No
+19,Male,A-lev,Lab,Under10K,1,2,4,5,3,6,10,text,Remain,Other,Yes
+22,Male,A-lev,Lab,Under10K,0,5,5,5,10,5,10,text,Remain,Other,Yes
+23,Female,BA,Lab,20-30K,0,5,5,4,5,5,6,text,Remain,Part-Time,Yes
+32,Male,BA,SNP,60-70K,0,4,4,3,5,5,6,text,Remain,Full-Time,No
+31,Male,PG,Lab,50-60K,1,4,2,4,4,2,10,text,Remain,Full-Time,No
+34,Male,PG,Lib,30-40K,0,4,4,4,9,5,10,text,Remain,Full-Time,No
+52,Female,A-lev,Lab,10-20K,1,1,3,3,0,0,0,text,Remain,Part-Time,No
+32,Female,PG,Lab,40-50K,0,5,5,4,10,5,10,text,Remain,Full-Time,No
+66,Female,GCSEorLess,Con,50-60K,1,3,2,2,2,0,0,text,Remain,Part-Time,No
+28,Male,A-lev,None,10-20K,0,4,4,4,5,5,0,text,Remain,Full-Time,No
+40,Female,BA,Grn,50-60K,0,4,4,4,6,4,6,text,Remain,Full-Time,Yes
+34,Female,BA,Con,60-70K,1,4,4,3,4,4,6,text,Remain,Full-Time,No
+27,Female,BA,None,80-90K,0,5,5,4,8,4,5,text,Remain,Full-Time,No
+25,Female,BA,Rather_not_say,10-20K,0,5,5,4,10,5,5,text,Remain,Unemployed,No
+65,Female,BA,Lab,50-60K,0,5,5,1,10,5,10,text,Remain,Not in paid work,No
+26,Female,PG,Lab,50-60K,0,4,4,3,8,4,6,text,Remain,Full-Time,No
+38,Female,BA,Grn,20-30K,0,4,4,3,6,5,9,text,Remain,Full-Time,No
+21,Female,BA,Grn,Under10K,0,4,4,4,8,6,8,text,Remain,Other,Yes
+56,Male,PG,None,Under10K,0,4,3,1,10,5,10,text,Remain,Not in paid work,No
+32,Female,PG,Lab,30-40K,0,4,3,5,8,5,10,text,Remain,Full-Time,No
+36,Female,PG,SNP,80-90K,0,5,4,4,9,5,8,text,Remain,Full-Time,No
+22,Female,GCSEorLess,None,10-20K,1,2,3,4,1,8,5,text,Remain,Part-Time,No
+65,Male,BA,Con,30-40K,1,2,2,2,0,0,0,text,Remain,Not in paid work,No
+61,Female,BA,Con,40-50K,1,4,4,4,5,4,10,text,Remain,Full-Time,No
+33,Male,GCSEorLess,Con,30-40K,0,4,4,4,8,5,10,text,Remain,Full-Time,No
+36,Male,BA,SNP,80-90K,0,5,5,4,9,8,10,text,Remain,Full-Time,No
+33,Male,PG,Grn,90-100K,0,3,4,4,9,5,8,text,Remain,Full-Time,No
+34,Female,BA,Lab,20-30K,0,5,4,4,10,5,10,text,Remain,Full-Time,Yes
+61,Male,GCSEorLess,Lab,20-30K,0,5,5,5,9,5,10,text,Remain,Full-Time,No
+37,Female,Post2,SNP,60-70K,0,4,4,4,5,5,5,text,Remain,Part-Time,No
+33,Male,BA,None,70-80K,0,4,4,4,6,5,5,text,Remain,Full-Time,No
+62,Male,BA,Con,70-80K,0,4,2,4,4,3,8,text,Remain,Full-Time,No
+37,Female,BA,Lab,40-50K,0,5,5,4,10,5,6,text,Remain,Full-Time,No
+36,Male,A-lev,Lab,90-100K,0,5,5,4,10,6,10,text,Remain,Full-Time,No
+44,Female,BA,Con,40-50K,0,5,5,4,6,5,8,text,Remain,Other,No
+26,Female,BA,Lab,40-50K,0,5,4,4,9,1,9,text,Remain,Part-Time,No
+43,Female,BA,Lab,30-40K,0,5,5,4,10,7,10,text,Remain,Part-Time,No
+28,Female,BA,Lab,20-30K,0,4,4,4,5,4,6,text,Remain,Full-Time,No
+45,Female,GCSEorLess,Lab,30-40K,1,1,1,1,0,0,9,text,Remain,Full-Time,No
+59,Female,GCSEorLess,Lab,30-40K,0,4,4,3,10,5,6,text,Remain,Not in paid work,No
+31,Male,GCSEorLess,SNP,10-20K,0,5,5,5,9,5,9,text,Remain,Full-Time,No
+41,Female,BA,Lab,Over100K,0,4,4,4,9,5,9,text,Remain,Full-Time,No
+70,Female,BA,Lab,10-20K,0,5,5,5,10,5,10,text,Remain,Not in paid work,No
+37,Female,GCSEorLess,Con,40-50K,0,4,4,4,9,5,9,text,Remain,Full-Time,No
+56,Female,GCSEorLess,Lab,Under10K,0,4,4,3,8,5,9,text,Remain,Not in paid work,No
+60,Female,BA,Con,50-60K,0,5,4,3,9,5,5,text,Remain,Full-Time,No
+47,Male,PG,Lab,70-80K,1,2,2,3,4,4,10,text,Remain,Full-Time,No
+50,Male,A-lev,Lab,10-20K,0,5,5,4,8,5,10,text,Remain,Full-Time,No
+38,Female,PG,Grn,40-50K,0,5,5,4,10,9,10,text,Remain,Full-Time,No
+33,Male,GCSEorLess,Lab,Under10K,1,2,4,1,0,10,0,text,Remain,Part-Time,No
+58,Male,BA,None,70-80K,1,4,2,3,4,4,4,text,Remain,Full-Time,No
+63,Female,GCSEorLess,Lab,10-20K,0,5,5,4,10,5,10,text,Remain,Not in paid work,No
+33,Female,PG,SNP,20-30K,0,5,5,4,9,5,9,text,Remain,Full-Time,No
+63,Male,BA,Lib,30-40K,0,3,4,4,9,5,5,text,Remain,Other,No
+28,Male,GCSEorLess,Lab,40-50K,1,2,2,4,9,4,4,text,Remain,Not in paid work,No
+63,Male,A-lev,Lab,10-20K,0,4,4,4,9,6,10,text,Remain,Not in paid work,No
+36,Female,BA,Lab,60-70K,0,5,4,4,10,4,10,text,Remain,Part-Time,No
+23,Female,PG,Lab,40-50K,0,4,4,3,8,5,9,text,Remain,Other,No
+31,Male,GCSEorLess,Lab,Under10K,1,1,1,1,0,10,0,text,Remain,Full-Time,No
+33,Female,Post2,Rather_not_say,60-70K,0,5,4,3,4,5,8,text,Remain,Full-Time,No
+35,Male,PG,Lab,30-40K,1,4,4,3,5,6,6,text,Remain,Full-Time,No
+24,Male,Post2,Lab,20-30K,0,5,5,5,5,5,5,text,Remain,Full-Time,No
+41,Male,PG,Lib,70-80K,1,5,5,5,10,0,10,text,Remain,Full-Time,No
+35,Female,PG,Grn,40-50K,0,4,4,3,10,5,10,text,Remain,Not in paid work,No
+60,Female,Post2,Lab,30-40K,1,1,2,3,1,1,1,text,Remain,Full-Time,No
+20,Female,A-lev,Lab,Over100K,0,5,4,4,7,5,10,text,Remain,Part-Time,Yes
+53,Male,BA,Lib,70-80K,0,4,4,4,7,6,8,text,Remain,Full-Time,No
+70,Male,A-lev,Lib,20-30K,0,4,4,5,10,5,10,text,Remain,Part-Time,No
+63,Male,BA,Grn,50-60K,0,4,4,4,9,4,9,text,Remain,Not in paid work,No
+54,Female,GCSEorLess,None,Under10K,0,4,4,4,5,6,5,text,Remain,Not in paid work,No
+58,Female,Post2,Rather_not_say,20-30K,0,5,3,4,10,5,5,text,Remain,Full-Time,No
+24,Male,BA,None,Under10K,0,4,4,4,10,8,10,text,Remain,Unemployed,Yes
+39,Male,PG,Lab,60-70K,0,4,4,4,8,4,8,text,Remain,Full-Time,No
+22,Female,A-lev,Lab,70-80K,0,5,5,4,10,5,9,text,Remain,Full-Time,No
+49,Female,PG,Lab,30-40K,0,5,5,4,10,6,10,text,Remain,Full-Time,No
+29,Female,BA,None,30-40K,1,3,3,2,0,2,9,text,Remain,Part-Time,No
+20,Female,Post2,Lab,70-80K,0,5,5,3,9,4,10,text,Remain,Unemployed,Yes
+60,Male,Post2,SNP,40-50K,1,2,2,2,0,1,3,text,Remain,Full-Time,No
+28,Female,BA,SNP,50-60K,0,5,5,4,10,5,10,text,Remain,Full-Time,No
+23,Male,BA,None,30-40K,0,4,5,4,9,5,10,text,Remain,Full-Time,No
+46,Female,BA,None,50-60K,0,5,4,3,5,5,3,text,Remain,Not in paid work,No
+45,Female,Post2,SNP,30-40K,0,4,4,4,8,5,10,text,Remain,Part-Time,Yes
+25,Male,PG,Lab,50-60K,0,4,4,4,10,4,9,text,Remain,Other,Yes
+57,Female,GCSEorLess,SNP,20-30K,0,4,3,4,9,9,9,text,Remain,Not in paid work,No
+28,Male,BA,Con,80-90K,0,4,4,4,8,5,5,text,Remain,Full-Time,No
+29,Female,GCSEorLess,Con,30-40K,1,2,2,4,4,3,6,text,Remain,Part-Time,No
+40,Female,PG,None,50-60K,0,4,4,3,9,5,9,text,Remain,Full-Time,No
+40,Male,BA,Lab,40-50K,0,5,5,5,9,6,5,text,Remain,Full-Time,No
+50,Female,A-lev,Con,20-30K,0,5,4,4,10,5,5,text,Remain,Full-Time,No
+38,Female,BA,Con,30-40K,0,4,4,3,7,5,5,text,Remain,Full-Time,No
+37,Male,PG,Lab,70-80K,0,5,5,4,10,5,10,text,Remain,Full-Time,No
+27,Female,PG,Lab,30-40K,0,5,5,3,10,7,5,text,Remain,Other,No
+38,Female,BA,Lab,60-70K,1,3,4,3,3,3,8,text,Remain,Full-Time,No
+56,Male,GCSEorLess,Con,40-50K,0,4,4,3,4,4,8,text,Remain,Full-Time,No
+50,Male,Post2,Lab,30-40K,0,4,4,4,8,4,8,text,Remain,Full-Time,No
+29,Male,BA,Lab,70-80K,0,5,5,3,9,5,9,text,Remain,Full-Time,No
+38,Female,BA,Rather_not_say,30-40K,0,4,4,4,10,5,5,text,Remain,Full-Time,No
+31,Female,BA,Lab,10-20K,0,5,5,5,10,7,10,text,Remain,Part-Time,No
+23,Female,PG,Lab,Under10K,0,4,4,4,3,4,5,text,Remain,Part-Time,Yes
+39,Female,BA,Lab,40-50K,0,5,3,4,10,3,10,text,Remain,Other,Yes
+22,Male,PG,Con,10-20K,0,4,4,4,8,5,8,text,Remain,Other,Yes
+39,Male,PG,SNP,20-30K,0,5,5,5,10,7,10,text,Remain,Full-Time,Yes
+31,Female,BA,Lab,60-70K,0,4,4,4,8,5,5,text,Remain,Full-Time,No
+47,Male,BA,Lib,40-50K,0,5,5,5,10,1,10,text,Remain,Full-Time,No
+27,Male,Post2,None,Under10K,0,4,4,4,9,6,10,text,Remain,Unemployed,Yes
+33,Male,BA,Lab,10-20K,0,2,2,4,6,5,2,text,Remain,Full-Time,No
+42,Female,BA,Lab,20-30K,0,4,4,4,8,5,10,text,Remain,Part-Time,No
+24,Female,PG,Lab,70-80K,0,4,4,4,10,5,8,text,Remain,Unemployed,Yes
+43,Male,BA,Lab,90-100K,0,5,5,5,9,7,10,text,Remain,Full-Time,No
+31,Male,A-lev,Lab,Under10K,0,3,3,3,8,5,5,text,Remain,Full-Time,No
+37,Female,Post2,Con,50-60K,0,5,4,5,10,5,5,text,Remain,Full-Time,No
+31,Male,GCSEorLess,Lab,Under10K,1,2,2,1,1,9,1,text,Remain,Part-Time,No
+64,Female,Post2,Lib,10-20K,0,4,4,4,9,5,9,text,Remain,Not in paid work,No
+33,Female,BA,None,40-50K,1,4,4,1,1,1,3,text,Remain,Part-Time,No
+47,Female,BA,Lab,Under10K,0,4,4,4,10,5,10,text,Remain,Not in paid work,No
+30,Female,BA,Lab,10-20K,0,4,4,4,8,5,9,text,Remain,Part-Time,No
+46,Female,GCSEorLess,None,10-20K,0,4,5,4,10,5,5,text,Remain,Not in paid work,No
+64,Female,GCSEorLess,None,Over100K,0,5,5,3,10,5,10,text,Remain,Unemployed,No
+51,Female,PG,Con,Over100K,0,4,5,4,9,5,10,text,Remain,Full-Time,No
+62,Female,PG,Lib,40-50K,0,5,4,4,9,5,9,text,Remain,Not in paid work,No
+45,Female,BA,Lab,30-40K,0,4,4,4,9,6,5,text,Remain,Part-Time,No
+35,Female,BA,Lab,40-50K,1,2,3,2,3,2,5,text,Remain,Part-Time,No
+31,Male,BA,Lab,20-30K,0,4,4,4,8,7,9,text,Remain,Part-Time,No
+42,Female,GCSEorLess,Con,50-60K,0,4,4,3,7,5,5,text,Remain,Full-Time,No
+21,Male,A-lev,Lab,20-30K,0,5,4,4,8,5,8,text,Remain,Part-Time,Yes
+22,Female,BA,Rather_not_say,20-30K,0,5,4,4,5,6,2,text,Remain,Other,Yes
+32,Male,A-lev,UKIP,50-60K,1,5,1,2,0,0,0,text,Leave,Full-Time,No
+24,Female,PG,Lab,50-60K,0,5,5,5,10,8,10,text,Leave,Full-Time,Yes
+26,Male,PG,None,20-30K,0,4,3,4,7,5,5,text,Leave,Full-Time,No
+58,Female,GCSEorLess,Con,30-40K,1,2,2,2,0,0,0,text,Leave,Part-Time,No
+34,Female,BA,Con,20-30K,1,4,4,2,3,3,4,text,Leave,Full-Time,No
+45,Male,BA,Con,50-60K,1,3,2,3,2,3,5,text,Leave,Full-Time,No
+54,Female,PG,Grn,60-70K,0,4,3,3,9,5,8,text,Leave,Full-Time,No
+58,Female,GCSEorLess,None,30-40K,0,3,4,2,5,5,7,text,No vote,Not in paid work,No
+55,Female,Post2,SNP,30-40K,1,3,3,2,0,0,3,text,Leave,Full-Time,No
+22,Female,A-lev,Lab,20-30K,0,5,5,4,10,5,8,text,Leave,Full-Time,No
+33,Female,A-lev,Lab,30-40K,1,3,3,2,4,3,5,text,Leave,Full-Time,No
+66,Female,GCSEorLess,Con,20-30K,0,4,3,3,4,4,5,text,Leave,Not in paid work,No
+25,Male,A-lev,None,60-70K,1,2,2,4,3,2,3,text,Leave,Full-Time,No
+18,Female,A-lev,Lab,10-20K,0,5,5,4,9,5,5,text,No vote,Part-Time,Yes
+35,Male,BA,Lab,20-30K,1,4,3,4,3,2,5,text,Leave,Full-Time,No
+26,Female,BA,Lab,10-20K,1,5,5,4,2,2,3,text,Leave,Full-Time,No
+28,Male,BA,Lab,30-40K,1,4,4,4,3,2,9,text,No vote,Full-Time,No
+41,Male,A-lev,SNP,50-60K,1,4,2,2,6,3,0,text,Leave,Full-Time,No
+29,Male,BA,None,60-70K,1,5,1,3,0,2,0,text,Leave,Full-Time,No
+18,Female,GCSEorLess,Lab,Under10K,0,5,5,5,10,6,10,text,No vote,Not in paid work,No
+37,Female,PG,Con,30-40K,0,4,4,4,6,5,4,text,Leave,Not in paid work,No
+45,Female,A-lev,None,60-70K,1,3,2,2,1,0,5,text,Leave,Not in paid work,No
+18,Female,A-lev,None,10-20K,0,5,5,4,10,6,9,text,No vote,Other,No
+33,Male,Post2,Grn,20-30K,0,4,3,4,8,5,9,text,Leave,Unemployed,Yes
+50,Male,A-lev,Con,60-70K,1,2,1,2,0,0,5,text,Leave,Full-Time,No
+43,Female,A-lev,Con,40-50K,1,3,3,2,1,2,5,text,Leave,Part-Time,No
+20,Male,A-lev,None,20-30K,0,4,5,5,8,3,6,text,No vote,Full-Time,No
+36,Female,A-lev,Con,40-50K,1,2,2,5,1,1,1,text,Leave,Full-Time,No
+28,Female,A-lev,Lab,60-70K,1,4,4,2,1,1,5,text,No vote,Full-Time,No
+20,Female,A-lev,None,30-40K,1,2,2,4,3,6,4,text,No vote,Full-Time,No
+57,Female,A-lev,Con,Under10K,1,3,3,2,2,3,2,text,Leave,Part-Time,No
+25,Female,GCSEorLess,Lab,20-30K,0,4,4,3,6,5,5,text,No vote,Full-Time,No
+42,Female,GCSEorLess,UKIP,30-40K,1,4,2,3,1,3,0,text,Leave,Other,No
+35,Female,BA,None,Under10K,1,2,2,2,0,0,1,text,Leave,Not in paid work,Yes
+33,Male,BA,Con,40-50K,1,2,5,5,6,3,8,text,Leave,Full-Time,Yes
+19,Female,A-lev,Grn,50-60K,0,5,5,4,10,5,10,text,No vote,Unemployed,Yes
+20,Female,A-lev,Lab,Under10K,0,5,5,4,10,5,9,text,No vote,Not in paid work,Yes
+52,Female,GCSEorLess,None,10-20K,1,2,3,1,2,1,5,text,Leave,Part-Time,No
+25,Male,A-lev,Con,50-60K,0,4,3,2,5,5,4,text,Leave,Full-Time,No
+39,Male,PG,UKIP,40-50K,1,4,1,3,0,2,0,text,Leave,Full-Time,No
+30,Female,BA,None,20-30K,0,4,3,2,4,5,5,text,Leave,Full-Time,No
+32,Female,BA,Lab,50-60K,1,4,2,4,2,3,5,text,Leave,Full-Time,No
+48,Male,A-lev,Lab,30-40K,1,3,2,3,0,0,0,text,Leave,Full-Time,No
+27,Male,PG,Con,50-60K,0,3,4,4,3,8,3,text,Leave,Full-Time,No
+48,Male,BA,Lab,20-30K,1,3,3,2,1,2,6,text,Leave,Full-Time,No
+23,Female,BA,Lab,50-60K,0,4,4,4,4,5,3,text,Leave,Full-Time,No
+18,Male,A-lev,Lab,20-30K,0,4,3,4,8,5,10,text,No vote,Part-Time,Yes
+18,Female,A-lev,Lab,60-70K,0,4,4,4,9,5,10,text,No vote,Not in paid work,Yes
+35,Male,A-lev,Con,60-70K,1,2,2,2,0,0,1,text,Leave,Full-Time,No
+23,Female,Post2,UKIP,20-30K,1,2,3,3,0,0,0,text,Leave,Full-Time,No
+61,Male,PG,Con,50-60K,1,2,3,2,3,4,0,text,Leave,Other,No
+26,Female,BA,Lab,60-70K,1,4,2,4,1,1,0,text,Leave,Full-Time,No
+45,Female,GCSEorLess,Lab,20-30K,1,3,4,3,2,5,5,text,Leave,Not in paid work,No
+18,Female,A-lev,Lab,30-40K,0,5,5,1,10,5,10,text,No vote,Part-Time,Yes
+49,Male,A-lev,Con,40-50K,1,3,1,3,0,2,5,text,Leave,Full-Time,No
+52,Female,GCSEorLess,Con,50-60K,1,3,2,3,1,1,3,text,Leave,Part-Time,No
+30,Female,Post2,Rather_not_say,20-30K,1,2,3,2,1,10,0,text,Leave,Not in paid work,Yes
+55,Male,BA,Con,40-50K,1,2,2,3,3,2,2,text,Leave,Full-Time,No
+21,Male,A-lev,Con,30-40K,0,4,2,4,3,4,0,text,Leave,Not in paid work,Yes
+31,Female,A-lev,Grn,20-30K,0,4,4,4,5,5,0,text,Leave,Not in paid work,Yes
+42,Female,Post2,Lab,30-40K,1,2,2,2,1,0,4,text,Leave,Part-Time,No
+44,Female,BA,Con,60-70K,1,3,4,4,3,1,0,text,Leave,Part-Time,Yes
+40,Female,BA,None,30-40K,0,4,4,4,6,5,4,text,Leave,Part-Time,No
+36,Male,BA,Con,40-50K,1,2,2,3,2,2,3,text,Leave,Full-Time,No
+38,Female,A-lev,None,10-20K,1,5,3,3,1,2,4,text,Leave,Full-Time,No
+45,Female,A-lev,Con,60-70K,1,4,4,4,1,2,9,text,Leave,Full-Time,No
+63,Female,GCSEorLess,UKIP,10-20K,1,1,1,2,0,0,0,text,Leave,Part-Time,No
+46,Female,GCSEorLess,Lab,50-60K,1,3,3,3,3,3,6,text,Leave,Full-Time,No
+30,Female,A-lev,UKIP,50-60K,1,2,2,2,0,0,5,text,Leave,Not in paid work,No
+40,Female,PG,None,10-20K,1,2,3,3,1,1,1,text,Leave,Part-Time,No
+22,Female,GCSEorLess,UKIP,Under10K,1,2,2,4,1,8,5,text,Leave,Not in paid work,No
+33,Female,BA,Lab,20-30K,0,5,5,5,10,5,10,text,Leave,Full-Time,No
+37,Female,A-lev,Lab,20-30K,1,3,2,2,3,6,2,text,Leave,Full-Time,No
+48,Male,PG,Con,70-80K,1,4,5,2,5,5,0,text,Leave,Full-Time,No
+44,Female,GCSEorLess,Rather_not_say,20-30K,1,3,3,2,3,0,4,text,Leave,Other,No
+19,Female,A-lev,Lab,Under10K,0,4,4,4,9,7,5,text,No vote,Part-Time,Yes
+54,Female,A-lev,Lab,10-20K,1,4,4,2,5,3,2,text,Leave,Not in paid work,No
+50,Female,GCSEorLess,UKIP,10-20K,1,2,3,2,9,1,9,text,Leave,Full-Time,No
+54,Male,GCSEorLess,UKIP,20-30K,1,1,1,2,0,0,5,text,Leave,Full-Time,No
+41,Female,A-lev,Lab,30-40K,1,2,3,2,2,8,2,text,Leave,Part-Time,No
+60,Male,A-lev,Con,30-40K,1,2,2,2,0,0,0,text,Leave,Part-Time,No
+30,Male,Post2,Plaid,20-30K,1,4,2,2,5,10,0,text,Leave,Full-Time,No
+49,Female,A-lev,Con,50-60K,1,3,2,2,3,3,1,text,Leave,Part-Time,No
+23,Male,BA,Con,20-30K,1,4,2,4,3,4,3,text,Leave,Full-Time,No
+32,Male,A-lev,Con,40-50K,0,4,4,3,8,5,5,text,Leave,Part-Time,No
+29,Female,A-lev,Rather_not_say,10-20K,1,3,3,4,3,2,2,text,Leave,Not in paid work,No
+36,Female,GCSEorLess,Lab,20-30K,1,4,4,4,2,3,6,text,Leave,Not in paid work,No
+32,Female,BA,None,20-30K,1,1,1,2,0,0,3,text,Leave,Full-Time,Yes
+38,Female,BA,None,20-30K,1,2,3,3,1,0,0,text,Leave,Part-Time,No
+37,Female,Post2,Con,30-40K,1,4,4,3,2,3,2,text,Leave,Part-Time,No
+29,Female,PG,Lab,50-60K,0,5,4,5,9,6,9,text,No vote,Full-Time,No
+56,Female,Post2,Con,30-40K,1,3,3,3,3,4,0,text,Leave,Full-Time,No
+60,Female,BA,None,Under10K,1,2,4,3,0,0,5,text,Leave,Part-Time,No
+28,Female,GCSEorLess,Rather_not_say,10-20K,1,3,3,3,5,3,5,text,Leave,Other,No
+58,Female,GCSEorLess,UKIP,10-20K,1,1,3,2,1,1,1,text,Leave,Not in paid work,No
+49,Female,Post2,Lab,20-30K,1,4,4,2,4,3,9,text,Leave,Full-Time,No
+35,Female,A-lev,Lab,10-20K,1,4,4,4,4,6,4,text,Leave,Part-Time,No
+31,Female,BA,Grn,Under10K,1,2,2,4,3,2,2,text,Leave,Full-Time,No
+26,Female,GCSEorLess,UKIP,Under10K,1,5,5,3,1,3,5,text,Leave,Part-Time,No
+42,Male,BA,Con,40-50K,1,4,4,3,0,0,0,text,Leave,Full-Time,No
+21,Female,A-lev,None,30-40K,1,2,4,4,4,4,7,text,Leave,Part-Time,Yes
+31,Female,BA,Con,40-50K,1,4,4,2,3,2,2,text,Leave,Not in paid work,No
+54,Female,PG,Lab,10-20K,1,3,3,4,3,3,3,text,Leave,Part-Time,No
+52,Female,A-lev,Con,80-90K,0,4,4,4,8,6,5,text,Leave,Part-Time,No
+54,Female,A-lev,Con,30-40K,1,3,2,2,1,3,4,text,Leave,Part-Time,No
+50,Female,A-lev,Con,50-60K,1,3,3,2,0,3,5,text,Leave,Part-Time,No
+45,Female,A-lev,Con,40-50K,1,3,4,3,5,3,5,text,Leave,Full-Time,No
+40,Male,GCSEorLess,Lab,30-40K,1,1,1,1,0,0,0,text,Leave,Full-Time,No
+55,Female,Post2,Con,20-30K,1,4,4,2,4,4,5,text,Leave,Full-Time,No
+39,Female,BA,Con,80-90K,1,4,4,2,0,3,1,text,Leave,Not in paid work,No
+39,Female,BA,Con,70-80K,0,4,3,3,5,5,5,text,Leave,Other,No
+25,Female,PG,Con,30-40K,1,4,3,4,1,1,5,text,Leave,Full-Time,No
+68,Female,A-lev,Lib,20-30K,1,3,2,4,7,4,5,text,Leave,Not in paid work,No
+63,Male,GCSEorLess,Con,30-40K,1,2,1,3,0,1,0,text,Leave,Part-Time,No
+43,Female,A-lev,Con,60-70K,1,2,1,4,0,1,0,text,Leave,Not in paid work,No
+26,Female,PG,Grn,10-20K,0,4,3,4,5,5,5,text,No vote,Full-Time,No
+37,Female,BA,Con,10-20K,1,2,3,2,1,1,2,text,Leave,Unemployed,No
+37,Female,BA,Con,70-80K,0,4,4,4,6,5,9,text,Leave,Full-Time,No
+53,Female,A-lev,UKIP,50-60K,1,2,1,1,0,0,0,text,Leave,Full-Time,No
+22,Female,BA,Lab,10-20K,1,4,4,2,3,4,4,text,Leave,Full-Time,Yes
+52,Male,BA,Lab,20-30K,0,4,5,4,4,4,6,text,Leave,Full-Time,No
+32,Female,BA,Lab,30-40K,1,2,4,3,4,3,7,text,Leave,Part-Time,No
+22,Male,BA,Lab,10-20K,0,4,4,3,8,4,7,text,Leave,Full-Time,Yes
+45,Female,BA,Lib,50-60K,1,4,3,2,3,3,5,text,Leave,Part-Time,No
+30,Female,A-lev,Lab,40-50K,1,4,3,2,3,3,6,text,Leave,Full-Time,No
+54,Female,A-lev,None,60-70K,1,5,2,3,1,3,9,text,Leave,Not in paid work,No
+29,Female,BA,Con,30-40K,1,5,4,4,4,4,9,text,Leave,Full-Time,No
+27,Female,A-lev,Con,60-70K,1,2,3,2,1,3,0,text,Leave,Full-Time,No
+46,Female,A-lev,None,20-30K,1,2,3,4,4,4,4,text,Leave,Full-Time,No
+54,Female,A-lev,Con,40-50K,1,2,3,2,3,3,2,text,Leave,Part-Time,No
+56,Female,GCSEorLess,Lab,30-40K,1,1,1,5,0,0,5,text,Leave,Not in paid work,No
+32,Female,PG,Lab,30-40K,0,5,4,3,9,6,10,text,Leave,Full-Time,No
+66,Male,A-lev,None,30-40K,1,4,2,2,5,0,0,text,Leave,Not in paid work,No
+28,Male,BA,Lab,20-30K,0,5,5,5,10,7,4,text,Leave,Part-Time,No
+50,Female,A-lev,None,10-20K,0,5,3,4,9,5,5,text,Leave,Part-Time,No
+43,Female,GCSEorLess,Con,Over100K,1,3,2,3,3,3,5,text,Leave,Full-Time,No
+35,Male,Post2,UKIP,Under10K,1,3,2,2,3,7,5,text,Leave,Not in paid work,No
+64,Male,GCSEorLess,Con,Under10K,1,2,2,2,0,2,0,text,Leave,Part-Time,No
+27,Female,BA,Lab,40-50K,1,3,4,2,4,2,2,text,Leave,Full-Time,No
+44,Female,PG,None,50-60K,0,4,4,4,10,4,5,text,Leave,Full-Time,No
+27,Female,BA,Con,70-80K,1,2,4,2,2,8,5,text,Leave,Full-Time,No
+41,Female,BA,Lab,Over100K,1,3,3,3,5,3,7,text,Leave,Full-Time,No
+60,Female,Post2,Con,40-50K,0,4,4,4,8,4,6,text,Leave,Full-Time,No
+26,Female,GCSEorLess,None,10-20K,1,3,3,2,0,0,5,text,Leave,Not in paid work,No
+48,Female,A-lev,Con,30-40K,1,2,4,2,0,1,5,text,Leave,Full-Time,No
+53,Male,GCSEorLess,Lab,Under10K,1,3,3,4,0,1,0,text,Leave,Full-Time,No
+69,Female,BA,Con,10-20K,1,2,3,4,1,1,2,text,Leave,Not in paid work,No
+59,Female,Post2,Lib,Under10K,0,4,2,4,4,4,2,text,Leave,Not in paid work,No
+23,Female,A-lev,UKIP,10-20K,1,1,1,1,0,0,5,text,Leave,Not in paid work,No
+44,Male,BA,Lab,Over100K,1,2,1,2,1,2,1,text,Leave,Full-Time,No
+26,Female,A-lev,None,40-50K,1,4,2,2,2,0,1,text,Leave,Full-Time,No
+33,Male,A-lev,Con,60-70K,0,4,3,3,3,4,4,text,Leave,Not in paid work,No
+22,Female,BA,Lab,20-30K,0,5,5,5,9,6,8,text,Leave,Part-Time,No
+47,Female,Post2,Grn,30-40K,0,5,5,4,10,7,8,text,No vote,Full-Time,No
+30,Male,A-lev,Con,30-40K,1,2,1,4,2,8,4,text,Leave,Part-Time,No
+37,Female,A-lev,Lab,60-70K,1,3,4,2,2,1,2,text,Leave,Part-Time,No
+47,Female,GCSEorLess,UKIP,50-60K,1,3,3,3,2,0,0,text,Leave,Part-Time,No
+45,Female,BA,Lab,Under10K,1,2,2,3,0,0,5,text,Leave,Part-Time,No
+50,Female,BA,UKIP,30-40K,1,1,2,1,0,1,0,text,Leave,Not in paid work,No
+22,Male,A-lev,Lab,10-20K,0,4,4,3,7,5,6,text,Leave,Full-Time,No
+30,Female,BA,Grn,10-20K,0,5,5,4,9,1,9,text,No vote,Part-Time,No
+32,Female,BA,None,10-20K,0,4,2,2,9,5,5,text,Leave,Part-Time,Yes
+21,Male,A-lev,None,40-50K,1,4,4,4,4,3,4,text,No vote,Full-Time,Yes
+34,Female,A-lev,Con,30-40K,1,2,3,2,1,3,3,text,Leave,Part-Time,No
+56,Male,BA,UKIP,20-30K,1,1,2,2,0,0,0,text,Leave,Unemployed,No
+29,Female,A-lev,None,30-40K,1,4,4,4,0,0,0,text,Leave,Full-Time,No
+40,Female,PG,Con,20-30K,0,4,4,3,4,4,3,text,Leave,Part-Time,No
+50,Female,A-lev,Con,40-50K,1,3,3,2,0,1,5,text,Leave,Part-Time,No
+58,Female,GCSEorLess,Lab,10-20K,1,3,3,4,3,6,3,text,Leave,Part-Time,No
+50,Male,Post2,Con,10-20K,1,2,1,4,2,1,4,text,Leave,Part-Time,No
+37,Female,A-lev,Con,Under10K,1,5,4,5,2,3,5,text,Leave,Not in paid work,No
+23,Female,A-lev,UKIP,10-20K,1,3,2,3,2,2,2,text,Leave,Part-Time,No
+38,Male,BA,UKIP,60-70K,0,5,5,4,2,8,5,text,Leave,Full-Time,Yes
+59,Female,Post2,Lib,20-30K,0,4,4,4,10,6,7,text,No vote,Part-Time,No
+74,Female,Post2,Con,10-20K,1,4,2,3,3,0,2,text,Leave,Not in paid work,No
+32,Female,BA,Con,10-20K,1,2,2,3,1,10,1,text,Leave,Part-Time,No
+18,Male,A-lev,Lib,40-50K,1,4,2,4,7,3,3,text,Leave,Full-Time,No
+70,Female,GCSEorLess,Con,10-20K,1,4,3,4,2,4,1,text,Leave,Not in paid work,No
+63,Female,A-lev,Con,80-90K,1,3,3,4,0,3,5,text,Leave,Full-Time,No
+18,Female,A-lev,None,Under10K,0,4,4,4,6,5,7,text,No vote,Unemployed,Yes
+47,Female,GCSEorLess,Con,40-50K,1,1,1,1,0,1,0,text,Leave,Full-Time,No
+29,Male,BA,Con,70-80K,1,5,5,2,1,0,0,text,Leave,Full-Time,Yes
+54,Female,BA,UKIP,10-20K,1,2,2,3,0,0,1,text,Leave,Not in paid work,No
+18,Male,Post2,Lab,Under10K,0,4,4,4,9,5,9,text,No vote,Part-Time,Yes
+20,Female,A-lev,Con,Under10K,0,3,4,2,3,5,8,text,No vote,Part-Time,Yes
+32,Female,Post2,None,40-50K,1,2,4,3,3,5,5,text,Leave,Part-Time,No
+50,Male,BA,Con,60-70K,1,4,2,3,3,3,5,text,Leave,Full-Time,No
+43,Male,PG,UKIP,50-60K,1,1,1,1,0,0,0,text,Leave,Full-Time,No
+41,Male,GCSEorLess,UKIP,10-20K,1,1,1,1,0,0,0,text,Leave,Not in paid work,Yes
+45,Female,GCSEorLess,Con,30-40K,1,2,4,3,9,5,1,text,Leave,Full-Time,No
+60,Female,A-lev,Con,40-50K,1,2,4,2,2,1,1,text,Leave,Not in paid work,No
+46,Female,PG,Lab,20-30K,1,4,4,4,6,3,1,text,Leave,Full-Time,No
+45,Male,PG,Con,20-30K,0,5,5,4,2,3,5,text,Leave,Full-Time,No
+44,Female,GCSEorLess,Rather_not_say,20-30K,1,2,4,1,0,9,0,text,Leave,Full-Time,No
+20,Female,Post2,None,90-100K,0,4,4,4,9,5,8,text,No vote,Part-Time,Yes
+56,Female,BA,None,20-30K,1,2,2,3,2,8,2,text,Leave,Not in paid work,No
+27,Male,PG,UKIP,30-40K,1,4,2,2,5,0,7,text,Leave,Unemployed,No
+41,Female,PG,None,30-40K,1,4,4,2,2,8,3,text,Leave,Not in paid work,No
+38,Female,BA,Con,40-50K,1,1,1,2,1,1,2,text,Leave,Full-Time,No
+39,Female,GCSEorLess,Lab,20-30K,1,2,1,1,0,1,1,text,Leave,Full-Time,No
+46,Female,BA,Rather_not_say,50-60K,1,4,2,3,2,4,0,text,Leave,Other,No
+29,Female,BA,Lab,10-20K,1,3,2,2,5,4,5,text,Leave,Full-Time,Yes
+18,Male,A-lev,Lab,50-60K,0,5,5,4,9,8,7,text,No vote,Part-Time,Yes
+43,Female,BA,UKIP,50-60K,1,1,2,1,0,1,0,text,Leave,Full-Time,No
+47,Female,BA,UKIP,Over100K,1,1,1,2,10,0,0,text,Leave,Full-Time,No
+25,Female,PG,Grn,10-20K,0,4,4,4,10,5,10,text,Leave,Not in paid work,Yes
+49,Female,GCSEorLess,None,80-90K,0,4,3,3,8,5,6,text,Leave,Full-Time,No
+40,Female,A-lev,Con,20-30K,1,4,2,4,3,3,5,text,Leave,Full-Time,No
+22,Female,BA,Con,10-20K,0,5,5,4,9,5,9,text,Leave,Full-Time,No
+40,Male,A-lev,Con,40-50K,1,1,1,1,0,2,0,text,Leave,Full-Time,No
+29,Female,A-lev,Lab,10-20K,0,4,4,4,8,5,3,text,No vote,Unemployed,No
+30,Female,BA,Con,30-40K,1,4,3,4,3,5,5,text,Leave,Full-Time,No
+26,Male,A-lev,Con,20-30K,1,4,4,3,1,0,5,text,Leave,Full-Time,No
+64,Male,A-lev,None,20-30K,1,3,3,3,0,0,0,text,Leave,Not in paid work,No
+35,Female,PG,SNP,50-60K,0,5,5,5,10,5,10,text,No vote,Full-Time,No
+23,Male,GCSEorLess,None,20-30K,1,5,5,2,5,5,7,text,No vote,Other,No
+30,Male,GCSEorLess,Con,10-20K,1,3,2,3,4,4,4,text,Leave,Part-Time,No
+26,Male,A-lev,Grn,Under10K,1,2,1,4,2,1,4,text,Leave,Other,Yes
+56,Male,A-lev,Con,10-20K,1,4,2,1,0,2,0,text,Leave,Not in paid work,No
+38,Male,BA,Lab,20-30K,0,3,3,3,5,5,5,text,Leave,Full-Time,No
+58,Male,A-lev,None,10-20K,1,2,2,1,0,0,3,text,Leave,Full-Time,No
+54,Female,BA,None,30-40K,1,1,1,1,0,0,1,text,Leave,Full-Time,No
+35,Female,PG,None,40-50K,0,4,4,3,5,5,7,text,No vote,Not in paid work,Yes
+46,Male,PG,Con,90-100K,1,4,2,4,9,4,9,text,Leave,Full-Time,No
+33,Male,A-lev,Rather_not_say,40-50K,1,3,4,2,2,1,5,text,Leave,Full-Time,No
+59,Female,GCSEorLess,None,Under10K,1,3,2,3,2,2,5,text,Leave,Not in paid work,No
+47,Female,BA,Plaid,50-60K,0,3,3,3,3,3,5,text,Leave,Part-Time,No
+50,Female,BA,None,Over100K,1,4,2,2,2,1,5,text,Leave,Full-Time,No
+18,Female,GCSEorLess,Lab,Under10K,0,5,5,4,9,7,8,text,No vote,Part-Time,Yes
+57,Female,BA,UKIP,20-30K,1,3,2,2,0,0,0,text,Leave,Full-Time,No
+38,Female,Post2,None,20-30K,1,3,2,2,3,7,5,text,Leave,Not in paid work,No
+18,Female,A-lev,Lab,40-50K,0,5,4,3,9,6,5,text,No vote,Part-Time,Yes
+63,Male,GCSEorLess,Con,20-30K,1,2,2,3,0,0,0,text,Leave,Part-Time,No
+50,Female,A-lev,Con,30-40K,1,3,4,2,6,8,2,text,Leave,Part-Time,No
+47,Male,BA,Con,20-30K,1,2,1,2,2,3,2,text,Leave,Full-Time,No
+39,Male,A-lev,Lab,20-30K,1,3,3,3,5,4,4,text,Leave,Full-Time,No
+32,Male,GCSEorLess,Lab,20-30K,1,4,4,3,3,3,5,text,Leave,Part-Time,No
+51,Female,A-lev,Lab,40-50K,0,4,4,4,3,4,0,text,Leave,Part-Time,No
+27,Male,Post2,Lab,30-40K,0,5,5,4,8,3,7,text,Remain,Full-Time,Yes
+30,Male,A-lev,Lab,10-20K,0,4,5,4,7,4,5,text,Leave,Full-Time,No
+19,Male,BA,Lab,50-60K,1,4,2,2,7,4,4,text,Leave,Full-Time,Yes
+21,Male,GCSEorLess,None,40-50K,0,3,4,3,9,1,8,text,Leave,Other,Yes
+23,Male,BA,Con,30-40K,1,2,2,4,2,1,1,text,Leave,Other,Yes
+18,Female,A-lev,Lab,10-20K,0,5,4,5,9,5,8,text,No vote,Part-Time,Yes
+19,Male,A-lev,Lab,50-60K,0,5,5,5,10,10,10,text,No vote,Not in paid work,Yes
+24,Male,BA,Con,40-50K,0,4,3,3,7,4,7,text,Leave,Full-Time,No
+20,Female,GCSEorLess,None,Under10K,1,3,4,3,1,3,2,text,No vote,Part-Time,No
+32,Male,Post2,None,10-20K,1,1,1,5,3,1,2,text,Leave,Part-Time,No
+27,Male,GCSEorLess,UKIP,30-40K,1,3,3,3,5,3,0,text,Leave,Full-Time,No
+32,Male,BA,Con,30-40K,0,4,4,3,8,5,10,text,Leave,Full-Time,No
+26,Male,BA,None,40-50K,0,5,5,5,10,8,10,text,No vote,Full-Time,No
+60,Male,BA,None,Under10K,1,2,3,2,4,4,5,text,Leave,Not in paid work,No
+31,Female,A-lev,None,40-50K,1,4,2,2,2,1,2,text,No vote,Not in paid work,No
+20,Male,Post2,Grn,Under10K,0,5,4,4,10,5,7,text,No vote,Unemployed,Yes
+73,Male,A-lev,Con,20-30K,0,3,4,3,5,4,0,text,Leave,Not in paid work,No
+31,Male,GCSEorLess,Lab,10-20K,1,2,2,2,0,1,0,text,Leave,Not in paid work,No
+31,Male,A-lev,None,10-20K,1,3,4,3,2,0,3,text,Leave,Full-Time,No
+73,Male,BA,Con,10-20K,0,4,3,4,4,4,5,text,Leave,Not in paid work,No
+32,Male,A-lev,UKIP,50-60K,1,4,2,2,0,0,0,text,Leave,Unemployed,No
+54,Male,BA,Lab,20-30K,1,2,1,1,0,0,0,text,Leave,Full-Time,No
+34,Female,Post2,None,10-20K,0,5,4,5,10,5,10,text,No vote,Full-Time,No
+39,Male,BA,Con,90-100K,1,2,2,3,5,4,3,text,Leave,Other,No
+38,Male,A-lev,Lab,40-50K,1,2,2,3,2,5,3,text,Leave,Full-Time,No
+65,Male,GCSEorLess,UKIP,10-20K,1,3,1,3,0,0,0,text,Leave,Not in paid work,No
+61,Male,GCSEorLess,Con,40-50K,1,2,1,2,0,0,2,text,Leave,Full-Time,No
+49,Female,A-lev,Grn,10-20K,0,3,4,4,4,4,3,text,No vote,Part-Time,No
+28,Female,A-lev,Lab,20-30K,1,5,5,3,8,5,9,text,No vote,Part-Time,No
+52,Male,GCSEorLess,UKIP,20-30K,1,2,3,3,4,0,2,text,Leave,Full-Time,No
+46,Male,A-lev,Con,20-30K,1,3,3,2,2,2,2,text,Leave,Part-Time,No
+19,Female,A-lev,Lab,70-80K,0,4,3,4,8,4,2,text,No vote,Not in paid work,Yes
+59,Male,Post2,None,30-40K,1,2,2,3,3,2,0,text,Leave,Part-Time,No
+33,Male,BA,Con,60-70K,0,4,4,4,3,4,5,text,Leave,Other,No
+56,Male,A-lev,Lab,40-50K,1,4,4,2,2,2,5,text,Leave,Full-Time,No
+58,Male,BA,None,30-40K,0,4,4,5,10,5,10,text,Leave,Full-Time,No
+58,Female,GCSEorLess,Lab,10-20K,1,2,2,4,2,2,0,text,No vote,Part-Time,No
+26,Male,A-lev,None,Under10K,0,5,5,5,10,10,10,text,No vote,Unemployed,No
+20,Female,A-lev,Lab,Under10K,0,5,5,4,10,5,7,text,No vote,Not in paid work,Yes
+46,Male,Post2,UKIP,30-40K,1,2,1,2,0,8,0,text,Leave,Full-Time,No
+18,Female,GCSEorLess,Lab,30-40K,0,5,4,3,10,5,5,text,No vote,Part-Time,Yes
+18,Female,A-lev,Con,70-80K,0,5,5,3,10,5,5,text,No vote,Other,Yes
+37,Female,BA,Grn,40-50K,0,4,4,4,9,3,10,text,No vote,Part-Time,No
+18,Female,GCSEorLess,Lab,20-30K,0,5,4,3,9,5,6,text,No vote,Other,Yes
+23,Female,BA,Lab,20-30K,0,5,5,5,10,7,10,text,No vote,Unemployed,Yes
+53,Male,A-lev,Grn,Under10K,1,2,2,4,3,4,4,text,Leave,Not in paid work,No
+26,Male,A-lev,None,30-40K,0,5,5,4,10,5,8,text,Leave,Full-Time,No
+46,Female,PG,Lab,30-40K,0,5,4,3,8,3,5,text,No vote,Other,No
+34,Male,A-lev,UKIP,20-30K,1,2,2,3,0,1,3,text,Leave,Full-Time,No
+38,Male,PG,None,20-30K,1,3,3,2,3,3,0,text,Leave,Unemployed,No
+42,Male,BA,Rather_not_say,20-30K,1,2,2,2,3,3,4,text,Leave,Full-Time,No
+25,Male,BA,UKIP,30-40K,1,1,1,3,1,0,0,text,Leave,Unemployed,No
+24,Female,A-lev,Lab,10-20K,0,4,4,3,10,3,5,text,No vote,Full-Time,No
+71,Male,Post2,Con,30-40K,0,3,3,3,5,4,3,text,Leave,Not in paid work,No
+20,Female,A-lev,Con,40-50K,0,3,4,3,5,5,10,text,No vote,Other,Yes
+41,Female,A-lev,Rather_not_say,50-60K,1,2,4,2,3,3,5,text,No vote,Part-Time,No
+24,Male,PG,Con,20-30K,0,5,2,5,7,6,5,text,Leave,Full-Time,No
+22,Female,BA,None,20-30K,1,4,3,4,1,1,2,text,No vote,Full-Time,No
+60,Male,Post2,Con,20-30K,0,4,5,4,7,5,1,text,Leave,Full-Time,No
+72,Male,Post2,None,30-40K,1,4,3,3,5,3,5,text,Leave,Not in paid work,No
+20,Female,A-lev,Lab,Under10K,1,1,3,2,0,10,5,text,No vote,Full-Time,Yes
+66,Male,BA,None,10-20K,1,3,2,3,3,2,1,text,Leave,Not in paid work,No
+49,Male,Post2,Con,60-70K,1,1,1,1,0,0,5,text,Leave,Full-Time,No
+53,Male,GCSEorLess,Lab,40-50K,1,2,3,2,0,1,2,text,Leave,Full-Time,No
+18,Male,A-lev,Con,70-80K,1,2,4,3,1,4,4,text,No vote,Part-Time,No
+39,Male,Post2,Lab,Under10K,1,2,4,4,4,3,8,text,Leave,Unemployed,No
+54,Male,Post2,Lab,20-30K,0,4,2,3,10,5,9,text,Leave,Full-Time,No
+36,Female,GCSEorLess,Lab,30-40K,0,5,5,4,10,5,5,text,No vote,Not in paid work,No
+50,Male,PG,Grn,Under10K,0,5,5,4,10,5,10,text,Leave,Part-Time,No
+19,Female,GCSEorLess,Lab,Under10K,0,4,4,3,5,5,5,text,No vote,Part-Time,Yes
+21,Female,BA,Lab,10-20K,0,5,5,4,9,4,5,text,No vote,Other,Yes
+57,Male,GCSEorLess,UKIP,60-70K,1,2,2,2,0,0,0,text,Leave,Full-Time,No
+19,Female,A-lev,Lab,Under10K,1,2,2,1,0,0,9,text,No vote,Part-Time,Yes
+52,Male,GCSEorLess,Lab,30-40K,1,2,2,2,2,0,2,text,Leave,Full-Time,No
+21,Male,BA,UKIP,10-20K,1,2,2,4,2,3,0,text,Leave,Other,Yes
+54,Male,BA,Con,Over100K,1,4,4,4,3,2,7,text,Leave,Full-Time,No
+47,Male,BA,None,20-30K,1,3,2,2,0,4,0,text,Leave,Full-Time,No
+28,Male,BA,UKIP,10-20K,1,4,4,4,2,3,0,text,Leave,Full-Time,No
+35,Male,A-lev,Con,40-50K,0,5,4,4,5,4,3,text,Leave,Full-Time,No
+24,Male,GCSEorLess,Lab,20-30K,0,2,2,4,3,1,5,text,Leave,Part-Time,No
+24,Male,BA,Lab,40-50K,0,3,5,5,5,6,5,text,No vote,Full-Time,Yes
+40,Female,BA,Grn,10-20K,0,4,5,4,9,9,10,text,No vote,Part-Time,Yes
+49,Male,GCSEorLess,Con,50-60K,1,2,2,2,2,2,0,text,Leave,Full-Time,No
+18,Female,A-lev,Lab,Under10K,0,4,4,4,8,5,10,text,No vote,Part-Time,Yes
+33,Male,GCSEorLess,Lab,30-40K,0,5,4,4,5,5,5,text,Leave,Full-Time,No
+30,Male,GCSEorLess,UKIP,40-50K,1,4,1,1,0,0,0,text,Leave,Full-Time,No
+49,Male,PG,None,40-50K,1,1,1,1,0,0,0,text,Leave,Full-Time,No
+30,Female,BA,None,40-50K,1,5,4,4,8,4,5,text,No vote,Full-Time,No
+66,Male,PG,Con,30-40K,1,3,2,3,3,0,3,text,Leave,Full-Time,No
+23,Female,A-lev,Lab,10-20K,0,5,5,5,10,5,10,text,No vote,Full-Time,No
+64,Male,PG,UKIP,20-30K,1,1,1,2,3,1,3,text,Leave,Not in paid work,No
+48,Female,GCSEorLess,Lab,50-60K,1,4,4,3,2,2,5,text,No vote,Full-Time,No
+53,Male,GCSEorLess,Con,70-80K,1,3,3,4,3,4,1,text,Leave,Full-Time,No
+67,Male,A-lev,Con,10-20K,0,4,4,4,3,4,10,text,Leave,Not in paid work,No
+18,Female,A-lev,Lab,40-50K,1,2,4,3,0,0,5,text,No vote,Unemployed,Yes
+47,Male,BA,Lib,20-30K,0,5,3,4,8,5,5,text,Leave,Not in paid work,No
+62,Male,GCSEorLess,Lab,Under10K,0,2,2,3,4,5,5,text,Leave,Part-Time,No
+29,Male,GCSEorLess,Lab,10-20K,1,2,2,2,4,9,4,text,Leave,Full-Time,No
+60,Male,GCSEorLess,UKIP,10-20K,1,3,2,2,2,0,0,text,Leave,Not in paid work,No
+59,Male,BA,SNP,50-60K,0,4,5,3,8,5,8,text,Leave,Part-Time,No
+18,Female,A-lev,Grn,40-50K,0,5,4,4,10,7,7,text,No vote,Other,Yes
+64,Male,PG,Grn,Under10K,0,4,3,4,6,5,7,text,Leave,Other,No
+23,Male,BA,None,30-40K,1,2,2,4,3,2,0,text,Leave,Full-Time,No
+27,Male,BA,Grn,60-70K,0,5,5,4,10,5,9,text,Leave,Full-Time,No
+43,Male,PG,None,70-80K,1,1,2,4,2,0,1,text,Leave,Full-Time,No
+38,Male,A-lev,Lab,30-40K,0,4,4,4,6,5,6,text,Leave,Full-Time,No
+58,Male,Post2,Lab,30-40K,1,2,2,3,3,2,0,text,Leave,Full-Time,No
+41,Female,BA,None,70-80K,0,4,3,3,5,5,9,text,No vote,Full-Time,No
+31,Male,A-lev,Con,70-80K,1,4,2,4,1,3,1,text,Leave,Full-Time,No
+32,Male,A-lev,None,40-50K,0,5,5,4,10,7,10,text,No vote,Full-Time,No
+27,Male,A-lev,None,Under10K,1,2,3,2,1,0,0,text,Leave,Not in paid work,No
+51,Male,GCSEorLess,Lab,30-40K,1,2,2,3,2,7,2,text,Leave,Full-Time,No
+58,Male,GCSEorLess,Lab,Under10K,1,2,3,2,1,2,5,text,Leave,Other,No
+30,Female,A-lev,Lab,50-60K,0,4,4,3,9,5,10,text,No vote,Not in paid work,No
+19,Male,Post2,Lab,Over100K,0,4,3,4,5,5,9,text,No vote,Not in paid work,Yes
+41,Female,BA,None,40-50K,1,4,4,3,3,4,2,text,No vote,Full-Time,No
+40,Male,GCSEorLess,Lab,40-50K,0,4,4,4,8,5,10,text,Leave,Full-Time,No
+46,Male,GCSEorLess,Lab,20-30K,0,3,4,2,10,5,10,text,Leave,Full-Time,No
+41,Male,PG,UKIP,30-40K,1,2,1,2,4,3,0,text,Leave,Full-Time,No
+44,Female,BA,None,10-20K,0,4,5,4,10,5,7,text,No vote,Not in paid work,No
+29,Male,GCSEorLess,Lab,30-40K,1,4,2,4,4,4,2,text,Leave,Full-Time,No
+55,Female,GCSEorLess,Lab,40-50K,1,4,3,2,1,8,1,text,No vote,Part-Time,No
+25,Female,GCSEorLess,None,30-40K,1,2,2,2,1,7,10,text,No vote,Full-Time,No
+54,Male,Post2,None,10-20K,0,3,1,3,8,4,0,text,Leave,Full-Time,No
+28,Female,GCSEorLess,None,30-40K,1,2,3,2,4,4,2,text,No vote,Not in paid work,No
+55,Male,Post2,Lab,60-70K,1,3,3,2,2,1,5,text,Leave,Not in paid work,No
+30,Male,BA,None,20-30K,0,4,5,2,4,4,6,text,Leave,Full-Time,No
+32,Male,BA,None,30-40K,1,2,2,4,2,2,0,text,Leave,Full-Time,No
+24,Male,Post2,Lib,30-40K,1,4,2,2,2,3,10,text,Leave,Full-Time,No
+51,Female,A-lev,Lab,20-30K,0,4,3,2,7,5,8,text,No vote,Part-Time,No
+70,Male,BA,Con,20-30K,1,2,2,2,1,3,1,text,Leave,Not in paid work,No
+20,Female,BA,Lab,Under10K,0,5,5,5,10,5,10,text,No vote,Part-Time,Yes
+34,Male,Post2,UKIP,40-50K,1,4,2,4,3,3,3,text,Leave,Full-Time,No
+30,Female,A-lev,None,20-30K,0,4,5,4,7,5,6,text,No vote,Full-Time,No
+31,Male,Post2,SNP,40-50K,1,2,1,2,5,5,4,text,Leave,Full-Time,No
+31,Male,A-lev,UKIP,20-30K,1,2,3,2,3,3,5,text,Leave,Full-Time,No
+19,Female,A-lev,Grn,30-40K,0,5,4,4,10,7,10,text,No vote,Other,Yes
+44,Male,A-lev,None,10-20K,1,1,2,3,2,2,2,text,Leave,Not in paid work,No
+18,Female,A-lev,Lab,50-60K,0,3,4,4,8,5,10,text,No vote,Unemployed,No
+59,Female,BA,SNP,20-30K,1,4,4,4,7,4,10,text,No vote,Not in paid work,No
+56,Male,A-lev,Lab,20-30K,0,4,3,4,6,5,6,text,Leave,Full-Time,No
+46,Male,PG,Con,Over100K,0,4,4,3,5,3,5,text,Leave,Full-Time,No
+18,Male,A-lev,Lab,20-30K,0,4,5,4,10,6,10,text,No vote,Other,No
+41,Female,BA,Con,90-100K,0,4,2,2,10,5,5,text,No vote,Full-Time,No
+43,Male,GCSEorLess,UKIP,40-50K,1,1,1,5,0,0,0,text,Leave,Full-Time,No
+18,Male,GCSEorLess,Con,30-40K,0,4,4,4,8,5,9,text,No vote,Part-Time,Yes
+64,Male,BA,Grn,20-30K,1,2,1,2,0,0,2,text,Leave,Not in paid work,No
+60,Male,A-lev,None,10-20K,1,3,2,3,5,1,5,text,No vote,Not in paid work,No
+25,Male,BA,Grn,40-50K,0,5,5,4,9,5,9,text,Leave,Full-Time,No
+28,Female,A-lev,Lab,10-20K,1,3,2,2,5,3,5,text,No vote,Part-Time,No
+27,Female,BA,None,10-20K,0,5,5,5,10,6,5,text,No vote,Full-Time,No
+18,Female,A-lev,None,Under10K,0,5,5,5,10,5,10,text,No vote,Other,Yes
+44,Male,BA,Rather_not_say,70-80K,1,2,2,3,1,1,2,text,Leave,Full-Time,No
+56,Male,BA,Con,40-50K,1,1,2,1,0,0,0,text,Leave,Full-Time,No
+56,Male,GCSEorLess,Lab,70-80K,1,4,1,2,2,2,0,text,Leave,Full-Time,No
+46,Female,GCSEorLess,Lib,10-20K,1,4,3,3,5,3,4,text,No vote,Unemployed,No
+49,Male,A-lev,Con,40-50K,1,2,2,3,0,1,0,text,Leave,Full-Time,No
+21,Male,A-lev,Lab,50-60K,1,2,2,2,4,3,8,text,Leave,Full-Time,No
+18,Male,A-lev,Lab,20-30K,0,2,4,5,9,5,9,text,No vote,Not in paid work,Yes
+47,Male,Post2,Con,Over100K,1,2,3,2,0,4,0,text,Leave,Full-Time,No
+19,Male,A-lev,Lab,Under10K,1,4,3,3,10,4,5,text,No vote,Part-Time,Yes
+31,Male,A-lev,Lab,10-20K,1,3,2,3,4,3,5,text,Leave,Full-Time,No
+27,Male,PG,Lib,30-40K,0,3,4,3,8,5,7,text,Leave,Full-Time,No
+45,Female,A-lev,Rather_not_say,10-20K,0,3,3,3,10,5,6,text,No vote,Full-Time,No
+32,Female,A-lev,None,30-40K,1,4,4,4,5,4,5,text,No vote,Part-Time,No
+19,Female,A-lev,None,Under10K,0,5,5,5,9,3,0,text,No vote,Part-Time,No
+20,Female,A-lev,Con,30-40K,0,3,4,3,4,4,5,text,No vote,Other,Yes
+54,Female,Post2,Lab,20-30K,1,2,2,2,0,1,0,text,No vote,Not in paid work,No
+19,Female,A-lev,Lab,10-20K,0,5,5,5,10,8,5,text,No vote,Not in paid work,Yes
+19,Female,Post2,SNP,60-70K,1,4,4,4,7,6,5,text,No vote,Part-Time,Yes
+28,Male,A-lev,None,30-40K,0,4,4,4,6,7,3,text,No vote,Full-Time,No
+51,Male,BA,None,40-50K,1,3,3,2,0,1,0,text,No vote,Not in paid work,No
+62,Male,GCSEorLess,None,10-20K,1,3,3,2,4,5,5,text,No vote,Full-Time,No
+29,Male,GCSEorLess,None,20-30K,0,4,4,3,6,5,5,text,No vote,Full-Time,No
+29,Male,BA,Con,40-50K,0,4,4,4,10,5,5,text,No vote,Full-Time,No
+23,Male,BA,Con,40-50K,1,2,3,1,3,1,5,text,No vote,Full-Time,No
+18,Male,A-lev,Lab,20-30K,0,4,4,2,6,5,5,text,No vote,Unemployed,No
+26,Male,BA,None,20-30K,0,5,4,5,7,2,5,text,No vote,Full-Time,No
+19,Male,GCSEorLess,None,20-30K,0,4,1,1,8,3,3,text,No vote,Other,Yes
+44,Male,A-lev,None,80-90K,0,4,4,4,8,5,10,text,No vote,Full-Time,No
+30,Male,GCSEorLess,Lab,10-20K,1,4,3,3,3,2,6,text,No vote,Full-Time,Yes
+19,Male,A-lev,Lab,30-40K,0,4,5,3,5,5,10,text,No vote,Other,Yes
+18,Male,BA,Rather_not_say,70-80K,0,4,3,4,9,5,5,text,No vote,Other,Yes
+23,Male,PG,Lab,10-20K,0,5,2,3,9,5,10,text,No vote,Not in paid work,Yes
+20,Male,Post2,Con,Under10K,0,4,3,4,0,3,5,text,No vote,Other,Yes
+19,Male,Post2,None,50-60K,1,3,4,2,4,3,2,text,No vote,Unemployed,Yes
+38,Male,Post2,Con,20-30K,1,2,2,4,0,0,2,text,No vote,Unemployed,No
+18,Male,A-lev,None,90-100K,0,4,2,3,7,5,6,text,No vote,Not in paid work,Yes
+19,Male,A-lev,Lib,Under10K,0,3,4,4,6,5,10,text,No vote,Other,Yes
+24,Male,PG,None,10-20K,0,5,5,3,10,5,5,text,No vote,Full-Time,Yes
+33,Male,GCSEorLess,Con,20-30K,1,2,2,3,3,3,1,text,No vote,Part-Time,No
+19,Male,Post2,Lab,30-40K,1,3,3,2,2,0,6,text,No vote,Other,Yes
+19,Male,A-lev,None,Under10K,0,4,4,4,7,6,3,text,No vote,Unemployed,Yes
+18,Male,A-lev,None,30-40K,1,1,2,2,3,1,5,text,No vote,Full-Time,Yes
+26,Male,GCSEorLess,Lab,Over100K,0,3,4,4,9,5,10,text,No vote,Part-Time,Yes
+24,Male,A-lev,Lab,40-50K,1,3,2,3,3,6,1,text,No vote,Full-Time,No
+24,Male,BA,None,10-20K,1,3,4,2,3,4,6,text,No vote,Full-Time,No
+45,Male,Post2,Lab,40-50K,1,3,4,3,4,3,5,text,No vote,Full-Time,No
+35,Male,BA,Grn,10-20K,0,4,4,3,10,5,10,text,No vote,Full-Time,No
+24,Male,PG,Lab,Over100K,0,5,5,4,10,9,10,text,No vote,Part-Time,No
+29,Male,BA,None,70-80K,1,2,3,3,3,4,8,text,No vote,Full-Time,Yes
+28,Male,BA,None,40-50K,1,2,2,4,2,2,2,text,No vote,Full-Time,No
+19,Male,A-lev,Lab,10-20K,1,2,2,2,4,2,7,text,No vote,Full-Time,Yes
+25,Male,Post2,None,10-20K,1,4,4,1,2,1,3,text,No vote,Full-Time,Yes
+34,Male,GCSEorLess,Plaid,30-40K,1,3,2,2,3,2,2,text,No vote,Full-Time,No
+18,Male,A-lev,None,Under10K,0,5,5,4,10,7,10,text,No vote,Unemployed,Yes
+18,Male,GCSEorLess,None,80-90K,0,4,4,4,6,2,6,text,No vote,Not in paid work,Yes
+23,Male,GCSEorLess,None,Under10K,1,1,1,1,0,0,2,text,No vote,Part-Time,No
+18,Male,GCSEorLess,Lib,50-60K,0,4,2,3,8,5,9,text,No vote,Not in paid work,Yes
+18,Male,A-lev,Lab,Over100K,0,4,3,4,5,4,7,text,No vote,Other,Yes
+19,Male,A-lev,Con,90-100K,0,4,4,4,2,4,6,text,No vote,Other,Yes
+19,Male,BA,Con,10-20K,0,4,3,3,5,4,8,text,No vote,Part-Time,Yes
+46,Male,GCSEorLess,None,40-50K,1,5,4,4,2,2,7,text,No vote,Full-Time,No
+19,Male,A-lev,Grn,50-60K,0,5,5,4,10,7,10,text,No vote,Other,Yes
+21,Male,Post2,SNP,40-50K,0,4,4,4,10,7,10,text,No vote,Part-Time,Yes
+44,Male,Post2,Lab,60-70K,0,5,5,4,9,8,9,text,No vote,Full-Time,No
+56,Male,BA,Plaid,30-40K,0,4,4,4,9,9,2,text,No vote,Other,No
+20,Male,A-lev,Lab,Under10K,0,4,5,4,10,6,9,text,No vote,Other,Yes
+42,Male,BA,None,60-70K,1,4,2,4,5,4,7,text,No vote,Not in paid work,No
+19,Male,A-lev,None,10-20K,1,5,4,3,3,3,3,text,No vote,Part-Time,Yes
+23,Male,BA,None,60-70K,1,2,2,2,5,5,5,text,No vote,Full-Time,No
+24,Male,A-lev,Con,30-40K,0,4,4,4,7,4,9,text,No vote,Full-Time,No
+36,Male,GCSEorLess,None,20-30K,1,3,4,2,3,6,3,text,No vote,Full-Time,No
+23,Male,BA,Lib,50-60K,0,3,4,4,7,5,8,text,No vote,Full-Time,No
+19,Male,Post2,None,20-30K,0,5,4,4,5,5,5,text,No vote,Full-Time,Yes
+19,Male,Post2,Lib,Under10K,0,5,5,5,10,5,10,text,No vote,Unemployed,Yes
+42,Male,Post2,Con,40-50K,1,4,2,2,3,2,2,text,No vote,Full-Time,No
+18,Male,A-lev,None,Under10K,0,4,4,3,9,5,3,text,No vote,Unemployed,Yes
+59,Male,PG,None,80-90K,0,2,4,4,7,5,9,text,No vote,Part-Time,No
+32,Male,GCSEorLess,Lab,10-20K,1,2,2,2,2,8,3,text,No vote,Unemployed,No
+29,Male,A-lev,Lab,10-20K,1,3,2,3,2,2,5,text,No vote,Full-Time,No
+38,Male,BA,None,40-50K,1,3,4,2,4,4,6,text,No vote,Full-Time,No
+29,Male,A-lev,Rather_not_say,50-60K,0,4,4,3,7,6,5,text,No vote,Full-Time,No
+27,Male,PG,None,50-60K,1,4,4,4,7,3,0,text,No vote,Other,No
+18,Male,GCSEorLess,None,Under10K,0,5,4,5,10,5,10,text,No vote,Other,Yes
+19,Male,A-lev,Lib,80-90K,0,3,4,4,4,4,6,text,No vote,Other,Yes
+35,Male,Post2,Con,40-50K,0,4,4,4,7,5,7,text,No vote,Full-Time,No
+18,Male,A-lev,Lab,20-30K,0,5,4,5,10,7,9,text,No vote,Part-Time,Yes
+30,Male,A-lev,Lab,Under10K,1,2,2,2,0,0,5,text,No vote,Part-Time,No
+19,Male,GCSEorLess,Grn,70-80K,0,4,4,3,10,7,10,text,No vote,Not in paid work,Yes
+18,Male,A-lev,Lab,30-40K,1,2,2,3,8,2,5,text,No vote,Part-Time,Yes
+19,Male,GCSEorLess,Rather_not_say,40-50K,0,5,4,4,6,5,10,text,No vote,Part-Time,Yes
+18,Male,A-lev,Rather_not_say,40-50K,0,4,4,4,9,4,8,text,No vote,Other,Yes
+18,Female,GCSEorLess,None,30-40K,1,3,4,1,5,4,4,vis,No vote,Part-Time,Yes
+19,Female,BA,Rather_not_say,40-50K,1,4,3,3,6,3,5,vis,No vote,Part-Time,Yes
+54,Female,A-lev,None,30-40K,0,4,4,3,7,4,5,vis,No vote,Not in paid work,No
+18,Female,A-lev,Lab,50-60K,0,5,5,4,10,5,10,vis,No vote,Unemployed,Yes
+18,Female,GCSEorLess,Rather_not_say,20-30K,0,4,5,4,9,5,5,vis,No vote,Part-Time,Yes
+27,Female,A-lev,None,10-20K,1,3,4,3,3,4,4,vis,No vote,Full-Time,Yes
+38,Female,PG,Lab,50-60K,1,2,4,2,1,2,5,vis,No vote,Part-Time,No
+29,Female,BA,None,20-30K,0,4,4,4,8,5,5,vis,No vote,Not in paid work,No
+31,Female,PG,Lab,50-60K,0,5,4,3,10,8,10,vis,No vote,Full-Time,No
+18,Female,A-lev,Con,Over100K,0,4,3,4,5,5,6,vis,No vote,Part-Time,Yes
+28,Female,PG,None,50-60K,0,5,4,3,10,5,5,vis,No vote,Full-Time,No
+44,Female,Post2,Lib,20-30K,0,5,5,5,5,5,5,vis,No vote,Other,No
+19,Female,A-lev,Lab,10-20K,0,5,5,4,10,5,10,vis,No vote,Part-Time,Yes
+20,Female,A-lev,Lab,10-20K,0,5,5,4,10,6,9,vis,No vote,Unemployed,Yes
+18,Female,GCSEorLess,None,Over100K,0,5,5,5,10,5,10,vis,No vote,Other,Yes
+23,Female,A-lev,Lab,40-50K,0,5,5,5,10,5,10,vis,No vote,Part-Time,Yes
+36,Female,BA,UKIP,30-40K,1,4,4,4,4,4,5,vis,No vote,Not in paid work,No
+19,Female,GCSEorLess,Rather_not_say,20-30K,0,4,4,3,7,5,5,vis,No vote,Full-Time,No
+34,Female,A-lev,Con,40-50K,1,4,3,4,4,4,4,vis,No vote,Part-Time,No
+20,Female,A-lev,Lab,Under10K,0,5,4,5,10,7,5,vis,No vote,Part-Time,Yes
+35,Female,Post2,Con,Over100K,1,2,3,2,4,3,5,vis,No vote,Full-Time,No
+28,Female,PG,Grn,50-60K,0,4,5,4,10,5,10,vis,No vote,Full-Time,No
+23,Female,PG,None,Under10K,0,4,4,4,6,5,9,vis,No vote,Other,Yes
+20,Female,A-lev,None,40-50K,0,4,4,4,8,5,10,vis,No vote,Other,Yes
+18,Female,Post2,Lab,50-60K,1,4,2,2,3,8,9,vis,No vote,Part-Time,Yes
+27,Female,BA,Lab,50-60K,0,5,5,3,9,5,10,vis,No vote,Full-Time,No
+18,Female,A-lev,Lib,30-40K,0,5,5,4,10,9,10,vis,No vote,Part-Time,Yes
+22,Female,BA,SNP,40-50K,0,5,5,1,9,5,9,vis,No vote,Part-Time,Yes
+38,Female,A-lev,None,90-100K,1,2,2,2,1,0,8,vis,No vote,Full-Time,No
+29,Female,GCSEorLess,Lab,30-40K,0,3,4,2,5,3,7,vis,No vote,Full-Time,No
+39,Female,BA,None,90-100K,0,4,4,4,8,5,9,vis,No vote,Not in paid work,No
+20,Female,A-lev,Lab,Under10K,0,5,5,4,10,5,9,vis,No vote,Unemployed,Yes
+26,Female,A-lev,Plaid,Under10K,0,5,5,5,10,7,10,vis,No vote,Not in paid work,No
+38,Female,PG,Lab,60-70K,0,5,5,4,10,5,10,vis,No vote,Full-Time,No
+21,Female,BA,Grn,50-60K,0,5,5,4,9,5,8,vis,No vote,Full-Time,Yes
+19,Female,A-lev,Lab,Under10K,0,5,4,3,8,5,7,vis,No vote,Unemployed,Yes
+37,Female,GCSEorLess,Con,60-70K,1,3,4,3,3,3,2,vis,No vote,Full-Time,No
+18,Female,A-lev,Lab,40-50K,0,4,4,3,5,4,8,vis,No vote,Part-Time,Yes
+19,Female,GCSEorLess,UKIP,10-20K,0,3,2,3,6,3,6,vis,No vote,Part-Time,No
+18,Female,A-lev,Grn,30-40K,0,5,5,5,10,6,10,vis,No vote,Other,Yes
+18,Female,Post2,Lab,Under10K,0,4,4,4,10,5,8,vis,No vote,Other,Yes
+39,Female,A-lev,None,20-30K,1,4,3,2,1,2,1,vis,No vote,Full-Time,No
+38,Female,PG,None,50-60K,0,5,4,4,9,5,7,vis,No vote,Full-Time,No
+38,Female,GCSEorLess,Lab,20-30K,1,2,2,3,2,3,3,vis,No vote,Not in paid work,No
+32,Female,GCSEorLess,None,10-20K,1,2,2,2,4,4,5,vis,No vote,Other,No
+18,Female,A-lev,None,Under10K,0,4,4,3,6,3,5,vis,No vote,Part-Time,Yes
+19,Female,A-lev,Lab,Under10K,0,2,2,3,7,5,5,vis,No vote,Unemployed,Yes
+18,Female,A-lev,None,10-20K,0,5,5,4,9,0,10,vis,No vote,Unemployed,Yes
+26,Female,BA,Lab,30-40K,0,5,3,4,3,3,10,vis,No vote,Full-Time,No
+18,Female,GCSEorLess,Plaid,10-20K,0,3,3,2,6,6,4,vis,No vote,Full-Time,Yes
+36,Female,Post2,None,50-60K,1,4,3,3,3,8,5,vis,No vote,Part-Time,No
+52,Female,BA,None,10-20K,0,5,5,4,9,5,5,vis,No vote,Full-Time,No
+38,Female,BA,Lib,20-30K,0,4,2,4,5,4,5,vis,No vote,Full-Time,No
+40,Female,PG,None,60-70K,1,2,2,2,3,2,5,vis,No vote,Full-Time,No
+20,Female,A-lev,Lab,10-20K,0,5,5,4,10,5,10,vis,No vote,Part-Time,Yes
+35,Female,PG,Lab,30-40K,0,4,4,4,8,5,8,vis,No vote,Full-Time,Yes
+30,Female,A-lev,Lab,80-90K,0,4,4,4,9,5,9,vis,No vote,Part-Time,No
+28,Female,A-lev,None,20-30K,1,3,4,2,3,3,5,vis,No vote,Part-Time,No
+20,Female,A-lev,Lab,20-30K,0,4,5,4,7,4,7,vis,No vote,Part-Time,No
+20,Female,A-lev,Lab,90-100K,0,5,4,4,6,4,8,vis,No vote,Other,Yes
+33,Female,BA,Lab,10-20K,1,3,3,4,4,4,4,vis,No vote,Part-Time,No
+20,Female,BA,SNP,Under10K,0,5,5,4,10,7,9,vis,No vote,Unemployed,Yes
+18,Female,GCSEorLess,Lab,Over100K,0,4,5,4,10,5,5,vis,No vote,Unemployed,Yes
+20,Female,A-lev,Lab,Under10K,0,5,5,4,5,3,0,vis,No vote,Part-Time,Yes
+32,Female,BA,Lab,40-50K,0,4,4,3,8,5,6,vis,No vote,Full-Time,Yes
+31,Female,BA,None,70-80K,1,5,4,4,5,3,3,vis,No vote,Full-Time,No
+20,Female,BA,Lab,Under10K,0,4,5,4,6,5,5,vis,No vote,Unemployed,Yes
+18,Female,A-lev,Plaid,30-40K,0,5,5,4,9,5,10,vis,No vote,Not in paid work,Yes
+52,Female,BA,Lab,50-60K,0,5,5,4,10,5,10,vis,No vote,Part-Time,No
+44,Female,GCSEorLess,None,20-30K,1,3,3,4,0,2,0,vis,No vote,Part-Time,No
+18,Female,BA,Lib,10-20K,0,5,5,4,10,6,10,vis,No vote,Part-Time,Yes
+32,Female,Post2,None,50-60K,1,3,4,3,5,3,5,vis,No vote,Full-Time,No
+18,Female,A-lev,SNP,40-50K,0,3,4,3,10,8,5,vis,No vote,Unemployed,Yes
+56,Female,BA,None,50-60K,0,5,5,5,9,5,5,vis,No vote,Full-Time,No
+26,Female,PG,Con,20-30K,0,4,3,4,6,5,5,vis,No vote,Full-Time,No
+18,Female,A-lev,Rather_not_say,Under10K,0,4,4,4,5,5,8,vis,No vote,Unemployed,Yes
+28,Female,BA,Lib,20-30K,0,4,4,3,8,5,9,vis,No vote,Part-Time,No
+36,Female,GCSEorLess,None,20-30K,0,4,4,4,8,4,9,vis,No vote,Other,No
+25,Female,A-lev,Lab,10-20K,0,4,4,5,7,5,9,vis,No vote,Full-Time,No
+26,Female,Post2,None,20-30K,0,5,5,5,9,10,9,vis,No vote,Not in paid work,No
+18,Female,GCSEorLess,Lab,Over100K,0,5,4,4,10,5,10,vis,No vote,Not in paid work,Yes
+21,Female,GCSEorLess,None,Under10K,0,5,5,4,10,10,5,vis,No vote,Unemployed,Yes
+34,Female,PG,None,20-30K,1,2,4,2,0,0,1,vis,No vote,Part-Time,No
+24,Female,PG,Rather_not_say,Under10K,1,4,4,4,5,3,5,vis,No vote,Not in paid work,Yes
+19,Female,Post2,Lab,20-30K,0,5,5,5,10,6,5,vis,No vote,Unemployed,No
+30,Female,A-lev,Con,20-30K,1,3,2,2,3,3,5,vis,No vote,Part-Time,No
+30,Female,PG,Lib,70-80K,0,5,5,5,10,8,10,vis,No vote,Part-Time,Yes
+20,Female,BA,Lib,10-20K,0,5,5,4,9,5,10,vis,No vote,Part-Time,Yes
+36,Male,BA,Con,20-30K,0,3,2,4,7,5,5,vis,No vote,Full-Time,No
+26,Male,GCSEorLess,None,20-30K,0,3,4,4,10,5,10,vis,No vote,Other,No
+46,Male,GCSEorLess,None,30-40K,1,4,4,2,1,1,5,vis,No vote,Full-Time,No
+40,Male,A-lev,Con,50-60K,1,4,3,3,3,3,0,vis,No vote,Full-Time,No
+39,Male,BA,Lab,40-50K,0,5,5,5,5,5,9,vis,No vote,Full-Time,No
+20,Male,Post2,Lab,40-50K,0,2,3,2,5,3,8,vis,No vote,Other,Yes
+27,Male,GCSEorLess,Rather_not_say,Under10K,0,2,4,1,3,3,9,vis,No vote,Unemployed,No
+35,Male,BA,None,60-70K,0,5,4,2,2,3,5,vis,No vote,Full-Time,No
+26,Male,GCSEorLess,None,Under10K,1,4,4,2,2,0,0,vis,No vote,Unemployed,No
+20,Male,A-lev,Con,Under10K,0,4,4,2,7,5,10,vis,No vote,Other,Yes
+30,Male,GCSEorLess,None,Under10K,1,2,2,2,2,5,5,vis,No vote,Unemployed,No
+30,Male,BA,None,20-30K,1,4,4,3,5,4,4,vis,No vote,Full-Time,No
+24,Male,PG,None,20-30K,0,3,2,2,5,4,9,vis,No vote,Full-Time,No
+27,Male,GCSEorLess,Lab,50-60K,1,4,4,2,3,3,7,vis,No vote,Full-Time,No
+18,Male,A-lev,Lab,40-50K,0,4,4,4,10,6,9,vis,No vote,Unemployed,Yes
+19,Male,Post2,Lab,10-20K,0,5,4,5,10,5,10,vis,No vote,Not in paid work,Yes
+33,Male,Post2,Lab,40-50K,0,5,5,4,9,5,5,vis,No vote,Full-Time,Yes
+31,Male,GCSEorLess,Lab,Under10K,0,4,2,4,6,5,6,vis,No vote,Unemployed,No
+63,Male,A-lev,Lab,10-20K,0,4,4,3,9,7,10,vis,No vote,Not in paid work,No
+19,Male,GCSEorLess,None,10-20K,0,4,4,3,7,5,7,vis,No vote,Full-Time,No
+21,Male,A-lev,None,40-50K,0,3,3,4,3,8,5,vis,No vote,Full-Time,No
+29,Male,Post2,None,30-40K,0,5,2,3,8,5,8,vis,No vote,Other,No
+32,Male,GCSEorLess,Lab,20-30K,0,4,4,4,8,5,5,vis,No vote,Full-Time,No
+18,Male,A-lev,Con,30-40K,1,4,3,4,4,4,5,vis,No vote,Unemployed,Yes
+34,Male,GCSEorLess,UKIP,Under10K,1,1,1,1,0,10,0,vis,No vote,Not in paid work,No
+47,Male,A-lev,Lab,10-20K,1,2,1,3,2,3,2,vis,No vote,Not in paid work,No
+18,Male,A-lev,Lab,20-30K,0,5,5,4,10,6,5,vis,No vote,Not in paid work,No
+54,Male,BA,None,40-50K,0,4,4,4,8,7,7,vis,No vote,Full-Time,No
+26,Male,BA,Con,20-30K,0,4,4,4,9,5,8,vis,No vote,Full-Time,No
+24,Male,BA,Lab,70-80K,0,5,4,5,10,7,10,vis,No vote,Unemployed,No
+51,Male,GCSEorLess,SNP,Under10K,0,5,5,3,10,8,10,vis,No vote,Full-Time,No
+37,Male,BA,None,40-50K,0,5,4,3,2,6,5,vis,No vote,Full-Time,No
+31,Male,BA,Lab,Over100K,0,4,4,4,7,6,9,vis,No vote,Part-Time,No
+20,Male,A-lev,Con,60-70K,0,4,3,4,6,4,7,vis,No vote,Part-Time,Yes
+19,Male,BA,None,40-50K,1,4,2,4,4,4,8,vis,No vote,Part-Time,Yes
+20,Male,A-lev,Lab,Under10K,0,4,4,4,3,6,7,vis,No vote,Unemployed,Yes
+29,Male,PG,Lab,50-60K,0,5,5,5,9,5,10,vis,No vote,Full-Time,No
+18,Male,A-lev,Lab,10-20K,0,4,3,4,8,5,8,vis,No vote,Part-Time,Yes
+19,Male,A-lev,Lab,40-50K,0,5,5,4,10,5,5,vis,No vote,Other,Yes
+25,Male,BA,Lab,10-20K,0,5,5,3,10,5,5,vis,No vote,Part-Time,No
+45,Male,PG,Rather_not_say,50-60K,0,4,4,4,5,5,5,vis,No vote,Not in paid work,No
+18,Male,GCSEorLess,None,10-20K,0,4,4,4,9,5,10,vis,No vote,Not in paid work,Yes
+19,Male,A-lev,Con,Over100K,1,4,3,2,1,4,10,vis,No vote,Unemployed,Yes
+19,Male,GCSEorLess,None,10-20K,0,4,4,4,8,3,5,vis,No vote,Unemployed,No
+27,Male,A-lev,None,10-20K,1,4,3,3,9,0,9,vis,No vote,Part-Time,No
+29,Male,BA,Lib,20-30K,0,4,4,3,9,5,10,vis,No vote,Not in paid work,Yes
+50,Male,GCSEorLess,Con,Under10K,1,3,3,2,5,7,3,vis,No vote,Full-Time,No
+28,Male,BA,None,60-70K,1,4,2,3,7,2,5,vis,No vote,Full-Time,No
+29,Male,GCSEorLess,None,10-20K,1,4,3,1,3,7,5,vis,No vote,Full-Time,No
+18,Male,GCSEorLess,None,50-60K,0,4,5,4,10,6,8,vis,No vote,Not in paid work,Yes
+21,Male,Post2,None,10-20K,1,4,4,4,4,7,5,vis,No vote,Unemployed,No
+42,Male,A-lev,None,50-60K,1,3,2,2,0,1,0,vis,No vote,Full-Time,No
+20,Male,GCSEorLess,Con,Under10K,1,3,4,3,3,0,3,vis,No vote,Unemployed,No
+28,Male,GCSEorLess,Lab,20-30K,1,1,1,1,0,10,0,vis,No vote,Full-Time,No
+19,Male,A-lev,Lab,20-30K,0,5,4,4,10,7,9,vis,No vote,Not in paid work,Yes
+46,Male,BA,Con,10-20K,1,2,4,3,4,1,1,vis,No vote,Full-Time,No
+20,Male,A-lev,Lab,30-40K,0,5,5,5,10,7,5,vis,No vote,Not in paid work,Yes
+18,Male,A-lev,None,60-70K,0,5,4,4,9,7,9,vis,No vote,Other,Yes
+19,Male,A-lev,Lib,Under10K,0,3,4,3,8,5,5,vis,No vote,Part-Time,Yes
+18,Male,A-lev,Lib,10-20K,0,5,4,4,10,2,10,vis,No vote,Part-Time,Yes
+20,Male,PG,Rather_not_say,Over100K,1,4,3,3,4,6,8,vis,No vote,Full-Time,Yes
+46,Male,GCSEorLess,None,10-20K,0,5,4,4,9,7,9,vis,No vote,Part-Time,No
+18,Male,A-lev,Grn,40-50K,0,4,5,5,10,4,7,vis,No vote,Unemployed,Yes
+18,Male,A-lev,Lab,10-20K,1,4,4,3,3,6,5,vis,No vote,Other,Yes
+34,Male,PG,None,60-70K,0,5,5,5,10,7,10,vis,No vote,Full-Time,No
+31,Male,GCSEorLess,Con,20-30K,1,1,1,3,10,0,0,vis,No vote,Full-Time,No
+56,Male,BA,None,40-50K,1,4,4,3,1,1,9,vis,No vote,Full-Time,No
+18,Male,A-lev,None,40-50K,0,5,5,4,10,5,7,vis,No vote,Unemployed,Yes
+19,Male,A-lev,Lab,Under10K,0,5,5,5,10,5,9,vis,No vote,Not in paid work,Yes
+18,Male,A-lev,UKIP,30-40K,0,3,3,3,8,6,5,vis,No vote,Unemployed,No
+18,Male,GCSEorLess,Con,40-50K,0,5,1,5,8,3,7,vis,No vote,Other,Yes
+26,Male,A-lev,None,30-40K,1,4,2,3,4,7,5,vis,No vote,Full-Time,No
+25,Male,Post2,None,Under10K,0,4,4,3,0,5,7,vis,No vote,Full-Time,No
+24,Male,BA,Lab,10-20K,0,3,4,2,4,5,10,vis,No vote,Full-Time,No
+20,Male,A-lev,Lab,60-70K,0,2,2,5,4,4,5,vis,No vote,Part-Time,Yes
+41,Male,Post2,None,30-40K,0,4,4,4,10,5,10,vis,No vote,Full-Time,No
+22,Male,A-lev,Grn,60-70K,0,5,3,3,7,5,10,vis,No vote,Part-Time,Yes
+52,Male,GCSEorLess,None,10-20K,0,4,5,5,10,5,10,vis,No vote,Other,No
+18,Male,A-lev,Con,40-50K,1,3,4,3,0,2,2,vis,No vote,Not in paid work,Yes
+61,Male,BA,None,Under10K,1,1,1,1,0,0,0,vis,No vote,Not in paid work,No
+25,Male,GCSEorLess,None,20-30K,1,3,2,1,0,0,5,vis,No vote,Full-Time,No
+20,Male,A-lev,Con,Under10K,1,3,3,4,5,3,4,vis,No vote,Not in paid work,Yes
+19,Male,A-lev,Lab,60-70K,0,5,5,4,9,4,8,vis,No vote,Part-Time,Yes
+18,Male,GCSEorLess,Lab,30-40K,0,5,4,4,6,7,3,vis,No vote,Not in paid work,Yes
+62,Male,BA,Con,30-40K,1,4,2,3,1,2,5,vis,No vote,Part-Time,No
+20,Male,A-lev,Rather_not_say,10-20K,0,4,4,4,10,4,6,vis,No vote,Other,Yes
+21,Male,A-lev,Lab,30-40K,0,4,3,3,5,5,9,vis,No vote,Full-Time,No
+22,Male,GCSEorLess,Rather_not_say,10-20K,1,4,3,4,5,10,5,vis,No vote,Full-Time,No
+20,Male,BA,Lab,30-40K,0,4,5,4,9,5,10,vis,No vote,Unemployed,Yes
+20,Male,GCSEorLess,Lib,Under10K,0,5,5,4,8,5,10,vis,No vote,Unemployed,No
+18,Male,A-lev,Grn,80-90K,0,4,5,5,8,5,7,vis,No vote,Other,Yes
+20,Male,A-lev,Lab,Under10K,0,5,5,4,10,5,10,vis,No vote,Part-Time,Yes
+53,Male,PG,None,50-60K,0,4,5,5,9,5,9,vis,No vote,Full-Time,No
+47,Male,BA,Lab,50-60K,0,4,4,3,8,5,9,vis,No vote,Full-Time,No
+20,Male,BA,None,40-50K,1,2,1,2,0,0,5,vis,No vote,Part-Time,Yes
+25,Female,GCSEorLess,Lab,20-30K,1,2,2,2,4,4,9,vis,Remain,Part-Time,No
+27,Female,BA,Lab,70-80K,0,5,5,4,10,5,10,vis,Remain,Full-Time,No
+25,Female,A-lev,Lab,40-50K,0,5,5,4,9,6,5,vis,Remain,Full-Time,No
+24,Male,BA,None,30-40K,0,5,5,4,10,8,10,vis,Remain,Other,No
+26,Female,BA,Lab,20-30K,0,4,3,5,2,8,6,vis,Remain,Full-Time,Yes
+47,Male,Post2,Lab,Under10K,0,5,5,3,10,5,10,vis,Remain,Other,No
+35,Male,PG,Lab,60-70K,0,5,5,5,10,8,10,vis,Remain,Full-Time,No
+41,Male,Post2,SNP,Under10K,0,4,4,3,10,5,10,vis,Remain,Other,Yes
+37,Male,A-lev,Lab,20-30K,1,2,2,2,3,2,5,vis,Remain,Full-Time,No
+56,Female,BA,Lab,20-30K,0,5,5,3,10,5,10,vis,Remain,Part-Time,No
+44,Female,BA,Con,10-20K,0,3,4,4,7,5,5,vis,Remain,Not in paid work,No
+59,Male,BA,Lab,10-20K,0,5,5,4,10,5,10,vis,Remain,Not in paid work,No
+37,Male,BA,Lab,60-70K,0,4,2,4,5,5,7,vis,Remain,Full-Time,No
+28,Female,BA,Lab,30-40K,0,4,4,4,9,5,9,vis,Remain,Part-Time,No
+31,Female,PG,Lab,90-100K,0,5,5,5,10,5,7,vis,Remain,Full-Time,No
+47,Male,GCSEorLess,Lib,10-20K,0,4,4,4,6,5,7,vis,Remain,Full-Time,No
+26,Female,PG,Lab,10-20K,0,4,4,4,9,5,10,vis,Remain,Full-Time,Yes
+33,Male,BA,Grn,30-40K,0,4,4,3,10,5,10,vis,Remain,Full-Time,No
+30,Male,A-lev,Lab,30-40K,1,3,2,3,3,5,4,vis,Remain,Part-Time,No
+39,Male,BA,None,40-50K,0,5,5,5,10,10,10,vis,Remain,Part-Time,No
+30,Male,PG,Lab,30-40K,0,4,3,3,5,5,9,vis,Remain,Full-Time,No
+26,Male,PG,None,10-20K,0,5,5,5,10,6,10,vis,Remain,Other,Yes
+32,Female,Post2,Lab,20-30K,0,4,3,3,8,5,10,vis,Remain,Part-Time,Yes
+26,Female,BA,Rather_not_say,80-90K,0,5,5,4,9,6,8,vis,Remain,Full-Time,No
+22,Male,A-lev,SNP,40-50K,0,4,5,5,9,8,10,vis,Remain,Other,Yes
+45,Female,PG,None,30-40K,0,5,5,5,9,7,9,vis,Remain,Full-Time,No
+40,Male,BA,SNP,30-40K,0,5,2,4,8,5,9,vis,Remain,Full-Time,No
+60,Female,PG,Rather_not_say,20-30K,0,4,4,4,9,5,9,vis,Remain,Not in paid work,No
+38,Female,PG,Lab,70-80K,0,4,4,3,9,6,8,vis,Remain,Full-Time,No
+23,Female,PG,Con,20-30K,0,4,4,4,9,5,7,vis,Remain,Part-Time,Yes
+45,Female,PG,None,20-30K,1,3,2,2,5,3,5,vis,Remain,Part-Time,No
+27,Male,Post2,None,40-50K,0,3,4,4,4,6,5,vis,Remain,Full-Time,No
+30,Male,BA,Lab,20-30K,1,4,4,4,5,6,2,vis,Remain,Part-Time,No
+30,Female,BA,None,30-40K,0,5,5,4,9,5,9,vis,Remain,Other,No
+25,Male,Post2,Lab,20-30K,0,4,3,3,8,5,9,vis,Remain,Unemployed,No
+22,Female,Post2,Lab,Under10K,0,4,4,4,10,5,9,vis,Remain,Not in paid work,Yes
+50,Male,Post2,Lab,30-40K,0,5,5,5,10,5,10,vis,Remain,Full-Time,No
+27,Female,BA,Lab,30-40K,0,5,5,5,10,5,10,vis,Remain,Full-Time,Yes
+43,Male,PG,Lib,60-70K,0,5,5,4,10,5,10,vis,Remain,Full-Time,No
+29,Male,PG,Lib,20-30K,0,4,5,4,9,5,10,vis,Remain,Other,No
+26,Male,BA,Lab,40-50K,0,4,4,4,9,5,5,vis,Remain,Full-Time,No
+24,Male,BA,Con,40-50K,0,4,4,3,9,5,8,vis,Remain,Unemployed,No
+54,Male,PG,Lab,30-40K,0,5,5,4,9,5,10,vis,Remain,Full-Time,No
+51,Male,BA,Lab,80-90K,0,4,4,4,7,5,8,vis,Remain,Full-Time,No
+34,Female,Post2,Con,40-50K,1,4,4,2,5,2,5,vis,Remain,Part-Time,No
+19,Male,A-lev,None,20-30K,1,3,2,4,1,2,3,vis,Remain,Part-Time,No
+32,Male,BA,SNP,70-80K,0,4,4,4,10,5,10,vis,Remain,Full-Time,No
+63,Male,GCSEorLess,Lib,20-30K,1,2,2,2,4,5,5,vis,Remain,Full-Time,No
+32,Female,BA,Lab,50-60K,0,5,5,4,10,5,10,vis,Remain,Full-Time,No
+22,Female,A-lev,None,10-20K,1,3,3,3,2,6,2,vis,Remain,Part-Time,No
+28,Female,PG,Con,40-50K,1,3,2,4,2,3,5,vis,Remain,Full-Time,No
+30,Female,BA,None,30-40K,0,4,3,4,7,5,10,vis,Remain,Full-Time,No
+54,Female,BA,Lab,10-20K,0,5,5,5,9,5,9,vis,Remain,Full-Time,No
+26,Female,BA,Grn,40-50K,0,5,5,4,10,5,10,vis,Remain,Not in paid work,No
+29,Female,A-lev,Con,40-50K,1,4,3,2,3,8,4,vis,Remain,Full-Time,No
+28,Female,PG,None,10-20K,0,3,4,4,7,5,9,vis,Remain,Full-Time,No
+51,Male,A-lev,Lab,20-30K,0,4,5,2,9,5,9,vis,Remain,Full-Time,No
+41,Male,BA,Lab,10-20K,0,4,3,5,10,5,10,vis,Remain,Not in paid work,No
+24,Male,PG,Lab,50-60K,0,5,5,4,10,10,10,vis,Remain,Other,Yes
+30,Male,PG,Lib,20-30K,0,4,5,4,8,5,9,vis,Remain,Full-Time,No
+29,Female,BA,Grn,20-30K,0,4,4,2,9,5,5,vis,Remain,Full-Time,No
+43,Male,GCSEorLess,Lab,50-60K,0,4,4,3,5,5,5,vis,Remain,Full-Time,No
+21,Male,BA,Lab,10-20K,1,4,5,2,4,1,5,vis,Remain,Other,Yes
+28,Female,BA,Lab,30-40K,0,5,5,4,9,5,8,vis,Remain,Full-Time,No
+31,Female,BA,Lab,20-30K,0,5,5,3,10,5,10,vis,Remain,Full-Time,No
+31,Male,BA,Lab,20-30K,0,5,5,3,10,7,9,vis,Remain,Full-Time,Yes
+37,Female,Post2,Con,30-40K,0,4,4,3,5,3,5,vis,Remain,Part-Time,No
+51,Female,PG,Plaid,10-20K,0,5,5,5,10,8,10,vis,Remain,Full-Time,No
+30,Male,A-lev,Lab,10-20K,0,4,4,3,8,5,10,vis,Remain,Part-Time,No
+22,Male,BA,Rather_not_say,10-20K,0,5,5,4,10,6,7,vis,Remain,Other,No
+64,Male,BA,Lab,20-30K,0,5,4,3,10,5,10,vis,Remain,Not in paid work,No
+41,Female,BA,Lab,50-60K,0,5,5,4,8,5,5,vis,Remain,Full-Time,No
+46,Male,BA,Lib,50-60K,0,5,5,5,10,8,10,vis,Remain,Full-Time,No
+28,Male,BA,SNP,20-30K,0,4,4,4,7,6,7,vis,Remain,Unemployed,No
+32,Male,BA,Lab,10-20K,0,4,2,3,10,5,5,vis,Remain,Full-Time,No
+35,Female,PG,Grn,50-60K,0,4,4,4,9,1,9,vis,Remain,Unemployed,No
+43,Male,PG,Lib,70-80K,0,4,5,4,10,5,10,vis,Remain,Full-Time,No
+27,Female,BA,SNP,10-20K,0,4,4,4,10,5,10,vis,Remain,Full-Time,No
+57,Male,BA,None,80-90K,0,5,4,5,10,5,10,vis,Remain,Full-Time,No
+48,Male,BA,Lab,40-50K,0,5,5,5,10,10,10,vis,Remain,Full-Time,No
+38,Female,PG,Grn,50-60K,0,5,5,5,10,6,10,vis,Remain,Part-Time,No
+42,Female,PG,None,70-80K,0,5,4,4,10,6,10,vis,Remain,Not in paid work,No
+30,Female,BA,None,30-40K,0,5,5,5,10,8,10,vis,Remain,Full-Time,No
+34,Female,BA,Lab,Under10K,1,3,4,2,4,4,3,vis,Remain,Part-Time,No
+33,Male,BA,Lab,50-60K,0,5,5,4,10,7,10,vis,Remain,Full-Time,No
+31,Female,PG,Lib,50-60K,0,5,4,4,9,5,10,vis,Remain,Part-Time,No
+39,Male,BA,None,10-20K,0,3,4,3,6,5,8,vis,Remain,Unemployed,No
+55,Female,PG,Lab,30-40K,0,4,4,4,6,5,10,vis,Remain,Part-Time,No
+39,Female,BA,Lib,40-50K,0,4,4,4,9,5,10,vis,Remain,Part-Time,No
+40,Female,PG,Grn,50-60K,0,5,4,5,10,5,10,vis,Remain,Part-Time,No
+49,Male,A-lev,Lib,40-50K,0,5,4,5,10,5,10,vis,Remain,Full-Time,No
+23,Male,PG,Lab,30-40K,0,5,3,5,9,7,10,vis,Remain,Unemployed,No
+21,Female,Post2,Grn,10-20K,1,2,1,2,5,7,4,vis,Remain,Not in paid work,No
+33,Male,BA,Lab,30-40K,0,3,2,4,6,5,5,vis,Remain,Full-Time,No
+48,Male,BA,Lab,40-50K,0,5,4,4,10,5,10,vis,Remain,Full-Time,No
+25,Male,A-lev,None,80-90K,0,3,2,3,7,5,8,vis,Remain,Other,Yes
+57,Male,GCSEorLess,Lab,20-30K,0,4,4,3,9,5,5,vis,Remain,Full-Time,No
+35,Male,BA,Lab,50-60K,0,5,5,4,10,6,10,vis,Remain,Full-Time,No
+42,Female,BA,None,60-70K,0,5,5,5,10,10,10,vis,Remain,Part-Time,No
+38,Male,BA,Con,40-50K,0,2,4,4,5,5,7,vis,Remain,Part-Time,No
+44,Male,PG,SNP,40-50K,0,4,3,3,9,6,10,vis,Remain,Not in paid work,No
+21,Male,A-lev,Lab,10-20K,0,4,4,3,9,5,10,vis,Remain,Other,Yes
+38,Female,BA,None,Over100K,0,2,4,4,4,6,0,vis,Remain,Full-Time,No
+19,Female,A-lev,Lab,Under10K,0,5,5,3,10,0,5,vis,Remain,Unemployed,Yes
+35,Male,BA,Lab,30-40K,1,4,4,4,10,4,10,vis,Remain,Full-Time,No
+47,Male,BA,Lab,10-20K,0,5,5,4,10,6,10,vis,Remain,Full-Time,No
+25,Male,PG,None,20-30K,0,4,4,4,4,4,7,vis,Remain,Full-Time,No
+45,Female,GCSEorLess,Lib,Over100K,0,4,4,3,9,5,9,vis,Remain,Not in paid work,No
+49,Male,GCSEorLess,Con,40-50K,1,4,4,4,5,4,9,vis,Remain,Not in paid work,No
+36,Male,BA,None,50-60K,0,4,4,4,9,5,10,vis,Remain,Full-Time,No
+32,Female,BA,None,Over100K,0,5,5,5,10,10,5,vis,Remain,Full-Time,No
+30,Male,BA,None,20-30K,0,5,4,4,8,7,10,vis,Remain,Part-Time,No
+27,Female,GCSEorLess,None,20-30K,0,5,3,5,10,5,5,vis,Remain,Part-Time,Yes
+19,Male,Post2,Lab,Under10K,0,2,3,4,10,2,8,vis,Remain,Unemployed,Yes
+23,Male,A-lev,SNP,Over100K,0,5,5,5,10,10,9,vis,Remain,Part-Time,Yes
+31,Female,Post2,Lab,30-40K,0,4,4,3,7,5,10,vis,Remain,Full-Time,No
+21,Male,BA,Lab,30-40K,0,4,3,4,7,2,7,vis,Remain,Part-Time,Yes
+26,Male,BA,Lab,50-60K,0,4,3,3,9,5,10,vis,Remain,Full-Time,No
+23,Male,PG,Lab,50-60K,0,5,4,4,7,5,10,vis,Remain,Full-Time,No
+35,Male,PG,Lab,10-20K,1,2,2,4,7,4,8,vis,Remain,Full-Time,No
+21,Male,BA,Lab,30-40K,1,2,2,3,2,2,7,vis,Remain,Part-Time,Yes
+43,Male,BA,Rather_not_say,20-30K,0,4,4,5,5,5,8,vis,Remain,Full-Time,No
+32,Female,PG,None,30-40K,0,5,3,4,9,5,10,vis,Remain,Full-Time,No
+21,Male,A-lev,Lab,30-40K,0,5,4,4,8,5,10,vis,Remain,Other,Yes
+62,Male,PG,Con,50-60K,0,4,4,4,6,5,2,vis,Remain,Not in paid work,No
+21,Female,BA,Lab,Under10K,0,5,5,4,6,5,9,vis,Remain,Not in paid work,Yes
+58,Female,GCSEorLess,Lib,40-50K,0,4,3,4,8,5,10,vis,Remain,Full-Time,No
+36,Male,BA,SNP,40-50K,0,4,3,4,10,5,10,vis,Remain,Full-Time,No
+27,Female,A-lev,Lab,80-90K,0,5,5,5,7,4,5,vis,Remain,Full-Time,No
+21,Male,A-lev,Con,Over100K,0,4,4,4,8,1,8,vis,Remain,Other,Yes
+25,Male,A-lev,Lab,10-20K,0,2,3,4,6,5,9,vis,Remain,Full-Time,No
+35,Male,GCSEorLess,Grn,10-20K,0,4,4,4,9,7,9,vis,Remain,Unemployed,No
+46,Male,PG,Lib,30-40K,0,5,3,4,8,5,10,vis,Remain,Part-Time,No
+40,Female,PG,Lab,Over100K,0,4,4,4,10,7,10,vis,Remain,Full-Time,No
+53,Female,BA,Lab,10-20K,0,5,4,4,9,5,10,vis,Remain,Part-Time,No
+42,Female,PG,Lab,50-60K,0,5,5,5,10,10,10,vis,Remain,Full-Time,No
+32,Female,PG,Lab,10-20K,0,4,2,3,10,4,6,vis,Remain,Not in paid work,No
+21,Female,A-lev,Lib,30-40K,0,5,5,4,10,7,9,vis,Remain,Not in paid work,Yes
+34,Female,BA,Grn,40-50K,1,5,4,4,3,4,4,vis,Remain,Part-Time,No
+64,Female,PG,None,10-20K,0,4,4,4,10,5,10,vis,Remain,Part-Time,No
+36,Female,PG,Lib,70-80K,0,5,5,4,10,5,10,vis,Remain,Other,No
+27,Female,A-lev,Lab,Under10K,0,3,3,2,5,2,5,vis,Remain,Full-Time,No
+37,Male,BA,Con,50-60K,0,2,2,4,9,1,5,vis,Remain,Full-Time,No
+32,Male,BA,Lib,50-60K,0,5,4,4,9,5,10,vis,Remain,Full-Time,No
+42,Male,A-lev,Lab,20-30K,0,5,4,3,8,4,8,vis,Remain,Full-Time,Yes
+32,Female,Post2,Lab,40-50K,1,2,1,3,2,2,6,vis,Remain,Part-Time,No
+28,Male,BA,Lab,30-40K,0,4,3,4,6,4,8,vis,Remain,Full-Time,No
+38,Male,BA,Con,20-30K,0,4,4,4,9,5,10,vis,Remain,Full-Time,No
+52,Female,PG,Lab,70-80K,0,3,4,4,9,5,10,vis,Remain,Part-Time,No
+21,Female,A-lev,Lab,40-50K,0,4,5,4,9,5,10,vis,Remain,Not in paid work,Yes
+30,Female,PG,None,Over100K,0,4,4,2,6,4,10,vis,Remain,Full-Time,No
+32,Female,BA,None,40-50K,0,4,3,4,8,5,7,vis,Remain,Part-Time,No
+47,Male,BA,None,70-80K,1,4,3,3,6,3,8,vis,Remain,Full-Time,No
+32,Female,BA,SNP,20-30K,0,4,4,4,8,5,9,vis,Remain,Full-Time,No
+33,Female,BA,Lab,50-60K,0,4,4,4,10,5,10,vis,Remain,Full-Time,No
+23,Female,A-lev,None,10-20K,0,3,2,2,4,3,6,vis,Remain,Not in paid work,No
+37,Female,GCSEorLess,Lab,30-40K,0,5,4,4,9,5,9,vis,Remain,Part-Time,No
+60,Female,PG,Lab,60-70K,0,5,5,4,10,5,10,vis,Remain,Full-Time,No
+29,Male,BA,Lib,30-40K,1,3,3,3,4,4,6,vis,Remain,Full-Time,No
+38,Female,PG,Lab,30-40K,0,5,5,5,10,5,10,vis,Remain,Part-Time,Yes
+53,Female,BA,Lib,80-90K,0,5,4,4,10,5,10,vis,Remain,Part-Time,No
+21,Male,A-lev,Lab,60-70K,0,5,5,5,0,5,5,vis,Remain,Other,No
+24,Female,PG,None,10-20K,1,3,2,3,3,2,5,vis,Remain,Full-Time,Yes
+28,Male,PG,Grn,Under10K,0,4,4,4,10,7,8,vis,Remain,Not in paid work,Yes
+32,Male,A-lev,Lab,10-20K,0,4,4,3,9,5,10,vis,Remain,Full-Time,No
+37,Male,BA,Lab,70-80K,0,5,5,5,10,5,10,vis,Remain,Full-Time,No
+24,Female,BA,Con,60-70K,0,5,5,4,5,5,8,vis,Remain,Full-Time,Yes
+72,Female,A-lev,Grn,50-60K,0,5,5,5,10,5,10,vis,Remain,Part-Time,No
+25,Female,BA,Lab,20-30K,0,5,5,4,10,5,9,vis,Remain,Part-Time,Yes
+38,Female,BA,None,20-30K,0,4,4,3,10,5,10,vis,Remain,Not in paid work,No
+33,Male,A-lev,None,40-50K,0,4,4,4,9,5,9,vis,Remain,Full-Time,No
+54,Male,BA,Con,50-60K,0,4,3,4,6,5,8,vis,Remain,Full-Time,No
+34,Male,BA,Grn,40-50K,0,5,2,4,8,5,9,vis,Remain,Full-Time,No
+27,Female,PG,None,80-90K,1,4,4,3,7,3,6,vis,Remain,Full-Time,No
+45,Female,BA,None,Over100K,0,4,4,3,4,4,6,vis,Remain,Full-Time,No
+33,Female,BA,Lab,20-30K,0,3,4,4,3,4,6,vis,Remain,Other,Yes
+21,Female,BA,Lab,10-20K,0,5,5,4,10,5,10,vis,Remain,Part-Time,Yes
+21,Female,A-lev,Rather_not_say,10-20K,0,4,4,4,10,7,5,vis,Remain,Part-Time,Yes
+31,Female,A-lev,None,10-20K,1,2,2,2,2,7,3,vis,Remain,Part-Time,No
+45,Female,PG,None,30-40K,0,4,4,4,10,5,10,vis,Remain,Not in paid work,No
+40,Female,PG,Con,Over100K,0,5,5,4,10,5,10,vis,Remain,Full-Time,No
+49,Female,A-lev,Lab,30-40K,0,4,2,2,4,7,4,vis,Remain,Part-Time,Yes
+26,Male,PG,None,20-30K,0,5,5,5,10,9,10,vis,Remain,Other,Yes
+50,Female,Post2,Rather_not_say,10-20K,0,3,3,2,5,7,5,vis,Remain,Part-Time,Yes
+37,Female,Post2,Lab,40-50K,0,4,3,4,7,5,5,vis,Remain,Not in paid work,No
+63,Female,BA,Lib,50-60K,0,4,4,4,7,5,8,vis,Remain,Not in paid work,No
+35,Female,BA,Grn,50-60K,0,5,5,4,9,5,9,vis,Remain,Full-Time,Yes
+39,Male,Post2,None,50-60K,0,4,4,3,6,4,4,vis,Remain,Full-Time,No
+59,Female,PG,SNP,30-40K,0,4,4,4,10,8,10,vis,Remain,Other,No
+43,Female,BA,None,Under10K,0,5,5,4,9,9,9,vis,Remain,Part-Time,No
+45,Female,A-lev,SNP,40-50K,0,4,3,4,7,5,5,vis,Remain,Part-Time,No
+57,Female,BA,Lab,20-30K,0,5,5,4,10,5,10,vis,Remain,Not in paid work,No
+57,Female,A-lev,Lab,40-50K,1,3,3,2,4,3,5,vis,Remain,Full-Time,No
+32,Female,BA,None,30-40K,0,4,4,4,7,4,7,vis,Remain,Full-Time,No
+21,Female,A-lev,Lab,60-70K,0,4,4,4,10,5,9,vis,Remain,Part-Time,Yes
+25,Female,BA,Lab,20-30K,0,4,4,3,9,5,10,vis,Remain,Full-Time,No
+43,Female,BA,None,20-30K,0,5,5,4,9,2,10,vis,Remain,Not in paid work,No
+33,Female,A-lev,Con,50-60K,0,4,4,4,7,4,8,vis,Remain,Other,No
+39,Female,Post2,Lab,10-20K,0,5,5,5,10,9,10,vis,Remain,Part-Time,No
+51,Female,GCSEorLess,Lib,Under10K,0,4,4,4,7,4,8,vis,Remain,Unemployed,No
+42,Female,BA,Lab,60-70K,0,5,5,5,10,5,10,vis,Remain,Full-Time,No
+42,Female,PG,Grn,50-60K,0,5,5,4,9,7,9,vis,Remain,Not in paid work,No
+33,Female,PG,Grn,60-70K,0,4,4,4,10,5,10,vis,Remain,Part-Time,No
+22,Female,BA,Lab,90-100K,0,5,5,5,10,10,10,vis,Remain,Part-Time,Yes
+43,Female,A-lev,Lab,20-30K,0,5,3,3,9,4,10,vis,Remain,Full-Time,No
+21,Female,Post2,None,Under10K,0,4,4,3,5,5,5,vis,Remain,Not in paid work,Yes
+24,Female,PG,None,70-80K,0,5,5,5,10,5,10,vis,Remain,Full-Time,No
+26,Female,BA,Grn,40-50K,0,5,5,5,10,6,10,vis,Remain,Full-Time,No
+22,Female,BA,Grn,20-30K,0,5,5,4,4,2,2,vis,Remain,Full-Time,No
+47,Female,BA,SNP,80-90K,0,5,5,5,10,10,10,vis,Remain,Part-Time,No
+22,Female,BA,Lab,50-60K,0,4,4,4,7,4,5,vis,Remain,Part-Time,No
+48,Female,PG,Lab,10-20K,1,3,1,3,5,0,5,vis,Remain,Not in paid work,No
+46,Female,Post2,Grn,30-40K,1,4,4,2,3,3,5,vis,Remain,Full-Time,No
+38,Female,BA,None,30-40K,0,5,4,4,10,7,9,vis,Remain,Full-Time,No
+47,Female,BA,Lab,50-60K,0,4,5,4,8,5,5,vis,Remain,Full-Time,No
+25,Female,PG,None,30-40K,0,5,4,5,9,6,10,vis,Remain,Full-Time,Yes
+38,Female,Post2,Grn,20-30K,0,5,5,4,10,6,10,vis,Remain,Other,Yes
+37,Female,BA,Lab,30-40K,0,4,2,4,9,5,5,vis,Remain,Full-Time,No
+22,Female,GCSEorLess,Grn,Under10K,0,5,4,4,9,5,6,vis,Remain,Unemployed,No
+50,Female,GCSEorLess,None,30-40K,0,3,4,4,6,5,3,vis,Remain,Full-Time,No
+25,Female,PG,Grn,10-20K,0,5,5,5,10,10,10,vis,Remain,Full-Time,Yes
+71,Female,GCSEorLess,Lib,20-30K,0,4,3,4,5,5,6,vis,Remain,Not in paid work,No
+26,Female,BA,Lib,50-60K,0,4,4,4,7,5,5,vis,Remain,Unemployed,No
+31,Female,PG,Grn,60-70K,0,4,4,4,9,5,9,vis,Remain,Full-Time,No
+47,Female,GCSEorLess,Grn,10-20K,0,4,4,4,9,5,9,vis,Remain,Not in paid work,No
+28,Female,PG,None,10-20K,0,5,5,5,10,5,10,vis,Remain,Part-Time,Yes
+36,Female,PG,Lab,40-50K,0,5,4,4,9,5,5,vis,Remain,Part-Time,No
+33,Female,GCSEorLess,Con,10-20K,1,2,4,2,0,3,2,vis,Leave,Full-Time,No
+34,Male,GCSEorLess,Lib,40-50K,1,3,3,3,2,2,4,vis,Leave,Full-Time,No
+36,Female,A-lev,Lab,40-50K,1,2,3,2,2,2,2,vis,Leave,Full-Time,No
+70,Male,BA,Lab,10-20K,1,3,2,2,3,4,4,vis,Leave,Not in paid work,No
+60,Male,Post2,Lab,10-20K,1,2,2,2,0,0,0,vis,Leave,Full-Time,No
+28,Female,A-lev,Con,20-30K,1,4,4,3,3,2,2,vis,Leave,Other,No
+38,Male,A-lev,Lab,20-30K,0,4,3,3,5,4,4,vis,Leave,Part-Time,No
+34,Male,BA,Con,80-90K,1,2,4,2,2,3,2,vis,Leave,Full-Time,No
+47,Male,GCSEorLess,UKIP,30-40K,1,2,3,3,0,0,0,vis,Leave,Full-Time,No
+50,Male,A-lev,Con,Under10K,1,4,4,3,4,2,2,vis,Leave,Other,No
+39,Male,BA,Lab,20-30K,1,4,2,4,8,5,5,vis,Leave,Full-Time,No
+34,Female,Post2,Lab,40-50K,0,4,3,4,7,5,8,vis,Leave,Full-Time,No
+70,Female,GCSEorLess,Con,30-40K,1,4,4,4,6,4,8,vis,Leave,Not in paid work,No
+32,Female,A-lev,SNP,20-30K,1,4,4,2,3,2,4,vis,Leave,Full-Time,No
+54,Female,GCSEorLess,None,Under10K,1,2,4,2,0,0,0,vis,Leave,Not in paid work,No
+64,Female,A-lev,None,20-30K,1,3,3,3,5,3,5,vis,Leave,Full-Time,No
+27,Female,GCSEorLess,Lab,20-30K,1,1,1,1,0,1,1,vis,Leave,Not in paid work,No
+52,Female,Post2,UKIP,50-60K,1,3,3,2,2,1,5,vis,Leave,Full-Time,No
+50,Male,Post2,Con,30-40K,1,3,3,4,4,3,2,vis,Leave,Not in paid work,No
+43,Female,PG,Con,40-50K,1,3,4,3,4,2,5,vis,Leave,Full-Time,Yes
+28,Male,BA,None,40-50K,0,4,3,4,8,2,5,vis,Leave,Full-Time,Yes
+56,Female,BA,Con,60-70K,1,2,2,2,7,5,1,vis,Leave,Full-Time,No
+63,Male,PG,Con,10-20K,1,4,3,3,2,2,0,vis,Leave,Not in paid work,No
+47,Male,Post2,None,50-60K,1,4,3,3,3,1,1,vis,Leave,Not in paid work,No
+38,Male,A-lev,Lab,Under10K,0,4,4,4,6,5,7,vis,Leave,Part-Time,No
+53,Female,PG,Con,30-40K,0,3,4,4,3,2,1,vis,Leave,Full-Time,No
+40,Female,BA,SNP,50-60K,1,2,1,1,2,2,3,vis,Leave,Full-Time,No
+35,Female,GCSEorLess,Grn,40-50K,1,3,2,3,0,0,5,vis,Leave,Not in paid work,No
+27,Male,BA,Lab,20-30K,1,2,4,2,0,2,5,vis,Leave,Full-Time,No
+57,Female,BA,None,40-50K,0,4,4,3,4,5,6,vis,Leave,Part-Time,No
+19,Female,GCSEorLess,Lab,30-40K,0,5,5,4,10,5,10,vis,Leave,Part-Time,Yes
+23,Male,Post2,Con,10-20K,1,4,2,3,2,2,9,vis,Leave,Part-Time,No
+54,Female,BA,Grn,80-90K,1,2,4,3,1,2,1,vis,Leave,Full-Time,No
+33,Female,GCSEorLess,UKIP,20-30K,1,1,1,4,1,2,0,vis,Leave,Unemployed,No
+30,Female,A-lev,Con,30-40K,1,2,2,2,0,2,2,vis,Leave,Part-Time,No
+35,Male,PG,Con,60-70K,0,4,2,5,5,6,6,vis,Leave,Full-Time,No
+40,Male,BA,Grn,10-20K,0,5,3,4,7,7,9,vis,Leave,Part-Time,Yes
+50,Male,Post2,Con,40-50K,1,3,2,4,2,3,3,vis,Leave,Full-Time,No
+25,Female,BA,None,40-50K,1,2,1,2,1,2,0,vis,Leave,Not in paid work,No
+25,Female,BA,Lab,Under10K,0,4,4,4,7,5,9,vis,Leave,Not in paid work,Yes
+30,Female,BA,Lab,30-40K,1,3,2,3,1,3,1,vis,Leave,Full-Time,No
+30,Female,Post2,Lib,Under10K,0,3,4,4,6,7,5,vis,Leave,Unemployed,Yes
+29,Male,GCSEorLess,UKIP,20-30K,0,2,4,3,3,3,4,vis,Leave,Full-Time,No
+26,Male,A-lev,None,40-50K,1,4,4,4,6,3,5,vis,Leave,Full-Time,Yes
+21,Female,BA,Lab,60-70K,0,4,4,3,9,6,7,vis,Leave,Other,Yes
+63,Female,BA,Con,40-50K,0,4,3,4,5,4,5,vis,Leave,Part-Time,No
+64,Female,A-lev,Con,20-30K,1,3,2,2,2,3,0,vis,Leave,Full-Time,No
+66,Female,BA,Lab,20-30K,0,4,5,3,7,5,10,vis,Leave,Not in paid work,No
+24,Female,A-lev,SNP,30-40K,0,4,4,3,8,7,9,vis,Leave,Full-Time,No
+60,Female,GCSEorLess,Con,Under10K,1,4,4,1,3,3,3,vis,Leave,Part-Time,No
+45,Female,GCSEorLess,Lab,Under10K,1,3,3,3,0,0,5,vis,Leave,Not in paid work,No
+22,Male,PG,Lib,10-20K,1,5,5,3,4,3,9,vis,Leave,Full-Time,Yes
+26,Female,A-lev,UKIP,20-30K,1,2,1,2,0,0,0,vis,Leave,Not in paid work,No
+31,Male,GCSEorLess,None,10-20K,0,3,4,4,5,4,0,vis,Leave,Full-Time,No
+50,Male,Post2,Con,40-50K,0,4,4,4,5,5,3,vis,Leave,Full-Time,No
+30,Male,A-lev,Con,40-50K,1,2,4,4,1,2,5,vis,Leave,Full-Time,No
+47,Female,GCSEorLess,UKIP,30-40K,1,2,1,3,0,0,0,vis,Leave,Full-Time,No
+41,Female,PG,Con,Over100K,0,4,4,4,8,4,7,vis,Leave,Part-Time,No
+28,Male,GCSEorLess,Con,20-30K,1,2,2,3,3,3,1,vis,Leave,Unemployed,No
+59,Female,A-lev,Con,10-20K,1,2,3,2,2,3,5,vis,Leave,Not in paid work,No
+26,Male,A-lev,UKIP,10-20K,1,2,2,2,0,0,3,vis,Leave,Part-Time,No
+27,Female,BA,Con,60-70K,1,2,2,2,0,2,2,vis,Leave,Full-Time,No
+45,Female,GCSEorLess,Lab,Under10K,1,2,2,2,2,3,5,vis,Leave,Not in paid work,No
+48,Male,A-lev,UKIP,40-50K,1,2,2,3,2,1,5,vis,Leave,Full-Time,No
+21,Female,Post2,Lab,30-40K,1,3,3,3,4,7,3,vis,Leave,Part-Time,Yes
+30,Female,A-lev,Con,80-90K,0,2,4,2,4,7,4,vis,Leave,Full-Time,No
+50,Female,GCSEorLess,Lab,Under10K,0,5,5,5,10,5,5,vis,Leave,Not in paid work,No
+45,Female,PG,None,30-40K,1,1,1,3,1,1,5,vis,Leave,Part-Time,No
+61,Female,GCSEorLess,Lab,10-20K,1,3,3,3,3,4,3,vis,Leave,Not in paid work,No
+21,Male,GCSEorLess,None,10-20K,1,3,4,3,3,2,6,vis,Leave,Part-Time,No
+36,Female,BA,Lab,20-30K,1,5,4,4,5,3,5,vis,Leave,Full-Time,No
+43,Male,BA,Con,Over100K,1,1,2,1,0,0,0,vis,Leave,Full-Time,No
+31,Female,GCSEorLess,Lab,20-30K,1,4,4,2,0,0,5,vis,Leave,Not in paid work,Yes
+60,Female,A-lev,UKIP,30-40K,1,3,2,3,3,2,5,vis,Leave,Part-Time,No
+54,Male,BA,Con,40-50K,1,3,3,2,3,3,2,vis,Leave,Full-Time,No
+43,Male,BA,SNP,30-40K,0,5,3,3,5,4,0,vis,Leave,Full-Time,No
+51,Female,BA,Lab,10-20K,0,5,4,3,5,5,6,vis,Leave,Not in paid work,No
+33,Male,BA,Lab,20-30K,1,2,2,3,0,10,1,vis,Leave,Full-Time,No
+25,Female,BA,Lab,60-70K,0,5,5,4,8,7,5,vis,Leave,Full-Time,No
+47,Female,BA,Lab,20-30K,1,2,2,2,0,0,0,vis,Leave,Full-Time,No
+34,Female,GCSEorLess,None,Under10K,1,3,3,2,5,5,6,vis,Leave,Full-Time,No
+60,Male,BA,None,60-70K,1,3,3,3,5,4,7,vis,Leave,Part-Time,No
+40,Female,A-lev,Lab,20-30K,1,2,2,2,9,4,6,vis,Leave,Not in paid work,No
+64,Female,BA,None,Under10K,1,4,4,3,4,4,0,vis,Leave,Part-Time,No
+40,Female,A-lev,None,20-30K,0,4,3,4,3,5,5,vis,Leave,Full-Time,No
+54,Female,A-lev,Con,60-70K,1,1,1,1,0,0,0,vis,Leave,Full-Time,No
+30,Male,PG,Con,30-40K,1,3,4,4,3,5,5,vis,Leave,Full-Time,No
+33,Female,BA,Lab,40-50K,1,3,2,3,0,1,1,vis,Leave,Part-Time,No
+25,Male,BA,UKIP,70-80K,1,1,1,1,0,0,0,vis,Leave,Full-Time,No
+54,Male,A-lev,Lab,20-30K,0,5,4,4,9,5,5,vis,Leave,Other,No
+31,Male,A-lev,Lab,20-30K,0,4,4,4,7,4,3,vis,Leave,Full-Time,No
+42,Female,PG,Con,60-70K,0,3,2,4,5,5,5,vis,Leave,Not in paid work,No
+58,Female,A-lev,Con,20-30K,1,2,4,3,0,1,6,vis,Leave,Part-Time,No
+35,Female,BA,Lib,50-60K,1,5,5,3,3,3,2,vis,Leave,Part-Time,No
+59,Female,GCSEorLess,Con,60-70K,1,3,2,3,2,2,5,vis,Leave,Part-Time,No
+37,Female,BA,Con,30-40K,1,5,3,2,8,3,3,vis,Leave,Full-Time,No
+44,Female,A-lev,UKIP,10-20K,1,4,2,1,0,0,0,vis,Leave,Not in paid work,No
+25,Male,BA,None,10-20K,1,3,2,3,3,3,5,vis,Leave,Unemployed,No
+57,Male,GCSEorLess,None,70-80K,1,4,3,3,2,2,2,vis,Leave,Not in paid work,No
+21,Male,GCSEorLess,Lab,10-20K,1,4,5,3,2,1,1,vis,Leave,Part-Time,No
+41,Female,BA,UKIP,30-40K,0,4,4,3,4,2,5,vis,Leave,Full-Time,Yes
+40,Male,BA,Con,40-50K,1,3,2,3,2,3,5,vis,Leave,Full-Time,No
+53,Female,BA,Con,80-90K,1,2,4,2,0,1,0,vis,Leave,Full-Time,No
+33,Male,BA,Con,20-30K,1,2,1,2,0,0,2,vis,Leave,Full-Time,No
+24,Male,BA,None,Under10K,1,4,4,3,3,3,2,vis,Leave,Not in paid work,Yes
+71,Female,Post2,Lib,Under10K,1,2,2,4,0,1,0,vis,Leave,Not in paid work,No
+53,Male,A-lev,None,40-50K,1,3,1,2,2,2,3,vis,Leave,Full-Time,No
+28,Female,Post2,Grn,10-20K,0,5,5,3,8,5,10,vis,Leave,Not in paid work,No
+25,Female,A-lev,None,30-40K,0,4,3,3,4,4,8,vis,Leave,Full-Time,No
+27,Female,Post2,Con,40-50K,1,3,3,2,4,4,2,vis,Leave,Full-Time,No
+49,Female,GCSEorLess,Con,10-20K,1,4,3,2,0,0,0,vis,Leave,Not in paid work,No
+56,Female,BA,Lib,20-30K,0,4,4,3,9,5,6,vis,Leave,Full-Time,No
+52,Female,GCSEorLess,None,10-20K,1,2,2,2,2,0,0,vis,Leave,Full-Time,No
+44,Male,BA,Con,20-30K,1,2,3,2,1,1,3,vis,Leave,Full-Time,Yes
+48,Male,BA,None,20-30K,1,1,1,4,4,1,5,vis,Leave,Part-Time,No
+37,Female,BA,SNP,50-60K,1,3,3,2,0,2,4,vis,Leave,Part-Time,Yes
+36,Female,A-lev,Lab,40-50K,0,4,4,2,4,4,5,vis,Leave,Full-Time,No
+42,Female,GCSEorLess,Lab,30-40K,1,4,4,4,5,3,5,vis,Leave,Not in paid work,No
+49,Female,GCSEorLess,UKIP,Under10K,1,2,2,2,0,0,0,vis,Leave,Not in paid work,No
+54,Male,Post2,Lab,80-90K,0,4,4,4,3,2,7,vis,Leave,Full-Time,No
+38,Male,BA,Con,40-50K,1,4,2,3,2,3,0,vis,Leave,Full-Time,No
+18,Male,A-lev,None,20-30K,1,2,3,4,3,1,3,vis,Leave,Part-Time,Yes
+54,Female,A-lev,Con,30-40K,1,2,4,2,0,0,0,vis,Leave,Not in paid work,No
+33,Female,Post2,None,10-20K,0,4,4,4,6,5,7,vis,Leave,Not in paid work,No
+34,Female,A-lev,UKIP,20-30K,1,4,4,3,7,4,7,vis,Leave,Full-Time,No
+49,Male,PG,Con,50-60K,0,4,4,4,3,3,5,vis,Leave,Full-Time,No
+53,Female,BA,Con,70-80K,1,3,3,3,5,3,5,vis,Leave,Part-Time,No
+66,Female,Post2,Lab,10-20K,0,3,4,4,4,4,0,vis,Leave,Part-Time,Yes
+52,Female,A-lev,Con,Under10K,1,4,4,4,0,2,1,vis,Leave,Part-Time,No
+33,Female,BA,Lab,70-80K,1,5,2,4,1,4,1,vis,Leave,Full-Time,Yes
+37,Female,BA,Lab,20-30K,0,4,3,5,1,4,5,vis,Leave,Part-Time,No
+29,Female,BA,Lab,70-80K,0,4,3,3,5,7,5,vis,Leave,Full-Time,No
+27,Female,PG,Con,30-40K,1,4,4,4,2,2,5,vis,Leave,Full-Time,Yes
+53,Male,PG,None,20-30K,1,3,2,3,2,1,1,vis,Leave,Part-Time,No
+28,Female,BA,Lab,60-70K,0,5,5,4,8,2,5,vis,Leave,Full-Time,No
+46,Male,PG,Con,40-50K,1,4,4,3,1,2,2,vis,Leave,Full-Time,No
+32,Female,BA,Lab,40-50K,0,5,5,4,3,3,5,vis,Leave,Full-Time,No
+29,Male,BA,None,50-60K,1,3,4,1,6,4,3,vis,Leave,Full-Time,Yes
+44,Male,BA,Lab,50-60K,0,4,4,3,6,5,5,vis,Leave,Full-Time,No
+75,Female,A-lev,Con,10-20K,1,3,3,3,0,0,0,vis,Leave,Not in paid work,No
+62,Male,BA,Con,Over100K,0,4,4,4,5,6,1,vis,Leave,Part-Time,No
+23,Female,GCSEorLess,None,Under10K,1,4,2,2,4,3,5,vis,Leave,Unemployed,No
+44,Male,PG,Con,Over100K,1,4,4,4,1,7,2,vis,Leave,Full-Time,Yes
+69,Female,GCSEorLess,Con,80-90K,1,2,2,2,0,0,5,vis,Leave,Other,No
+47,Male,A-lev,Grn,40-50K,0,4,4,4,7,5,9,vis,Leave,Full-Time,No
+32,Female,BA,Lab,70-80K,1,4,4,4,7,4,8,vis,Leave,Other,No
+76,Female,GCSEorLess,Lab,20-30K,1,3,2,2,0,1,8,vis,Leave,Not in paid work,No
+24,Male,GCSEorLess,Con,30-40K,0,3,4,4,5,3,5,vis,Leave,Full-Time,No
+42,Female,Post2,Con,60-70K,0,3,4,4,7,4,2,vis,Leave,Full-Time,No
+62,Female,PG,Con,30-40K,1,4,2,2,3,2,0,vis,Leave,Part-Time,No
+53,Male,A-lev,Con,30-40K,1,3,2,4,3,3,3,vis,Leave,Part-Time,No
+51,Female,A-lev,Con,30-40K,1,2,3,1,0,0,0,vis,Leave,Full-Time,No
+57,Female,Post2,Lab,40-50K,0,5,5,5,10,9,5,vis,Leave,Part-Time,No
+63,Male,A-lev,Plaid,20-30K,0,4,3,3,6,5,5,vis,Leave,Full-Time,No
+58,Male,BA,Lab,20-30K,0,2,2,3,4,4,10,vis,Leave,Not in paid work,No
+31,Female,PG,Con,50-60K,1,4,4,2,0,2,9,vis,Leave,Full-Time,No
+39,Male,GCSEorLess,Lab,20-30K,0,5,4,2,7,5,0,vis,Leave,Full-Time,No
+37,Female,A-lev,Con,20-30K,1,2,2,2,3,3,1,vis,Leave,Part-Time,No
+29,Female,Post2,Lab,50-60K,0,5,4,4,7,6,4,vis,Leave,Full-Time,Yes
+33,Female,PG,None,40-50K,0,4,4,4,9,5,10,vis,Leave,Full-Time,No
+39,Female,A-lev,Lab,10-20K,1,2,3,2,2,2,1,vis,Leave,Not in paid work,No
+33,Male,BA,Con,40-50K,1,2,1,2,3,3,0,vis,Leave,Full-Time,No
+54,Female,GCSEorLess,Con,10-20K,1,2,4,3,0,0,5,vis,Leave,Full-Time,No
+59,Female,GCSEorLess,Con,40-50K,1,4,4,3,2,2,1,vis,Leave,Full-Time,No
+39,Female,PG,Lab,50-60K,0,4,4,3,8,5,4,vis,Leave,Full-Time,No
+35,Female,BA,Con,30-40K,0,4,4,5,9,4,10,vis,Leave,Full-Time,No
+28,Male,BA,Lib,20-30K,0,4,4,4,10,5,10,vis,Leave,Full-Time,Yes
+35,Female,BA,Lib,30-40K,1,4,4,2,2,8,1,vis,Leave,Full-Time,No
+22,Female,PG,None,50-60K,1,2,3,2,0,1,5,vis,Leave,Full-Time,No
+32,Female,A-lev,Lab,40-50K,0,4,4,4,9,5,9,vis,Leave,Full-Time,No
+37,Male,A-lev,Lab,40-50K,1,4,3,4,9,1,9,vis,Leave,Full-Time,No
+36,Female,BA,Con,Over100K,1,3,2,4,3,3,5,vis,Leave,Full-Time,No
+35,Female,A-lev,Con,30-40K,1,3,3,3,3,2,5,vis,Leave,Full-Time,No
+50,Female,BA,Con,30-40K,1,3,4,2,2,3,2,vis,Leave,Part-Time,No
+36,Male,BA,Con,40-50K,1,4,2,3,2,2,4,vis,Leave,Full-Time,No
+48,Female,Post2,None,30-40K,1,2,3,3,2,2,5,vis,Leave,Not in paid work,No
+25,Female,A-lev,Lab,20-30K,1,3,4,2,1,0,6,vis,Leave,Full-Time,No
+31,Female,A-lev,UKIP,40-50K,1,4,3,2,3,2,4,vis,Leave,Part-Time,No
+35,Female,BA,Lab,80-90K,0,4,5,4,10,7,10,vis,Leave,Full-Time,No
+32,Female,A-lev,Con,70-80K,1,2,2,3,2,7,3,vis,Leave,Not in paid work,No
+31,Female,BA,None,60-70K,0,4,4,4,10,5,10,vis,Leave,Other,No
+36,Female,BA,Lab,50-60K,0,4,4,4,7,4,6,vis,Leave,Full-Time,No
+31,Female,BA,Lab,40-50K,1,2,2,1,0,0,0,vis,Leave,Full-Time,No
+42,Female,Post2,Lab,20-30K,0,5,5,5,10,5,5,vis,Leave,Full-Time,No
+31,Female,BA,Lab,10-20K,1,5,3,3,1,4,6,vis,Leave,Not in paid work,Yes
+72,Female,Post2,None,10-20K,0,4,4,4,7,4,5,vis,Leave,Not in paid work,No
+54,Male,BA,Con,Over100K,1,1,1,1,0,0,0,vis,Leave,Full-Time,No
+63,Female,PG,None,80-90K,1,1,1,1,0,0,0,vis,Leave,Not in paid work,No
+74,Male,GCSEorLess,Con,Under10K,0,2,2,2,4,7,3,vis,Leave,Not in paid work,No
+42,Male,BA,Con,60-70K,1,3,2,1,0,1,0,vis,Leave,Full-Time,No
+42,Female,BA,Grn,20-30K,0,4,4,4,6,4,8,vis,Leave,Full-Time,No
+50,Female,GCSEorLess,UKIP,30-40K,1,2,1,3,1,0,1,vis,Leave,Part-Time,No
+46,Female,A-lev,Lab,30-40K,1,2,1,3,1,4,1,vis,Leave,Part-Time,No
+30,Female,A-lev,Con,60-70K,1,3,2,3,2,0,2,vis,Leave,Part-Time,No
+40,Female,GCSEorLess,None,30-40K,1,3,2,3,0,0,7,vis,Leave,Not in paid work,No
+35,Female,BA,Lab,30-40K,1,2,3,4,3,2,6,vis,Leave,Part-Time,No
+43,Male,PG,None,Over100K,1,4,4,4,2,2,3,vis,Leave,Full-Time,No
+37,Male,A-lev,Con,50-60K,1,3,4,3,3,2,4,vis,Leave,Full-Time,No
+34,Female,A-lev,Lab,40-50K,1,4,2,4,2,3,2,vis,Leave,Full-Time,No
+46,Male,Post2,None,40-50K,0,4,4,4,5,5,5,vis,Leave,Full-Time,No
+31,Female,Post2,Lab,30-40K,1,1,3,2,1,1,5,vis,Leave,Part-Time,Yes
+52,Female,A-lev,Con,20-30K,1,3,3,4,3,2,5,vis,Leave,Not in paid work,No
+31,Female,A-lev,None,10-20K,1,4,4,3,2,4,0,vis,Leave,Full-Time,No
+39,Male,BA,Grn,10-20K,0,4,3,4,8,5,7,vis,Leave,Part-Time,No
+26,Female,PG,Con,30-40K,0,4,4,4,9,5,5,vis,Leave,Full-Time,No
+29,Male,A-lev,Lab,40-50K,1,1,1,2,0,1,0,vis,Leave,Full-Time,No
+57,Male,A-lev,Lab,40-50K,0,3,1,3,4,5,5,vis,Leave,Full-Time,No
+45,Male,A-lev,Con,40-50K,1,3,4,3,4,4,5,vis,Leave,Full-Time,No
+61,Male,A-lev,UKIP,10-20K,1,2,2,2,0,0,0,vis,Leave,Full-Time,No
+21,Male,Post2,Lab,Under10K,1,3,4,3,4,2,5,vis,Leave,Other,Yes
+56,Male,GCSEorLess,Con,50-60K,1,4,2,3,1,2,2,vis,Leave,Full-Time,No
+47,Male,BA,None,20-30K,0,4,4,4,9,3,7,vis,Leave,Part-Time,No
+43,Male,BA,UKIP,10-20K,1,3,2,2,0,0,2,vis,Leave,Full-Time,No
+60,Male,PG,None,20-30K,0,5,3,3,10,5,5,vis,Leave,Part-Time,Yes
+33,Male,BA,Lib,30-40K,0,3,3,3,7,5,5,vis,Leave,Full-Time,No
+27,Male,PG,Con,40-50K,1,3,2,2,3,1,5,vis,Leave,Part-Time,No
+33,Male,BA,None,60-70K,1,3,2,4,2,2,3,vis,Leave,Full-Time,No
+42,Male,Post2,Lib,20-30K,1,3,2,3,2,3,4,vis,Leave,Full-Time,No
+30,Male,BA,UKIP,20-30K,1,2,2,2,3,0,0,vis,Leave,Not in paid work,Yes
+68,Male,Post2,Lib,50-60K,1,2,2,3,5,0,5,vis,Leave,Not in paid work,No
+36,Male,BA,Lib,20-30K,0,5,3,5,9,5,10,vis,Leave,Full-Time,No
+48,Male,GCSEorLess,Con,50-60K,1,4,2,3,0,2,0,vis,Leave,Full-Time,No
+52,Male,BA,Con,10-20K,1,5,5,2,2,4,2,vis,Leave,Full-Time,No
+38,Male,BA,Lab,40-50K,1,5,5,4,3,2,3,vis,Leave,Full-Time,No
+34,Male,A-lev,Con,20-30K,0,3,3,2,2,5,8,vis,Leave,Full-Time,No
+54,Male,GCSEorLess,None,40-50K,1,3,3,2,5,4,5,vis,Leave,Full-Time,No
+26,Male,BA,Grn,20-30K,0,5,5,5,6,4,5,vis,Leave,Full-Time,No
+47,Male,PG,Lab,10-20K,1,3,4,4,5,4,5,vis,Leave,Full-Time,No
+65,Male,GCSEorLess,Lab,40-50K,1,3,2,2,2,1,3,vis,Leave,Not in paid work,No
+43,Male,BA,Con,70-80K,0,3,3,3,4,4,4,vis,Leave,Full-Time,No
+57,Male,BA,None,Under10K,1,1,1,4,0,0,2,vis,Leave,Not in paid work,No
+36,Male,GCSEorLess,None,10-20K,1,3,2,1,2,1,2,vis,Leave,Full-Time,Yes
+36,Male,BA,Con,50-60K,0,4,4,3,5,10,5,vis,Leave,Full-Time,No
+45,Male,A-lev,Con,30-40K,0,4,4,3,4,4,10,vis,Leave,Full-Time,No
+55,Male,A-lev,Con,70-80K,1,1,1,1,1,0,0,vis,Leave,Full-Time,No
+72,Male,GCSEorLess,Con,10-20K,0,4,4,4,6,5,3,vis,Leave,Part-Time,No
+50,Male,Post2,Con,20-30K,1,3,2,1,0,0,0,vis,Leave,Full-Time,No
+38,Male,PG,Con,20-30K,0,4,4,2,3,7,3,vis,Leave,Full-Time,No
+39,Male,Post2,UKIP,10-20K,1,1,1,2,0,0,0,vis,Leave,Not in paid work,No
+19,Male,Post2,Lab,30-40K,1,2,3,3,5,4,3,vis,Leave,Part-Time,Yes
+30,Male,A-lev,UKIP,10-20K,1,2,1,3,0,1,2,vis,Leave,Full-Time,No
+28,Male,GCSEorLess,UKIP,50-60K,1,2,2,1,1,0,0,vis,Leave,Full-Time,No
+24,Male,A-lev,Con,40-50K,1,1,1,1,0,10,0,vis,Leave,Full-Time,No
+34,Male,BA,Lab,50-60K,1,2,1,3,3,2,0,vis,Leave,Full-Time,No
+43,Male,GCSEorLess,None,20-30K,0,4,3,3,8,4,3,vis,Leave,Full-Time,No
+36,Male,GCSEorLess,None,30-40K,1,4,2,3,0,1,5,vis,Leave,Full-Time,No
+42,Male,BA,Con,40-50K,1,4,3,4,3,6,4,vis,Leave,Full-Time,No
+48,Male,BA,None,40-50K,1,3,2,4,0,2,4,vis,Leave,Full-Time,No
+49,Male,BA,Grn,10-20K,1,2,2,2,2,1,1,vis,Leave,Part-Time,No
+43,Male,GCSEorLess,Lab,20-30K,1,3,2,2,4,2,7,vis,Leave,Full-Time,No
+36,Male,BA,UKIP,Over100K,1,1,1,1,0,0,0,vis,Leave,Full-Time,No
+51,Male,GCSEorLess,None,20-30K,1,4,4,4,7,5,5,vis,Leave,Full-Time,Yes
+23,Male,GCSEorLess,Lab,40-50K,0,5,5,5,10,8,9,vis,Leave,Full-Time,No
+55,Male,Post2,Con,80-90K,1,4,4,3,6,3,2,vis,Leave,Part-Time,No
+25,Male,BA,Lab,30-40K,1,3,3,3,3,3,0,vis,Leave,Full-Time,No
+73,Male,GCSEorLess,Con,20-30K,1,2,2,2,2,1,3,vis,Leave,Not in paid work,No
+39,Male,Post2,None,50-60K,0,5,2,4,10,5,5,vis,Leave,Full-Time,No
+32,Male,PG,None,40-50K,1,2,2,2,2,2,1,vis,Leave,Full-Time,No
+30,Male,A-lev,UKIP,20-30K,1,4,2,3,4,8,2,vis,Leave,Full-Time,No
+27,Male,BA,Con,70-80K,1,2,2,5,8,5,10,vis,Leave,Full-Time,No
+32,Male,PG,Rather_not_say,50-60K,1,3,3,4,6,2,5,vis,Leave,Full-Time,No
+57,Male,PG,Con,40-50K,1,4,2,1,0,0,0,vis,Leave,Part-Time,No
+33,Male,BA,Lab,30-40K,0,5,5,5,9,5,10,vis,Leave,Full-Time,No
+24,Male,BA,Con,30-40K,0,5,5,4,9,7,5,vis,Leave,Full-Time,No
+52,Male,BA,None,50-60K,1,2,2,1,0,0,0,vis,Leave,Full-Time,No
+52,Male,A-lev,Lab,10-20K,1,2,4,4,4,4,3,vis,Leave,Part-Time,No
+20,Male,BA,Grn,30-40K,0,5,5,5,10,6,3,vis,Leave,Not in paid work,Yes
+49,Male,A-lev,None,10-20K,1,3,2,2,1,2,1,vis,Leave,Full-Time,No
+39,Male,BA,Con,60-70K,1,2,2,4,3,4,5,vis,Leave,Full-Time,Yes
+55,Male,GCSEorLess,Con,60-70K,1,2,1,3,1,2,1,vis,Leave,Full-Time,No
+76,Male,BA,Con,40-50K,0,4,2,4,4,5,10,vis,Leave,Part-Time,No
+23,Male,A-lev,Rather_not_say,40-50K,1,4,2,4,3,6,1,vis,Leave,Full-Time,No
+64,Male,BA,Lab,30-40K,1,1,2,1,3,3,5,vis,Leave,Part-Time,No
+50,Male,GCSEorLess,Con,20-30K,1,2,2,3,0,1,0,vis,Leave,Not in paid work,No
+53,Male,Post2,Rather_not_say,50-60K,1,2,2,3,2,2,2,vis,Leave,Not in paid work,No
+61,Male,A-lev,Con,30-40K,1,4,1,4,0,0,0,vis,Leave,Part-Time,No
+37,Male,GCSEorLess,Lab,20-30K,0,3,4,4,6,4,4,vis,Leave,Unemployed,No
+65,Male,Post2,Lib,20-30K,0,4,3,2,4,4,4,vis,Leave,Not in paid work,No
+53,Male,GCSEorLess,None,20-30K,1,2,2,3,3,3,3,vis,Leave,Not in paid work,No
+24,Male,GCSEorLess,UKIP,50-60K,1,2,2,4,4,0,0,vis,Leave,Unemployed,No
+62,Male,Post2,None,30-40K,1,5,5,4,1,3,2,vis,Leave,Full-Time,No
+28,Male,BA,Lab,30-40K,0,4,4,2,5,4,7,vis,Leave,Full-Time,No
+29,Male,A-lev,UKIP,70-80K,1,4,2,4,2,2,3,vis,Leave,Full-Time,No
+24,Male,BA,Lab,60-70K,0,4,4,3,10,5,10,vis,Leave,Full-Time,No
+54,Male,GCSEorLess,Lab,10-20K,1,4,2,4,3,8,2,vis,Leave,Not in paid work,No
+31,Male,A-lev,Con,70-80K,1,2,2,2,2,3,2,vis,Leave,Full-Time,No
+56,Male,GCSEorLess,Con,40-50K,1,1,1,1,0,0,0,vis,Leave,Full-Time,No
+28,Male,A-lev,Lab,30-40K,1,4,4,4,1,0,5,vis,Leave,Full-Time,No
+20,Male,Post2,Con,40-50K,1,2,2,4,9,4,9,vis,Leave,Not in paid work,Yes
+50,Male,PG,None,70-80K,1,3,1,4,1,5,0,vis,Leave,Full-Time,No
+36,Male,BA,None,20-30K,0,5,2,5,8,2,1,vis,Leave,Full-Time,No
+36,Male,BA,UKIP,60-70K,1,2,3,2,0,0,0,vis,Leave,Full-Time,No
+30,Male,BA,Lab,30-40K,1,4,4,4,9,3,9,vis,Leave,Part-Time,No
+61,Male,GCSEorLess,Lab,10-20K,1,3,3,3,3,2,4,vis,Leave,Unemployed,No
+51,Male,PG,None,30-40K,1,2,3,2,0,0,0,vis,Leave,Full-Time,No
+31,Male,A-lev,Lab,50-60K,0,5,5,5,10,7,10,vis,Leave,Full-Time,No
+48,Male,BA,Lab,20-30K,1,2,2,3,3,0,0,vis,Leave,Part-Time,No
+29,Male,Post2,Con,20-30K,1,3,2,3,3,2,4,vis,Leave,Full-Time,No
+24,Male,BA,None,Under10K,1,2,3,2,1,1,1,vis,Leave,Not in paid work,Yes
+81,Male,GCSEorLess,UKIP,10-20K,1,4,4,3,5,5,5,vis,Leave,Other,No
+18,Male,BA,None,Under10K,0,4,4,4,9,7,9,vis,Leave,Full-Time,Yes
+19,Male,Post2,Lab,10-20K,0,5,5,4,10,7,8,video,No vote,Part-Time,Yes
+25,Male,A-lev,None,20-30K,1,1,1,1,0,0,0,video,No vote,Full-Time,No
+20,Male,A-lev,Lab,Under10K,0,5,4,4,9,8,2,video,No vote,Other,Yes
+25,Male,GCSEorLess,None,Over100K,1,4,4,4,6,3,5,video,No vote,Full-Time,No
+50,Male,Post2,Lab,30-40K,0,4,4,4,8,5,10,video,No vote,Full-Time,No
+18,Male,GCSEorLess,Lab,Under10K,0,4,5,4,10,5,5,video,No vote,Unemployed,Yes
+19,Male,Post2,None,10-20K,0,5,5,4,10,5,0,video,No vote,Part-Time,No
+20,Male,A-lev,None,Under10K,0,3,3,4,7,5,7,video,No vote,Other,Yes
+53,Male,A-lev,Con,20-30K,0,4,4,4,5,5,5,video,No vote,Full-Time,No
+23,Male,A-lev,None,Under10K,1,2,3,2,1,9,2,video,No vote,Part-Time,No
+34,Male,PG,Lab,70-80K,0,4,4,3,3,5,5,video,No vote,Full-Time,Yes
+58,Male,A-lev,Lab,20-30K,1,4,3,4,3,5,5,video,No vote,Full-Time,No
+19,Male,A-lev,Con,50-60K,0,5,3,3,7,3,6,video,No vote,Unemployed,Yes
+32,Male,A-lev,None,20-30K,1,4,4,3,2,2,9,video,No vote,Unemployed,No
+20,Male,Post2,Lab,50-60K,0,4,5,4,9,4,10,video,No vote,Not in paid work,Yes
+37,Male,GCSEorLess,None,10-20K,0,5,5,5,9,6,10,video,No vote,Full-Time,No
+43,Male,GCSEorLess,None,50-60K,0,4,4,3,6,5,6,video,No vote,Full-Time,No
+19,Male,Post2,Lab,10-20K,0,5,4,4,8,6,7,video,No vote,Part-Time,Yes
+23,Male,BA,Lab,Over100K,0,5,4,4,9,6,10,video,No vote,Part-Time,Yes
+36,Male,BA,Grn,20-30K,0,4,3,3,8,5,8,video,No vote,Full-Time,No
+31,Male,BA,None,30-40K,1,3,3,3,0,0,0,video,No vote,Full-Time,No
+20,Male,A-lev,Lab,60-70K,0,5,5,4,9,8,9,video,No vote,Unemployed,No
+20,Male,A-lev,Lab,Over100K,0,5,5,4,8,5,9,video,No vote,Not in paid work,Yes
+18,Male,A-lev,Lab,10-20K,0,4,4,4,10,10,10,video,No vote,Other,Yes
+18,Male,PG,Lab,Over100K,1,4,4,4,9,5,10,video,No vote,Full-Time,No
+19,Male,A-lev,Rather_not_say,20-30K,0,4,4,4,8,5,5,video,No vote,Other,No
+19,Male,A-lev,Con,Over100K,0,4,4,4,7,5,9,video,No vote,Other,Yes
+20,Male,Post2,Con,70-80K,0,5,5,5,10,10,10,video,No vote,Other,Yes
+19,Male,A-lev,Lab,90-100K,0,4,4,4,8,7,9,video,No vote,Unemployed,Yes
+23,Male,Post2,Grn,10-20K,1,3,3,2,4,2,10,video,No vote,Not in paid work,No
+29,Male,Post2,None,Under10K,1,1,1,4,1,1,1,video,No vote,Unemployed,No
+18,Male,GCSEorLess,None,30-40K,0,5,4,4,9,5,10,video,No vote,Other,Yes
+26,Male,BA,Lab,70-80K,0,4,5,4,8,5,8,video,No vote,Full-Time,No
+40,Male,Post2,None,50-60K,0,4,4,3,6,5,9,video,No vote,Full-Time,No
+21,Male,GCSEorLess,Con,10-20K,0,2,4,4,8,4,10,video,No vote,Unemployed,No
+32,Male,BA,Rather_not_say,30-40K,0,4,4,4,10,5,10,video,No vote,Full-Time,No
+18,Male,GCSEorLess,Lab,20-30K,0,4,4,3,8,5,8,video,No vote,Unemployed,Yes
+19,Male,Post2,UKIP,60-70K,1,3,3,3,3,3,0,video,No vote,Full-Time,Yes
+18,Male,GCSEorLess,None,Over100K,0,2,5,4,4,4,7,video,No vote,Unemployed,Yes
+30,Male,GCSEorLess,Con,Under10K,0,4,4,2,7,4,8,video,No vote,Unemployed,No
+52,Male,PG,Con,Under10K,1,3,4,2,2,0,5,video,No vote,Unemployed,No
+31,Male,PG,Lab,40-50K,0,4,4,4,8,5,6,video,No vote,Unemployed,Yes
+54,Male,BA,Lab,20-30K,0,4,5,4,9,5,5,video,No vote,Full-Time,No
+71,Male,Post2,Con,20-30K,0,4,4,4,5,3,3,video,No vote,Not in paid work,No
+43,Male,A-lev,None,60-70K,0,4,4,4,9,5,8,video,No vote,Full-Time,No
+18,Male,A-lev,Con,50-60K,1,2,2,2,0,0,0,video,No vote,Other,Yes
+21,Male,BA,Lab,Under10K,0,4,4,4,5,5,4,video,No vote,Unemployed,Yes
+48,Male,A-lev,None,70-80K,0,3,4,4,8,5,7,video,No vote,Full-Time,No
+40,Male,GCSEorLess,Lab,20-30K,0,4,3,4,6,5,3,video,No vote,Full-Time,No
+20,Male,A-lev,Lab,10-20K,0,4,4,4,7,5,7,video,No vote,Part-Time,Yes
+28,Male,BA,None,20-30K,0,4,2,4,5,5,5,video,No vote,Full-Time,No
+43,Male,BA,None,Under10K,1,3,4,3,5,4,5,video,No vote,Unemployed,No
+21,Male,A-lev,Con,90-100K,0,4,2,2,2,2,10,video,No vote,Full-Time,No
+18,Male,A-lev,Rather_not_say,60-70K,0,4,5,2,8,5,8,video,No vote,Part-Time,Yes
+31,Male,BA,Lab,60-70K,0,4,5,4,6,6,6,video,No vote,Full-Time,No
+19,Male,A-lev,Con,30-40K,0,4,3,4,9,5,6,video,No vote,Not in paid work,Yes
+24,Male,BA,None,Over100K,0,4,5,4,7,4,10,video,No vote,Full-Time,No
+29,Male,Post2,Con,70-80K,0,5,4,3,9,6,8,video,No vote,Full-Time,No
+18,Male,GCSEorLess,Lab,Under10K,0,4,4,3,6,5,8,video,No vote,Unemployed,Yes
+63,Male,A-lev,Con,Over100K,1,3,2,2,5,3,4,video,No vote,Full-Time,No
+39,Male,Post2,Con,40-50K,1,3,2,3,1,2,5,video,No vote,Full-Time,No
+27,Male,GCSEorLess,Lab,10-20K,0,4,4,4,7,5,6,video,No vote,Unemployed,No
+43,Male,BA,None,10-20K,1,3,2,3,3,3,3,video,No vote,Full-Time,No
+48,Male,Post2,None,20-30K,1,5,3,2,0,0,0,video,No vote,Full-Time,No
+24,Male,GCSEorLess,Lab,10-20K,0,4,4,3,10,5,5,video,No vote,Full-Time,No
+21,Male,A-lev,None,20-30K,1,2,3,2,5,7,5,video,No vote,Not in paid work,Yes
+24,Male,GCSEorLess,Grn,10-20K,0,5,5,5,8,5,10,video,No vote,Unemployed,No
+27,Male,Post2,Lab,30-40K,0,4,4,4,9,5,10,video,No vote,Full-Time,Yes
+19,Male,A-lev,Lab,10-20K,0,4,4,4,4,4,7,video,No vote,Unemployed,Yes
+20,Male,Post2,Lab,Over100K,0,5,5,4,10,5,10,video,No vote,Part-Time,Yes
+27,Male,BA,Lib,20-30K,0,4,4,2,2,5,5,video,No vote,Full-Time,No
+50,Male,GCSEorLess,Con,70-80K,0,4,3,4,8,5,9,video,No vote,Not in paid work,No
+47,Male,BA,Lib,40-50K,1,1,1,1,0,0,0,video,No vote,Full-Time,Yes
+18,Male,Post2,UKIP,40-50K,1,4,3,4,3,3,8,video,No vote,Part-Time,Yes
+48,Male,PG,Grn,80-90K,0,4,4,5,10,5,10,video,No vote,Full-Time,No
+39,Male,GCSEorLess,SNP,10-20K,0,4,4,4,8,5,10,video,No vote,Full-Time,No
+20,Male,Post2,Con,60-70K,0,5,5,4,3,5,4,video,No vote,Not in paid work,Yes
+32,Male,PG,None,30-40K,1,2,2,2,0,0,0,video,No vote,Full-Time,No
+19,Male,A-lev,Lab,20-30K,0,4,4,4,9,4,10,video,No vote,Part-Time,Yes
+25,Male,A-lev,None,20-30K,0,4,4,3,5,5,5,video,No vote,Unemployed,No
+26,Male,PG,None,30-40K,0,4,4,4,9,5,8,video,No vote,Full-Time,No
+29,Male,A-lev,UKIP,10-20K,1,2,5,2,0,0,5,video,No vote,Full-Time,No
+64,Male,PG,UKIP,20-30K,1,2,1,2,0,0,0,video,No vote,Part-Time,No
+19,Male,A-lev,Lab,60-70K,0,4,4,4,6,5,8,video,No vote,Part-Time,Yes
+23,Male,PG,Lab,20-30K,0,5,4,4,9,5,9,video,No vote,Other,Yes
+28,Male,PG,Con,30-40K,0,4,3,3,5,6,4,video,No vote,Full-Time,No
+21,Male,A-lev,Rather_not_say,Under10K,1,4,3,3,2,7,5,video,No vote,Unemployed,Yes
+27,Male,GCSEorLess,Grn,Under10K,0,5,5,5,5,5,10,video,No vote,Part-Time,No
+19,Male,A-lev,Lab,70-80K,0,4,4,4,7,5,8,video,No vote,Other,Yes
+18,Male,A-lev,Lab,60-70K,0,4,4,4,6,5,3,video,No vote,Not in paid work,Yes
+19,Male,A-lev,Rather_not_say,20-30K,0,5,4,3,8,5,9,video,No vote,Other,Yes
+34,Male,BA,Lab,80-90K,0,4,4,3,7,5,6,video,No vote,Not in paid work,Yes
+25,Male,PG,None,Over100K,0,5,5,5,9,7,9,video,No vote,Part-Time,Yes
+46,Male,A-lev,None,40-50K,1,3,4,4,8,5,10,video,No vote,Full-Time,No
+19,Male,BA,None,90-100K,0,5,5,5,10,2,7,video,No vote,Unemployed,Yes
+25,Female,A-lev,Lab,10-20K,1,3,2,3,4,3,5,video,No vote,Full-Time,No
+38,Female,BA,Lab,30-40K,0,4,4,4,8,6,9,video,No vote,Full-Time,No
+21,Female,BA,None,40-50K,0,5,2,4,9,5,8,video,No vote,Not in paid work,Yes
+20,Female,A-lev,Lab,60-70K,0,5,5,5,10,8,10,video,No vote,Unemployed,Yes
+18,Female,A-lev,Lab,40-50K,0,5,4,5,9,7,10,video,No vote,Other,Yes
+32,Female,BA,Grn,40-50K,0,4,3,4,5,4,7,video,No vote,Part-Time,No
+32,Female,A-lev,Lab,30-40K,1,4,4,4,1,0,5,video,No vote,Not in paid work,No
+20,Female,A-lev,Lab,Under10K,0,4,4,4,7,5,6,video,No vote,Other,Yes
+35,Female,BA,Lab,20-30K,0,5,5,5,7,5,8,video,No vote,Other,No
+21,Female,A-lev,Lab,20-30K,1,3,2,3,2,2,7,video,No vote,Other,Yes
+20,Female,BA,Con,Under10K,0,5,5,1,9,2,5,video,No vote,Part-Time,Yes
+36,Female,BA,Lab,40-50K,0,4,4,4,8,5,5,video,No vote,Not in paid work,No
+22,Female,BA,Lab,40-50K,0,5,3,2,4,5,4,video,No vote,Part-Time,Yes
+28,Female,BA,Con,40-50K,1,4,4,3,7,4,2,video,No vote,Unemployed,No
+32,Female,A-lev,None,60-70K,1,4,4,4,3,3,4,video,No vote,Full-Time,No
+40,Female,A-lev,None,10-20K,0,3,4,4,3,7,3,video,No vote,Not in paid work,No
+39,Female,BA,Lab,30-40K,0,3,4,4,9,5,9,video,No vote,Full-Time,No
+18,Female,GCSEorLess,Con,60-70K,0,3,4,4,6,6,6,video,No vote,Part-Time,Yes
+31,Female,GCSEorLess,None,20-30K,1,4,4,4,3,3,5,video,No vote,Not in paid work,No
+38,Female,Post2,None,20-30K,1,4,3,2,4,3,5,video,No vote,Full-Time,No
+19,Female,Post2,Lab,10-20K,0,4,4,3,9,6,5,video,No vote,Full-Time,Yes
+32,Female,BA,UKIP,10-20K,1,4,2,1,1,1,8,video,No vote,Part-Time,No
+18,Female,GCSEorLess,Lab,90-100K,0,4,5,4,10,8,5,video,No vote,Unemployed,Yes
+24,Female,Post2,None,Under10K,1,3,3,4,5,5,5,video,No vote,Unemployed,No
+19,Female,A-lev,Lab,50-60K,0,5,5,4,10,7,5,video,No vote,Unemployed,Yes
+46,Female,GCSEorLess,None,20-30K,1,4,4,3,3,3,5,video,No vote,Part-Time,No
+19,Female,Post2,Con,30-40K,1,3,2,3,2,2,2,video,No vote,Part-Time,Yes
+34,Female,A-lev,Con,80-90K,0,4,2,4,9,4,9,video,No vote,Full-Time,No
+26,Female,A-lev,None,20-30K,1,2,3,4,0,3,3,video,No vote,Not in paid work,No
+54,Female,Post2,None,10-20K,0,5,5,4,10,5,10,video,No vote,Other,No
+34,Female,Post2,Con,10-20K,1,4,4,2,4,1,1,video,No vote,Not in paid work,No
+51,Female,A-lev,None,20-30K,1,2,3,1,2,2,2,video,No vote,Not in paid work,No
+18,Female,A-lev,Lab,70-80K,0,4,4,4,10,7,7,video,No vote,Part-Time,Yes
+18,Female,A-lev,Lib,80-90K,1,4,3,3,2,2,4,video,No vote,Other,Yes
+26,Female,Post2,None,30-40K,1,3,2,3,3,4,5,video,No vote,Full-Time,No
+44,Female,GCSEorLess,None,10-20K,1,1,1,1,0,0,0,video,No vote,Not in paid work,No
+22,Female,A-lev,Lab,10-20K,1,4,4,3,3,3,5,video,No vote,Not in paid work,Yes
+40,Female,A-lev,None,Under10K,1,2,2,2,3,7,1,video,No vote,Part-Time,No
+50,Female,GCSEorLess,Lab,Under10K,0,4,4,3,5,5,8,video,No vote,Not in paid work,No
+18,Female,A-lev,Lab,60-70K,0,4,4,4,7,5,5,video,No vote,Part-Time,Yes
+29,Female,Post2,Con,40-50K,1,4,4,2,0,0,0,video,No vote,Part-Time,No
+52,Female,GCSEorLess,Con,Under10K,0,4,4,4,9,5,1,video,No vote,Not in paid work,No
+26,Female,Post2,None,30-40K,1,4,2,3,5,1,1,video,No vote,Full-Time,No
+20,Female,A-lev,Lab,Under10K,0,5,5,5,10,9,7,video,No vote,Unemployed,Yes
+21,Female,A-lev,None,30-40K,0,4,4,4,6,4,5,video,No vote,Part-Time,No
+20,Female,GCSEorLess,None,10-20K,1,4,4,3,5,3,4,video,No vote,Full-Time,No
+23,Female,BA,Con,20-30K,1,4,4,4,4,4,7,video,No vote,Full-Time,No
+35,Female,BA,None,60-70K,0,4,4,3,9,5,7,video,No vote,Full-Time,No
+19,Female,Post2,SNP,Over100K,0,5,5,5,10,6,10,video,No vote,Other,Yes
+18,Female,Post2,None,30-40K,1,3,2,3,4,3,3,video,No vote,Unemployed,Yes
+18,Female,A-lev,UKIP,Over100K,1,2,2,2,2,2,4,video,No vote,Part-Time,Yes
+22,Female,A-lev,None,20-30K,0,5,5,5,10,6,8,video,No vote,Full-Time,No
+23,Female,Post2,Grn,10-20K,0,5,5,5,10,10,10,video,No vote,Part-Time,Yes
+30,Female,Post2,None,30-40K,0,4,4,4,7,5,5,video,No vote,Full-Time,No
+20,Female,A-lev,Con,Over100K,0,5,5,3,10,6,10,video,No vote,Part-Time,Yes
+30,Female,A-lev,Grn,70-80K,0,5,4,3,8,4,8,video,No vote,Full-Time,No
+20,Female,A-lev,Lab,70-80K,0,5,5,4,10,5,10,video,No vote,Part-Time,Yes
+20,Female,A-lev,Lab,10-20K,0,5,5,4,10,5,6,video,No vote,Part-Time,Yes
+25,Female,BA,Lab,50-60K,0,4,4,4,7,5,6,video,No vote,Full-Time,No
+20,Female,A-lev,Lib,10-20K,0,5,5,5,10,0,10,video,No vote,Not in paid work,Yes
+23,Female,BA,None,50-60K,0,4,4,4,9,5,5,video,No vote,Part-Time,No
+30,Female,A-lev,None,20-30K,1,4,3,3,3,4,7,video,No vote,Part-Time,No
+36,Female,A-lev,None,30-40K,1,2,3,2,1,0,5,video,No vote,Full-Time,No
+19,Female,BA,Lab,10-20K,0,4,2,3,7,4,5,video,No vote,Other,Yes
+20,Female,A-lev,Lab,10-20K,0,4,4,4,8,5,10,video,No vote,Part-Time,Yes
+22,Female,BA,Lab,Under10K,0,4,4,4,8,5,7,video,No vote,Part-Time,Yes
+34,Female,Post2,None,30-40K,0,4,4,4,9,5,8,video,No vote,Not in paid work,No
+18,Female,A-lev,Lib,70-80K,0,5,5,4,9,5,10,video,No vote,Other,Yes
+19,Female,BA,Con,Over100K,1,2,4,1,2,4,6,video,No vote,Not in paid work,Yes
+64,Female,BA,Lab,40-50K,1,2,3,3,3,3,4,video,No vote,Full-Time,No
+48,Female,GCSEorLess,None,30-40K,1,5,4,1,0,0,0,video,No vote,Not in paid work,No
+19,Female,A-lev,Lib,Over100K,0,4,5,4,9,5,10,video,No vote,Unemployed,Yes
+27,Female,BA,None,40-50K,1,4,4,2,0,0,3,video,No vote,Other,No
+19,Female,A-lev,Lab,40-50K,0,4,4,4,8,3,7,video,No vote,Unemployed,Yes
+47,Female,PG,Lab,30-40K,0,5,4,4,10,5,8,video,No vote,Full-Time,No
+46,Female,Post2,Lab,10-20K,0,4,4,4,3,4,1,video,No vote,Not in paid work,No
+19,Female,A-lev,Lab,Under10K,0,4,3,3,8,4,8,video,No vote,Unemployed,Yes
+31,Female,Post2,None,30-40K,0,4,4,3,5,5,7,video,No vote,Part-Time,No
+32,Female,BA,None,10-20K,0,4,4,4,9,5,5,video,No vote,Part-Time,No
+19,Female,GCSEorLess,Con,10-20K,1,2,2,4,5,3,5,video,No vote,Unemployed,No
+20,Female,BA,None,20-30K,0,4,3,4,9,5,7,video,No vote,Part-Time,Yes
+34,Female,BA,Grn,20-30K,0,4,4,4,10,5,10,video,No vote,Full-Time,No
+23,Male,BA,Lib,40-50K,0,5,4,3,10,5,10,video,Remain,Other,Yes
+33,Male,A-lev,None,40-50K,0,4,2,2,6,5,5,video,Remain,Full-Time,No
+35,Female,GCSEorLess,Lab,60-70K,0,4,4,3,9,5,5,video,Remain,Full-Time,No
+40,Female,A-lev,None,20-30K,0,5,4,5,10,9,10,video,Remain,Part-Time,No
+63,Male,BA,Con,80-90K,0,4,4,4,5,5,5,video,Remain,Full-Time,No
+26,Male,GCSEorLess,Lab,30-40K,0,5,5,5,10,5,5,video,Remain,Full-Time,No
+22,Male,PG,Grn,10-20K,0,3,3,4,10,5,10,video,Remain,Full-Time,No
+21,Male,Post2,Con,Under10K,0,4,4,3,4,3,6,video,Remain,Part-Time,Yes
+39,Male,BA,Lab,80-90K,0,5,4,5,5,5,9,video,Remain,Full-Time,No
+45,Female,PG,Grn,10-20K,0,3,2,3,7,5,10,video,Remain,Unemployed,No
+23,Male,A-lev,Con,Over100K,1,4,4,3,9,4,10,video,Remain,Unemployed,No
+30,Female,BA,None,60-70K,0,4,4,4,6,5,5,video,Remain,Full-Time,No
+26,Male,PG,Lab,30-40K,0,4,4,4,9,4,9,video,Remain,Full-Time,No
+66,Female,BA,Con,90-100K,0,4,4,4,6,5,9,video,Remain,Full-Time,No
+23,Female,PG,Lib,80-90K,0,5,4,5,10,5,10,video,Remain,Full-Time,No
+31,Female,A-lev,Lab,10-20K,1,2,2,2,1,1,5,video,Remain,Not in paid work,No
+35,Female,A-lev,Con,40-50K,0,4,4,3,5,2,5,video,Remain,Part-Time,No
+27,Female,BA,Lab,30-40K,0,5,4,4,9,4,7,video,Remain,Full-Time,No
+64,Male,BA,Lab,20-30K,0,4,4,3,2,3,9,video,Remain,Not in paid work,No
+44,Male,A-lev,Lab,40-50K,0,4,4,4,8,5,9,video,Remain,Full-Time,No
+30,Female,BA,Lib,50-60K,0,5,5,5,10,5,9,video,Remain,Full-Time,No
+45,Male,BA,Lab,70-80K,0,5,5,5,10,5,10,video,Remain,Not in paid work,No
+23,Male,A-lev,Grn,Under10K,0,5,5,5,10,9,10,video,Remain,Not in paid work,Yes
+23,Male,BA,None,10-20K,0,4,4,3,10,5,8,video,Remain,Full-Time,No
+31,Female,BA,Lab,40-50K,0,5,4,4,10,5,10,video,Remain,Part-Time,No
+37,Male,PG,Grn,60-70K,0,4,4,4,9,4,9,video,Remain,Full-Time,No
+31,Male,BA,None,10-20K,0,4,5,4,10,6,10,video,Remain,Full-Time,No
+28,Female,BA,Lab,30-40K,0,5,5,5,10,5,5,video,Remain,Full-Time,No
+30,Male,BA,Lab,30-40K,0,5,4,4,10,5,7,video,Remain,Full-Time,No
+21,Male,Post2,Grn,20-30K,1,4,2,4,4,3,7,video,Remain,Not in paid work,No
+33,Female,Post2,Con,60-70K,0,5,4,4,8,5,10,video,Remain,Part-Time,No
+34,Male,PG,Lib,30-40K,0,5,5,5,10,8,9,video,Remain,Other,Yes
+45,Male,BA,Con,Over100K,1,2,2,2,3,3,8,video,Remain,Full-Time,No
+21,Female,Post2,Lab,60-70K,0,5,5,5,10,5,8,video,Remain,Full-Time,No
+66,Female,GCSEorLess,Con,10-20K,1,3,3,4,4,4,4,video,Remain,Not in paid work,No
+22,Male,PG,Lab,10-20K,0,4,4,4,8,5,10,video,Remain,Part-Time,Yes
+24,Female,BA,None,10-20K,0,4,4,3,5,5,5,video,Remain,Part-Time,No
+29,Female,BA,Lab,50-60K,0,4,4,4,9,5,5,video,Remain,Full-Time,No
+27,Male,BA,Lab,20-30K,0,5,4,4,10,7,8,video,Remain,Full-Time,No
+61,Female,GCSEorLess,Lab,Under10K,0,4,3,4,10,4,7,video,Remain,Other,No
+36,Male,PG,Lib,10-20K,0,5,5,5,10,5,10,video,Remain,Full-Time,No
+29,Female,PG,Con,20-30K,1,4,3,2,2,4,5,video,Remain,Not in paid work,No
+61,Female,BA,Lab,20-30K,0,4,4,4,4,5,9,video,Remain,Part-Time,No
+35,Female,BA,Con,80-90K,0,3,2,3,9,5,5,video,Remain,Full-Time,No
+19,Male,A-lev,Con,10-20K,0,4,4,3,7,5,5,video,Remain,Unemployed,Yes
+23,Female,BA,Lab,30-40K,0,5,4,5,8,5,10,video,Remain,Full-Time,No
+26,Male,A-lev,Lib,10-20K,0,4,4,4,10,6,8,video,Remain,Other,No
+43,Female,GCSEorLess,Lib,10-20K,0,5,5,5,10,5,9,video,Remain,Full-Time,No
+29,Male,A-lev,Lab,50-60K,0,4,4,4,7,6,10,video,Remain,Full-Time,No
+32,Female,BA,SNP,40-50K,0,5,5,4,9,6,10,video,Remain,Other,No
+69,Male,GCSEorLess,Lib,30-40K,0,4,4,4,9,4,7,video,Remain,Not in paid work,No
+25,Male,BA,SNP,20-30K,1,2,2,3,1,1,3,video,Remain,Unemployed,Yes
+25,Female,BA,Lab,20-30K,0,4,4,4,9,5,10,video,Remain,Part-Time,No
+40,Male,Post2,Lab,20-30K,0,5,5,5,10,10,10,video,Remain,Full-Time,Yes
+20,Female,A-lev,Lab,40-50K,0,4,5,5,8,8,7,video,Remain,Other,Yes
+52,Female,BA,Grn,20-30K,0,5,5,5,10,10,10,video,Remain,Part-Time,No
+31,Female,BA,Lab,80-90K,0,4,4,4,6,5,6,video,Remain,Full-Time,No
+42,Female,A-lev,Con,10-20K,0,5,5,5,10,5,5,video,Remain,Full-Time,No
+21,Male,Post2,Lab,40-50K,0,5,4,5,10,5,10,video,Remain,Part-Time,Yes
+33,Female,A-lev,Lab,10-20K,0,5,5,4,9,6,9,video,Remain,Not in paid work,No
+31,Male,Post2,Con,50-60K,0,4,4,4,7,5,7,video,Remain,Full-Time,No
+35,Male,A-lev,Lab,50-60K,1,2,2,3,3,2,2,video,Remain,Full-Time,No
+44,Male,A-lev,Lab,60-70K,1,4,4,2,4,5,6,video,Remain,Full-Time,No
+37,Female,A-lev,Plaid,Under10K,0,5,2,4,8,5,10,video,Remain,Full-Time,No
+57,Male,Post2,Lib,10-20K,0,4,4,4,8,5,9,video,Remain,Full-Time,No
+36,Female,BA,Grn,40-50K,0,4,3,4,6,5,9,video,Remain,Full-Time,No
+27,Male,BA,Lab,70-80K,0,4,3,3,6,5,6,video,Remain,Part-Time,Yes
+32,Female,BA,Lab,30-40K,0,5,4,5,8,5,5,video,Remain,Other,No
+27,Female,BA,Rather_not_say,10-20K,0,4,4,4,5,5,5,video,Remain,Part-Time,Yes
+51,Female,PG,None,40-50K,0,5,5,4,10,5,10,video,Remain,Full-Time,No
+42,Female,BA,Grn,70-80K,0,5,5,5,10,9,9,video,Remain,Full-Time,No
+24,Female,Post2,None,20-30K,0,4,5,4,10,6,10,video,Remain,Part-Time,Yes
+32,Female,BA,Lab,50-60K,0,4,4,4,5,5,5,video,Remain,Part-Time,No
+28,Female,BA,SNP,50-60K,1,4,4,4,4,4,8,video,Remain,Not in paid work,Yes
+36,Male,Post2,SNP,20-30K,0,4,3,4,6,4,7,video,Remain,Full-Time,No
+29,Female,GCSEorLess,Lab,10-20K,0,5,5,4,10,5,10,video,Remain,Not in paid work,No
+47,Female,GCSEorLess,Lab,40-50K,0,4,4,4,4,5,4,video,Remain,Part-Time,No
+21,Female,A-lev,None,90-100K,1,4,4,4,2,2,2,video,Remain,Not in paid work,Yes
+30,Male,BA,SNP,50-60K,0,5,5,4,10,6,10,video,Remain,Not in paid work,No
+59,Female,GCSEorLess,Lib,30-40K,0,4,4,4,9,5,9,video,Remain,Not in paid work,No
+48,Female,GCSEorLess,Con,60-70K,1,2,4,4,2,1,1,video,Remain,Part-Time,No
+30,Female,BA,None,30-40K,0,5,5,5,10,5,8,video,Remain,Full-Time,No
+21,Male,BA,Lab,30-40K,0,4,4,3,8,5,8,video,Remain,Part-Time,Yes
+49,Female,PG,Lab,30-40K,0,5,5,4,9,5,10,video,Remain,Full-Time,No
+30,Female,BA,Lib,60-70K,0,5,2,5,10,5,10,video,Remain,Full-Time,Yes
+31,Female,Post2,Lab,20-30K,0,4,4,3,9,6,10,video,Remain,Full-Time,No
+25,Male,PG,Lab,30-40K,0,4,4,4,10,5,10,video,Remain,Full-Time,No
+51,Female,Post2,Con,60-70K,0,4,4,4,9,4,9,video,Remain,Full-Time,No
+57,Female,BA,Con,20-30K,0,4,4,4,7,5,7,video,Remain,Part-Time,No
+30,Female,BA,None,80-90K,0,5,4,4,9,7,9,video,Remain,Part-Time,No
+54,Female,BA,Lab,Over100K,0,4,4,4,9,5,5,video,Remain,Not in paid work,No
+38,Male,GCSEorLess,Lab,10-20K,1,2,3,3,2,1,3,video,Remain,Full-Time,No
+31,Female,Post2,Lab,30-40K,0,4,4,4,7,6,10,video,Remain,Not in paid work,Yes
+45,Male,A-lev,Grn,30-40K,0,4,4,4,8,5,9,video,Remain,Full-Time,No
+44,Female,PG,Grn,80-90K,0,4,4,3,9,1,9,video,Remain,Part-Time,No
+46,Female,BA,Lib,40-50K,0,4,5,4,10,7,10,video,Remain,Full-Time,No
+40,Male,GCSEorLess,Lab,Over100K,0,5,4,4,10,5,10,video,Remain,Full-Time,No
+65,Male,PG,Lab,80-90K,0,5,5,5,10,5,10,video,Remain,Not in paid work,No
+33,Male,BA,Con,20-30K,0,4,4,4,9,5,9,video,Remain,Full-Time,No
+58,Male,A-lev,Con,20-30K,1,3,4,3,6,1,7,video,Remain,Part-Time,No
+41,Female,BA,None,60-70K,1,4,4,3,4,3,5,video,Remain,Full-Time,No
+43,Male,PG,None,80-90K,0,5,5,4,10,5,10,video,Remain,Full-Time,No
+18,Male,A-lev,None,30-40K,0,3,3,4,2,5,9,video,Remain,Not in paid work,Yes
+37,Male,PG,Lab,30-40K,0,2,4,4,8,7,5,video,Remain,Part-Time,Yes
+62,Male,PG,None,60-70K,0,5,4,4,9,5,9,video,Remain,Not in paid work,No
+33,Female,BA,Grn,10-20K,0,4,4,3,10,5,9,video,Remain,Full-Time,No
+43,Female,A-lev,None,60-70K,0,5,4,4,7,5,6,video,Remain,Part-Time,No
+26,Male,A-lev,Lab,Under10K,1,2,2,3,2,2,3,video,Remain,Not in paid work,Yes
+30,Female,Post2,None,50-60K,0,5,5,4,10,5,10,video,Remain,Unemployed,No
+23,Female,PG,SNP,10-20K,0,5,4,5,9,6,9,video,Remain,Other,Yes
+55,Female,BA,Con,Over100K,0,5,5,4,9,5,9,video,Remain,Part-Time,No
+46,Female,PG,Lab,60-70K,0,5,5,4,9,4,9,video,Remain,Full-Time,No
+20,Female,BA,None,60-70K,1,4,4,2,3,3,5,video,Remain,Part-Time,Yes
+22,Female,BA,Lab,90-100K,0,5,5,5,0,5,10,video,Remain,Part-Time,Yes
+50,Male,A-lev,Lib,10-20K,0,4,4,4,6,4,8,video,Remain,Unemployed,No
+23,Male,A-lev,Lab,20-30K,0,5,4,4,9,4,10,video,Remain,Unemployed,Yes
+22,Male,BA,Con,30-40K,0,4,4,4,10,5,9,video,Remain,Part-Time,Yes
+38,Female,BA,Rather_not_say,20-30K,0,4,4,4,8,5,5,video,Remain,Full-Time,No
+35,Female,BA,Lib,20-30K,0,4,4,5,0,10,5,video,Remain,Part-Time,No
+21,Male,BA,Lab,20-30K,0,5,5,5,10,6,10,video,Remain,Part-Time,Yes
+29,Female,BA,Lab,40-50K,0,4,4,4,10,5,10,video,Remain,Part-Time,No
+36,Female,BA,Lab,80-90K,0,4,4,4,8,5,9,video,Remain,Part-Time,No
+26,Male,Post2,Grn,20-30K,0,5,5,4,10,6,10,video,Remain,Part-Time,No
+60,Female,BA,Con,20-30K,1,4,2,3,4,5,5,video,Remain,Part-Time,No
+47,Female,A-lev,None,10-20K,0,4,4,4,5,5,5,video,Remain,Not in paid work,No
+37,Female,PG,Lab,30-40K,1,3,3,3,4,3,5,video,Remain,Part-Time,No
+51,Female,GCSEorLess,None,40-50K,1,3,4,3,4,3,10,video,Remain,Not in paid work,No
+34,Male,BA,Lab,50-60K,0,4,4,3,9,5,10,video,Remain,Full-Time,No
+22,Female,A-lev,Lab,Under10K,0,5,5,4,10,5,10,video,Remain,Not in paid work,No
+43,Male,PG,Lib,90-100K,0,1,5,4,9,5,10,video,Remain,Full-Time,No
+34,Female,Post2,Lab,10-20K,1,4,4,3,4,4,5,video,Remain,Not in paid work,No
+45,Female,BA,Lib,70-80K,1,4,3,3,6,3,8,video,Remain,Full-Time,No
+27,Male,BA,None,60-70K,0,5,5,4,10,5,5,video,Remain,Full-Time,No
+32,Male,A-lev,None,10-20K,0,3,4,4,8,5,9,video,Remain,Full-Time,No
+58,Female,PG,Lib,30-40K,0,5,5,5,10,9,10,video,Remain,Other,No
+35,Female,GCSEorLess,Lab,10-20K,0,4,4,4,7,5,5,video,Remain,Not in paid work,No
+61,Female,BA,Con,30-40K,1,4,2,4,7,4,6,video,Remain,Full-Time,No
+36,Male,A-lev,Grn,10-20K,0,4,4,4,10,5,5,video,Remain,Part-Time,No
+32,Female,A-lev,Lab,40-50K,0,4,4,4,2,3,2,video,Remain,Part-Time,No
+42,Male,A-lev,Con,Over100K,0,4,4,3,5,5,10,video,Remain,Full-Time,No
+65,Male,BA,Con,Under10K,0,5,5,5,9,6,9,video,Remain,Not in paid work,No
+32,Female,BA,Lab,40-50K,0,4,4,4,9,5,10,video,Remain,Part-Time,No
+26,Female,BA,Con,10-20K,1,3,3,4,4,5,5,video,Remain,Part-Time,Yes
+51,Male,A-lev,Grn,50-60K,0,5,5,5,10,5,10,video,Remain,Full-Time,No
+29,Female,A-lev,None,30-40K,1,4,5,3,10,2,4,video,Remain,Part-Time,No
+51,Female,BA,Lib,20-30K,0,4,4,3,6,5,10,video,Remain,Full-Time,No
+47,Female,BA,Grn,Under10K,0,5,5,5,10,5,9,video,Remain,Other,No
+70,Female,PG,Con,30-40K,1,3,3,4,4,4,0,video,Remain,Not in paid work,No
+63,Male,BA,Lab,40-50K,0,4,4,4,10,5,5,video,Remain,Full-Time,No
+35,Female,BA,None,70-80K,1,4,4,4,2,3,4,video,Remain,Part-Time,No
+33,Female,PG,Grn,Under10K,0,4,4,4,10,5,10,video,Remain,Part-Time,No
+38,Male,BA,Lab,30-40K,0,4,4,3,8,5,9,video,Remain,Full-Time,No
+44,Female,A-lev,Lab,50-60K,0,5,4,3,10,5,10,video,Remain,Full-Time,No
+28,Female,BA,Grn,70-80K,0,5,4,5,10,7,10,video,Remain,Full-Time,No
+49,Female,BA,None,20-30K,1,2,2,3,2,3,5,video,Remain,Full-Time,No
+46,Female,BA,Lab,10-20K,0,4,4,4,8,4,8,video,Remain,Part-Time,No
+45,Female,BA,Lab,10-20K,0,4,4,4,7,5,8,video,Remain,Part-Time,Yes
+23,Female,BA,Con,10-20K,1,4,3,2,6,4,5,video,Remain,Part-Time,Yes
+38,Female,PG,Lab,50-60K,0,4,3,3,5,5,8,video,Remain,Part-Time,No
+34,Male,PG,Grn,10-20K,0,5,3,5,9,5,9,video,Remain,Full-Time,No
+47,Female,BA,Lib,50-60K,0,5,4,3,9,4,9,video,Remain,Part-Time,No
+25,Male,PG,SNP,30-40K,0,5,5,5,10,6,10,video,Remain,Not in paid work,No
+34,Female,GCSEorLess,Lab,20-30K,0,4,4,4,7,5,4,video,Remain,Full-Time,No
+32,Male,GCSEorLess,Lab,20-30K,0,4,4,4,9,5,9,video,Remain,Unemployed,No
+32,Male,Post2,Lab,20-30K,0,5,5,4,5,5,10,video,Remain,Full-Time,No
+63,Male,BA,Lib,20-30K,0,5,4,4,10,5,10,video,Remain,Not in paid work,No
+29,Male,Post2,Grn,30-40K,0,4,4,3,4,4,5,video,Remain,Unemployed,No
+24,Male,A-lev,None,30-40K,0,5,5,4,9,5,5,video,Remain,Full-Time,No
+22,Female,PG,None,20-30K,0,4,4,4,8,5,10,video,Remain,Other,Yes
+26,Male,PG,Lab,Under10K,0,5,4,4,10,10,5,video,Remain,Unemployed,Yes
+58,Male,BA,Lib,30-40K,1,4,4,4,8,4,5,video,Remain,Not in paid work,No
+36,Female,PG,Lib,Over100K,0,4,4,4,10,5,8,video,Remain,Full-Time,No
+33,Female,BA,Lab,20-30K,0,4,2,2,4,3,5,video,Remain,Full-Time,No
+31,Female,BA,Con,50-60K,0,4,4,4,9,5,9,video,Remain,Full-Time,No
+31,Male,BA,Con,70-80K,0,4,4,4,8,6,8,video,Remain,Full-Time,No
+36,Male,BA,Lab,10-20K,0,5,4,5,10,5,10,video,Remain,Full-Time,No
+35,Female,BA,Con,Over100K,0,5,5,5,9,5,10,video,Remain,Full-Time,No
+43,Male,A-lev,Lab,40-50K,0,5,5,5,10,6,9,video,Remain,Full-Time,No
+20,Male,A-lev,Lab,60-70K,0,5,5,4,10,7,10,video,Remain,Other,Yes
+42,Female,A-lev,Lab,30-40K,0,4,4,4,8,5,8,video,Remain,Part-Time,No
+50,Male,A-lev,Lab,Under10K,0,4,3,4,10,5,10,video,Remain,Not in paid work,No
+37,Female,PG,Lab,80-90K,0,5,5,4,9,5,5,video,Remain,Full-Time,No
+36,Female,BA,Lab,40-50K,0,4,4,4,10,5,8,video,Remain,Full-Time,No
+47,Female,BA,None,Over100K,0,4,3,4,4,4,5,video,Remain,Full-Time,No
+60,Female,BA,None,Under10K,0,3,2,4,4,5,6,video,Remain,Other,No
+62,Male,PG,Con,Over100K,0,4,4,3,8,4,10,video,Remain,Part-Time,No
+36,Female,BA,Lab,10-20K,0,4,4,4,8,5,7,video,Remain,Part-Time,Yes
+43,Female,PG,Lab,90-100K,0,4,4,4,9,5,10,video,Remain,Part-Time,No
+31,Male,GCSEorLess,Grn,Over100K,0,5,5,5,10,5,10,video,Remain,Part-Time,No
+41,Female,BA,Lab,80-90K,0,5,4,4,7,5,5,video,Remain,Full-Time,No
+49,Female,BA,Grn,30-40K,0,4,4,4,3,5,10,video,Remain,Not in paid work,No
+34,Male,A-lev,Lab,30-40K,0,4,4,4,2,8,5,video,Remain,Full-Time,No
+20,Male,A-lev,Lab,Under10K,0,4,4,2,0,4,9,video,Remain,Part-Time,Yes
+28,Female,BA,Lab,20-30K,0,5,5,4,7,6,5,video,Remain,Part-Time,No
+22,Female,BA,Lab,30-40K,0,5,5,4,9,7,9,video,Remain,Part-Time,Yes
+43,Female,BA,Lab,20-30K,0,5,4,4,9,5,10,video,Remain,Full-Time,No
+27,Male,A-lev,Lab,30-40K,0,4,4,4,7,5,5,video,Remain,Full-Time,No
+44,Male,Post2,Lab,30-40K,0,4,4,4,9,6,10,video,Remain,Full-Time,No
+51,Male,BA,Lab,70-80K,0,5,4,5,10,5,10,video,Remain,Full-Time,No
+32,Female,BA,Lib,Over100K,0,4,4,4,10,5,10,video,Remain,Full-Time,No
+31,Female,BA,Lib,40-50K,0,4,4,4,8,5,8,video,Remain,Part-Time,No
+51,Female,PG,Rather_not_say,20-30K,1,4,4,4,2,2,5,video,Remain,Full-Time,No
+50,Female,BA,Lib,30-40K,0,4,4,4,9,5,9,video,Remain,Unemployed,No
+23,Female,PG,None,30-40K,1,2,4,2,8,1,5,video,Remain,Unemployed,No
+38,Female,PG,Lab,50-60K,0,4,4,3,9,5,9,video,Remain,Part-Time,No
+22,Male,PG,Grn,Under10K,0,3,4,3,8,4,9,video,Remain,Other,Yes
+31,Female,Post2,Lab,50-60K,0,3,4,4,7,4,7,video,Remain,Full-Time,No
+72,Male,A-lev,None,30-40K,0,4,4,5,9,5,9,video,Remain,Not in paid work,No
+23,Female,BA,Lab,10-20K,0,4,4,4,9,3,4,video,Remain,Full-Time,No
+55,Male,BA,None,70-80K,0,5,5,5,10,6,10,video,Remain,Full-Time,No
+49,Female,BA,Rather_not_say,30-40K,0,4,4,3,10,5,10,video,Remain,Part-Time,No
+28,Female,Post2,Lab,30-40K,0,5,5,5,10,5,5,video,Remain,Not in paid work,No
+40,Female,BA,Grn,60-70K,0,5,5,4,8,5,10,video,Remain,Not in paid work,No
+31,Male,GCSEorLess,Lab,Under10K,0,4,3,4,7,5,3,video,Remain,Unemployed,Yes
+27,Male,PG,Lab,60-70K,0,5,5,5,10,5,10,video,Remain,Full-Time,No
+58,Female,PG,Rather_not_say,40-50K,0,4,4,4,10,5,9,video,Remain,Part-Time,No
+64,Male,GCSEorLess,Lab,10-20K,0,5,5,5,10,9,10,video,Remain,Not in paid work,No
+57,Male,A-lev,Lib,60-70K,0,4,4,4,10,6,10,video,Remain,Full-Time,No
+35,Male,GCSEorLess,None,70-80K,0,5,5,5,10,5,10,video,Remain,Full-Time,No
+29,Male,BA,SNP,90-100K,0,4,4,4,6,5,5,video,Remain,Unemployed,No
+30,Male,GCSEorLess,None,60-70K,0,4,4,3,9,6,5,video,Remain,Other,No
+57,Female,BA,Lab,Over100K,0,5,5,5,9,5,10,video,Remain,Full-Time,No
+20,Male,A-lev,Lab,10-20K,0,5,5,5,9,5,9,video,Remain,Unemployed,Yes
+33,Male,BA,Lab,30-40K,0,5,5,4,3,5,7,video,Remain,Full-Time,No
+44,Male,A-lev,Lab,30-40K,0,5,5,4,9,5,9,video,Remain,Full-Time,No
+65,Female,BA,None,40-50K,0,4,2,4,9,5,10,video,Remain,Not in paid work,No
+38,Male,BA,Lab,30-40K,0,4,4,4,9,5,8,video,Remain,Full-Time,No
+32,Male,BA,None,30-40K,1,4,4,4,9,3,9,video,Remain,Full-Time,No
+40,Male,Post2,Lab,20-30K,0,5,5,5,7,8,9,video,Remain,Full-Time,No
+23,Male,BA,Lab,90-100K,0,5,5,5,10,10,10,video,Remain,Full-Time,No
+49,Male,BA,Lab,40-50K,0,5,5,3,10,7,10,video,Remain,Full-Time,No
+19,Female,GCSEorLess,None,Under10K,1,2,3,2,4,7,2,video,Remain,Unemployed,No
+52,Female,PG,Lab,70-80K,0,4,4,4,9,5,10,video,Remain,Full-Time,No
+60,Female,GCSEorLess,Rather_not_say,40-50K,0,4,4,4,5,5,10,video,Remain,Not in paid work,No
+36,Male,BA,Lab,40-50K,0,5,4,4,6,5,7,video,Remain,Full-Time,No
+49,Male,GCSEorLess,Grn,20-30K,0,5,5,4,10,5,10,video,Remain,Full-Time,No
+26,Female,GCSEorLess,Lab,30-40K,0,4,4,4,8,5,10,video,Remain,Unemployed,No
+55,Female,Post2,SNP,10-20K,1,2,3,4,0,0,3,video,Leave,Not in paid work,No
+62,Female,A-lev,None,20-30K,1,4,3,3,1,1,0,video,Leave,Full-Time,No
+51,Female,BA,Lab,30-40K,1,3,2,3,4,3,7,video,Leave,Part-Time,No
+35,Female,Post2,Con,30-40K,1,2,3,2,0,1,2,video,Leave,Full-Time,No
+23,Female,PG,Lab,20-30K,0,4,4,4,7,4,7,video,Leave,Full-Time,Yes
+33,Female,Post2,None,40-50K,1,3,2,4,2,2,8,video,Leave,Part-Time,No
+42,Female,A-lev,Con,50-60K,1,2,2,2,1,1,1,video,Leave,Part-Time,No
+52,Female,GCSEorLess,UKIP,10-20K,1,5,1,1,1,1,2,video,Leave,Part-Time,No
+44,Female,A-lev,Con,50-60K,1,2,1,2,0,0,0,video,Leave,Full-Time,No
+34,Female,A-lev,Con,40-50K,1,2,2,4,2,2,5,video,Leave,Part-Time,No
+44,Female,Post2,Con,60-70K,1,4,3,3,2,3,2,video,Leave,Full-Time,No
+32,Female,BA,None,30-40K,1,3,2,2,1,0,5,video,Leave,Part-Time,No
+50,Female,GCSEorLess,Con,20-30K,1,4,4,4,4,6,5,video,Leave,Not in paid work,No
+60,Female,PG,Con,10-20K,0,5,5,5,8,5,6,video,Leave,Not in paid work,No
+25,Female,A-lev,Rather_not_say,20-30K,1,3,3,3,2,3,2,video,Leave,Full-Time,No
+71,Female,GCSEorLess,Con,30-40K,0,5,4,3,5,3,5,video,Leave,Not in paid work,No
+40,Female,A-lev,Lab,10-20K,1,2,2,4,2,2,5,video,Leave,Part-Time,Yes
+30,Female,BA,Grn,10-20K,1,2,1,4,2,1,1,video,Leave,Part-Time,No
+29,Female,A-lev,None,30-40K,1,4,4,4,7,5,5,video,Leave,Not in paid work,No
+27,Female,Post2,Lab,20-30K,0,4,2,2,5,3,5,video,Leave,Not in paid work,Yes
+37,Female,BA,Con,90-100K,0,4,4,3,5,4,9,video,Leave,Full-Time,No
+38,Female,A-lev,Lib,30-40K,0,4,4,2,5,3,7,video,Leave,Full-Time,No
+53,Female,A-lev,Lib,30-40K,0,5,4,4,8,4,7,video,Leave,Part-Time,No
+32,Female,A-lev,Con,30-40K,1,3,1,2,1,1,1,video,Leave,Full-Time,No
+46,Female,GCSEorLess,Lab,20-30K,1,2,3,1,0,1,1,video,Leave,Full-Time,No
+32,Female,GCSEorLess,Lib,40-50K,1,3,3,2,2,3,4,video,Leave,Part-Time,No
+50,Female,GCSEorLess,None,10-20K,1,4,4,2,6,4,5,video,Leave,Part-Time,No
+45,Female,GCSEorLess,Plaid,20-30K,1,3,4,4,4,3,5,video,Leave,Unemployed,No
+32,Female,A-lev,UKIP,20-30K,1,2,2,2,1,1,0,video,Leave,Not in paid work,No
+44,Female,A-lev,Lab,20-30K,0,4,4,3,5,5,6,video,Leave,Full-Time,No
+47,Female,BA,Con,50-60K,1,1,1,1,0,0,0,video,Leave,Part-Time,No
+51,Female,Post2,Rather_not_say,40-50K,0,4,3,3,7,4,5,video,Leave,Part-Time,No
+44,Female,A-lev,Lab,10-20K,0,3,4,4,4,5,3,video,Leave,Not in paid work,No
+54,Female,Post2,Lab,50-60K,1,4,2,2,2,2,2,video,Leave,Part-Time,No
+54,Female,GCSEorLess,SNP,30-40K,0,5,5,5,10,5,7,video,Leave,Part-Time,No
+36,Female,BA,Lab,20-30K,1,3,2,2,2,2,5,video,Leave,Part-Time,No
+36,Female,A-lev,None,80-90K,0,5,3,4,10,5,5,video,Leave,Other,No
+50,Female,GCSEorLess,Con,Under10K,0,1,3,4,0,0,0,video,Leave,Part-Time,No
+29,Female,PG,Rather_not_say,50-60K,1,4,4,4,3,2,3,video,Leave,Full-Time,No
+28,Female,A-lev,Lab,50-60K,1,2,2,2,0,1,3,video,Leave,Part-Time,No
+36,Female,Post2,None,30-40K,1,2,2,4,0,0,0,video,Leave,Full-Time,No
+35,Female,BA,Lab,10-20K,1,2,4,4,2,1,1,video,Leave,Full-Time,No
+60,Female,BA,Lab,40-50K,1,3,3,3,0,2,5,video,Leave,Part-Time,No
+32,Female,GCSEorLess,UKIP,20-30K,1,1,1,1,0,0,0,video,Leave,Not in paid work,No
+31,Female,A-lev,Rather_not_say,20-30K,1,3,3,2,1,1,0,video,Leave,Part-Time,No
+39,Female,BA,Con,80-90K,0,4,4,4,9,4,3,video,Leave,Part-Time,No
+53,Female,A-lev,None,50-60K,1,1,2,2,0,1,2,video,Leave,Not in paid work,No
+33,Female,BA,Con,50-60K,1,2,3,4,2,3,5,video,Leave,Full-Time,No
+68,Female,GCSEorLess,None,30-40K,1,2,2,3,2,3,4,video,Leave,Not in paid work,No
+58,Female,BA,Con,10-20K,0,3,3,3,6,4,5,video,Leave,Part-Time,No
+35,Female,BA,Con,30-40K,1,3,2,1,0,0,0,video,Leave,Part-Time,No
+64,Female,A-lev,Lib,10-20K,0,5,4,4,7,4,9,video,Leave,Not in paid work,No
+42,Female,Post2,None,30-40K,0,4,4,4,10,5,10,video,Leave,Full-Time,No
+23,Female,BA,None,20-30K,1,2,3,3,2,1,1,video,Leave,Part-Time,No
+52,Female,A-lev,None,10-20K,1,4,2,2,0,1,5,video,Leave,Full-Time,Yes
+55,Female,A-lev,Con,60-70K,1,3,3,3,1,1,1,video,Leave,Part-Time,No
+59,Female,PG,UKIP,20-30K,1,2,2,2,1,2,5,video,Leave,Not in paid work,No
+37,Female,A-lev,Lab,70-80K,0,4,4,4,6,5,5,video,Leave,Full-Time,No
+47,Female,A-lev,Con,50-60K,1,4,4,4,3,4,3,video,Leave,Full-Time,No
+27,Female,BA,Lab,40-50K,0,4,4,4,9,5,5,video,Leave,Part-Time,No
+21,Female,A-lev,Lab,20-30K,0,3,4,4,5,6,5,video,Leave,Unemployed,No
+45,Female,Post2,Con,20-30K,1,1,1,2,3,0,1,video,Leave,Full-Time,No
+59,Female,GCSEorLess,Con,20-30K,1,1,1,1,0,0,0,video,Leave,Not in paid work,No
+42,Female,BA,Con,50-60K,1,3,2,2,1,0,1,video,Leave,Full-Time,No
+26,Female,PG,None,50-60K,0,5,5,5,10,0,10,video,Leave,Full-Time,No
+25,Female,A-lev,UKIP,20-30K,1,2,4,3,4,6,2,video,Leave,Full-Time,No
+28,Female,BA,Con,70-80K,0,5,5,2,8,5,5,video,Leave,Full-Time,Yes
+34,Female,BA,Con,Over100K,1,2,3,3,2,2,3,video,Leave,Full-Time,No
+42,Female,A-lev,None,20-30K,1,4,4,3,2,2,5,video,Leave,Full-Time,No
+60,Female,PG,UKIP,10-20K,1,3,4,3,1,2,5,video,Leave,Not in paid work,No
+30,Female,A-lev,Lab,20-30K,1,2,2,2,0,0,1,video,Leave,Not in paid work,No
+38,Female,BA,Con,40-50K,0,3,4,4,4,4,3,video,Leave,Not in paid work,No
+37,Female,Post2,Lab,70-80K,0,5,4,4,8,5,10,video,Leave,Full-Time,No
+41,Female,GCSEorLess,Con,40-50K,1,2,2,2,2,2,3,video,Leave,Full-Time,No
+62,Female,Post2,None,10-20K,1,2,2,3,0,2,0,video,Leave,Part-Time,No
+40,Female,BA,None,50-60K,1,3,4,3,4,10,5,video,Leave,Part-Time,No
+63,Female,GCSEorLess,Con,10-20K,1,2,2,3,0,0,0,video,Leave,Part-Time,No
+46,Female,BA,Con,90-100K,0,4,5,4,6,2,5,video,Leave,Part-Time,No
+31,Female,BA,Con,Over100K,1,2,2,2,1,1,0,video,Leave,Full-Time,No
+31,Female,Post2,UKIP,20-30K,1,2,2,4,7,3,0,video,Leave,Part-Time,No
+56,Female,Post2,Con,30-40K,1,4,2,2,2,2,5,video,Leave,Part-Time,No
+20,Female,A-lev,Grn,20-30K,1,4,3,4,3,3,5,video,Leave,Unemployed,No
+64,Female,A-lev,None,10-20K,1,2,1,2,0,0,0,video,Leave,Not in paid work,No
+47,Female,GCSEorLess,UKIP,40-50K,1,2,3,2,0,1,0,video,Leave,Full-Time,No
+25,Female,BA,Lab,20-30K,1,3,2,3,4,2,8,video,Leave,Full-Time,No
+65,Female,Post2,Con,20-30K,1,2,3,2,1,1,2,video,Leave,Full-Time,No
+53,Female,GCSEorLess,UKIP,30-40K,1,4,3,3,2,2,0,video,Leave,Not in paid work,No
+39,Female,BA,Rather_not_say,20-30K,1,2,4,2,1,2,3,video,Leave,Not in paid work,No
+50,Female,GCSEorLess,None,40-50K,1,3,3,3,1,1,1,video,Leave,Part-Time,No
+38,Female,BA,Con,30-40K,1,4,4,4,5,4,5,video,Leave,Full-Time,No
+36,Female,Post2,UKIP,60-70K,1,3,2,3,2,2,1,video,Leave,Full-Time,Yes
+58,Female,BA,Con,10-20K,1,3,1,4,0,1,0,video,Leave,Full-Time,No
+55,Female,GCSEorLess,UKIP,40-50K,1,2,1,2,3,4,5,video,Leave,Full-Time,No
+57,Female,BA,Rather_not_say,Under10K,1,2,2,2,0,0,0,video,Leave,Part-Time,No
+32,Female,BA,Con,20-30K,1,2,4,2,0,0,5,video,Leave,Not in paid work,No
+25,Female,Post2,Con,10-20K,1,5,4,3,3,3,2,video,Leave,Not in paid work,Yes
+43,Female,BA,Con,60-70K,0,4,4,4,5,3,1,video,Leave,Full-Time,No
+53,Female,GCSEorLess,UKIP,60-70K,1,1,1,1,0,0,0,video,Leave,Full-Time,No
+56,Female,GCSEorLess,UKIP,20-30K,1,2,1,2,1,1,1,video,Leave,Not in paid work,No
+37,Female,Post2,Lab,10-20K,1,2,1,2,1,1,0,video,Leave,Not in paid work,No
+26,Female,A-lev,Grn,20-30K,0,5,5,4,9,5,5,video,Leave,Full-Time,Yes
+67,Female,Post2,Con,20-30K,1,2,2,2,0,0,0,video,Leave,Part-Time,No
+25,Female,BA,SNP,60-70K,1,3,2,1,0,2,5,video,Leave,Part-Time,No
+43,Female,A-lev,Lab,10-20K,0,4,4,4,6,5,5,video,Leave,Full-Time,No
+52,Female,PG,None,Under10K,1,2,2,4,3,0,0,video,Leave,Unemployed,No
+47,Female,BA,Lab,Under10K,1,2,2,4,2,3,3,video,Leave,Part-Time,No
+59,Female,BA,SNP,10-20K,1,3,2,4,3,4,9,video,Leave,Full-Time,No
+53,Female,GCSEorLess,Con,10-20K,1,1,1,1,0,0,0,video,Leave,Part-Time,No
+35,Female,BA,None,70-80K,1,2,5,2,2,4,4,video,Leave,Full-Time,No
+54,Female,A-lev,Con,30-40K,1,1,2,1,0,0,3,video,Leave,Part-Time,No
+32,Female,GCSEorLess,Con,40-50K,0,5,5,4,3,5,5,video,Leave,Full-Time,No
+41,Female,BA,Con,40-50K,1,2,3,2,1,2,1,video,Leave,Part-Time,No
+32,Female,GCSEorLess,None,Under10K,1,3,2,3,0,0,5,video,Leave,Not in paid work,No
+39,Female,A-lev,None,20-30K,1,1,1,1,0,0,0,video,Leave,Other,No
+56,Female,GCSEorLess,Lab,10-20K,1,1,1,1,0,1,5,video,Leave,Full-Time,No
+25,Female,BA,Rather_not_say,40-50K,1,4,3,2,3,2,5,video,Leave,Full-Time,No
+30,Female,A-lev,Con,50-60K,1,4,3,2,1,2,2,video,Leave,Full-Time,No
+24,Female,A-lev,Con,40-50K,1,4,2,2,1,3,5,video,Leave,Full-Time,No
+37,Female,A-lev,UKIP,80-90K,1,3,4,4,3,3,5,video,Leave,Part-Time,No
+33,Female,BA,Lib,30-40K,0,4,3,3,9,3,5,video,Leave,Part-Time,No
+51,Female,BA,None,10-20K,1,3,3,4,3,3,2,video,Leave,Part-Time,No
+54,Female,A-lev,Lab,Under10K,1,1,1,1,0,0,0,video,Leave,Full-Time,No
+68,Female,BA,Con,40-50K,1,4,4,4,3,0,1,video,Leave,Not in paid work,No
+45,Female,Post2,Lab,20-30K,1,4,4,4,5,3,5,video,Leave,Not in paid work,No
+42,Female,A-lev,Plaid,30-40K,1,2,2,4,1,9,5,video,Leave,Full-Time,No
+24,Female,GCSEorLess,None,10-20K,1,3,2,4,3,1,1,video,Leave,Not in paid work,No
+21,Female,GCSEorLess,Lab,40-50K,0,5,5,5,10,9,10,video,Leave,Part-Time,No
+34,Female,BA,Lab,40-50K,0,4,4,4,5,7,5,video,Leave,Full-Time,No
+21,Female,BA,None,40-50K,0,5,5,4,6,6,4,video,Leave,Full-Time,Yes
+48,Female,GCSEorLess,Lab,20-30K,1,4,4,3,2,8,6,video,Leave,Not in paid work,No
+57,Female,GCSEorLess,UKIP,20-30K,1,3,4,4,4,5,4,video,Leave,Not in paid work,No
+58,Female,GCSEorLess,Lab,20-30K,1,3,3,3,5,4,5,video,Leave,Full-Time,No
+47,Female,PG,Con,80-90K,1,4,4,2,4,4,10,video,Leave,Full-Time,No
+58,Male,GCSEorLess,UKIP,20-30K,1,3,4,2,1,2,1,video,No vote,Full-Time,No
+21,Male,A-lev,Con,20-30K,1,4,2,4,3,3,5,video,Leave,Full-Time,No
+39,Male,GCSEorLess,UKIP,10-20K,1,3,3,3,0,0,0,video,Leave,Full-Time,No
+38,Male,PG,Con,50-60K,1,1,2,3,0,0,0,video,Leave,Full-Time,No
+35,Male,GCSEorLess,UKIP,20-30K,1,2,3,2,0,0,0,video,Leave,Full-Time,No
+21,Male,A-lev,Con,80-90K,0,2,2,2,3,4,2,video,Leave,Part-Time,Yes
+24,Male,BA,None,20-30K,1,3,4,3,1,1,7,video,Leave,Full-Time,Yes
+46,Male,GCSEorLess,UKIP,10-20K,1,3,3,3,3,0,3,video,Leave,Not in paid work,No
+25,Male,Post2,None,20-30K,1,2,3,1,0,0,0,video,Leave,Other,No
+23,Male,GCSEorLess,Con,20-30K,0,4,3,4,8,5,6,video,Leave,Full-Time,No
+34,Male,GCSEorLess,Lab,20-30K,1,2,2,2,2,8,1,video,Leave,Full-Time,No
+23,Male,BA,Lab,60-70K,0,4,4,4,8,4,8,video,Leave,Full-Time,No
+63,Male,A-lev,Con,10-20K,1,5,4,4,2,1,0,video,Leave,Not in paid work,No
+54,Male,GCSEorLess,None,20-30K,1,2,2,3,0,0,0,video,Leave,Not in paid work,No
+70,Male,GCSEorLess,Con,30-40K,1,4,5,4,2,0,1,video,Leave,Not in paid work,No
+34,Male,Post2,UKIP,Under10K,1,1,1,2,0,0,0,video,Leave,Other,No
+50,Male,PG,Lib,50-60K,0,4,4,3,9,5,7,video,Leave,Full-Time,No
+52,Male,GCSEorLess,Lab,30-40K,1,2,2,3,0,2,5,video,Leave,Full-Time,No
+24,Male,BA,Con,30-40K,1,4,4,4,2,1,6,video,Leave,Full-Time,No
+38,Male,Post2,Con,20-30K,0,4,2,4,10,5,5,video,Leave,Full-Time,No
+44,Male,BA,Con,60-70K,1,2,3,2,4,4,2,video,Leave,Full-Time,No
+33,Male,GCSEorLess,Con,30-40K,0,5,5,4,10,5,10,video,Leave,Part-Time,No
+44,Male,GCSEorLess,Lab,30-40K,0,4,4,4,8,2,8,video,Leave,Full-Time,No
+31,Male,GCSEorLess,Con,20-30K,1,4,4,3,3,2,5,video,Leave,Full-Time,No
+54,Male,GCSEorLess,Con,30-40K,1,4,3,3,9,2,3,video,Leave,Full-Time,No
+29,Male,A-lev,Con,90-100K,1,2,4,2,2,1,3,video,Leave,Full-Time,No
+37,Male,A-lev,None,70-80K,1,3,4,4,1,9,10,video,Leave,Full-Time,No
+61,Male,A-lev,UKIP,50-60K,1,1,1,1,0,0,0,video,Leave,Full-Time,No
+58,Male,GCSEorLess,Lab,30-40K,1,2,2,3,0,0,5,video,Leave,Not in paid work,No
+42,Male,BA,Con,30-40K,0,3,4,3,4,4,5,video,Leave,Not in paid work,No
+38,Male,BA,Con,30-40K,1,2,2,3,2,2,3,video,Leave,Full-Time,No
+52,Male,GCSEorLess,Con,10-20K,0,4,4,5,8,5,5,video,Leave,Not in paid work,No
+33,Male,Post2,SNP,30-40K,0,5,5,5,9,5,10,video,Leave,Full-Time,No
+45,Male,Post2,Con,50-60K,1,5,4,3,4,3,3,video,Leave,Full-Time,No
+54,Male,BA,Con,20-30K,1,2,2,4,1,1,2,video,Leave,Part-Time,No
+57,Male,BA,None,40-50K,1,3,4,3,4,6,3,video,Leave,Full-Time,No
+50,Male,GCSEorLess,None,30-40K,1,2,2,3,2,1,0,video,Leave,Part-Time,No
+37,Male,PG,SNP,40-50K,1,2,2,3,2,2,5,video,Leave,Full-Time,No
+30,Male,GCSEorLess,None,20-30K,0,4,5,4,9,5,7,video,Leave,Full-Time,No
+55,Male,Post2,Lab,90-100K,1,3,2,4,0,0,2,video,Leave,Full-Time,No
+63,Male,Post2,Lab,20-30K,0,4,4,5,5,5,10,video,Leave,Not in paid work,No
+46,Male,Post2,SNP,10-20K,0,4,2,2,5,5,5,video,Leave,Full-Time,No
+46,Male,GCSEorLess,Con,10-20K,1,4,3,2,4,1,0,video,Leave,Full-Time,No
+58,Male,A-lev,None,40-50K,1,1,1,1,0,0,0,video,Leave,Full-Time,No
+44,Male,GCSEorLess,UKIP,Under10K,1,1,1,1,0,0,0,video,Leave,Not in paid work,No
+39,Male,BA,Con,20-30K,1,4,4,3,3,3,4,video,Leave,Full-Time,No
+42,Male,A-lev,Con,10-20K,1,2,4,2,0,1,0,video,Leave,Other,No
+21,Male,A-lev,Lab,50-60K,0,4,4,4,7,4,7,video,Leave,Full-Time,No
+25,Male,A-lev,None,10-20K,1,3,3,3,2,3,5,video,Leave,Full-Time,No
+50,Male,A-lev,Con,30-40K,1,3,3,2,2,3,1,video,Leave,Full-Time,No
+40,Male,A-lev,None,20-30K,0,4,3,2,4,4,10,video,Leave,Full-Time,No
+51,Male,PG,Con,40-50K,0,4,4,3,3,5,5,video,Leave,Full-Time,No
+67,Male,A-lev,Lab,20-30K,0,4,5,3,7,5,5,video,Leave,Other,No
+38,Male,GCSEorLess,Lab,30-40K,1,3,4,3,4,7,5,video,Leave,Full-Time,No
+47,Male,GCSEorLess,Lab,30-40K,0,4,4,4,8,5,5,video,Leave,Full-Time,No
+23,Male,PG,Con,20-30K,1,2,4,4,0,2,0,video,Leave,Full-Time,No
+59,Male,GCSEorLess,Con,20-30K,1,2,3,3,1,2,2,video,Leave,Full-Time,No
+47,Male,PG,Lab,70-80K,0,2,2,3,10,4,7,video,Leave,Full-Time,No
+30,Male,PG,None,30-40K,1,4,1,4,8,0,0,video,Leave,Full-Time,No
+31,Male,GCSEorLess,UKIP,Under10K,1,2,3,2,4,3,3,video,Leave,Other,No
+38,Male,A-lev,Con,30-40K,0,5,2,4,8,5,0,video,Remain,Full-Time,Yes
+43,Male,A-lev,Con,20-30K,1,3,3,2,2,2,5,video,Leave,Full-Time,No
+26,Male,GCSEorLess,None,10-20K,1,3,3,3,4,2,1,video,Leave,Not in paid work,Yes
+58,Male,Post2,Lab,20-30K,1,3,2,3,0,1,5,video,Leave,Unemployed,No
+36,Male,GCSEorLess,Lab,20-30K,1,4,4,2,1,1,4,video,Leave,Full-Time,No
+44,Male,BA,Lab,20-30K,1,3,2,3,4,1,1,video,Leave,Full-Time,No
+29,Male,BA,None,30-40K,1,4,3,4,5,2,0,video,Leave,Part-Time,No
+35,Male,BA,Con,70-80K,1,2,3,2,5,6,6,video,Leave,Full-Time,No
+33,Male,A-lev,UKIP,30-40K,1,2,2,2,0,2,0,video,Leave,Full-Time,No
+68,Male,GCSEorLess,UKIP,10-20K,1,1,1,2,0,10,2,video,Leave,Not in paid work,No
+38,Male,PG,Lab,10-20K,1,2,1,1,0,0,0,video,Leave,Part-Time,No
+35,Male,BA,None,40-50K,0,4,1,4,7,4,9,video,Leave,Other,No
+38,Male,GCSEorLess,Con,20-30K,1,2,2,3,0,0,0,video,Leave,Part-Time,No
+28,Male,GCSEorLess,Lab,20-30K,1,4,4,4,3,2,5,video,Leave,Other,No
+36,Male,BA,UKIP,40-50K,0,4,4,4,7,3,4,video,Leave,Full-Time,No
+28,Male,PG,Con,70-80K,1,4,4,1,1,1,2,video,Leave,Full-Time,No
+30,Male,Post2,UKIP,50-60K,1,4,4,2,4,3,0,video,Leave,Full-Time,No
+28,Male,Post2,UKIP,20-30K,1,1,3,3,0,0,0,video,Leave,Part-Time,No
+60,Male,GCSEorLess,SNP,50-60K,1,3,3,3,3,3,3,video,Leave,Full-Time,No
+59,Male,BA,None,40-50K,0,4,4,3,7,5,5,video,Leave,Not in paid work,No
+46,Male,BA,Con,70-80K,1,3,2,2,2,0,5,video,Leave,Full-Time,No
+39,Male,BA,None,50-60K,1,2,3,2,4,0,1,video,Leave,Full-Time,No
+33,Male,A-lev,Con,30-40K,1,4,4,2,2,4,5,video,Leave,Full-Time,No
+54,Male,GCSEorLess,Con,10-20K,0,4,4,3,6,7,1,video,Leave,Not in paid work,No
+59,Male,GCSEorLess,Lib,30-40K,0,2,3,3,4,4,6,video,Leave,Full-Time,No
+30,Male,PG,Lab,10-20K,0,5,4,4,9,5,9,video,Leave,Full-Time,No
+68,Male,BA,Con,30-40K,0,4,4,3,3,3,5,video,Leave,Full-Time,No
+49,Male,BA,Con,20-30K,1,4,2,4,2,2,3,video,Leave,Part-Time,No
+34,Male,PG,Lab,30-40K,0,4,4,3,8,5,8,video,Leave,Full-Time,No
+37,Male,GCSEorLess,UKIP,30-40K,1,4,3,5,3,3,1,video,Leave,Full-Time,No
+51,Male,GCSEorLess,Lab,20-30K,1,3,4,3,2,7,2,video,Leave,Full-Time,No
+34,Male,Post2,Con,30-40K,1,2,2,3,3,3,5,video,Leave,Full-Time,No
+27,Male,GCSEorLess,UKIP,20-30K,1,4,4,2,3,3,4,video,Leave,Full-Time,No
+38,Male,A-lev,Con,30-40K,1,3,3,3,2,1,4,video,Leave,Full-Time,No
+18,Male,A-lev,Con,20-30K,1,3,3,3,0,0,0,video,Leave,Part-Time,Yes
+51,Male,GCSEorLess,Con,20-30K,0,4,4,4,5,5,0,video,Leave,Not in paid work,No
+34,Male,BA,Lab,30-40K,0,4,4,3,9,5,10,video,Leave,Full-Time,No
+43,Male,BA,Con,70-80K,0,5,5,4,8,5,10,video,Leave,Full-Time,No
+35,Male,GCSEorLess,Lab,Under10K,1,1,3,3,0,2,0,video,Leave,Not in paid work,No
+30,Male,BA,Con,70-80K,0,4,4,4,5,3,2,video,Leave,Full-Time,No
+20,Male,A-lev,Lab,50-60K,1,3,4,3,4,3,4,video,Leave,Unemployed,Yes
+61,Male,GCSEorLess,Lab,50-60K,1,2,1,1,2,1,0,video,Leave,Full-Time,No
+35,Male,GCSEorLess,SNP,Under10K,1,2,4,2,0,8,0,video,Leave,Part-Time,No
+55,Male,GCSEorLess,Con,20-30K,1,1,2,2,0,0,0,video,Leave,Not in paid work,No
+42,Male,BA,Con,Over100K,1,4,4,2,3,2,5,video,Leave,Full-Time,No
+52,Male,Post2,Con,30-40K,0,4,3,4,9,5,4,video,Leave,Not in paid work,No
+43,Male,GCSEorLess,Con,60-70K,1,2,2,3,2,0,7,video,Leave,Full-Time,No
+35,Male,Post2,None,20-30K,1,2,2,2,1,0,2,video,Leave,Full-Time,No
+25,Male,BA,Con,Over100K,1,4,2,3,2,8,5,video,Leave,Full-Time,No
+47,Male,GCSEorLess,None,10-20K,1,3,3,4,2,1,2,video,Leave,Full-Time,No
+69,Male,BA,Con,30-40K,1,2,2,3,3,4,3,video,Leave,Not in paid work,No
+59,Male,GCSEorLess,SNP,30-40K,1,2,2,3,2,1,1,video,Leave,Full-Time,No
+21,Male,BA,Con,Over100K,1,1,1,3,0,0,1,video,Leave,Full-Time,Yes
+31,Male,A-lev,None,30-40K,1,3,2,3,0,0,0,video,Leave,Full-Time,No
+56,Male,PG,Con,60-70K,1,3,3,3,2,1,3,video,Leave,Full-Time,No
+19,Male,A-lev,Con,30-40K,1,2,3,2,0,1,5,video,Leave,Other,Yes
+30,Male,A-lev,None,30-40K,1,5,4,4,2,1,2,video,Leave,Full-Time,No
+39,Male,A-lev,Con,40-50K,0,4,4,3,6,4,5,video,Leave,Full-Time,No
+24,Male,BA,None,20-30K,1,4,1,3,2,1,2,video,Leave,Unemployed,No
+31,Male,BA,Con,20-30K,0,4,4,4,10,5,10,video,Leave,Full-Time,Yes
+24,Male,GCSEorLess,UKIP,30-40K,1,2,2,2,2,1,5,video,Leave,Full-Time,No
+61,Male,Post2,None,40-50K,1,3,3,2,2,1,5,video,Leave,Full-Time,No
+29,Male,Post2,Con,50-60K,1,3,4,3,4,3,5,video,Leave,Full-Time,No
+28,Male,A-lev,Rather_not_say,50-60K,1,2,2,4,1,1,1,video,Leave,Part-Time,No
+57,Male,GCSEorLess,None,40-50K,1,2,2,2,0,3,0,video,Leave,Not in paid work,No
+35,Male,PG,Lab,70-80K,1,2,2,4,4,4,1,video,Leave,Full-Time,No
+37,Male,BA,Lab,60-70K,0,4,2,2,7,5,0,video,Leave,Full-Time,No
+47,Male,Post2,Con,40-50K,1,2,1,1,0,0,7,video,Leave,Full-Time,No
+73,Male,BA,Lab,20-30K,0,4,4,4,9,4,5,video,Leave,Not in paid work,Yes
+22,Male,BA,Lab,20-30K,0,2,4,4,5,4,10,video,Leave,Full-Time,No
+20,Male,A-lev,Lab,Under10K,0,4,4,4,6,5,5,video,Leave,Other,Yes
+36,Male,BA,Lab,50-60K,1,4,4,4,3,5,7,video,Leave,Full-Time,No
+45,Male,PG,Grn,20-30K,0,5,5,5,10,7,10,video,Leave,Full-Time,No
+21,Male,BA,Lab,Under10K,1,2,2,4,1,1,1,video,Leave,Part-Time,Yes
+50,Male,GCSEorLess,UKIP,20-30K,1,1,1,1,0,0,0,video,Leave,Full-Time,No
+50,Male,GCSEorLess,UKIP,30-40K,1,2,2,1,0,0,0,video,Leave,Not in paid work,No
+53,Male,GCSEorLess,Lab,10-20K,1,3,4,3,4,7,4,video,Leave,Part-Time,No
+22,Male,BA,Lab,10-20K,0,4,3,3,2,5,6,video,Remain,Part-Time,Yes
+27,Male,A-lev,UKIP,30-40K,1,2,2,3,2,3,1,video,Leave,Full-Time,No
+40,Male,BA,Lib,Over100K,0,3,3,4,7,7,5,video,Leave,Full-Time,No
+52,Male,GCSEorLess,UKIP,60-70K,1,1,3,3,0,3,0,video,Leave,Full-Time,No
+48,Male,GCSEorLess,Con,90-100K,0,2,5,4,5,5,5,video,Leave,Full-Time,No
+40,Male,BA,Con,30-40K,1,2,3,3,3,1,0,video,Leave,Full-Time,No
+46,Male,BA,Lab,90-100K,1,2,2,3,4,3,2,video,Leave,Full-Time,No
+27,Male,BA,Lib,30-40K,0,5,4,4,10,5,8,video,Leave,Full-Time,No
+43,Male,A-lev,UKIP,10-20K,1,2,3,2,2,0,0,video,Leave,Not in paid work,No
+55,Male,GCSEorLess,Rather_not_say,30-40K,1,2,2,2,0,0,5,video,Leave,Full-Time,No
+24,Male,A-lev,Lab,20-30K,0,4,4,3,5,8,5,video,Leave,Full-Time,No
+26,Male,PG,Con,20-30K,0,4,4,2,2,1,5,video,Leave,Part-Time,Yes
+50,Male,PG,Con,80-90K,1,4,4,3,3,5,5,video,Leave,Full-Time,No
+22,Male,BA,Con,20-30K,1,2,3,4,0,0,0,video,Leave,Other,No
+31,Male,A-lev,Lab,40-50K,0,4,4,4,4,4,5,video,Leave,Unemployed,Yes
+35,Male,PG,UKIP,20-30K,1,3,2,3,4,5,3,video,Leave,Full-Time,No
+27,Male,GCSEorLess,Con,20-30K,1,2,1,2,2,3,0,video,Leave,Full-Time,No
+50,Male,GCSEorLess,Lab,10-20K,1,2,1,2,0,2,2,video,Leave,Not in paid work,No
+29,Male,BA,Con,20-30K,1,4,3,2,4,3,7,video,Leave,Full-Time,No
+40,Male,A-lev,Lab,30-40K,1,1,1,2,0,0,0,video,Leave,Full-Time,No
+32,Male,BA,Rather_not_say,20-30K,1,2,2,3,0,0,0,video,Leave,Full-Time,Yes
+40,Male,BA,Con,60-70K,1,3,2,3,4,3,6,video,Leave,Full-Time,No
+41,Male,PG,Grn,60-70K,0,5,4,4,8,5,5,video,Leave,Full-Time,No
+49,Male,GCSEorLess,Grn,Under10K,1,4,3,2,5,4,5,video,Leave,Part-Time,No
+43,Male,A-lev,SNP,10-20K,1,2,4,4,3,4,2,video,Leave,Full-Time,No
+22,Male,BA,None,10-20K,1,2,2,4,2,8,2,video,Leave,Part-Time,No
