@@ -101,7 +101,6 @@ m0_vcov <- vcovHC(m0, type="HC1")
 (m0_coefci <- coefci(m0, vcov = m0_vcov))
 
 # multiple comparisons for 'Too Many Immigrants' model
-
 m_mult <- glht(m, mcp(condition="Tukey"), vcov = sandwich) # robust SEs
 summary(m_mult,test = adjusted("holm"))
 par(mar=c(4,8,4,2)) 
