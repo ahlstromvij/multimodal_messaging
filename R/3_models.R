@@ -462,7 +462,7 @@ econ_items_plot <- econ_items_tbl %>%
   geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
   geom_text(vjust = -1.5) +
   xlab("Condition") +
-  ylab("Mean response (on a scale of 1-5)") +
+  ylab("Mean response on a scale of 1 to 5") +
   ggtitle("Mean Untransformed Values for Economic Perceptions Items") +
   theme(plot.title = element_text(face = "bold")) +
   labs(subtitle = "Higher values correspond to more positive attitudes (95% CIs)") +
@@ -810,7 +810,7 @@ policy_pref_plot <- policy_items_tbl %>%
   geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
   geom_text(vjust = -1.5) +
   xlab("Condition") +
-  ylab("Mean response (on a scale of 0-10)") +
+  ylab("Mean response on a scale of 0-10") +
   ggtitle("Mean Untransformed Values for Policy Preferences Items") +
   theme(plot.title = element_text(face = "bold")) +
   labs(subtitle = "Higher values correspond to more positive attitudes (95% CIs)") +
