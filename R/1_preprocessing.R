@@ -6,7 +6,7 @@ library(naniar)
 library(sjmisc)
 
 allData <- read_csv('data/raw_data.csv') %>% 
-  select(-c(1:13, 19, 24:27, 31))
+  select(-time_on_page)
 allData
 
 # sample size
