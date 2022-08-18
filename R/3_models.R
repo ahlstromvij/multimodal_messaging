@@ -413,7 +413,7 @@ ggplot(mydata, aes(logit, predictor.value))+
   theme_bw()
 
 # Mean untransformed responses on the economic perceptions items that will go into IRT
-econ_items_plot <- modelData %>% 
+econ_items_tbl <- modelData %>% 
   group_by(condition) %>% 
   summarise(take_jobs_mean = mean(take_jobs),
             take_jobs_sd = sd(take_jobs),
@@ -427,7 +427,22 @@ econ_items_plot <- modelData %>%
   pivot_longer(cols = -condition,
                names_to = c('item','type'),
                names_pattern = '(take_jobs|drive_down_wages|create_jobs)_(mean|sd|n)',
-               values_to = 'value') %>% 
+               values_to = 'value')
+econ_items_tbl
+
+econ_items_tbl %>% 
+  filter(type == "mean") %>% 
+  pivot_wider(names_from = condition,
+              values_from = value) %>% 
+  mutate(text_diff = text - control,
+         video_diff = video - control,
+         vis_diff = vis - control) %>% 
+  summarise(text = mean(text_diff),
+            video = mean(video_diff),
+            vis = mean(vis_diff),
+            overall = mean(c(text, video, vis))) # 0.3396667 (6.8%)
+
+econ_items_plot <- econ_items_tbl %>% 
   pivot_wider(names_from = type,
               values_from = value) %>% 
   mutate(upr = mean + qt(0.975, df=n-1)*sd/sqrt(n),
@@ -447,7 +462,7 @@ econ_items_plot <- modelData %>%
   geom_pointrange(aes(ymin=lwr, ymax=upr),color="black", shape=21) +
   geom_text(vjust = -1.5) +
   xlab("Condition") +
-  ylab("Mean response (on a scale of 0-5)") +
+  ylab("Mean response (on a scale of 1-5)") +
   ggtitle("Mean Untransformed Values for Economic Perceptions Items") +
   theme(plot.title = element_text(face = "bold")) +
   labs(subtitle = "Higher values correspond to more positive attitudes (95% CIs)") +
@@ -746,7 +761,7 @@ econ_graph_segm <- combined_df %>%
 econ_graph_segm
 
 # Mean untransformed responses on the policy preferences items that will go into IRT
-policy_pref_plot <- modelData %>% 
+policy_items_tbl <- modelData %>% 
   group_by(condition) %>% 
   summarise(brexit_to_cut_mean = mean(brexit_to_cut),
             brexit_to_cut_sd = sd(brexit_to_cut),
@@ -760,7 +775,22 @@ policy_pref_plot <- modelData %>%
   pivot_longer(cols = -condition,
                names_to = c('item','type'),
                names_pattern = '(brexit_to_cut|increase_imm|sm_or_control)_(mean|sd|n)',
-               values_to = 'value') %>% 
+               values_to = 'value')
+policy_items_tbl
+
+policy_items_tbl %>% 
+  filter(type == "mean") %>% 
+  pivot_wider(names_from = condition,
+              values_from = value) %>% 
+  mutate(text_diff = text - control,
+         video_diff = video - control,
+         vis_diff = vis - control) %>% 
+  summarise(text = mean(text_diff),
+            video = mean(video_diff),
+            vis = mean(vis_diff),
+            overall = mean(c(text, video, vis))) # 0.431 (4.3%)
+
+policy_pref_plot <- policy_items_tbl %>% 
   pivot_wider(names_from = type,
               values_from = value) %>% 
   mutate(upr = mean + qt(0.975, df=n-1)*sd/sqrt(n),
