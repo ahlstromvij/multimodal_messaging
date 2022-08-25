@@ -1206,35 +1206,35 @@ policy_perceptions_control <- modelData %>%
   theme(axis.text.y=element_text(size=axis_font_size))
 policy_perceptions_control
 
-jpeg(file="plots/control_plot.jpeg", width=1350, height=500)
+png(file="plots/control_plot.png", width = 17, height = 6, units = 'in', res = 300)
 figure_control <- ggarrange(too_many_imm_control, econ_perceptions_control, policy_perceptions_control,
                             ncol = 3, nrow = 1,
                             common.legend = FALSE, legend = NULL)
 figure_control
 dev.off()
 
-jpeg(file="plots/treatment_plot.jpeg", width=1350, height=500)
+png(file="plots/treatment_plot.png", width = 17, height = 6, units = 'in', res = 300)
 treatment_effects <- ggarrange(too_many_imm_graph, econ_graph, policy_graph,
                                ncol = 3, nrow = 1,
                                common.legend = FALSE, legend = NULL)
 treatment_effects
 dev.off()
 
-jpeg(file="plots/treatment_multcomp.jpeg", width=1350, height=500)
+png(file="plots/treatment_multcomp.png", width = 17, height = 6, units = 'in', res = 300)
 treatment_effects_comp <- ggarrange(too_many_imm_graph_comp, econ_graph_comp, policy_graph_comp,
                                     ncol = 3, nrow = 1,
                                     common.legend = FALSE, legend = NULL)
 treatment_effects_comp
 dev.off()
 
-jpeg(file="plots/pred_probs.jpeg", width=1350, height=500)
+png(file="plots/pred_probs.png", width = 17, height = 6, units = 'in', res = 300)
 treatment_effects_interact <- ggarrange(too_many_imm_graph_segm, econ_graph_segm, policy_graph_segm,
                                         ncol = 3, nrow = 1,
                                         common.legend = TRUE, legend = "right")
 treatment_effects_interact
 dev.off()
 
-jpeg(file="plots/scale_items_plots.jpeg", width=1400, height=500)
+png(file="plots/scale_items_plots.png", width = 20, height = 6, units = 'in', res = 300)
 scale_items_plots <- ggarrange(econ_items_plot, policy_pref_plot,
                                         ncol = 2, nrow = 1,
                                         common.legend = FALSE, legend = NULL)
