@@ -1,6 +1,6 @@
 # Communicating economic evidence about immigration changes attitudes and policy preferences
 
-Forthcoming in International Migration Review
+## Forthcoming in _International Migration Review_
 
 Will Allen (Oxford)  
 Kristoffer Ahlstrom-Vij (Birkbeck)  
