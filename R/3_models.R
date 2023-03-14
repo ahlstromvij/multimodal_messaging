@@ -621,7 +621,7 @@ car::vif(m_econ)
 gvmodel_econ <- gvlma(m_econ) 
 summary(gvmodel_econ)
 
-# Economic Perceptions Model - with interactions
+# Economic Perceptions Model - with interactions (eu vote)
 m_econ_segm <- lm(econ ~
                     condition +
                     eu_vote +
@@ -682,6 +682,246 @@ car::vif(m_econ_segm)
 
 gvmodel_econ_segm <- gvlma(m_econ_segm) 
 summary(gvmodel_econ_segm)
+
+# Economic Perceptions Model - with interactions (all parties)
+m_econ_segm_party <- lm(econ ~
+                          condition +
+                          eu_vote +
+                          condition:party +
+                          employment +
+                          student +
+                          age +
+                          gender +
+                          education +
+                          party +
+                          income,
+                        modelData)
+summary(m_econ_segm_party)
+
+# robust SEs
+m_econ_segm_party_vcov <- vcovHC(m_econ_segm_party, type="HC1")
+(m_econ_segm_party_coeftest <- coeftest(m_econ_segm_party, vcov = m_econ_segm_party_vcov))
+(m_econ_segm_party_coefci <- coefci(m_econ_segm_party, vcov = m_econ_segm_party_vcov))
+
+econ_glht_party <- data.frame("Condition" = c(rep("Visualisation",9), rep("Video",9), rep("Text",9)),
+                        "Party" = rep(c("Conservatives","Green","Labour","Lib Dem","No party","Plaid Cymru","Rather not say","SNP","UKIP"),3),
+                        "Est." = c(m_econ_segm_party$coefficients[[4]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyGrn = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyLab = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyLib = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyNone = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyPlaid = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyRather_not_say = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partySNP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyUKIP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   m_econ_segm_party$coefficients[[3]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyGrn = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyLab = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyLib = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyNone = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyPlaid = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyRather_not_say = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partySNP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyUKIP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   m_econ_segm_party$coefficients[[2]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyGrn = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyLab = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyLib = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyNone = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyPlaid = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyRather_not_say = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partySNP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                   summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyUKIP = 0"), vcov = sandwich))$test$coefficients[[1]]),
+                        "lwr" = c(m_econ_segm_party_coefci[4,1],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyGrn = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyLab = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyLib = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyNone = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyPlaid = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyRather_not_say = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partySNP = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyUKIP = 0"), vcov = sandwich))$confint[2],
+                                  m_econ_segm_party_coefci[3,1],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyGrn = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyLab = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyLib = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyNone = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyPlaid = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyRather_not_say = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partySNP = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyUKIP = 0"), vcov = sandwich))$confint[2],
+                                  m_econ_segm_party_coefci[2,1],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyGrn = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyLab = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyLib = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyNone = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyPlaid = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyRather_not_say = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partySNP = 0"), vcov = sandwich))$confint[2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyUKIP = 0"), vcov = sandwich))$confint[2]),
+                        "upr" = c(m_econ_segm_party_coefci[4,2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyGrn = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyLab = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyLib = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyNone = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyPlaid = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyRather_not_say = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partySNP = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyUKIP = 0"), vcov = sandwich))$confint[3],
+                                  m_econ_segm_party_coefci[3,2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyGrn = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyLab = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyLib = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyNone = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyPlaid = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyRather_not_say = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partySNP = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyUKIP = 0"), vcov = sandwich))$confint[3],
+                                  m_econ_segm_party_coefci[2,2],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyGrn = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyLab = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyLib = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyNone = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyPlaid = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyRather_not_say = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partySNP = 0"), vcov = sandwich))$confint[3],
+                                  confint(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyUKIP = 0"), vcov = sandwich))$confint[3]),
+                        "p-value" = c(coef(summary(m_econ_segm_party))[4,4],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyGrn = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyLab = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyLib = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyNone = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyPlaid = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyRather_not_say = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partySNP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvis + conditionvis:partyUKIP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      coef(summary(m_econ_segm_party))[3,4],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyGrn = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyLab = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyLib = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyNone = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyPlaid = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyRather_not_say = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partySNP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditionvideo + conditionvideo:partyUKIP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      coef(summary(m_econ_segm_party))[2,4],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyGrn = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyLab = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyLib = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyNone = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyPlaid = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyRather_not_say = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partySNP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                      summary(glht(m_econ_segm_party, linfct = c("conditiontext + conditiontext:partyUKIP = 0"), vcov = sandwich))$test$pvalues[[1]]))
+
+png(file="plots/econ_party_plot.png", width = 17, height = 6, units = 'in', res = 300)
+econ_glht_party %>% 
+  ggplot() +
+  aes(x = Party, y = Est., Color = Party) +
+  geom_pointrange(aes(ymax=upr, ymin=lwr, color = Party), position=position_dodge(width=0.62)) +
+  geom_hline(yintercept=0, color = "grey") +
+  facet_wrap(~ Condition) +
+  theme(legend.position = "none") +
+  coord_flip()
+dev.off()
+
+# Diagnostics for Economic Perceptions Model - with Interactions (all parties)
+# linearity assumption
+plot(m_econ_segm_party, 1)
+
+# homogeneity of variance
+plot(m_econ_segm_party, 3)
+
+# normality of residuals
+plot(m_econ_segm_party, 2)
+
+# outliers and high leverage points
+plot(m_econ_segm_party, 5)
+
+# multicolinearity
+car::vif(m_econ_segm_party)
+
+gvmodel_econ_segm_party <- gvlma(m_econ_segm_party) 
+summary(gvmodel_econ_segm_party)
+
+# Economic Perceptions Model - with interactions (binary party variable)
+modelData <- modelData %>% 
+  mutate(party_binary = case_when(party == "Con" ~ "Conservatives",
+                                  TRUE ~ "Opposition"))
+
+m_econ_segm_party_binary <- lm(econ ~
+                                 condition +
+                                 eu_vote +
+                                 condition:party_binary +
+                                 employment +
+                                 student +
+                                 age +
+                                 gender +
+                                 education +
+                                 party_binary +
+                                 income,
+                               modelData)
+summary(m_econ_segm_party_binary)
+
+# robust SEs
+m_econ_segm_party_binary_vcov <- vcovHC(m_econ_segm_party_binary, type="HC1")
+(m_econ_segm_party_binary_coeftest <- coeftest(m_econ_segm_party_binary, vcov = m_econ_segm_party_binary_vcov))
+(m_econ_segm_party_binary_coefci <- coefci(m_econ_segm_party_binary, vcov = m_econ_segm_party_binary_vcov))
+
+econ_glht_party_binary <- data.frame("Condition" = c(rep("Visualisation",2), rep("Video",2), rep("Text",2)),
+                              "Party" = rep(c("Conservatives","Opposition"),3),
+                              "Est." = c(m_econ_segm_party_binary$coefficients[[4]],
+                                         summary(glht(m_econ_segm_party_binary, linfct = c("conditionvis + conditionvis:party_binaryOpposition = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         m_econ_segm_party_binary$coefficients[[3]],
+                                         summary(glht(m_econ_segm_party_binary, linfct = c("conditionvideo + conditionvideo:party_binaryOpposition = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         m_econ_segm_party_binary$coefficients[[2]],
+                                         summary(glht(m_econ_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$test$coefficients[[1]]),
+                              "lwr" = c(m_econ_segm_party_binary_coefci[4,1],
+                                        confint(glht(m_econ_segm_party_binary, linfct = c("conditionvis + conditionvis:party_binaryOpposition = 0"), vcov = sandwich))$confint[2],
+                                        m_econ_segm_party_binary_coefci[3,1],
+                                        confint(glht(m_econ_segm_party_binary, linfct = c("conditionvideo + conditionvideo:party_binaryOpposition = 0"), vcov = sandwich))$confint[2],
+                                        m_econ_segm_party_binary_coefci[2,1],
+                                        confint(glht(m_econ_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$confint[2]),
+                              "upr" = c(m_econ_segm_party_binary_coefci[4,2],
+                                        confint(glht(m_econ_segm_party_binary, linfct = c("conditionvis + conditionvis:party_binaryOpposition = 0"), vcov = sandwich))$confint[3],
+                                        m_econ_segm_party_binary_coefci[3,2],
+                                        confint(glht(m_econ_segm_party_binary, linfct = c("conditionvideo + conditionvideo:party_binaryOpposition = 0"), vcov = sandwich))$confint[3],
+                                        m_econ_segm_party_binary_coefci[2,2],
+                                        confint(glht(m_econ_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$confint[3]),
+                              "p-value" = c(coef(summary(m_econ_segm_party_binary))[4,4],
+                                            summary(glht(m_econ_segm_party_binary, linfct = c("conditionvis + conditionvis:party_binaryOpposition = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            coef(summary(m_econ_segm_party_binary))[3,4],
+                                            summary(glht(m_econ_segm_party_binary, linfct = c("conditionvideo + conditionvideo:party_binaryOpposition = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            coef(summary(m_econ_segm_party_binary))[2,4],
+                                            summary(glht(m_econ_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$test$pvalues[[1]]))
+
+png(file="plots/econ_party_binary_plot.png", width = 8, height = 6, units = 'in', res = 300)
+econ_glht_party_binary %>% 
+  ggplot() +
+  aes(x = Condition, y = Est., Color = Party) +
+  geom_pointrange(aes(ymax=upr, ymin=lwr, color = Party), position=position_dodge(width=0.5)) +
+  geom_hline(yintercept=0, color = "grey") +
+  coord_flip()
+dev.off()
+
+# Diagnostics for Economic Perceptions Model - with Interactions (party binary)
+# linearity assumption
+plot(m_econ_segm_party_binary, 1)
+
+# homogeneity of variance
+plot(m_econ_segm_party_binary, 3)
+
+# normality of residuals
+plot(m_econ_segm_party_binary, 2)
+
+# outliers and high leverage points
+plot(m_econ_segm_party_binary, 5)
+
+# multicolinearity
+car::vif(m_econ_segm_party_binary)
+
+gvmodel_econ_segm_party_binary <- gvlma(m_econ_segm_party_binary) 
+summary(gvmodel_econ_segm_party_binary)
 
 # Predicted Location of Typical Respondents on Economic Perceptions Scale
 newdata1 <- with(m_econ_segm, data.frame(condition = c("control","text","vis","video"),
@@ -999,7 +1239,7 @@ gvmodel_policy <- gvlma(m_policy)
 summary(gvmodel_policy)
 # global stat and skewness not satisfied
 
-# Policy Preferences Model - with Interactions
+# Policy Preferences Model - with Interactions (eu vote)
 m_policy_segm <- lm(policy ~
                       condition +
                       eu_vote +
@@ -1119,7 +1359,7 @@ policy_graph_segm <- combined_df %>%
   theme(legend.title=element_blank())
 policy_graph_segm
 
-# Diagnostics for Policy Preferences Model, with Interactions
+# Diagnostics for Policy Preferences Model, with Interactions (eu vote)
 # linearity assumption
 plot(m_policy_segm, 1)
 
@@ -1138,6 +1378,204 @@ car::vif(m_policy_segm)
 gvmodel_policy_segm <- gvlma(m_policy_segm) 
 summary(gvmodel_policy_segm)
 # skewness not satisfied
+
+# Policy Preferences Model - with Interactions (all parties)
+m_policy_segm_party <- lm(policy ~
+                      condition +
+                      eu_vote +
+                      condition:party +
+                      employment +
+                      student +
+                      age +
+                      gender +
+                      education +
+                      party +
+                      income,
+                    data = modelData)
+summary(m_policy_segm_party)
+
+# robust SEs
+m_policy_segm_party_vcov <- vcovHC(m_policy_segm_party, type="HC1")
+(m_policy_segm_party_coeftest <- coeftest(m_policy_segm_party, vcov = m_policy_segm_party_vcov))
+(m_policy_segm_party_coefci <- coefci(m_policy_segm_party, vcov = m_policy_segm_party_vcov))
+
+policy_glht_party <- data.frame("Condition" = c(rep("Visualisation",9), rep("Video",9), rep("Text",9)),
+                              "Party" = rep(c("Conservatives","Green","Labour","Lib Dem","No party","Plaid Cymru","Rather not say","SNP","UKIP"),3),
+                              "Est." = c(m_policy_segm_party$coefficients[[4]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyGrn = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyLab = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyLib = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyNone = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyPlaid = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyRather_not_say = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partySNP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyUKIP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         m_policy_segm_party$coefficients[[3]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyGrn = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyLab = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyLib = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyNone = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyPlaid = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyRather_not_say = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partySNP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyUKIP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         m_policy_segm_party$coefficients[[2]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyGrn = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyLab = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyLib = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyNone = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyPlaid = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyRather_not_say = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partySNP = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                         summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyUKIP = 0"), vcov = sandwich))$test$coefficients[[1]]),
+                              "lwr" = c(m_policy_segm_party_coefci[4,1],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyGrn = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyLab = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyLib = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyNone = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyPlaid = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyRather_not_say = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partySNP = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyUKIP = 0"), vcov = sandwich))$confint[2],
+                                        m_policy_segm_party_coefci[3,1],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyGrn = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyLab = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyLib = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyNone = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyPlaid = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyRather_not_say = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partySNP = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyUKIP = 0"), vcov = sandwich))$confint[2],
+                                        m_policy_segm_party_coefci[2,1],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyGrn = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyLab = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyLib = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyNone = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyPlaid = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyRather_not_say = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partySNP = 0"), vcov = sandwich))$confint[2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyUKIP = 0"), vcov = sandwich))$confint[2]),
+                              "upr" = c(m_policy_segm_party_coefci[4,2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyGrn = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyLab = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyLib = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyNone = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyPlaid = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyRather_not_say = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partySNP = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyUKIP = 0"), vcov = sandwich))$confint[3],
+                                        m_policy_segm_party_coefci[3,2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyGrn = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyLab = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyLib = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyNone = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyPlaid = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyRather_not_say = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partySNP = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyUKIP = 0"), vcov = sandwich))$confint[3],
+                                        m_policy_segm_party_coefci[2,2],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyGrn = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyLab = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyLib = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyNone = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyPlaid = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyRather_not_say = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partySNP = 0"), vcov = sandwich))$confint[3],
+                                        confint(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyUKIP = 0"), vcov = sandwich))$confint[3]),
+                              "p_value" = c(coef(summary(m_policy_segm_party))[4,4],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyGrn = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyLab = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyLib = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyNone = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyPlaid = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyRather_not_say = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partySNP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvis + conditionvis:partyUKIP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            coef(summary(m_policy_segm_party))[3,4],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyGrn = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyLab = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyLib = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyNone = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyPlaid = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyRather_not_say = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partySNP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditionvideo + conditionvideo:partyUKIP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            coef(summary(m_policy_segm_party))[2,4],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyGrn = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyLab = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyLib = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyNone = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyPlaid = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyRather_not_say = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partySNP = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                            summary(glht(m_policy_segm_party, linfct = c("conditiontext + conditiontext:partyUKIP = 0"), vcov = sandwich))$test$pvalues[[1]]))
+
+png(file="plots/policy_party_plot.png", width = 17, height = 6, units = 'in', res = 300)
+policy_glht_party %>% 
+  ggplot() +
+  aes(x = Party, y = Est., Color = Party) +
+  geom_pointrange(aes(ymax=upr, ymin=lwr, color = Party), position=position_dodge(width=0.62)) +
+  geom_hline(yintercept=0, color = "grey") +
+  facet_wrap(~ Condition) +
+  theme(legend.position = "none") +
+  coord_flip()
+dev.off()
+
+# Policy Preferences Model - with Interactions (party binary)
+m_policy_segm_party_binary <- lm(policy ~
+                            condition +
+                            eu_vote +
+                            condition:party_binary +
+                            employment +
+                            student +
+                            age +
+                            gender +
+                            education +
+                            party_binary +
+                            income,
+                          data = modelData)
+summary(m_policy_segm_party_binary)
+
+# robust SEs
+m_policy_segm_party_binary_vcov <- vcovHC(m_policy_segm_party_binary, type="HC1")
+(m_policy_segm_party_binary_coeftest <- coeftest(m_policy_segm_party_binary, vcov = m_policy_segm_party_binary_vcov))
+(m_policy_segm_party_binary_coefci <- coefci(m_policy_segm_party_binary, vcov = m_policy_segm_party_binary_vcov))
+
+policy_glht_party_binary <- data.frame("Condition" = c(rep("Visualisation",2), rep("Video",2), rep("Text",2)),
+                                     "Party" = rep(c("Conservatives","Opposition"),3),
+                                     "Est." = c(m_policy_segm_party_binary$coefficients[[4]],
+                                                summary(glht(m_policy_segm_party_binary, linfct = c("conditionvis + conditionvis:party_binaryOpposition = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                                m_policy_segm_party_binary$coefficients[[3]],
+                                                summary(glht(m_policy_segm_party_binary, linfct = c("conditionvideo + conditionvideo:party_binaryOpposition = 0"), vcov = sandwich))$test$coefficients[[1]],
+                                                m_policy_segm_party_binary$coefficients[[2]],
+                                                summary(glht(m_policy_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$test$coefficients[[1]]),
+                                     "lwr" = c(m_policy_segm_party_binary_coefci[4,1],
+                                               confint(glht(m_policy_segm_party_binary, linfct = c("conditionvis + conditionvis:party_binaryOpposition = 0"), vcov = sandwich))$confint[2],
+                                               m_policy_segm_party_binary_coefci[3,1],
+                                               confint(glht(m_policy_segm_party_binary, linfct = c("conditionvideo + conditionvideo:party_binaryOpposition = 0"), vcov = sandwich))$confint[2],
+                                               m_policy_segm_party_binary_coefci[2,1],
+                                               confint(glht(m_policy_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$confint[2]),
+                                     "upr" = c(m_policy_segm_party_binary_coefci[4,2],
+                                               confint(glht(m_policy_segm_party_binary, linfct = c("conditionvis + conditionvis:party_binaryOpposition = 0"), vcov = sandwich))$confint[3],
+                                               m_policy_segm_party_binary_coefci[3,2],
+                                               confint(glht(m_policy_segm_party_binary, linfct = c("conditionvideo + conditionvideo:party_binaryOpposition = 0"), vcov = sandwich))$confint[3],
+                                               m_policy_segm_party_binary_coefci[2,2],
+                                               confint(glht(m_policy_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$confint[3]),
+                                     "p-value" = c(coef(summary(m_policy_segm_party_binary))[4,4],
+                                                   summary(glht(m_policy_segm_party_binary, linfct = c("conditionvis + conditionvis:party_binaryOpposition = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                                   coef(summary(m_policy_segm_party_binary))[3,4],
+                                                   summary(glht(m_policy_segm_party_binary, linfct = c("conditionvideo + conditionvideo:party_binaryOpposition = 0"), vcov = sandwich))$test$pvalues[[1]],
+                                                   coef(summary(m_policy_segm_party_binary))[2,4],
+                                                   summary(glht(m_policy_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$test$pvalues[[1]]))
+
+png(file="plots/policy_party_binary_plot.png", width = 8, height = 6, units = 'in', res = 300)
+policy_glht_party_binary %>% 
+  ggplot() +
+  aes(x = Condition, y = Est., Color = Party) +
+  geom_pointrange(aes(ymax=upr, ymin=lwr, color = Party), position=position_dodge(width=0.5)) +
+  geom_hline(yintercept=0, color = "grey") +
+  coord_flip()
+dev.off()
 
 # Leave vs. Remain in control group
 barplot(prop.table(table(modelData$too_many_imm[modelData$condition=='control'],
