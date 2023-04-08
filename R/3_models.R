@@ -895,14 +895,20 @@ econ_glht_party_binary <- data.frame("Condition" = c(rep("Visualisation",2), rep
                                             coef(summary(m_econ_segm_party_binary))[2,4],
                                             summary(glht(m_econ_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$test$pvalues[[1]]))
 
-png(file="plots/econ_party_binary_plot.png", width = 8, height = 6, units = 'in', res = 300)
-econ_glht_party_binary %>% 
+econ_glht_party_binary_plot <- econ_glht_party_binary %>% 
   ggplot() +
   aes(x = Condition, y = Est., Color = Party) +
   geom_pointrange(aes(ymax=upr, ymin=lwr, color = Party), position=position_dodge(width=0.5)) +
   geom_hline(yintercept=0, color = "grey") +
+  xlab("Condition") +
+  ylab("Difference\n(Economic Perceptions Scale)") +
+  ggtitle("Economic Perceptions") +
+  labs(subtitle = "Condition x Partisanship (binary)") +
+  theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
   coord_flip()
-dev.off()
 
 # Diagnostics for Economic Perceptions Model - with Interactions (party binary)
 # linearity assumption
@@ -1568,14 +1574,20 @@ policy_glht_party_binary <- data.frame("Condition" = c(rep("Visualisation",2), r
                                                    coef(summary(m_policy_segm_party_binary))[2,4],
                                                    summary(glht(m_policy_segm_party_binary, linfct = c("conditiontext + conditiontext:party_binaryOpposition = 0"), vcov = sandwich))$test$pvalues[[1]]))
 
-png(file="plots/policy_party_binary_plot.png", width = 8, height = 6, units = 'in', res = 300)
-policy_glht_party_binary %>% 
+policy_glht_party_binary_plot <- policy_glht_party_binary %>% 
   ggplot() +
   aes(x = Condition, y = Est., Color = Party) +
   geom_pointrange(aes(ymax=upr, ymin=lwr, color = Party), position=position_dodge(width=0.5)) +
   geom_hline(yintercept=0, color = "grey") +
+  xlab("Condition") +
+  ylab("Difference\n(Policy Preferences Scale)") +
+  ggtitle("Policy Preferences") +
+  labs(subtitle = "Condition x Partisanship (binary)") +
+  theme(plot.title = element_text(face = "bold")) +
+  theme(text = element_text(size=global_font_size)) +
+  theme(axis.text.x=element_text(size=axis_font_size)) +
+  theme(axis.text.y=element_text(size=axis_font_size)) +
   coord_flip()
-dev.off()
 
 # Leave vs. Remain in control group
 barplot(prop.table(table(modelData$too_many_imm[modelData$condition=='control'],
@@ -1677,6 +1689,13 @@ scale_items_plots <- ggarrange(econ_items_plot, policy_pref_plot,
                                         ncol = 2, nrow = 1,
                                         common.legend = FALSE, legend = NULL)
 scale_items_plots
+dev.off()
+
+png(file="plots/glht_party_binary_plots.png", width = 12, height = 6, units = 'in', res = 300)
+glht_party_binary_plots <- ggarrange(econ_glht_party_binary_plot, policy_glht_party_binary_plot,
+                               ncol = 2, nrow = 1,
+                               common.legend = TRUE, legend = "bottom")
+glht_party_binary_plots
 dev.off()
 
 # Printing linear combinations table
